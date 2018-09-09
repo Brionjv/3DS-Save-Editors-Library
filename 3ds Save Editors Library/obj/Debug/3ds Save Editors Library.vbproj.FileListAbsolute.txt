@@ -1,0 +1,28 @@
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\3ds Save Editors Library.exe.config
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\3ds Save Editors Library.exe
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\3ds Save Editors Library.pdb
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\3ds Save Editors Library.xml
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.Form1.resources
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.Resources.resources
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.vbproj.GenerateResource.Cache
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.exe
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.xml
+c:\users\brion\documents\visual studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.pdb
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.TeamKirbyClashDeluxe.resources
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.fdialog.resources
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\PackageIO.dll
+C:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.vbprojResolveAssemblyReference.cache
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\3ds Save Editors Library.exe.config
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.exe
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.xml
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.pdb
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\3ds Save Editors Library.exe
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\3ds Save Editors Library.pdb
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\3ds Save Editors Library.xml
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\PackageIO.dll
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.vbprojResolveAssemblyReference.cache
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.fdialog.resources
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.Form1.resources
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.Resources.resources
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.TeamKirbyClashDeluxe.resources
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.vbproj.GenerateResource.Cache
