@@ -76,6 +76,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3dsCamera_3dsSound.Designer.vb">
+      <DependentUpon>3dsCamera_3dsSound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="3dsCamera_3dsSound.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="fdialog.Designer.vb">
       <DependentUpon>fdialog.vb</DependentUpon>
     </Compile>
@@ -112,6 +118,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="3dsCamera_3dsSound.resx">
+      <DependentUpon>3dsCamera_3dsSound.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fdialog.resx">
       <DependentUpon>fdialog.vb</DependentUpon>
     </EmbeddedResource>
@@ -220,6 +229,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\title_3DSSEL.gif" />
+    <None Include="Resources\bg_orange.png" />
+    <None Include="Resources\bg_blue.png" />
+    <None Include="Resources\N3DSCS_icon1.png" />
     <None Include="Resources\bg_level.png" />
     <None Include="Resources\EN_arean_6.png" />
     <None Include="Resources\EN_arean_5.png" />

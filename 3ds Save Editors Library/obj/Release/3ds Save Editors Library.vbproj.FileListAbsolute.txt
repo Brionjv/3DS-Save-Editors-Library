@@ -12,3 +12,4 @@ D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3d
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\3ds Save Editors Library.exe
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\3ds Save Editors Library.xml
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\3ds Save Editors Library.pdb
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library._3dsCamera_3dsSound.resources

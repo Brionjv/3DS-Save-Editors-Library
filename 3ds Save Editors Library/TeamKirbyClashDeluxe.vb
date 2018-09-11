@@ -294,8 +294,8 @@ Public Class TeamKirbyClashDeluxe
         End If
     End Sub
 
-    Private Sub Text_menu_opensave_Click(sender As Object, e As EventArgs) Handles Text_menu_opensave.Click
-        If Text_menu_opensave.Text = "Open" Then
+    Private Sub Text_menu_opensave_Click(sender As Object, e As EventArgs) Handles Text_menu_open.Click
+        If Text_menu_open.Text = "Open" Then
             Dim open As New OpenFileDialog
             fdialog.Description.Text = "Open savedata.dat" & vbNewLine & "Team Kirby Clash Deluxe Save Editor will make a backup of your save file, check ''backup'' folder"
             fdialog.ShowDialog()
@@ -306,6 +306,7 @@ Public Class TeamKirbyClashDeluxe
             readfilesavedata()
             TextBox_fpath.Text = savedata
             makebaksavedata()
+            Text_menu_save.Visible = True
         End If
     End Sub
 

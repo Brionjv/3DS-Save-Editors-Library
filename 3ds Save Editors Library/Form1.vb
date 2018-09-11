@@ -12,11 +12,16 @@
         Closebutton.Image = My.Resources.close_red
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+    Private Sub Icon_TKCDSE_Click(sender As Object, e As EventArgs) Handles Icon_TKCDSE.Click
         Me.Hide()
         TeamKirbyClashDeluxe.ShowDialog()
     End Sub
-    'Avertissement utilisation : Cheating for yourself, don't ruin online experience of other users | Trichez pour vous-même, ne ruinez pas l'expérience en ligne des autres utilisateurs
+    'Avertissement utilisation : Cheating for yourself, don't ruin online experience of other players | Trichez pour vous-même, ne ruinez pas l'expérience en ligne des autres joueurs
+
+    Private Sub Icon_3DSS3DSCSE_Click(sender As Object, e As EventArgs) Handles Icon_3DSS3DSCSE.Click
+        Me.Hide()
+        _3dsCamera_3dsSound.ShowDialog()
+    End Sub
 
     Private Sub Closebutton_MouseMove(sender As Object, e As MouseEventArgs) Handles Closebutton.MouseMove
 

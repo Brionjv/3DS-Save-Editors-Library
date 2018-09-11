@@ -63,8 +63,9 @@ Partial Class TeamKirbyClashDeluxe
         Me.Fea_vigor = New System.Windows.Forms.Panel()
         Me.valu_vigor = New System.Windows.Forms.NumericUpDown()
         Me.Text_vigor = New System.Windows.Forms.Label()
-        Me.Panel_menu_opensave = New System.Windows.Forms.Panel()
-        Me.Text_menu_opensave = New System.Windows.Forms.Label()
+        Me.Panel_menu_open = New System.Windows.Forms.Panel()
+        Me.Text_menu_save = New System.Windows.Forms.Label()
+        Me.Text_menu_open = New System.Windows.Forms.Label()
         Me.Panel_music = New System.Windows.Forms.Panel()
         Me.Icon_music = New System.Windows.Forms.PictureBox()
         Me.Hidden_things = New System.Windows.Forms.Panel()
@@ -260,7 +261,7 @@ Partial Class TeamKirbyClashDeluxe
         CType(Me.Menu_width, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Fea_vigor.SuspendLayout()
         CType(Me.valu_vigor, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel_menu_opensave.SuspendLayout()
+        Me.Panel_menu_open.SuspendLayout()
         Me.Panel_music.SuspendLayout()
         CType(Me.Icon_music, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Hidden_things.SuspendLayout()
@@ -408,6 +409,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.valu_tree.Size = New System.Drawing.Size(76, 16)
         Me.valu_tree.TabIndex = 42
         Me.valu_tree.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tree.Visible = False
         '
         'Select_tree
         '
@@ -806,29 +808,45 @@ Partial Class TeamKirbyClashDeluxe
         Me.Text_vigor.Text = "Vigor"
         Me.Text_vigor.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Panel_menu_opensave
+        'Panel_menu_open
         '
-        Me.Panel_menu_opensave.BackColor = System.Drawing.Color.Transparent
-        Me.Panel_menu_opensave.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
-        Me.Panel_menu_opensave.Controls.Add(Me.Text_menu_opensave)
-        Me.Panel_menu_opensave.Location = New System.Drawing.Point(132, 32)
-        Me.Panel_menu_opensave.Name = "Panel_menu_opensave"
-        Me.Panel_menu_opensave.Size = New System.Drawing.Size(68, 25)
-        Me.Panel_menu_opensave.TabIndex = 51
+        Me.Panel_menu_open.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_menu_open.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel_menu_open.Controls.Add(Me.Text_menu_save)
+        Me.Panel_menu_open.Controls.Add(Me.Text_menu_open)
+        Me.Panel_menu_open.Location = New System.Drawing.Point(132, 32)
+        Me.Panel_menu_open.Name = "Panel_menu_open"
+        Me.Panel_menu_open.Size = New System.Drawing.Size(68, 25)
+        Me.Panel_menu_open.TabIndex = 51
         '
-        'Text_menu_opensave
+        'Text_menu_save
         '
-        Me.Text_menu_opensave.BackColor = System.Drawing.Color.Transparent
-        Me.Text_menu_opensave.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Text_menu_opensave.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Text_menu_opensave.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Text_menu_opensave.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Text_menu_opensave.Location = New System.Drawing.Point(0, 0)
-        Me.Text_menu_opensave.Name = "Text_menu_opensave"
-        Me.Text_menu_opensave.Size = New System.Drawing.Size(68, 25)
-        Me.Text_menu_opensave.TabIndex = 0
-        Me.Text_menu_opensave.Text = "Open"
-        Me.Text_menu_opensave.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Text_menu_save.BackColor = System.Drawing.Color.Transparent
+        Me.Text_menu_save.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_menu_save.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_menu_save.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Text_menu_save.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Text_menu_save.Location = New System.Drawing.Point(0, 0)
+        Me.Text_menu_save.Name = "Text_menu_save"
+        Me.Text_menu_save.Size = New System.Drawing.Size(68, 25)
+        Me.Text_menu_save.TabIndex = 1
+        Me.Text_menu_save.Text = "Save"
+        Me.Text_menu_save.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Text_menu_save.Visible = False
+        '
+        'Text_menu_open
+        '
+        Me.Text_menu_open.BackColor = System.Drawing.Color.Transparent
+        Me.Text_menu_open.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_menu_open.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_menu_open.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Text_menu_open.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Text_menu_open.Location = New System.Drawing.Point(0, 0)
+        Me.Text_menu_open.Name = "Text_menu_open"
+        Me.Text_menu_open.Size = New System.Drawing.Size(68, 25)
+        Me.Text_menu_open.TabIndex = 0
+        Me.Text_menu_open.Text = "Open"
+        Me.Text_menu_open.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Panel_music
         '
@@ -1996,6 +2014,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.valu_level_8.Size = New System.Drawing.Size(60, 16)
         Me.valu_level_8.TabIndex = 8
         Me.valu_level_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_level_8.Visible = False
         '
         'Check_new_level_8
         '
@@ -2058,6 +2077,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.valu_level_7.Size = New System.Drawing.Size(60, 16)
         Me.valu_level_7.TabIndex = 8
         Me.valu_level_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_level_7.Visible = False
         '
         'Check_new_level_7
         '
@@ -2120,6 +2140,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.valu_level_6.Size = New System.Drawing.Size(60, 16)
         Me.valu_level_6.TabIndex = 8
         Me.valu_level_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_level_6.Visible = False
         '
         'Check_new_level_6
         '
@@ -2182,6 +2203,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.valu_level_5.Size = New System.Drawing.Size(60, 16)
         Me.valu_level_5.TabIndex = 8
         Me.valu_level_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_level_5.Visible = False
         '
         'Check_new_level_5
         '
@@ -2244,6 +2266,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.valu_level_4.Size = New System.Drawing.Size(60, 16)
         Me.valu_level_4.TabIndex = 8
         Me.valu_level_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_level_4.Visible = False
         '
         'Check_new_level_4
         '
@@ -2306,6 +2329,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.valu_level_3.Size = New System.Drawing.Size(60, 16)
         Me.valu_level_3.TabIndex = 8
         Me.valu_level_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_level_3.Visible = False
         '
         'Check_new_level_3
         '
@@ -2368,6 +2392,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.valu_level_2.Size = New System.Drawing.Size(60, 16)
         Me.valu_level_2.TabIndex = 8
         Me.valu_level_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_level_2.Visible = False
         '
         'Check_new_level_2
         '
@@ -2430,6 +2455,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.valu_level_1.Size = New System.Drawing.Size(60, 16)
         Me.valu_level_1.TabIndex = 4
         Me.valu_level_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_level_1.Visible = False
         '
         'Check_new_level_1
         '
@@ -2620,7 +2646,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(600, 550)
         Me.Controls.Add(Me.Menu_panel)
-        Me.Controls.Add(Me.Panel_menu_opensave)
+        Me.Controls.Add(Me.Panel_menu_open)
         Me.Controls.Add(Me.Panel_music)
         Me.Controls.Add(Me.Hidden_things)
         Me.Controls.Add(Me.File_path)
@@ -2631,6 +2657,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Controls.Add(Me.Panel_highscoresediting)
         Me.Controls.Add(Me.Panel_lvlareaediting)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "TeamKirbyClashDeluxe"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "TeamKirbyClashDeluxe"
@@ -2665,7 +2692,7 @@ Partial Class TeamKirbyClashDeluxe
         CType(Me.Menu_width, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Fea_vigor.ResumeLayout(False)
         CType(Me.valu_vigor, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel_menu_opensave.ResumeLayout(False)
+        Me.Panel_menu_open.ResumeLayout(False)
         Me.Panel_music.ResumeLayout(False)
         CType(Me.Icon_music, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Hidden_things.ResumeLayout(False)
@@ -2802,8 +2829,8 @@ Partial Class TeamKirbyClashDeluxe
     Friend WithEvents Menu_width As System.Windows.Forms.PictureBox
     Friend WithEvents Fea_vigor As System.Windows.Forms.Panel
     Friend WithEvents Text_vigor As System.Windows.Forms.Label
-    Friend WithEvents Panel_menu_opensave As System.Windows.Forms.Panel
-    Friend WithEvents Text_menu_opensave As System.Windows.Forms.Label
+    Friend WithEvents Panel_menu_open As System.Windows.Forms.Panel
+    Friend WithEvents Text_menu_open As System.Windows.Forms.Label
     Friend WithEvents Panel_music As System.Windows.Forms.Panel
     Friend WithEvents Icon_music As System.Windows.Forms.PictureBox
     Friend WithEvents Hidden_things As System.Windows.Forms.Panel
@@ -2975,4 +3002,5 @@ Partial Class TeamKirbyClashDeluxe
     Friend WithEvents Check_NA_level_1 As System.Windows.Forms.RadioButton
     Friend WithEvents Check_available_level_1 As System.Windows.Forms.RadioButton
     Friend WithEvents Text_level_1 As System.Windows.Forms.Label
+    Friend WithEvents Text_menu_save As System.Windows.Forms.Label
 End Class

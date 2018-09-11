@@ -124,14 +124,20 @@
   <data name="EN_area_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EN_area_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_level" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_level.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N3DSCS_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N3DSCS_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EN_arean_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EN_arean_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EN_area_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EN_area_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EN_arean_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EN_arean_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EN_area_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EN_area_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TKCD_icon_rank_gl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_icon_rank_gl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,8 +148,11 @@
   <data name="TKCD_bg_panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_bg_panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EN_area_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EN_area_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TKCD_icon_doctorhero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TKCD_icon_doctorhero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Attack_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Attack_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,6 +181,9 @@
   <data name="bg_main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TKCD_menu_icon_lvlareaediting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TKCD_menu_icon_lvlareaediting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="TKCD_bg_missions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_bg_missions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -196,14 +208,11 @@
   <data name="TKCD_icon_swordhero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_icon_swordhero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TKCD_icon_music" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TKCD_icon_music.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="EN_area_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EN_area_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TKCD_menu_icon_lvlareaediting" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TKCD_menu_icon_lvlareaediting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EN_arean_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EN_arean_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="N3DSCS_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\N3DSCS_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,8 +232,11 @@
   <data name="Stamina_Potion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Stamina_Potion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TKCD_icon_doctorhero" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TKCD_icon_doctorhero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TKCD_icon_music" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TKCD_icon_music.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TKCD icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,7 +250,7 @@
   <data name="EN_arean_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EN_arean_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_level" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_level.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="title_3DSSEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title_3DSSEL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
