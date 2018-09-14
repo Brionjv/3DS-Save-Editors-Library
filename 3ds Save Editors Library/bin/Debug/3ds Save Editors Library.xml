@@ -15,6 +15,18 @@
   Remplace la propriété CurrentUICulture du thread actuel pour toutes
   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
 </summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources._3DSS3DSC_fdialog">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources._3DSSEL_logo_2">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources._3DSSEL_logo_update">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Attack_Potion">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -108,6 +120,10 @@
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.N3DSCS_icon1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.N3DSSEL_fdialog">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

@@ -22,8 +22,8 @@ D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3d
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Debug\PackageIO.dll
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.vbprojResolveAssemblyReference.cache
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.fdialog.resources
-D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.Form1.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.Resources.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.TeamKirbyClashDeluxe.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\3ds Save Editors Library.vbproj.GenerateResource.Cache
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library._3dsCamera_3dsSound.resources
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Debug\_3ds_Save_Editors_Library.N3DSSE_library.resources

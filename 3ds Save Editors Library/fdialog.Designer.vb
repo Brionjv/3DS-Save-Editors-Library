@@ -29,7 +29,7 @@ Partial Class fdialog
         '
         Me.Description.BackColor = System.Drawing.Color.Transparent
         Me.Description.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Description.Location = New System.Drawing.Point(124, 113)
+        Me.Description.Location = New System.Drawing.Point(124, 115)
         Me.Description.Name = "Description"
         Me.Description.Size = New System.Drawing.Size(349, 141)
         Me.Description.TabIndex = 0

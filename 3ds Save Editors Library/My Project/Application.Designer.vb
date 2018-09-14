@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global._3ds_Save_Editors_Library.Form1
+            Me.MainForm = Global._3ds_Save_Editors_Library.N3DSSE_library
         End Sub
     End Class
 End Namespace

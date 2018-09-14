@@ -1,7 +1,12 @@
 ﻿Imports PackageIO
+Imports System.IO
+
 Public Class TeamKirbyClashDeluxe
     Dim savedata As String
     Dim applicationpath = Application.StartupPath
+    Private IsFormBeingDragged As Boolean = False
+    Private MousedwnX As Integer
+    Private MousedwnY As Integer
     Dim Tree = &H19B8
     Dim Apples = &H199C
     Dim FireFragments = &H19BC
@@ -59,6 +64,30 @@ Public Class TeamKirbyClashDeluxe
     Dim Level_7 As String
     Dim Level_8 As String
 
+    Private Sub TKCD_header_MouseDown(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles TKCD_header.MouseDown, TKCD_title.MouseDown
+        If e.Button = Windows.Forms.MouseButtons.Left Then
+            IsFormBeingDragged = True
+            MousedwnX = e.X
+            MousedwnY = e.Y
+        End If
+    End Sub
+
+    Private Sub TKCD_header_MouseUp(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles TKCD_header.MouseUp, TKCD_title.MouseUp
+        If e.Button = Windows.Forms.MouseButtons.Left Then
+            IsFormBeingDragged = False
+        End If
+    End Sub
+
+    Private Sub TKCD_header_MouseMove(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles TKCD_header.MouseMove, TKCD_title.MouseMove
+        If IsFormBeingDragged = True Then
+            Dim tmp As Point = New Point()
+            tmp.X = Me.Location.X + (e.X - MousedwnX)
+            tmp.Y = Me.Location.Y + (e.Y - MousedwnY)
+            Me.Location = tmp
+            tmp = Nothing
+        End If
+    End Sub
+
     Public Sub hidepanels()
         Panel_itemsediting.Visible = False
         Panel_highscoresediting.Visible = False
@@ -115,6 +144,59 @@ Public Class TeamKirbyClashDeluxe
             Reader.Position = Area_6
             valu_area_6.Value = Reader.ReadByte
         Catch ex As Exception
+            fdialog.Description.Text = "Failed to read savedata.dat, make sure you have opened a save file or report this issue"
+            fdialog.ShowDialog()
+        End Try
+    End Sub
+
+    Private Sub writefilesavedata()
+        Try
+            Dim Writer As New PackageIO.Writer(savedata, PackageIO.Endian.Little)
+            writer.Position = Tree
+            Writer.WriteUInt16(valu_tree.Value)
+            Writer.Position = Apples
+            Writer.WriteUInt16(valu_apples.Value)
+            Writer.Position = FireFragments
+            Writer.WriteUInt16(valu_frag_red.Value)
+            Writer.Position = WaterFragments
+            Writer.WriteUInt16(valu_frag_blue.Value)
+            Writer.Position = LighFragments
+            Writer.WriteUInt16(valu_frag_yellow.Value)
+            Writer.Position = RareFragments
+            Writer.WriteUInt16(valu_frag_rare.Value)
+            Writer.Position = SwordHero
+            Writer.WriteUInt32(valu_swordhero.Value)
+            Writer.Position = DoctorHealmore
+            Writer.WriteUInt32(valu_doctorhealmore.Value)
+            Writer.Position = HammerLord
+            Writer.WriteUInt32(valu_hammerlord.Value)
+            Writer.Position = BeamMage
+            Writer.WriteUInt32(valu_beammage.Value)
+            Writer.Position = HighScores_1
+            Writer.WriteUInt32(valu_highscore1.Value)
+            Dim fs As New FileStream(savedata, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)
+            fs.Position = staminapot
+            fs.WriteByte(valu_staminapot.Value)
+            fs.Position = attackpot
+            fs.WriteByte(valu_attackpot.Value)
+            fs.Position = exporb
+            fs.WriteByte(valu_exporb.Value)
+            fs.Position = vigor
+            fs.WriteByte(valu_vigor.Value)
+            fs.Position = Area_1
+            fs.WriteByte(valu_area_1.Value)
+            fs.Position = Area_2
+            fs.WriteByte(valu_area_2.Value)
+            fs.Position = Area_3
+            fs.WriteByte(valu_area_3.Value)
+            fs.Position = Area_4
+            fs.WriteByte(valu_area_4.Value)
+            fs.Position = Area_5
+            fs.WriteByte(valu_area_5.Value)
+            fs.Position = Area_6
+            fs.WriteByte(valu_area_6.Value)
+        Catch ex As Exception
+
         End Try
     End Sub
 
@@ -194,7 +276,8 @@ Public Class TeamKirbyClashDeluxe
             Time_8 = Reader.Position
             valu_time_8.Value = Reader.ReadUInt16
         Catch ex As Exception
-
+            fdialog.Description.Text = "Failed to read savedata.dat, make sure you have opened a save file or report this issue"
+            fdialog.ShowDialog()
         End Try
     End Sub
 
@@ -202,7 +285,7 @@ Public Class TeamKirbyClashDeluxe
         Try
             Dim Reader As New PackageIO.Reader(savedata, PackageIO.Endian.Little)
             Reader.Position = Level
-            level_1 = Reader.Position
+            Level_1 = Reader.Position
             valu_level_1.Value = Reader.ReadUInt16
             Reader.Position = Level + &H10
             Level_2 = Reader.Position
@@ -232,7 +315,8 @@ Public Class TeamKirbyClashDeluxe
                 valu_level_8.Value = Reader.ReadUInt16
             End If
         Catch ex As Exception
-
+            fdialog.Description.Text = "Failed to read savedata.dat, make sure you have opened a save file or report this issue"
+            fdialog.ShowDialog()
         End Try
     End Sub
 
@@ -255,7 +339,7 @@ Public Class TeamKirbyClashDeluxe
 
     Private Sub Closebutton_Click(sender As Object, e As EventArgs) Handles Closebutton.Click
         Me.Close()
-        Form1.Show()
+        N3DSSE_library.Show()
     End Sub
 
     Private Sub Closebutton_MouseLeave(sender As Object, e As EventArgs) Handles Closebutton.MouseLeave
@@ -295,19 +379,21 @@ Public Class TeamKirbyClashDeluxe
     End Sub
 
     Private Sub Text_menu_opensave_Click(sender As Object, e As EventArgs) Handles Text_menu_open.Click
-        If Text_menu_open.Text = "Open" Then
-            Dim open As New OpenFileDialog
-            fdialog.Description.Text = "Open savedata.dat" & vbNewLine & "Team Kirby Clash Deluxe Save Editor will make a backup of your save file, check ''backup'' folder"
-            fdialog.ShowDialog()
-            open.Filter = "SAV files|*savedata.dat"
-            open.Title = "Open save savedata.dat"
-            open.ShowDialog()
-            savedata = open.FileName
-            readfilesavedata()
-            TextBox_fpath.Text = savedata
-            makebaksavedata()
-            Text_menu_save.Visible = True
-        End If
+        Dim open As New OpenFileDialog
+        fdialog.Description.Text = "Open savedata.dat" & vbNewLine & "Team Kirby Clash Deluxe Save Editor will make a backup of your save file, check ''backup'' folder"
+        fdialog.ShowDialog()
+        open.Filter = "SAV files|*savedata.dat"
+        open.Title = "Open save savedata.dat"
+        open.ShowDialog()
+        savedata = open.FileName
+        readfilesavedata()
+        TextBox_fpath.Text = savedata
+        makebaksavedata()
+        Text_menu_save.Visible = True
+    End Sub
+
+    Private Sub Text_menu_save_Click(sender As Object, e As EventArgs) Handles Text_menu_save.Click
+        writefilesavedata()
     End Sub
 
     Private Sub Select_Area_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Select_Area.SelectedIndexChanged
@@ -439,6 +525,7 @@ Public Class TeamKirbyClashDeluxe
     End Sub
 
     Private Sub TeamKirbyClashDeluxe_Load(sender As Object, e As EventArgs) Handles Me.Load
+        fdialog.BackgroundImage = My.Resources.TKCD_fdialog
         Select_tree.SelectedItem = Select_tree.Items.Item(0)
     End Sub
 

@@ -23,8 +23,8 @@ Partial Class TeamKirbyClashDeluxe
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TeamKirbyClashDeluxe))
-        Me.TLSE_header = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TKCD_header = New System.Windows.Forms.Panel()
+        Me.TKCD_title = New System.Windows.Forms.Label()
         Me.Closebutton = New System.Windows.Forms.PictureBox()
         Me.TLSE_logo_update = New System.Windows.Forms.PictureBox()
         Me.valu_tree = New System.Windows.Forms.NumericUpDown()
@@ -230,7 +230,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_area_3 = New System.Windows.Forms.PictureBox()
         Me.Icon_area_2 = New System.Windows.Forms.PictureBox()
         Me.Icon_area_1 = New System.Windows.Forms.PictureBox()
-        Me.TLSE_header.SuspendLayout()
+        Me.TKCD_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TLSE_logo_update, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_tree, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -354,26 +354,26 @@ Partial Class TeamKirbyClashDeluxe
         CType(Me.Icon_area_1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'TLSE_header
+        'TKCD_header
         '
-        Me.TLSE_header.BackColor = System.Drawing.Color.White
-        Me.TLSE_header.Controls.Add(Me.Label1)
-        Me.TLSE_header.Controls.Add(Me.Closebutton)
-        Me.TLSE_header.Cursor = System.Windows.Forms.Cursors.NoMove2D
-        Me.TLSE_header.Location = New System.Drawing.Point(60, 0)
-        Me.TLSE_header.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TLSE_header.Name = "TLSE_header"
-        Me.TLSE_header.Size = New System.Drawing.Size(540, 30)
-        Me.TLSE_header.TabIndex = 28
+        Me.TKCD_header.BackColor = System.Drawing.Color.White
+        Me.TKCD_header.Controls.Add(Me.TKCD_title)
+        Me.TKCD_header.Controls.Add(Me.Closebutton)
+        Me.TKCD_header.Cursor = System.Windows.Forms.Cursors.NoMove2D
+        Me.TKCD_header.Location = New System.Drawing.Point(60, 0)
+        Me.TKCD_header.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TKCD_header.Name = "TKCD_header"
+        Me.TKCD_header.Size = New System.Drawing.Size(540, 30)
+        Me.TKCD_header.TabIndex = 28
         '
-        'Label1
+        'TKCD_title
         '
-        Me.Label1.Location = New System.Drawing.Point(3, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(490, 13)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Team Kirby Clash Deluxe Save Editor"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.TKCD_title.Location = New System.Drawing.Point(3, 9)
+        Me.TKCD_title.Name = "TKCD_title"
+        Me.TKCD_title.Size = New System.Drawing.Size(490, 13)
+        Me.TKCD_title.TabIndex = 3
+        Me.TKCD_title.Text = "Team Kirby Clash Deluxe Save Editor"
+        Me.TKCD_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Closebutton
         '
@@ -2652,7 +2652,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Controls.Add(Me.File_path)
         Me.Controls.Add(Me.Menu_button)
         Me.Controls.Add(Me.TLSE_logo_update)
-        Me.Controls.Add(Me.TLSE_header)
+        Me.Controls.Add(Me.TKCD_header)
         Me.Controls.Add(Me.Panel_itemsediting)
         Me.Controls.Add(Me.Panel_highscoresediting)
         Me.Controls.Add(Me.Panel_lvlareaediting)
@@ -2661,7 +2661,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Name = "TeamKirbyClashDeluxe"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "TeamKirbyClashDeluxe"
-        Me.TLSE_header.ResumeLayout(False)
+        Me.TKCD_header.ResumeLayout(False)
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TLSE_logo_update, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_tree, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2797,9 +2797,9 @@ Partial Class TeamKirbyClashDeluxe
 
     End Sub
     Friend WithEvents TLSE_logo_update As System.Windows.Forms.PictureBox
-    Friend WithEvents TLSE_header As System.Windows.Forms.Panel
+    Friend WithEvents TKCD_header As System.Windows.Forms.Panel
     Friend WithEvents Closebutton As System.Windows.Forms.PictureBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents TKCD_title As System.Windows.Forms.Label
     Friend WithEvents valu_tree As System.Windows.Forms.NumericUpDown
     Friend WithEvents Select_tree As System.Windows.Forms.ComboBox
     Friend WithEvents Fea_tree As System.Windows.Forms.PictureBox

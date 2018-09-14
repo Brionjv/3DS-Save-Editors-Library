@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class N3DSSE_library
 
     Private Sub Closebutton_Click(sender As Object, e As EventArgs) Handles Closebutton.Click
         Me.Close()
@@ -23,7 +23,12 @@
         _3dsCamera_3dsSound.ShowDialog()
     End Sub
 
-    Private Sub Closebutton_MouseMove(sender As Object, e As MouseEventArgs) Handles Closebutton.MouseMove
+    Private Sub N3DSSE_library_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        fdialog.BackgroundImage = My.Resources.N3DSSEL_fdialog
+    End Sub
 
+    Private Sub Info_3DSSEL_Click(sender As Object, e As EventArgs) Handles Info_3DSSEL.Click
+        fdialog.Description.Text = "Team Kirby Clash Deluxe Save Editor : Confirme to work with EU|US version" & vbNewLine & "3DS Sound and 3DS Camera Save Editor : Confirme to work with EU version"
+        fdialog.ShowDialog()
     End Sub
 End Class

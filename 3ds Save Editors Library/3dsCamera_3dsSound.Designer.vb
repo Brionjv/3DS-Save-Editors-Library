@@ -23,20 +23,20 @@ Partial Class _3dsCamera_3dsSound
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(_3dsCamera_3dsSound))
-        Me.TLSE_header = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.N3DSS3DSC_header = New System.Windows.Forms.Panel()
+        Me.N3DSS3DSC_title = New System.Windows.Forms.Label()
         Me.Closebutton = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Text_camera_fea_tipsun = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Text_sound_fea_tipsun = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TLSE_logo_update = New System.Windows.Forms.PictureBox()
-        Me.TLSE_header.SuspendLayout()
+        Me.N3DSS3DSC_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -48,26 +48,26 @@ Partial Class _3dsCamera_3dsSound
         CType(Me.TLSE_logo_update, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'TLSE_header
+        'N3DSS3DSC_header
         '
-        Me.TLSE_header.BackColor = System.Drawing.Color.White
-        Me.TLSE_header.Controls.Add(Me.Label1)
-        Me.TLSE_header.Controls.Add(Me.Closebutton)
-        Me.TLSE_header.Cursor = System.Windows.Forms.Cursors.NoMove2D
-        Me.TLSE_header.Location = New System.Drawing.Point(59, 0)
-        Me.TLSE_header.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TLSE_header.Name = "TLSE_header"
-        Me.TLSE_header.Size = New System.Drawing.Size(314, 30)
-        Me.TLSE_header.TabIndex = 30
+        Me.N3DSS3DSC_header.BackColor = System.Drawing.Color.White
+        Me.N3DSS3DSC_header.Controls.Add(Me.N3DSS3DSC_title)
+        Me.N3DSS3DSC_header.Controls.Add(Me.Closebutton)
+        Me.N3DSS3DSC_header.Cursor = System.Windows.Forms.Cursors.NoMove2D
+        Me.N3DSS3DSC_header.Location = New System.Drawing.Point(59, 0)
+        Me.N3DSS3DSC_header.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.N3DSS3DSC_header.Name = "N3DSS3DSC_header"
+        Me.N3DSS3DSC_header.Size = New System.Drawing.Size(314, 30)
+        Me.N3DSS3DSC_header.TabIndex = 30
         '
-        'Label1
+        'N3DSS3DSC_title
         '
-        Me.Label1.Location = New System.Drawing.Point(7, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(255, 13)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "3ds Sound and 3ds Camera Save Editor"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.N3DSS3DSC_title.Location = New System.Drawing.Point(7, 9)
+        Me.N3DSS3DSC_title.Name = "N3DSS3DSC_title"
+        Me.N3DSS3DSC_title.Size = New System.Drawing.Size(255, 13)
+        Me.N3DSS3DSC_title.TabIndex = 3
+        Me.N3DSS3DSC_title.Text = "3ds Sound and 3ds Camera Save Editor"
+        Me.N3DSS3DSC_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Closebutton
         '
@@ -105,22 +105,22 @@ Partial Class _3dsCamera_3dsSound
         '
         Me.Panel5.BackgroundImage = CType(resources.GetObject("Panel5.BackgroundImage"), System.Drawing.Image)
         Me.Panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel5.Controls.Add(Me.Label3)
+        Me.Panel5.Controls.Add(Me.Text_camera_fea_tipsun)
         Me.Panel5.Location = New System.Drawing.Point(2, 225)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(169, 59)
         Me.Panel5.TabIndex = 2
         '
-        'Label3
+        'Text_camera_fea_tipsun
         '
-        Me.Label3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label3.Location = New System.Drawing.Point(0, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(169, 59)
-        Me.Label3.TabIndex = 1
-        Me.Label3.Text = "Unlock all Tips"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Text_camera_fea_tipsun.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_camera_fea_tipsun.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_camera_fea_tipsun.Location = New System.Drawing.Point(0, 0)
+        Me.Text_camera_fea_tipsun.Name = "Text_camera_fea_tipsun"
+        Me.Text_camera_fea_tipsun.Size = New System.Drawing.Size(169, 59)
+        Me.Text_camera_fea_tipsun.TabIndex = 1
+        Me.Text_camera_fea_tipsun.Text = "Unlock all Tips"
+        Me.Text_camera_fea_tipsun.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox2
         '
@@ -147,22 +147,22 @@ Partial Class _3dsCamera_3dsSound
         '
         Me.Panel4.BackgroundImage = CType(resources.GetObject("Panel4.BackgroundImage"), System.Drawing.Image)
         Me.Panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel4.Controls.Add(Me.Label2)
+        Me.Panel4.Controls.Add(Me.Text_sound_fea_tipsun)
         Me.Panel4.Location = New System.Drawing.Point(2, 225)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(169, 59)
         Me.Panel4.TabIndex = 1
         '
-        'Label2
+        'Text_sound_fea_tipsun
         '
-        Me.Label2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label2.Location = New System.Drawing.Point(0, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(169, 59)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Unlock all Tips"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Text_sound_fea_tipsun.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_sound_fea_tipsun.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_sound_fea_tipsun.Location = New System.Drawing.Point(0, 0)
+        Me.Text_sound_fea_tipsun.Name = "Text_sound_fea_tipsun"
+        Me.Text_sound_fea_tipsun.Size = New System.Drawing.Size(169, 59)
+        Me.Text_sound_fea_tipsun.TabIndex = 0
+        Me.Text_sound_fea_tipsun.Text = "Unlock all Tips"
+        Me.Text_sound_fea_tipsun.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox1
         '
@@ -196,13 +196,13 @@ Partial Class _3dsCamera_3dsSound
         Me.ControlBox = False
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.TLSE_logo_update)
-        Me.Controls.Add(Me.TLSE_header)
+        Me.Controls.Add(Me.N3DSS3DSC_header)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "_3dsCamera_3dsSound"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "_3dsCamera_3dsSound"
-        Me.TLSE_header.ResumeLayout(False)
+        Me.N3DSS3DSC_header.ResumeLayout(False)
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
@@ -216,8 +216,8 @@ Partial Class _3dsCamera_3dsSound
 
     End Sub
     Friend WithEvents TLSE_logo_update As System.Windows.Forms.PictureBox
-    Friend WithEvents TLSE_header As System.Windows.Forms.Panel
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents N3DSS3DSC_header As System.Windows.Forms.Panel
+    Friend WithEvents N3DSS3DSC_title As System.Windows.Forms.Label
     Friend WithEvents Closebutton As System.Windows.Forms.PictureBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
@@ -225,7 +225,7 @@ Partial Class _3dsCamera_3dsSound
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Panel5 As System.Windows.Forms.Panel
-    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Text_camera_fea_tipsun As System.Windows.Forms.Label
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
-    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Text_sound_fea_tipsun As System.Windows.Forms.Label
 End Class

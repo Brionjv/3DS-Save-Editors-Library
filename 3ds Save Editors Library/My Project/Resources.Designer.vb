@@ -63,6 +63,36 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _3DSS3DSC_fdialog() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("3DSS3DSC_fdialog", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _3DSSEL_logo_2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("3DSSEL_logo_2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _3DSSEL_logo_update() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("3DSSEL_logo_update", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Attack_Potion() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Attack_Potion", resourceCulture)
@@ -296,6 +326,16 @@ Namespace My.Resources
         Friend ReadOnly Property N3DSCS_icon1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("N3DSCS_icon1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property N3DSSEL_fdialog() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("N3DSSEL_fdialog", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
