@@ -1213,6 +1213,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_time_8.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_time_8.Location = New System.Drawing.Point(481, 28)
+        Me.valu_time_8.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
         Me.valu_time_8.Name = "valu_time_8"
         Me.valu_time_8.Size = New System.Drawing.Size(100, 16)
         Me.valu_time_8.TabIndex = 11
@@ -1241,6 +1242,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_rank_q8.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rank_q8.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q8.Name = "valu_rank_q8"
         Me.valu_rank_q8.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q8.TabIndex = 7
@@ -1272,6 +1274,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_highscore8.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_highscore8.Location = New System.Drawing.Point(105, 27)
+        Me.valu_highscore8.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
         Me.valu_highscore8.Name = "valu_highscore8"
         Me.valu_highscore8.Size = New System.Drawing.Size(100, 16)
         Me.valu_highscore8.TabIndex = 5
@@ -1308,6 +1311,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_time_7.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_time_7.Location = New System.Drawing.Point(481, 27)
+        Me.valu_time_7.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
         Me.valu_time_7.Name = "valu_time_7"
         Me.valu_time_7.Size = New System.Drawing.Size(100, 16)
         Me.valu_time_7.TabIndex = 11
@@ -1336,6 +1340,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_rank_q7.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rank_q7.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q7.Name = "valu_rank_q7"
         Me.valu_rank_q7.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q7.TabIndex = 7
@@ -1367,6 +1372,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_highscore7.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_highscore7.Location = New System.Drawing.Point(105, 27)
+        Me.valu_highscore7.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
         Me.valu_highscore7.Name = "valu_highscore7"
         Me.valu_highscore7.Size = New System.Drawing.Size(100, 16)
         Me.valu_highscore7.TabIndex = 5
@@ -1403,6 +1409,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_time_6.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_time_6.Location = New System.Drawing.Point(481, 27)
+        Me.valu_time_6.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
         Me.valu_time_6.Name = "valu_time_6"
         Me.valu_time_6.Size = New System.Drawing.Size(100, 16)
         Me.valu_time_6.TabIndex = 11
@@ -1431,6 +1438,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_rank_q6.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rank_q6.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q6.Name = "valu_rank_q6"
         Me.valu_rank_q6.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q6.TabIndex = 7
@@ -1462,6 +1470,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_highscore6.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_highscore6.Location = New System.Drawing.Point(105, 27)
+        Me.valu_highscore6.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
         Me.valu_highscore6.Name = "valu_highscore6"
         Me.valu_highscore6.Size = New System.Drawing.Size(100, 16)
         Me.valu_highscore6.TabIndex = 5
@@ -1498,6 +1507,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_time_5.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_time_5.Location = New System.Drawing.Point(481, 27)
+        Me.valu_time_5.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
         Me.valu_time_5.Name = "valu_time_5"
         Me.valu_time_5.Size = New System.Drawing.Size(100, 16)
         Me.valu_time_5.TabIndex = 11
@@ -1526,6 +1536,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_rank_q5.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rank_q5.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q5.Name = "valu_rank_q5"
         Me.valu_rank_q5.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q5.TabIndex = 7
@@ -1557,6 +1568,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_highscore5.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_highscore5.Location = New System.Drawing.Point(105, 27)
+        Me.valu_highscore5.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
         Me.valu_highscore5.Name = "valu_highscore5"
         Me.valu_highscore5.Size = New System.Drawing.Size(100, 16)
         Me.valu_highscore5.TabIndex = 5
@@ -1593,6 +1605,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_time_4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_time_4.Location = New System.Drawing.Point(481, 27)
+        Me.valu_time_4.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
         Me.valu_time_4.Name = "valu_time_4"
         Me.valu_time_4.Size = New System.Drawing.Size(100, 16)
         Me.valu_time_4.TabIndex = 11
@@ -1621,6 +1634,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_rank_q4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rank_q4.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q4.Name = "valu_rank_q4"
         Me.valu_rank_q4.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q4.TabIndex = 7
@@ -1652,6 +1666,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_highscore4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_highscore4.Location = New System.Drawing.Point(105, 27)
+        Me.valu_highscore4.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
         Me.valu_highscore4.Name = "valu_highscore4"
         Me.valu_highscore4.Size = New System.Drawing.Size(100, 16)
         Me.valu_highscore4.TabIndex = 5
@@ -1688,6 +1703,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_time_3.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_time_3.Location = New System.Drawing.Point(481, 27)
+        Me.valu_time_3.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
         Me.valu_time_3.Name = "valu_time_3"
         Me.valu_time_3.Size = New System.Drawing.Size(100, 16)
         Me.valu_time_3.TabIndex = 11
@@ -1716,6 +1732,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_rank_q3.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rank_q3.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q3.Name = "valu_rank_q3"
         Me.valu_rank_q3.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q3.TabIndex = 7
@@ -1747,6 +1764,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_highscore3.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_highscore3.Location = New System.Drawing.Point(105, 27)
+        Me.valu_highscore3.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
         Me.valu_highscore3.Name = "valu_highscore3"
         Me.valu_highscore3.Size = New System.Drawing.Size(100, 16)
         Me.valu_highscore3.TabIndex = 5
@@ -1783,6 +1801,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_time_2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_time_2.Location = New System.Drawing.Point(481, 27)
+        Me.valu_time_2.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
         Me.valu_time_2.Name = "valu_time_2"
         Me.valu_time_2.Size = New System.Drawing.Size(100, 16)
         Me.valu_time_2.TabIndex = 11
@@ -1811,6 +1830,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_rank_q2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rank_q2.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q2.Name = "valu_rank_q2"
         Me.valu_rank_q2.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q2.TabIndex = 7
@@ -1842,6 +1862,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_highscore2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_highscore2.Location = New System.Drawing.Point(105, 27)
+        Me.valu_highscore2.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
         Me.valu_highscore2.Name = "valu_highscore2"
         Me.valu_highscore2.Size = New System.Drawing.Size(100, 16)
         Me.valu_highscore2.TabIndex = 5
@@ -1878,6 +1899,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_time_1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_time_1.Location = New System.Drawing.Point(481, 27)
+        Me.valu_time_1.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
         Me.valu_time_1.Name = "valu_time_1"
         Me.valu_time_1.Size = New System.Drawing.Size(100, 16)
         Me.valu_time_1.TabIndex = 9
@@ -1906,6 +1928,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_rank_q1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rank_q1.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q1.Name = "valu_rank_q1"
         Me.valu_rank_q1.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q1.TabIndex = 7
@@ -1937,6 +1960,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.valu_highscore1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_highscore1.Location = New System.Drawing.Point(105, 27)
+        Me.valu_highscore1.Maximum = New Decimal(New Integer() {99999, 0, 0, 0})
         Me.valu_highscore1.Name = "valu_highscore1"
         Me.valu_highscore1.Size = New System.Drawing.Size(100, 16)
         Me.valu_highscore1.TabIndex = 5
@@ -2654,8 +2678,8 @@ Partial Class TeamKirbyClashDeluxe
         Me.Controls.Add(Me.TLSE_logo_update)
         Me.Controls.Add(Me.TKCD_header)
         Me.Controls.Add(Me.Panel_itemsediting)
-        Me.Controls.Add(Me.Panel_highscoresediting)
         Me.Controls.Add(Me.Panel_lvlareaediting)
+        Me.Controls.Add(Me.Panel_highscoresediting)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "TeamKirbyClashDeluxe"

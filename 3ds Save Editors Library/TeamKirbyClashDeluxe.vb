@@ -174,6 +174,20 @@ Public Class TeamKirbyClashDeluxe
             Writer.WriteUInt32(valu_beammage.Value)
             Writer.Position = HighScores_1
             Writer.WriteUInt32(valu_highscore1.Value)
+            Writer.Position = HighScores_2
+            Writer.WriteUInt32(valu_highscore2.Value)
+            Writer.Position = HighScores_3
+            Writer.WriteUInt32(valu_highscore3.Value)
+            Writer.Position = HighScores_4
+            Writer.WriteUInt32(valu_highscore4.Value)
+            Writer.Position = HighScores_5
+            Writer.WriteUInt32(valu_highscore5.Value)
+            Writer.Position = HighScores_6
+            Writer.WriteUInt32(valu_highscore6.Value)
+            Writer.Position = HighScores_7
+            Writer.WriteUInt32(valu_highscore7.Value)
+            Writer.Position = HighScores_8
+            Writer.WriteUInt32(valu_highscore8.Value)
             Dim fs As New FileStream(savedata, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)
             fs.Position = staminapot
             fs.WriteByte(valu_staminapot.Value)
@@ -195,6 +209,8 @@ Public Class TeamKirbyClashDeluxe
             fs.WriteByte(valu_area_5.Value)
             fs.Position = Area_6
             fs.WriteByte(valu_area_6.Value)
+            fs.Position = Rank_1
+            fs.WriteByte(valu_rank_q1.Value)
         Catch ex As Exception
 
         End Try
