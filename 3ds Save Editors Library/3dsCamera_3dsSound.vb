@@ -31,6 +31,7 @@
     End Sub
 
     Private Sub Closebutton_Click(sender As Object, e As EventArgs) Handles Closebutton.Click
+        fdialog.BackgroundImage = My.Resources.N3DSSEL_fdialog
         Me.Close()
         N3DSSE_library.Show()
     End Sub

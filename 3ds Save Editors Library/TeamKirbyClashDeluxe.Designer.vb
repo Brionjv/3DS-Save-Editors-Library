@@ -95,6 +95,8 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_swordhero = New System.Windows.Forms.PictureBox()
         Me.Panel_highscoresediting = New System.Windows.Forms.Panel()
         Me.Panel_quest8 = New System.Windows.Forms.Panel()
+        Me.Check_completed_level_8 = New System.Windows.Forms.CheckBox()
+        Me.valu_completed_level_8 = New System.Windows.Forms.NumericUpDown()
         Me.Text_time_8 = New System.Windows.Forms.Label()
         Me.valu_time_8 = New System.Windows.Forms.NumericUpDown()
         Me.Text_title_q8 = New System.Windows.Forms.Label()
@@ -104,6 +106,8 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q8 = New System.Windows.Forms.PictureBox()
         Me.valu_highscore8 = New System.Windows.Forms.NumericUpDown()
         Me.Panel_quest7 = New System.Windows.Forms.Panel()
+        Me.Check_completed_level_7 = New System.Windows.Forms.CheckBox()
+        Me.valu_completed_level_7 = New System.Windows.Forms.NumericUpDown()
         Me.Text_time_7 = New System.Windows.Forms.Label()
         Me.valu_time_7 = New System.Windows.Forms.NumericUpDown()
         Me.Text_title_q7 = New System.Windows.Forms.Label()
@@ -113,6 +117,8 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q7 = New System.Windows.Forms.PictureBox()
         Me.valu_highscore7 = New System.Windows.Forms.NumericUpDown()
         Me.Panel_quest6 = New System.Windows.Forms.Panel()
+        Me.Check_completed_level_6 = New System.Windows.Forms.CheckBox()
+        Me.valu_completed_level_6 = New System.Windows.Forms.NumericUpDown()
         Me.Text_time_6 = New System.Windows.Forms.Label()
         Me.valu_time_6 = New System.Windows.Forms.NumericUpDown()
         Me.Text_title_q6 = New System.Windows.Forms.Label()
@@ -122,6 +128,8 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q6 = New System.Windows.Forms.PictureBox()
         Me.valu_highscore6 = New System.Windows.Forms.NumericUpDown()
         Me.Panel_quest5 = New System.Windows.Forms.Panel()
+        Me.Check_completed_level_5 = New System.Windows.Forms.CheckBox()
+        Me.valu_completed_level_5 = New System.Windows.Forms.NumericUpDown()
         Me.Text_time_5 = New System.Windows.Forms.Label()
         Me.valu_time_5 = New System.Windows.Forms.NumericUpDown()
         Me.Text_title_q5 = New System.Windows.Forms.Label()
@@ -131,6 +139,8 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q5 = New System.Windows.Forms.PictureBox()
         Me.valu_highscore5 = New System.Windows.Forms.NumericUpDown()
         Me.Panel_quest4 = New System.Windows.Forms.Panel()
+        Me.Check_completed_level_4 = New System.Windows.Forms.CheckBox()
+        Me.valu_completed_level_4 = New System.Windows.Forms.NumericUpDown()
         Me.Text_time_4 = New System.Windows.Forms.Label()
         Me.valu_time_4 = New System.Windows.Forms.NumericUpDown()
         Me.Text_title_q4 = New System.Windows.Forms.Label()
@@ -140,6 +150,8 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q4 = New System.Windows.Forms.PictureBox()
         Me.valu_highscore4 = New System.Windows.Forms.NumericUpDown()
         Me.Panel_quest3 = New System.Windows.Forms.Panel()
+        Me.Check_completed_level_3 = New System.Windows.Forms.CheckBox()
+        Me.valu_completed_level_3 = New System.Windows.Forms.NumericUpDown()
         Me.Text_time_3 = New System.Windows.Forms.Label()
         Me.valu_time_3 = New System.Windows.Forms.NumericUpDown()
         Me.Text_title_q3 = New System.Windows.Forms.Label()
@@ -149,6 +161,8 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q3 = New System.Windows.Forms.PictureBox()
         Me.valu_highscore3 = New System.Windows.Forms.NumericUpDown()
         Me.Panel_quest2 = New System.Windows.Forms.Panel()
+        Me.Check_completed_level_2 = New System.Windows.Forms.CheckBox()
+        Me.valu_completed_level_2 = New System.Windows.Forms.NumericUpDown()
         Me.Text_time_2 = New System.Windows.Forms.Label()
         Me.valu_time_2 = New System.Windows.Forms.NumericUpDown()
         Me.Text_title_q2 = New System.Windows.Forms.Label()
@@ -158,6 +172,8 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q2 = New System.Windows.Forms.PictureBox()
         Me.valu_highscore2 = New System.Windows.Forms.NumericUpDown()
         Me.Panel_quest1 = New System.Windows.Forms.Panel()
+        Me.Check_completed_level_1 = New System.Windows.Forms.CheckBox()
+        Me.valu_completed_level_1 = New System.Windows.Forms.NumericUpDown()
         Me.Text_time_1 = New System.Windows.Forms.Label()
         Me.valu_time_1 = New System.Windows.Forms.NumericUpDown()
         Me.Text_title_q1 = New System.Windows.Forms.Label()
@@ -169,6 +185,11 @@ Partial Class TeamKirbyClashDeluxe
         Me.Text_area = New System.Windows.Forms.Label()
         Me.Select_Area = New System.Windows.Forms.ComboBox()
         Me.Panel_lvlareaediting = New System.Windows.Forms.Panel()
+        Me.Panel_info_level = New System.Windows.Forms.Panel()
+        Me.Info_level_text_new = New System.Windows.Forms.Label()
+        Me.Info_level_text_notavailable = New System.Windows.Forms.Label()
+        Me.Info_level_text_available = New System.Windows.Forms.Label()
+        Me.Info_level = New System.Windows.Forms.Label()
         Me.Panel_level_8 = New System.Windows.Forms.Panel()
         Me.valu_level_8 = New System.Windows.Forms.NumericUpDown()
         Me.Check_new_level_8 = New System.Windows.Forms.RadioButton()
@@ -284,46 +305,55 @@ Partial Class TeamKirbyClashDeluxe
         CType(Me.Icon_swordhero, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_highscoresediting.SuspendLayout()
         Me.Panel_quest8.SuspendLayout()
+        CType(Me.valu_completed_level_8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_time_8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_rank_q8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rank_q8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_highscore8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_quest7.SuspendLayout()
+        CType(Me.valu_completed_level_7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_time_7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_rank_q7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rank_q7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_highscore7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_quest6.SuspendLayout()
+        CType(Me.valu_completed_level_6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_time_6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_rank_q6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rank_q6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_highscore6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_quest5.SuspendLayout()
+        CType(Me.valu_completed_level_5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_time_5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_rank_q5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rank_q5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_highscore5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_quest4.SuspendLayout()
+        CType(Me.valu_completed_level_4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_time_4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_rank_q4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rank_q4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_highscore4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_quest3.SuspendLayout()
+        CType(Me.valu_completed_level_3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_time_3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_rank_q3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rank_q3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_highscore3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_quest2.SuspendLayout()
+        CType(Me.valu_completed_level_2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_time_2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_rank_q2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rank_q2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_highscore2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_quest1.SuspendLayout()
+        CType(Me.valu_completed_level_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_time_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_rank_q1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rank_q1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_highscore1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_lvlareaediting.SuspendLayout()
+        Me.Panel_info_level.SuspendLayout()
         Me.Panel_level_8.SuspendLayout()
         CType(Me.valu_level_8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_level_7.SuspendLayout()
@@ -632,6 +662,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Menu_Repair.Name = "Menu_Repair"
         Me.Menu_Repair.Size = New System.Drawing.Size(150, 34)
         Me.Menu_Repair.TabIndex = 7
+        Me.Menu_Repair.Visible = False
         '
         'Menu_text_repair
         '
@@ -737,6 +768,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Menu_settings.Name = "Menu_settings"
         Me.Menu_settings.Size = New System.Drawing.Size(150, 34)
         Me.Menu_settings.TabIndex = 2
+        Me.Menu_settings.Visible = False
         '
         'Menu_text_settings
         '
@@ -1186,6 +1218,8 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel_quest8.BackColor = System.Drawing.Color.Transparent
         Me.Panel_quest8.BackgroundImage = CType(resources.GetObject("Panel_quest8.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_quest8.Controls.Add(Me.Check_completed_level_8)
+        Me.Panel_quest8.Controls.Add(Me.valu_completed_level_8)
         Me.Panel_quest8.Controls.Add(Me.Text_time_8)
         Me.Panel_quest8.Controls.Add(Me.valu_time_8)
         Me.Panel_quest8.Controls.Add(Me.Text_title_q8)
@@ -1198,6 +1232,27 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_quest8.Name = "Panel_quest8"
         Me.Panel_quest8.Size = New System.Drawing.Size(593, 46)
         Me.Panel_quest8.TabIndex = 16
+        '
+        'Check_completed_level_8
+        '
+        Me.Check_completed_level_8.AutoSize = True
+        Me.Check_completed_level_8.Location = New System.Drawing.Point(307, 9)
+        Me.Check_completed_level_8.Name = "Check_completed_level_8"
+        Me.Check_completed_level_8.Size = New System.Drawing.Size(104, 17)
+        Me.Check_completed_level_8.TabIndex = 13
+        Me.Check_completed_level_8.Text = "Level completed"
+        Me.Check_completed_level_8.UseVisualStyleBackColor = True
+        '
+        'valu_completed_level_8
+        '
+        Me.valu_completed_level_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_completed_level_8.Location = New System.Drawing.Point(338, 27)
+        Me.valu_completed_level_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_completed_level_8.Name = "valu_completed_level_8"
+        Me.valu_completed_level_8.Size = New System.Drawing.Size(42, 16)
+        Me.valu_completed_level_8.TabIndex = 12
+        Me.valu_completed_level_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_completed_level_8.Visible = False
         '
         'Text_time_8
         '
@@ -1241,12 +1296,13 @@ Partial Class TeamKirbyClashDeluxe
         'valu_rank_q8
         '
         Me.valu_rank_q8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_rank_q8.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q8.Location = New System.Drawing.Point(246, 28)
         Me.valu_rank_q8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q8.Name = "valu_rank_q8"
         Me.valu_rank_q8.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q8.TabIndex = 7
         Me.valu_rank_q8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rank_q8.Visible = False
         '
         'Text_highscore8
         '
@@ -1263,7 +1319,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q8.BackColor = System.Drawing.Color.Transparent
         Me.Icon_rank_q8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_rank_q8.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon_rank_na
-        Me.Icon_rank_q8.Location = New System.Drawing.Point(280, 9)
+        Me.Icon_rank_q8.Location = New System.Drawing.Point(251, 9)
         Me.Icon_rank_q8.Name = "Icon_rank_q8"
         Me.Icon_rank_q8.Size = New System.Drawing.Size(30, 30)
         Me.Icon_rank_q8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -1284,6 +1340,8 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel_quest7.BackColor = System.Drawing.Color.Transparent
         Me.Panel_quest7.BackgroundImage = CType(resources.GetObject("Panel_quest7.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_quest7.Controls.Add(Me.Check_completed_level_7)
+        Me.Panel_quest7.Controls.Add(Me.valu_completed_level_7)
         Me.Panel_quest7.Controls.Add(Me.Text_time_7)
         Me.Panel_quest7.Controls.Add(Me.valu_time_7)
         Me.Panel_quest7.Controls.Add(Me.Text_title_q7)
@@ -1296,6 +1354,27 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_quest7.Name = "Panel_quest7"
         Me.Panel_quest7.Size = New System.Drawing.Size(593, 46)
         Me.Panel_quest7.TabIndex = 15
+        '
+        'Check_completed_level_7
+        '
+        Me.Check_completed_level_7.AutoSize = True
+        Me.Check_completed_level_7.Location = New System.Drawing.Point(307, 9)
+        Me.Check_completed_level_7.Name = "Check_completed_level_7"
+        Me.Check_completed_level_7.Size = New System.Drawing.Size(104, 17)
+        Me.Check_completed_level_7.TabIndex = 13
+        Me.Check_completed_level_7.Text = "Level completed"
+        Me.Check_completed_level_7.UseVisualStyleBackColor = True
+        '
+        'valu_completed_level_7
+        '
+        Me.valu_completed_level_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_completed_level_7.Location = New System.Drawing.Point(338, 27)
+        Me.valu_completed_level_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_completed_level_7.Name = "valu_completed_level_7"
+        Me.valu_completed_level_7.Size = New System.Drawing.Size(42, 16)
+        Me.valu_completed_level_7.TabIndex = 12
+        Me.valu_completed_level_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_completed_level_7.Visible = False
         '
         'Text_time_7
         '
@@ -1339,12 +1418,13 @@ Partial Class TeamKirbyClashDeluxe
         'valu_rank_q7
         '
         Me.valu_rank_q7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_rank_q7.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q7.Location = New System.Drawing.Point(246, 28)
         Me.valu_rank_q7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q7.Name = "valu_rank_q7"
         Me.valu_rank_q7.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q7.TabIndex = 7
         Me.valu_rank_q7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rank_q7.Visible = False
         '
         'Text_highscore7
         '
@@ -1361,7 +1441,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q7.BackColor = System.Drawing.Color.Transparent
         Me.Icon_rank_q7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_rank_q7.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon_rank_na
-        Me.Icon_rank_q7.Location = New System.Drawing.Point(280, 9)
+        Me.Icon_rank_q7.Location = New System.Drawing.Point(251, 9)
         Me.Icon_rank_q7.Name = "Icon_rank_q7"
         Me.Icon_rank_q7.Size = New System.Drawing.Size(30, 30)
         Me.Icon_rank_q7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -1382,6 +1462,8 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel_quest6.BackColor = System.Drawing.Color.Transparent
         Me.Panel_quest6.BackgroundImage = CType(resources.GetObject("Panel_quest6.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_quest6.Controls.Add(Me.Check_completed_level_6)
+        Me.Panel_quest6.Controls.Add(Me.valu_completed_level_6)
         Me.Panel_quest6.Controls.Add(Me.Text_time_6)
         Me.Panel_quest6.Controls.Add(Me.valu_time_6)
         Me.Panel_quest6.Controls.Add(Me.Text_title_q6)
@@ -1394,6 +1476,27 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_quest6.Name = "Panel_quest6"
         Me.Panel_quest6.Size = New System.Drawing.Size(593, 46)
         Me.Panel_quest6.TabIndex = 14
+        '
+        'Check_completed_level_6
+        '
+        Me.Check_completed_level_6.AutoSize = True
+        Me.Check_completed_level_6.Location = New System.Drawing.Point(307, 9)
+        Me.Check_completed_level_6.Name = "Check_completed_level_6"
+        Me.Check_completed_level_6.Size = New System.Drawing.Size(104, 17)
+        Me.Check_completed_level_6.TabIndex = 13
+        Me.Check_completed_level_6.Text = "Level completed"
+        Me.Check_completed_level_6.UseVisualStyleBackColor = True
+        '
+        'valu_completed_level_6
+        '
+        Me.valu_completed_level_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_completed_level_6.Location = New System.Drawing.Point(338, 27)
+        Me.valu_completed_level_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_completed_level_6.Name = "valu_completed_level_6"
+        Me.valu_completed_level_6.Size = New System.Drawing.Size(42, 16)
+        Me.valu_completed_level_6.TabIndex = 12
+        Me.valu_completed_level_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_completed_level_6.Visible = False
         '
         'Text_time_6
         '
@@ -1437,12 +1540,13 @@ Partial Class TeamKirbyClashDeluxe
         'valu_rank_q6
         '
         Me.valu_rank_q6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_rank_q6.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q6.Location = New System.Drawing.Point(246, 28)
         Me.valu_rank_q6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q6.Name = "valu_rank_q6"
         Me.valu_rank_q6.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q6.TabIndex = 7
         Me.valu_rank_q6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rank_q6.Visible = False
         '
         'Text_highscore6
         '
@@ -1459,7 +1563,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q6.BackColor = System.Drawing.Color.Transparent
         Me.Icon_rank_q6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_rank_q6.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon_rank_na
-        Me.Icon_rank_q6.Location = New System.Drawing.Point(280, 9)
+        Me.Icon_rank_q6.Location = New System.Drawing.Point(251, 9)
         Me.Icon_rank_q6.Name = "Icon_rank_q6"
         Me.Icon_rank_q6.Size = New System.Drawing.Size(30, 30)
         Me.Icon_rank_q6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -1480,6 +1584,8 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel_quest5.BackColor = System.Drawing.Color.Transparent
         Me.Panel_quest5.BackgroundImage = CType(resources.GetObject("Panel_quest5.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_quest5.Controls.Add(Me.Check_completed_level_5)
+        Me.Panel_quest5.Controls.Add(Me.valu_completed_level_5)
         Me.Panel_quest5.Controls.Add(Me.Text_time_5)
         Me.Panel_quest5.Controls.Add(Me.valu_time_5)
         Me.Panel_quest5.Controls.Add(Me.Text_title_q5)
@@ -1492,6 +1598,27 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_quest5.Name = "Panel_quest5"
         Me.Panel_quest5.Size = New System.Drawing.Size(593, 46)
         Me.Panel_quest5.TabIndex = 13
+        '
+        'Check_completed_level_5
+        '
+        Me.Check_completed_level_5.AutoSize = True
+        Me.Check_completed_level_5.Location = New System.Drawing.Point(307, 9)
+        Me.Check_completed_level_5.Name = "Check_completed_level_5"
+        Me.Check_completed_level_5.Size = New System.Drawing.Size(104, 17)
+        Me.Check_completed_level_5.TabIndex = 13
+        Me.Check_completed_level_5.Text = "Level completed"
+        Me.Check_completed_level_5.UseVisualStyleBackColor = True
+        '
+        'valu_completed_level_5
+        '
+        Me.valu_completed_level_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_completed_level_5.Location = New System.Drawing.Point(338, 27)
+        Me.valu_completed_level_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_completed_level_5.Name = "valu_completed_level_5"
+        Me.valu_completed_level_5.Size = New System.Drawing.Size(42, 16)
+        Me.valu_completed_level_5.TabIndex = 12
+        Me.valu_completed_level_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_completed_level_5.Visible = False
         '
         'Text_time_5
         '
@@ -1535,12 +1662,13 @@ Partial Class TeamKirbyClashDeluxe
         'valu_rank_q5
         '
         Me.valu_rank_q5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_rank_q5.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q5.Location = New System.Drawing.Point(246, 28)
         Me.valu_rank_q5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q5.Name = "valu_rank_q5"
         Me.valu_rank_q5.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q5.TabIndex = 7
         Me.valu_rank_q5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rank_q5.Visible = False
         '
         'Text_highscore5
         '
@@ -1557,7 +1685,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q5.BackColor = System.Drawing.Color.Transparent
         Me.Icon_rank_q5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_rank_q5.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon_rank_na
-        Me.Icon_rank_q5.Location = New System.Drawing.Point(280, 9)
+        Me.Icon_rank_q5.Location = New System.Drawing.Point(251, 9)
         Me.Icon_rank_q5.Name = "Icon_rank_q5"
         Me.Icon_rank_q5.Size = New System.Drawing.Size(30, 30)
         Me.Icon_rank_q5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -1578,6 +1706,8 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel_quest4.BackColor = System.Drawing.Color.Transparent
         Me.Panel_quest4.BackgroundImage = CType(resources.GetObject("Panel_quest4.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_quest4.Controls.Add(Me.Check_completed_level_4)
+        Me.Panel_quest4.Controls.Add(Me.valu_completed_level_4)
         Me.Panel_quest4.Controls.Add(Me.Text_time_4)
         Me.Panel_quest4.Controls.Add(Me.valu_time_4)
         Me.Panel_quest4.Controls.Add(Me.Text_title_q4)
@@ -1590,6 +1720,27 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_quest4.Name = "Panel_quest4"
         Me.Panel_quest4.Size = New System.Drawing.Size(593, 46)
         Me.Panel_quest4.TabIndex = 12
+        '
+        'Check_completed_level_4
+        '
+        Me.Check_completed_level_4.AutoSize = True
+        Me.Check_completed_level_4.Location = New System.Drawing.Point(307, 9)
+        Me.Check_completed_level_4.Name = "Check_completed_level_4"
+        Me.Check_completed_level_4.Size = New System.Drawing.Size(104, 17)
+        Me.Check_completed_level_4.TabIndex = 13
+        Me.Check_completed_level_4.Text = "Level completed"
+        Me.Check_completed_level_4.UseVisualStyleBackColor = True
+        '
+        'valu_completed_level_4
+        '
+        Me.valu_completed_level_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_completed_level_4.Location = New System.Drawing.Point(338, 27)
+        Me.valu_completed_level_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_completed_level_4.Name = "valu_completed_level_4"
+        Me.valu_completed_level_4.Size = New System.Drawing.Size(42, 16)
+        Me.valu_completed_level_4.TabIndex = 12
+        Me.valu_completed_level_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_completed_level_4.Visible = False
         '
         'Text_time_4
         '
@@ -1633,12 +1784,13 @@ Partial Class TeamKirbyClashDeluxe
         'valu_rank_q4
         '
         Me.valu_rank_q4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_rank_q4.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q4.Location = New System.Drawing.Point(246, 28)
         Me.valu_rank_q4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q4.Name = "valu_rank_q4"
         Me.valu_rank_q4.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q4.TabIndex = 7
         Me.valu_rank_q4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rank_q4.Visible = False
         '
         'Text_highscore4
         '
@@ -1655,7 +1807,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q4.BackColor = System.Drawing.Color.Transparent
         Me.Icon_rank_q4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_rank_q4.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon_rank_na
-        Me.Icon_rank_q4.Location = New System.Drawing.Point(280, 9)
+        Me.Icon_rank_q4.Location = New System.Drawing.Point(251, 9)
         Me.Icon_rank_q4.Name = "Icon_rank_q4"
         Me.Icon_rank_q4.Size = New System.Drawing.Size(30, 30)
         Me.Icon_rank_q4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -1676,6 +1828,8 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel_quest3.BackColor = System.Drawing.Color.Transparent
         Me.Panel_quest3.BackgroundImage = CType(resources.GetObject("Panel_quest3.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_quest3.Controls.Add(Me.Check_completed_level_3)
+        Me.Panel_quest3.Controls.Add(Me.valu_completed_level_3)
         Me.Panel_quest3.Controls.Add(Me.Text_time_3)
         Me.Panel_quest3.Controls.Add(Me.valu_time_3)
         Me.Panel_quest3.Controls.Add(Me.Text_title_q3)
@@ -1688,6 +1842,27 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_quest3.Name = "Panel_quest3"
         Me.Panel_quest3.Size = New System.Drawing.Size(593, 46)
         Me.Panel_quest3.TabIndex = 11
+        '
+        'Check_completed_level_3
+        '
+        Me.Check_completed_level_3.AutoSize = True
+        Me.Check_completed_level_3.Location = New System.Drawing.Point(307, 9)
+        Me.Check_completed_level_3.Name = "Check_completed_level_3"
+        Me.Check_completed_level_3.Size = New System.Drawing.Size(104, 17)
+        Me.Check_completed_level_3.TabIndex = 13
+        Me.Check_completed_level_3.Text = "Level completed"
+        Me.Check_completed_level_3.UseVisualStyleBackColor = True
+        '
+        'valu_completed_level_3
+        '
+        Me.valu_completed_level_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_completed_level_3.Location = New System.Drawing.Point(338, 27)
+        Me.valu_completed_level_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_completed_level_3.Name = "valu_completed_level_3"
+        Me.valu_completed_level_3.Size = New System.Drawing.Size(42, 16)
+        Me.valu_completed_level_3.TabIndex = 12
+        Me.valu_completed_level_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_completed_level_3.Visible = False
         '
         'Text_time_3
         '
@@ -1731,12 +1906,13 @@ Partial Class TeamKirbyClashDeluxe
         'valu_rank_q3
         '
         Me.valu_rank_q3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_rank_q3.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q3.Location = New System.Drawing.Point(246, 28)
         Me.valu_rank_q3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q3.Name = "valu_rank_q3"
         Me.valu_rank_q3.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q3.TabIndex = 7
         Me.valu_rank_q3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rank_q3.Visible = False
         '
         'Text_highscore3
         '
@@ -1753,7 +1929,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q3.BackColor = System.Drawing.Color.Transparent
         Me.Icon_rank_q3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_rank_q3.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon_rank_na
-        Me.Icon_rank_q3.Location = New System.Drawing.Point(280, 9)
+        Me.Icon_rank_q3.Location = New System.Drawing.Point(251, 9)
         Me.Icon_rank_q3.Name = "Icon_rank_q3"
         Me.Icon_rank_q3.Size = New System.Drawing.Size(30, 30)
         Me.Icon_rank_q3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -1774,6 +1950,8 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel_quest2.BackColor = System.Drawing.Color.Transparent
         Me.Panel_quest2.BackgroundImage = CType(resources.GetObject("Panel_quest2.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_quest2.Controls.Add(Me.Check_completed_level_2)
+        Me.Panel_quest2.Controls.Add(Me.valu_completed_level_2)
         Me.Panel_quest2.Controls.Add(Me.Text_time_2)
         Me.Panel_quest2.Controls.Add(Me.valu_time_2)
         Me.Panel_quest2.Controls.Add(Me.Text_title_q2)
@@ -1786,6 +1964,27 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_quest2.Name = "Panel_quest2"
         Me.Panel_quest2.Size = New System.Drawing.Size(593, 46)
         Me.Panel_quest2.TabIndex = 10
+        '
+        'Check_completed_level_2
+        '
+        Me.Check_completed_level_2.AutoSize = True
+        Me.Check_completed_level_2.Location = New System.Drawing.Point(307, 9)
+        Me.Check_completed_level_2.Name = "Check_completed_level_2"
+        Me.Check_completed_level_2.Size = New System.Drawing.Size(104, 17)
+        Me.Check_completed_level_2.TabIndex = 13
+        Me.Check_completed_level_2.Text = "Level completed"
+        Me.Check_completed_level_2.UseVisualStyleBackColor = True
+        '
+        'valu_completed_level_2
+        '
+        Me.valu_completed_level_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_completed_level_2.Location = New System.Drawing.Point(338, 27)
+        Me.valu_completed_level_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_completed_level_2.Name = "valu_completed_level_2"
+        Me.valu_completed_level_2.Size = New System.Drawing.Size(42, 16)
+        Me.valu_completed_level_2.TabIndex = 12
+        Me.valu_completed_level_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_completed_level_2.Visible = False
         '
         'Text_time_2
         '
@@ -1829,12 +2028,13 @@ Partial Class TeamKirbyClashDeluxe
         'valu_rank_q2
         '
         Me.valu_rank_q2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_rank_q2.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q2.Location = New System.Drawing.Point(246, 28)
         Me.valu_rank_q2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q2.Name = "valu_rank_q2"
         Me.valu_rank_q2.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q2.TabIndex = 7
         Me.valu_rank_q2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rank_q2.Visible = False
         '
         'Text_highscore2
         '
@@ -1851,7 +2051,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q2.BackColor = System.Drawing.Color.Transparent
         Me.Icon_rank_q2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_rank_q2.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon_rank_na
-        Me.Icon_rank_q2.Location = New System.Drawing.Point(280, 9)
+        Me.Icon_rank_q2.Location = New System.Drawing.Point(251, 9)
         Me.Icon_rank_q2.Name = "Icon_rank_q2"
         Me.Icon_rank_q2.Size = New System.Drawing.Size(30, 30)
         Me.Icon_rank_q2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -1872,6 +2072,8 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel_quest1.BackColor = System.Drawing.Color.Transparent
         Me.Panel_quest1.BackgroundImage = CType(resources.GetObject("Panel_quest1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_quest1.Controls.Add(Me.Check_completed_level_1)
+        Me.Panel_quest1.Controls.Add(Me.valu_completed_level_1)
         Me.Panel_quest1.Controls.Add(Me.Text_time_1)
         Me.Panel_quest1.Controls.Add(Me.valu_time_1)
         Me.Panel_quest1.Controls.Add(Me.Text_title_q1)
@@ -1884,6 +2086,27 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_quest1.Name = "Panel_quest1"
         Me.Panel_quest1.Size = New System.Drawing.Size(593, 46)
         Me.Panel_quest1.TabIndex = 9
+        '
+        'Check_completed_level_1
+        '
+        Me.Check_completed_level_1.AutoSize = True
+        Me.Check_completed_level_1.Location = New System.Drawing.Point(307, 9)
+        Me.Check_completed_level_1.Name = "Check_completed_level_1"
+        Me.Check_completed_level_1.Size = New System.Drawing.Size(104, 17)
+        Me.Check_completed_level_1.TabIndex = 11
+        Me.Check_completed_level_1.Text = "Level completed"
+        Me.Check_completed_level_1.UseVisualStyleBackColor = True
+        '
+        'valu_completed_level_1
+        '
+        Me.valu_completed_level_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_completed_level_1.Location = New System.Drawing.Point(338, 27)
+        Me.valu_completed_level_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_completed_level_1.Name = "valu_completed_level_1"
+        Me.valu_completed_level_1.Size = New System.Drawing.Size(42, 16)
+        Me.valu_completed_level_1.TabIndex = 10
+        Me.valu_completed_level_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_completed_level_1.Visible = False
         '
         'Text_time_1
         '
@@ -1927,12 +2150,13 @@ Partial Class TeamKirbyClashDeluxe
         'valu_rank_q1
         '
         Me.valu_rank_q1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_rank_q1.Location = New System.Drawing.Point(275, 28)
+        Me.valu_rank_q1.Location = New System.Drawing.Point(246, 28)
         Me.valu_rank_q1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rank_q1.Name = "valu_rank_q1"
         Me.valu_rank_q1.Size = New System.Drawing.Size(42, 16)
         Me.valu_rank_q1.TabIndex = 7
         Me.valu_rank_q1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rank_q1.Visible = False
         '
         'Text_highscore1
         '
@@ -1949,7 +2173,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_rank_q1.BackColor = System.Drawing.Color.Transparent
         Me.Icon_rank_q1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_rank_q1.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon_rank_na
-        Me.Icon_rank_q1.Location = New System.Drawing.Point(280, 9)
+        Me.Icon_rank_q1.Location = New System.Drawing.Point(251, 9)
         Me.Icon_rank_q1.Name = "Icon_rank_q1"
         Me.Icon_rank_q1.Size = New System.Drawing.Size(30, 30)
         Me.Icon_rank_q1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -1989,6 +2213,8 @@ Partial Class TeamKirbyClashDeluxe
         'Panel_lvlareaediting
         '
         Me.Panel_lvlareaediting.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_panel
+        Me.Panel_lvlareaediting.Controls.Add(Me.Panel_info_level)
+        Me.Panel_lvlareaediting.Controls.Add(Me.Info_level)
         Me.Panel_lvlareaediting.Controls.Add(Me.Panel_level_8)
         Me.Panel_lvlareaediting.Controls.Add(Me.Panel_level_7)
         Me.Panel_lvlareaediting.Controls.Add(Me.Panel_level_6)
@@ -2014,6 +2240,59 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_lvlareaediting.Name = "Panel_lvlareaediting"
         Me.Panel_lvlareaediting.Size = New System.Drawing.Size(600, 490)
         Me.Panel_lvlareaediting.TabIndex = 54
+        '
+        'Panel_info_level
+        '
+        Me.Panel_info_level.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_info_level.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.info_level
+        Me.Panel_info_level.Controls.Add(Me.Info_level_text_new)
+        Me.Panel_info_level.Controls.Add(Me.Info_level_text_notavailable)
+        Me.Panel_info_level.Controls.Add(Me.Info_level_text_available)
+        Me.Panel_info_level.Location = New System.Drawing.Point(192, 114)
+        Me.Panel_info_level.Name = "Panel_info_level"
+        Me.Panel_info_level.Size = New System.Drawing.Size(145, 150)
+        Me.Panel_info_level.TabIndex = 165
+        Me.Panel_info_level.Visible = False
+        '
+        'Info_level_text_new
+        '
+        Me.Info_level_text_new.Location = New System.Drawing.Point(4, 93)
+        Me.Info_level_text_new.Name = "Info_level_text_new"
+        Me.Info_level_text_new.Size = New System.Drawing.Size(100, 19)
+        Me.Info_level_text_new.TabIndex = 2
+        Me.Info_level_text_new.Text = "New"
+        Me.Info_level_text_new.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Info_level_text_notavailable
+        '
+        Me.Info_level_text_notavailable.Location = New System.Drawing.Point(41, 67)
+        Me.Info_level_text_notavailable.Name = "Info_level_text_notavailable"
+        Me.Info_level_text_notavailable.Size = New System.Drawing.Size(100, 19)
+        Me.Info_level_text_notavailable.TabIndex = 1
+        Me.Info_level_text_notavailable.Text = "Not available"
+        Me.Info_level_text_notavailable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Info_level_text_available
+        '
+        Me.Info_level_text_available.Location = New System.Drawing.Point(3, 41)
+        Me.Info_level_text_available.Name = "Info_level_text_available"
+        Me.Info_level_text_available.Size = New System.Drawing.Size(100, 19)
+        Me.Info_level_text_available.TabIndex = 0
+        Me.Info_level_text_available.Text = "Available"
+        Me.Info_level_text_available.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Info_level
+        '
+        Me.Info_level.AutoSize = True
+        Me.Info_level.BackColor = System.Drawing.Color.Transparent
+        Me.Info_level.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Info_level.Font = New System.Drawing.Font("Harlow Solid Italic", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Info_level.ForeColor = System.Drawing.Color.Blue
+        Me.Info_level.Location = New System.Drawing.Point(156, 114)
+        Me.Info_level.Name = "Info_level"
+        Me.Info_level.Size = New System.Drawing.Size(14, 20)
+        Me.Info_level.TabIndex = 164
+        Me.Info_level.Text = "i"
         '
         'Panel_level_8
         '
@@ -2741,46 +3020,64 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_highscoresediting.ResumeLayout(False)
         Me.Panel_highscoresediting.PerformLayout()
         Me.Panel_quest8.ResumeLayout(False)
+        Me.Panel_quest8.PerformLayout()
+        CType(Me.valu_completed_level_8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_time_8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_rank_q8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rank_q8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_highscore8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_quest7.ResumeLayout(False)
+        Me.Panel_quest7.PerformLayout()
+        CType(Me.valu_completed_level_7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_time_7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_rank_q7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rank_q7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_highscore7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_quest6.ResumeLayout(False)
+        Me.Panel_quest6.PerformLayout()
+        CType(Me.valu_completed_level_6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_time_6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_rank_q6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rank_q6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_highscore6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_quest5.ResumeLayout(False)
+        Me.Panel_quest5.PerformLayout()
+        CType(Me.valu_completed_level_5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_time_5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_rank_q5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rank_q5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_highscore5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_quest4.ResumeLayout(False)
+        Me.Panel_quest4.PerformLayout()
+        CType(Me.valu_completed_level_4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_time_4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_rank_q4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rank_q4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_highscore4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_quest3.ResumeLayout(False)
+        Me.Panel_quest3.PerformLayout()
+        CType(Me.valu_completed_level_3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_time_3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_rank_q3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rank_q3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_highscore3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_quest2.ResumeLayout(False)
+        Me.Panel_quest2.PerformLayout()
+        CType(Me.valu_completed_level_2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_time_2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_rank_q2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rank_q2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_highscore2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_quest1.ResumeLayout(False)
+        Me.Panel_quest1.PerformLayout()
+        CType(Me.valu_completed_level_1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_time_1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_rank_q1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rank_q1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_highscore1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_lvlareaediting.ResumeLayout(False)
+        Me.Panel_lvlareaediting.PerformLayout()
+        Me.Panel_info_level.ResumeLayout(False)
         Me.Panel_level_8.ResumeLayout(False)
         Me.Panel_level_8.PerformLayout()
         CType(Me.valu_level_8, System.ComponentModel.ISupportInitialize).EndInit()
@@ -3027,4 +3324,25 @@ Partial Class TeamKirbyClashDeluxe
     Friend WithEvents Check_available_level_1 As System.Windows.Forms.RadioButton
     Friend WithEvents Text_level_1 As System.Windows.Forms.Label
     Friend WithEvents Text_menu_save As System.Windows.Forms.Label
+    Friend WithEvents Info_level As System.Windows.Forms.Label
+    Friend WithEvents Panel_info_level As System.Windows.Forms.Panel
+    Friend WithEvents Info_level_text_new As System.Windows.Forms.Label
+    Friend WithEvents Info_level_text_notavailable As System.Windows.Forms.Label
+    Friend WithEvents Info_level_text_available As System.Windows.Forms.Label
+    Friend WithEvents Check_completed_level_8 As System.Windows.Forms.CheckBox
+    Friend WithEvents valu_completed_level_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Check_completed_level_7 As System.Windows.Forms.CheckBox
+    Friend WithEvents valu_completed_level_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Check_completed_level_6 As System.Windows.Forms.CheckBox
+    Friend WithEvents valu_completed_level_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Check_completed_level_5 As System.Windows.Forms.CheckBox
+    Friend WithEvents valu_completed_level_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Check_completed_level_4 As System.Windows.Forms.CheckBox
+    Friend WithEvents valu_completed_level_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Check_completed_level_3 As System.Windows.Forms.CheckBox
+    Friend WithEvents valu_completed_level_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Check_completed_level_2 As System.Windows.Forms.CheckBox
+    Friend WithEvents valu_completed_level_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Check_completed_level_1 As System.Windows.Forms.CheckBox
+    Friend WithEvents valu_completed_level_1 As System.Windows.Forms.NumericUpDown
 End Class

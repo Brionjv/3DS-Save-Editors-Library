@@ -229,6 +229,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\icon_battlegroundz.png" />
+    <None Include="Resources\TKCD_icon_rank_silver.png" />
+    <None Include="Resources\TKCD_icon_rank_platinium.png" />
+    <None Include="Resources\TKCD_icon_rank_gold.png" />
+    <None Include="Resources\TKCD_icon_rank_bronze.png" />
+    <None Include="Resources\info_level.png" />
+    <None Include="Resources\bg_menu.png" />
+    <None Include="Resources\icon_update_act.png" />
+    <None Include="Resources\icon_update.png" />
     <None Include="Resources\N3DSSEL_fdialog.png" />
     <None Include="Resources\3DSSEL_logo_update.gif" />
     <None Include="Resources\3DSSEL_logo_2.gif" />

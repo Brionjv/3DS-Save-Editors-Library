@@ -63,6 +63,14 @@ Public Class TeamKirbyClashDeluxe
     Dim Level_6 As String
     Dim Level_7 As String
     Dim Level_8 As String
+    Dim Cptlevel_1 As String
+    Dim Cptlevel_2 As String
+    Dim Cptlevel_3 As String
+    Dim Cptlevel_4 As String
+    Dim Cptlevel_5 As String
+    Dim Cptlevel_6 As String
+    Dim Cptlevel_7 As String
+    Dim Cptlevel_8 As String
 
     Private Sub TKCD_header_MouseDown(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles TKCD_header.MouseDown, TKCD_title.MouseDown
         If e.Button = Windows.Forms.MouseButtons.Left Then
@@ -182,12 +190,56 @@ Public Class TeamKirbyClashDeluxe
             Writer.WriteUInt32(valu_highscore4.Value)
             Writer.Position = HighScores_5
             Writer.WriteUInt32(valu_highscore5.Value)
-            Writer.Position = HighScores_6
-            Writer.WriteUInt32(valu_highscore6.Value)
-            Writer.Position = HighScores_7
-            Writer.WriteUInt32(valu_highscore7.Value)
-            Writer.Position = HighScores_8
-            Writer.WriteUInt32(valu_highscore8.Value)
+            Writer.Position = Time_1
+            Writer.WriteUInt16(valu_time_1.Value)
+            Writer.Position = Time_2
+            Writer.WriteUInt16(valu_time_2.Value)
+            Writer.Position = Time_3
+            Writer.WriteUInt16(valu_time_3.Value)
+            Writer.Position = Time_4
+            Writer.WriteUInt16(valu_time_4.Value)
+            Writer.Position = Time_5
+            Writer.WriteUInt16(valu_time_5.Value)
+            Writer.Position = Level_1
+            Writer.WriteUInt16(valu_level_1.Value)
+            Writer.Position = Level_2
+            Writer.WriteUInt16(valu_level_2.Value)
+            Writer.Position = Level_3
+            Writer.WriteUInt16(valu_level_3.Value)
+            Writer.Position = Level_4
+            Writer.WriteUInt16(valu_level_4.Value)
+            Writer.Position = Level_5
+            Writer.WriteUInt16(valu_level_5.Value)
+            If Select_Area.SelectedItem = Select_Area.Items.Item(0) Or Select_Area.SelectedItem = Select_Area.Items.Item(1) Or Select_Area.SelectedItem = Select_Area.Items.Item(2) Or Select_Area.SelectedItem = Select_Area.Items.Item(3) Or Select_Area.SelectedItem = Select_Area.Items.Item(4) Then
+                Writer.Position = HighScores_6
+                Writer.WriteUInt32(valu_highscore6.Value)
+                Writer.Position = Time_6
+                Writer.WriteUInt16(valu_time_6.Value)
+            End If
+            If Select_Area.SelectedItem = Select_Area.Items.Item(0) Or Select_Area.SelectedItem = Select_Area.Items.Item(1) Or Select_Area.SelectedItem = Select_Area.Items.Item(2) Or Select_Area.SelectedItem = Select_Area.Items.Item(3) Then
+                Writer.Position = HighScores_7
+                Writer.WriteUInt32(valu_highscore7.Value)
+                Writer.Position = Time_7
+                Writer.WriteUInt16(valu_time_7.Value)
+            End If
+            If Select_Area.SelectedItem = Select_Area.Items.Item(0) Or Select_Area.SelectedItem = Select_Area.Items.Item(1) Or Select_Area.SelectedItem = Select_Area.Items.Item(2) Then
+                Writer.Position = HighScores_8
+                Writer.WriteUInt32(valu_highscore8.Value)
+                Writer.Position = Time_8
+                Writer.WriteUInt16(valu_time_8.Value)
+            End If
+            If Select_level.SelectedItem = Select_level.Items.Item(0) Or Select_level.SelectedItem = Select_level.Items.Item(1) Or Select_level.SelectedItem = Select_level.Items.Item(2) Or Select_level.SelectedItem = Select_level.Items.Item(3) Or Select_level.SelectedItem = Select_level.Items.Item(4) Then
+                Writer.Position = Level_6
+                Writer.WriteUInt16(valu_level_6.Value)
+            End If
+            If Select_level.SelectedItem = Select_level.Items.Item(0) Or Select_level.SelectedItem = Select_level.Items.Item(1) Or Select_level.SelectedItem = Select_level.Items.Item(2) Or Select_level.SelectedItem = Select_level.Items.Item(3) Then
+                Writer.Position = Level_7
+                Writer.WriteUInt16(valu_level_7.Value)
+            End If
+            If Select_level.SelectedItem = Select_level.Items.Item(0) Or Select_level.SelectedItem = Select_level.Items.Item(1) Or Select_level.SelectedItem = Select_level.Items.Item(2) Then
+                Writer.Position = Level_8
+                Writer.WriteUInt16(valu_level_8.Value)
+            End If
             Dim fs As New FileStream(savedata, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)
             fs.Position = staminapot
             fs.WriteByte(valu_staminapot.Value)
@@ -211,8 +263,47 @@ Public Class TeamKirbyClashDeluxe
             fs.WriteByte(valu_area_6.Value)
             fs.Position = Rank_1
             fs.WriteByte(valu_rank_q1.Value)
+            fs.Position = Rank_2
+            fs.WriteByte(valu_rank_q2.Value)
+            fs.Position = Rank_3
+            fs.WriteByte(valu_rank_q3.Value)
+            fs.Position = Rank_4
+            fs.WriteByte(valu_rank_q4.Value)
+            fs.Position = Rank_5
+            fs.WriteByte(valu_rank_q5.Value)
+            fs.Position = Cptlevel_1
+            fs.WriteByte(valu_completed_level_1.Value)
+            fs.Position = Cptlevel_2
+            fs.WriteByte(valu_completed_level_2.Value)
+            fs.Position = Cptlevel_3
+            fs.WriteByte(valu_completed_level_3.Value)
+            fs.Position = Cptlevel_4
+            fs.WriteByte(valu_completed_level_4.Value)
+            fs.Position = Cptlevel_5
+            fs.WriteByte(valu_completed_level_5.Value)
+            If Select_Area.SelectedItem = Select_Area.Items.Item(0) Or Select_Area.SelectedItem = Select_Area.Items.Item(1) Or Select_Area.SelectedItem = Select_Area.Items.Item(2) Or Select_Area.SelectedItem = Select_Area.Items.Item(3) Or Select_Area.SelectedItem = Select_Area.Items.Item(4) Then
+                fs.Position = Rank_6
+                fs.WriteByte(valu_rank_q6.Value)
+                fs.Position = Cptlevel_6
+                fs.WriteByte(valu_completed_level_6.Value)
+            End If
+            If Select_Area.SelectedItem = Select_Area.Items.Item(0) Or Select_Area.SelectedItem = Select_Area.Items.Item(1) Or Select_Area.SelectedItem = Select_Area.Items.Item(2) Or Select_Area.SelectedItem = Select_Area.Items.Item(3) Then
+                fs.Position = Rank_7
+                fs.WriteByte(valu_rank_q7.Value)
+                fs.Position = Cptlevel_7
+                fs.WriteByte(valu_completed_level_7.Value)
+            End If
+            If Select_Area.SelectedItem = Select_Area.Items.Item(0) Or Select_Area.SelectedItem = Select_Area.Items.Item(1) Or Select_Area.SelectedItem = Select_Area.Items.Item(2) Then
+                fs.Position = Rank_8
+                fs.WriteByte(valu_rank_q8.Value)
+                fs.Position = Cptlevel_8
+                fs.WriteByte(valu_completed_level_8.Value)
+            End If
+            fdialog.Description.Text = "savedata.dat has been succesfully edited"
+            fdialog.ShowDialog()
         Catch ex As Exception
-
+            fdialog.Description.Text = "Failed to write savedata.dat, make sure you have opened a good save file or report this issue"
+            fdialog.ShowDialog()
         End Try
     End Sub
 
@@ -222,6 +313,9 @@ Public Class TeamKirbyClashDeluxe
             Reader.Position = HighScores
             HighScores_1 = Reader.Position
             valu_highscore1.Value = Reader.ReadUInt32
+            Reader.Position = Time + 6
+            Cptlevel_1 = Reader.Position
+            valu_completed_level_1.Value = Reader.ReadByte
             Reader.Position = Rank
             Rank_1 = Reader.Position
             valu_rank_q1.Value = Reader.ReadByte
@@ -231,6 +325,9 @@ Public Class TeamKirbyClashDeluxe
             Reader.Position = HighScores + &H10
             HighScores_2 = Reader.Position
             valu_highscore2.Value = Reader.ReadUInt32
+            Reader.Position = Time + 6 + &H10
+            Cptlevel_2 = Reader.Position
+            valu_completed_level_2.Value = Reader.ReadByte
             Reader.Position = Rank + &H10
             Rank_2 = Reader.Position
             valu_rank_q2.Value = Reader.ReadByte
@@ -240,6 +337,9 @@ Public Class TeamKirbyClashDeluxe
             Reader.Position = HighScores + &H20
             HighScores_3 = Reader.Position
             valu_highscore3.Value = Reader.ReadUInt32
+            Reader.Position = Time + 6 + &H20
+            Cptlevel_3 = Reader.Position
+            valu_completed_level_3.Value = Reader.ReadByte
             Reader.Position = Rank + &H20
             Rank_3 = Reader.Position
             valu_rank_q3.Value = Reader.ReadByte
@@ -249,6 +349,9 @@ Public Class TeamKirbyClashDeluxe
             Reader.Position = HighScores + &H30
             HighScores_4 = Reader.Position
             valu_highscore4.Value = Reader.ReadUInt32
+            Reader.Position = Time + 6 + &H30
+            Cptlevel_4 = Reader.Position
+            valu_completed_level_4.Value = Reader.ReadByte
             Reader.Position = Rank + &H30
             Rank_4 = Reader.Position
             valu_rank_q4.Value = Reader.ReadByte
@@ -258,6 +361,9 @@ Public Class TeamKirbyClashDeluxe
             Reader.Position = HighScores + &H40
             HighScores_5 = Reader.Position
             valu_highscore5.Value = Reader.ReadUInt32
+            Reader.Position = Time + 6 + &H40
+            Cptlevel_5 = Reader.Position
+            valu_completed_level_5.Value = Reader.ReadByte
             Reader.Position = Rank + &H40
             Rank_5 = Reader.Position
             valu_rank_q5.Value = Reader.ReadByte
@@ -267,6 +373,9 @@ Public Class TeamKirbyClashDeluxe
             Reader.Position = HighScores + &H50
             HighScores_6 = Reader.Position
             valu_highscore6.Value = Reader.ReadUInt32
+            Reader.Position = Time + 6 + &H50
+            Cptlevel_6 = Reader.Position
+            valu_completed_level_6.Value = Reader.ReadByte
             Reader.Position = Rank + &H50
             Rank_6 = Reader.Position
             valu_rank_q6.Value = Reader.ReadByte
@@ -276,6 +385,9 @@ Public Class TeamKirbyClashDeluxe
             Reader.Position = HighScores + &H60
             HighScores_7 = Reader.Position
             valu_highscore7.Value = Reader.ReadUInt32
+            Reader.Position = Time + 6 + &H60
+            Cptlevel_7 = Reader.Position
+            valu_completed_level_7.Value = Reader.ReadByte
             Reader.Position = Rank + &H60
             Rank_7 = Reader.Position
             valu_rank_q7.Value = Reader.ReadByte
@@ -285,6 +397,9 @@ Public Class TeamKirbyClashDeluxe
             Reader.Position = HighScores + &H70
             HighScores_8 = Reader.Position
             valu_highscore8.Value = Reader.ReadUInt32
+            Reader.Position = Time + 6 + &H70
+            Cptlevel_8 = Reader.Position
+            valu_completed_level_8.Value = Reader.ReadByte
             Reader.Position = Rank + &H70
             Rank_8 = Reader.Position
             valu_rank_q8.Value = Reader.ReadByte
@@ -354,6 +469,7 @@ Public Class TeamKirbyClashDeluxe
     End Sub
 
     Private Sub Closebutton_Click(sender As Object, e As EventArgs) Handles Closebutton.Click
+        fdialog.BackgroundImage = My.Resources.N3DSSEL_fdialog
         Me.Close()
         N3DSSE_library.Show()
     End Sub
@@ -540,9 +656,22 @@ Public Class TeamKirbyClashDeluxe
         End If
     End Sub
 
+    Private Sub TeamKirbyClashDeluxe_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        My.Settings.TKCD_settings_menu = Menu_panel.Width
+    End Sub
+
     Private Sub TeamKirbyClashDeluxe_Load(sender As Object, e As EventArgs) Handles Me.Load
         fdialog.BackgroundImage = My.Resources.TKCD_fdialog
         Select_tree.SelectedItem = Select_tree.Items.Item(0)
+        Try
+            Menu_panel.Width = My.Settings.TKCD_settings_menu
+        Catch ex As Exception
+        End Try
+        If Menu_panel.Width = 150 Then
+            Menu_width.Location = New Point(116, 0)
+        ElseIf Menu_panel.Width = 34 Then
+            Menu_width.Location = New Point(0, 0)
+        End If
     End Sub
 
     Private Sub Check_available_level_1_CheckedChanged(sender As Object, e As EventArgs) Handles Check_available_level_1.CheckedChanged
@@ -946,5 +1075,321 @@ Public Class TeamKirbyClashDeluxe
             Level = &HFDC
         End If
         readlevels()
+    End Sub
+
+    Private Sub Text_vigor_Click(sender As Object, e As EventArgs) Handles Text_vigor.Click, Fea_vigor.Click
+        valu_vigor.Value = 255
+    End Sub
+
+    Private Sub Info_level_MouseMove(sender As Object, e As EventArgs) Handles Info_level.MouseMove
+        Panel_info_level.Visible = True
+    End Sub
+
+    Private Sub Info_level_MouseLeave(sender As Object, e As EventArgs) Handles Info_level.MouseLeave
+        Panel_info_level.Visible = False
+    End Sub
+
+    Private Sub valu_rank_q1_ValueChanged(sender As Object, e As EventArgs) Handles valu_rank_q1.ValueChanged
+        If valu_rank_q1.Value = 0 And valu_completed_level_1.Value = 0 Then
+            Icon_rank_q1.Image = My.Resources.TKCD_icon_rank_na
+        ElseIf valu_rank_q1.Value = 0 And valu_completed_level_1.Value = 1 Then
+            Icon_rank_q1.Image = My.Resources.TKCD_icon_rank_bronze
+        ElseIf valu_rank_q1.Value = 1 And valu_completed_level_1.Value = 1 Then
+            Icon_rank_q1.Image = My.Resources.TKCD_icon_rank_silver
+        ElseIf valu_rank_q1.Value = 2 And valu_completed_level_1.Value = 1 Then
+            Icon_rank_q1.Image = My.Resources.TKCD_icon_rank_gold
+        ElseIf valu_rank_q1.Value = 3 And valu_completed_level_1.Value = 1 Then
+            Icon_rank_q1.Image = My.Resources.TKCD_icon_rank_platinium
+        End If
+    End Sub
+
+    Private Sub valu_rank_q2_ValueChanged(sender As Object, e As EventArgs) Handles valu_rank_q2.ValueChanged
+        If valu_rank_q2.Value = 0 And valu_completed_level_2.Value = 0 Then
+            Icon_rank_q2.Image = My.Resources.TKCD_icon_rank_na
+        ElseIf valu_rank_q2.Value = 0 And valu_completed_level_2.Value = 1 Then
+            Icon_rank_q2.Image = My.Resources.TKCD_icon_rank_bronze
+        ElseIf valu_rank_q2.Value = 1 And valu_completed_level_2.Value = 1 Then
+            Icon_rank_q2.Image = My.Resources.TKCD_icon_rank_silver
+        ElseIf valu_rank_q2.Value = 2 And valu_completed_level_2.Value = 1 Then
+            Icon_rank_q2.Image = My.Resources.TKCD_icon_rank_gold
+        ElseIf valu_rank_q2.Value = 3 And valu_completed_level_2.Value = 1 Then
+            Icon_rank_q2.Image = My.Resources.TKCD_icon_rank_platinium
+        End If
+    End Sub
+
+    Private Sub valu_rank_q3_ValueChanged(sender As Object, e As EventArgs) Handles valu_rank_q3.ValueChanged
+        If valu_rank_q3.Value = 0 And valu_completed_level_3.Value = 0 Then
+            Icon_rank_q3.Image = My.Resources.TKCD_icon_rank_na
+        ElseIf valu_rank_q3.Value = 0 And valu_completed_level_3.Value = 1 Then
+            Icon_rank_q3.Image = My.Resources.TKCD_icon_rank_bronze
+        ElseIf valu_rank_q3.Value = 1 And valu_completed_level_3.Value = 1 Then
+            Icon_rank_q3.Image = My.Resources.TKCD_icon_rank_silver
+        ElseIf valu_rank_q3.Value = 2 And valu_completed_level_3.Value = 1 Then
+            Icon_rank_q3.Image = My.Resources.TKCD_icon_rank_gold
+        ElseIf valu_rank_q3.Value = 3 And valu_completed_level_3.Value = 1 Then
+            Icon_rank_q3.Image = My.Resources.TKCD_icon_rank_platinium
+        End If
+    End Sub
+
+    Private Sub valu_rank_q4_ValueChanged(sender As Object, e As EventArgs) Handles valu_rank_q4.ValueChanged
+        If valu_rank_q4.Value = 0 And valu_completed_level_4.Value = 0 Then
+            Icon_rank_q4.Image = My.Resources.TKCD_icon_rank_na
+        ElseIf valu_rank_q4.Value = 0 And valu_completed_level_4.Value = 1 Then
+            Icon_rank_q4.Image = My.Resources.TKCD_icon_rank_bronze
+        ElseIf valu_rank_q4.Value = 1 And valu_completed_level_4.Value = 1 Then
+            Icon_rank_q4.Image = My.Resources.TKCD_icon_rank_silver
+        ElseIf valu_rank_q4.Value = 2 And valu_completed_level_4.Value = 1 Then
+            Icon_rank_q4.Image = My.Resources.TKCD_icon_rank_gold
+        ElseIf valu_rank_q4.Value = 3 And valu_completed_level_4.Value = 1 Then
+            Icon_rank_q4.Image = My.Resources.TKCD_icon_rank_platinium
+        End If
+    End Sub
+
+    Private Sub valu_rank_q5_ValueChanged(sender As Object, e As EventArgs) Handles valu_rank_q5.ValueChanged
+        If valu_rank_q5.Value = 0 And valu_completed_level_5.Value = 0 Then
+            Icon_rank_q5.Image = My.Resources.TKCD_icon_rank_na
+        ElseIf valu_rank_q5.Value = 0 And valu_completed_level_5.Value = 1 Then
+            Icon_rank_q5.Image = My.Resources.TKCD_icon_rank_bronze
+        ElseIf valu_rank_q5.Value = 1 And valu_completed_level_5.Value = 1 Then
+            Icon_rank_q5.Image = My.Resources.TKCD_icon_rank_silver
+        ElseIf valu_rank_q5.Value = 2 And valu_completed_level_5.Value = 1 Then
+            Icon_rank_q5.Image = My.Resources.TKCD_icon_rank_gold
+        ElseIf valu_rank_q5.Value = 3 And valu_completed_level_5.Value = 1 Then
+            Icon_rank_q5.Image = My.Resources.TKCD_icon_rank_platinium
+        End If
+    End Sub
+
+    Private Sub valu_rank_q6_ValueChanged(sender As Object, e As EventArgs) Handles valu_rank_q6.ValueChanged
+        If valu_rank_q6.Value = 0 And valu_completed_level_6.Value = 0 Then
+            Icon_rank_q6.Image = My.Resources.TKCD_icon_rank_na
+        ElseIf valu_rank_q6.Value = 0 And valu_completed_level_6.Value = 1 Then
+            Icon_rank_q6.Image = My.Resources.TKCD_icon_rank_bronze
+        ElseIf valu_rank_q6.Value = 1 And valu_completed_level_6.Value = 1 Then
+            Icon_rank_q6.Image = My.Resources.TKCD_icon_rank_silver
+        ElseIf valu_rank_q6.Value = 2 And valu_completed_level_6.Value = 1 Then
+            Icon_rank_q6.Image = My.Resources.TKCD_icon_rank_gold
+        ElseIf valu_rank_q6.Value = 3 And valu_completed_level_6.Value = 1 Then
+            Icon_rank_q6.Image = My.Resources.TKCD_icon_rank_platinium
+        End If
+    End Sub
+
+    Private Sub valu_rank_q7_ValueChanged(sender As Object, e As EventArgs) Handles valu_rank_q7.ValueChanged
+        If valu_rank_q7.Value = 0 And valu_completed_level_7.Value = 0 Then
+            Icon_rank_q7.Image = My.Resources.TKCD_icon_rank_na
+        ElseIf valu_rank_q7.Value = 0 And valu_completed_level_7.Value = 1 Then
+            Icon_rank_q7.Image = My.Resources.TKCD_icon_rank_bronze
+        ElseIf valu_rank_q7.Value = 1 And valu_completed_level_7.Value = 1 Then
+            Icon_rank_q7.Image = My.Resources.TKCD_icon_rank_silver
+        ElseIf valu_rank_q7.Value = 2 And valu_completed_level_7.Value = 1 Then
+            Icon_rank_q7.Image = My.Resources.TKCD_icon_rank_gold
+        ElseIf valu_rank_q7.Value = 3 And valu_completed_level_7.Value = 1 Then
+            Icon_rank_q7.Image = My.Resources.TKCD_icon_rank_platinium
+        End If
+    End Sub
+
+    Private Sub valu_rank_q8_ValueChanged(sender As Object, e As EventArgs) Handles valu_rank_q8.ValueChanged
+        If valu_rank_q8.Value = 0 And valu_completed_level_8.Value = 0 Then
+            Icon_rank_q8.Image = My.Resources.TKCD_icon_rank_na
+        ElseIf valu_rank_q8.Value = 0 And valu_completed_level_8.Value = 1 Then
+            Icon_rank_q8.Image = My.Resources.TKCD_icon_rank_bronze
+        ElseIf valu_rank_q8.Value = 1 And valu_completed_level_8.Value = 1 Then
+            Icon_rank_q8.Image = My.Resources.TKCD_icon_rank_silver
+        ElseIf valu_rank_q8.Value = 2 And valu_completed_level_8.Value = 1 Then
+            Icon_rank_q8.Image = My.Resources.TKCD_icon_rank_gold
+        ElseIf valu_rank_q8.Value = 3 And valu_completed_level_8.Value = 1 Then
+            Icon_rank_q8.Image = My.Resources.TKCD_icon_rank_platinium
+        End If
+    End Sub
+
+    Private Sub Check_completed_level_1_CheckedChanged(sender As Object, e As EventArgs) Handles Check_completed_level_1.CheckedChanged
+        If Check_completed_level_1.Checked = True Then
+            valu_completed_level_1.Value = 1
+        ElseIf Check_completed_level_1.Checked = False Then
+            valu_completed_level_1.Value = 0
+        End If
+    End Sub
+
+    Private Sub valu_completed_level_1_ValueChanged(sender As Object, e As EventArgs) Handles valu_completed_level_1.ValueChanged
+        If valu_completed_level_1.Value = 0 Then
+            Check_completed_level_1.Checked = False
+        ElseIf valu_completed_level_1.Value = 1 Then
+            Check_completed_level_1.Checked = True
+        End If
+    End Sub
+
+    Private Sub Check_completed_level_2_CheckedChanged(sender As Object, e As EventArgs) Handles Check_completed_level_2.CheckedChanged
+        If Check_completed_level_2.Checked = True Then
+            valu_completed_level_2.Value = 1
+        ElseIf Check_completed_level_2.Checked = False Then
+            valu_completed_level_2.Value = 0
+        End If
+    End Sub
+
+    Private Sub valu_completed_level_2_ValueChanged(sender As Object, e As EventArgs) Handles valu_completed_level_2.ValueChanged
+        If valu_completed_level_2.Value = 0 Then
+            Check_completed_level_2.Checked = False
+        ElseIf valu_completed_level_2.Value = 1 Then
+            Check_completed_level_2.Checked = True
+        End If
+    End Sub
+
+    Private Sub Check_completed_level_3_CheckedChanged(sender As Object, e As EventArgs) Handles Check_completed_level_3.CheckedChanged
+        If Check_completed_level_3.Checked = True Then
+            valu_completed_level_3.Value = 1
+        ElseIf Check_completed_level_3.Checked = False Then
+            valu_completed_level_3.Value = 0
+        End If
+    End Sub
+
+    Private Sub valu_completed_level_3_ValueChanged(sender As Object, e As EventArgs) Handles valu_completed_level_3.ValueChanged
+        If valu_completed_level_3.Value = 0 Then
+            Check_completed_level_3.Checked = False
+        ElseIf valu_completed_level_3.Value = 1 Then
+            Check_completed_level_3.Checked = True
+        End If
+    End Sub
+
+    Private Sub Check_completed_level_4_CheckedChanged(sender As Object, e As EventArgs) Handles Check_completed_level_4.CheckedChanged
+        If Check_completed_level_4.Checked = True Then
+            valu_completed_level_4.Value = 1
+        ElseIf Check_completed_level_4.Checked = False Then
+            valu_completed_level_4.Value = 0
+        End If
+    End Sub
+
+    Private Sub valu_completed_level_4_ValueChanged(sender As Object, e As EventArgs) Handles valu_completed_level_4.ValueChanged
+        If valu_completed_level_4.Value = 0 Then
+            Check_completed_level_4.Checked = False
+        ElseIf valu_completed_level_4.Value = 1 Then
+            Check_completed_level_4.Checked = True
+        End If
+    End Sub
+
+    Private Sub Check_completed_level_5_CheckedChanged(sender As Object, e As EventArgs) Handles Check_completed_level_5.CheckedChanged
+        If Check_completed_level_5.Checked = True Then
+            valu_completed_level_5.Value = 1
+        ElseIf Check_completed_level_5.Checked = False Then
+            valu_completed_level_5.Value = 0
+        End If
+    End Sub
+
+    Private Sub valu_completed_level_5_ValueChanged(sender As Object, e As EventArgs) Handles valu_completed_level_5.ValueChanged
+        If valu_completed_level_5.Value = 0 Then
+            Check_completed_level_5.Checked = False
+        ElseIf valu_completed_level_5.Value = 1 Then
+            Check_completed_level_5.Checked = True
+        End If
+    End Sub
+
+    Private Sub Check_completed_level_6_CheckedChanged(sender As Object, e As EventArgs) Handles Check_completed_level_6.CheckedChanged
+        If Check_completed_level_6.Checked = True Then
+            valu_completed_level_6.Value = 1
+        ElseIf Check_completed_level_6.Checked = False Then
+            valu_completed_level_6.Value = 0
+        End If
+    End Sub
+
+    Private Sub valu_completed_level_6_ValueChanged(sender As Object, e As EventArgs) Handles valu_completed_level_6.ValueChanged
+        If valu_completed_level_6.Value = 0 Then
+            Check_completed_level_6.Checked = False
+        ElseIf valu_completed_level_6.Value = 1 Then
+            Check_completed_level_6.Checked = True
+        End If
+    End Sub
+
+    Private Sub Check_completed_level_7_CheckedChanged(sender As Object, e As EventArgs) Handles Check_completed_level_7.CheckedChanged
+        If Check_completed_level_7.Checked = True Then
+            valu_completed_level_7.Value = 1
+        ElseIf Check_completed_level_7.Checked = False Then
+            valu_completed_level_7.Value = 0
+        End If
+    End Sub
+
+    Private Sub valu_completed_level_7_ValueChanged(sender As Object, e As EventArgs) Handles valu_completed_level_7.ValueChanged
+        If valu_completed_level_7.Value = 0 Then
+            Check_completed_level_7.Checked = False
+        ElseIf valu_completed_level_7.Value = 1 Then
+            Check_completed_level_7.Checked = True
+        End If
+    End Sub
+
+    Private Sub Check_completed_level_8_CheckedChanged(sender As Object, e As EventArgs) Handles Check_completed_level_8.CheckedChanged
+        If Check_completed_level_8.Checked = True Then
+            valu_completed_level_8.Value = 1
+        ElseIf Check_completed_level_8.Checked = False Then
+            valu_completed_level_8.Value = 0
+        End If
+    End Sub
+
+    Private Sub valu_completed_level_8_ValueChanged(sender As Object, e As EventArgs) Handles valu_completed_level_8.ValueChanged
+        If valu_completed_level_8.Value = 0 Then
+            Check_completed_level_8.Checked = False
+        ElseIf valu_completed_level_8.Value = 1 Then
+            Check_completed_level_8.Checked = True
+        End If
+    End Sub
+
+    Private Sub Icon_rank_q1_Click(sender As Object, e As EventArgs) Handles Icon_rank_q1.Click
+        If valu_rank_q1.Value >= 3 Then
+            valu_rank_q1.Value = 0
+        Else
+            valu_rank_q1.Value = valu_rank_q1.Value + 1
+        End If
+    End Sub
+
+    Private Sub Icon_rank_q2_Click(sender As Object, e As EventArgs) Handles Icon_rank_q2.Click
+        If valu_rank_q2.Value >= 3 Then
+            valu_rank_q2.Value = 0
+        Else
+            valu_rank_q2.Value = valu_rank_q2.Value + 1
+        End If
+    End Sub
+
+    Private Sub Icon_rank_q3_Click(sender As Object, e As EventArgs) Handles Icon_rank_q3.Click
+        If valu_rank_q3.Value >= 3 Then
+            valu_rank_q3.Value = 0
+        Else
+            valu_rank_q3.Value = valu_rank_q3.Value + 1
+        End If
+    End Sub
+
+    Private Sub Icon_rank_q4_Click(sender As Object, e As EventArgs) Handles Icon_rank_q4.Click
+        If valu_rank_q4.Value >= 3 Then
+            valu_rank_q4.Value = 0
+        Else
+            valu_rank_q4.Value = valu_rank_q4.Value + 1
+        End If
+    End Sub
+
+    Private Sub Icon_rank_q5_Click(sender As Object, e As EventArgs) Handles Icon_rank_q5.Click
+        If valu_rank_q5.Value >= 3 Then
+            valu_rank_q5.Value = 0
+        Else
+            valu_rank_q5.Value = valu_rank_q5.Value + 1
+        End If
+    End Sub
+
+    Private Sub Icon_rank_q6_Click(sender As Object, e As EventArgs) Handles Icon_rank_q6.Click
+        If valu_rank_q6.Value >= 3 Then
+            valu_rank_q6.Value = 0
+        Else
+            valu_rank_q6.Value = valu_rank_q6.Value + 1
+        End If
+    End Sub
+
+    Private Sub Icon_rank_q7_Click(sender As Object, e As EventArgs) Handles Icon_rank_q7.Click
+        If valu_rank_q7.Value >= 3 Then
+            valu_rank_q7.Value = 0
+        Else
+            valu_rank_q7.Value = valu_rank_q7.Value + 1
+        End If
+    End Sub
+
+    Private Sub Icon_rank_q8_Click(sender As Object, e As EventArgs) Handles Icon_rank_q8.Click
+        If valu_rank_q8.Value >= 3 Then
+            valu_rank_q8.Value = 0
+        Else
+            valu_rank_q8.Value = valu_rank_q8.Value + 1
+        End If
     End Sub
 End Class
