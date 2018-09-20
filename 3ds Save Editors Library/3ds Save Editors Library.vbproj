@@ -82,6 +82,12 @@
     <Compile Include="3dsCamera_3dsSound.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AR Games.Designer.vb">
+      <DependentUpon>AR Games.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AR Games.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="fdialog.Designer.vb">
       <DependentUpon>fdialog.vb</DependentUpon>
     </Compile>
@@ -120,6 +126,9 @@
   <ItemGroup>
     <EmbeddedResource Include="3dsCamera_3dsSound.resx">
       <DependentUpon>3dsCamera_3dsSound.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AR Games.resx">
+      <DependentUpon>AR Games.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fdialog.resx">
       <DependentUpon>fdialog.vb</DependentUpon>
@@ -229,6 +238,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\icon_3DSARG.png" />
+    <None Include="Resources\3DSARG_fdialog.png" />
+    <None Include="Resources\icon.png" />
     <None Include="Resources\icon_battlegroundz.png" />
     <None Include="Resources\TKCD_icon_rank_silver.png" />
     <None Include="Resources\TKCD_icon_rank_platinium.png" />

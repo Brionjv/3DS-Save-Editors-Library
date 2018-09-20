@@ -24,6 +24,8 @@ Partial Class N3DSSE_library
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(N3DSSE_library))
         Me.N3DSSEL_header = New System.Windows.Forms.Panel()
+        Me.N3DSSEL_title = New System.Windows.Forms.PictureBox()
+        Me.Closebutton = New System.Windows.Forms.PictureBox()
         Me.Panel_description = New System.Windows.Forms.Panel()
         Me.Text_description = New System.Windows.Forms.Label()
         Me.Icon_3DSSEL = New System.Windows.Forms.PictureBox()
@@ -43,13 +45,13 @@ Partial Class N3DSSE_library
         Me.Menu_icon_settings = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Icon_SMPBZSE = New System.Windows.Forms.PictureBox()
-        Me.Info_3DSSEL = New System.Windows.Forms.Label()
+        Me.Icon_ARGSE = New System.Windows.Forms.PictureBox()
         Me.Icon_3DSS3DSCSE = New System.Windows.Forms.PictureBox()
         Me.Icon_TKCDSE = New System.Windows.Forms.PictureBox()
         Me.N3DSSEL_logo = New System.Windows.Forms.PictureBox()
-        Me.N3DSSEL_title = New System.Windows.Forms.PictureBox()
-        Me.Closebutton = New System.Windows.Forms.PictureBox()
         Me.N3DSSEL_header.SuspendLayout()
+        CType(Me.N3DSSEL_title, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_description.SuspendLayout()
         CType(Me.Icon_3DSSEL, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_TLSE, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -67,11 +69,10 @@ Partial Class N3DSSE_library
         CType(Me.Menu_icon_settings, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.Icon_SMPBZSE, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_ARGSE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_3DSS3DSCSE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_TKCDSE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.N3DSSEL_logo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.N3DSSEL_title, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'N3DSSEL_header
@@ -86,13 +87,35 @@ Partial Class N3DSSE_library
         Me.N3DSSEL_header.Size = New System.Drawing.Size(563, 30)
         Me.N3DSSEL_header.TabIndex = 26
         '
+        'N3DSSEL_title
+        '
+        Me.N3DSSEL_title.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.title_3DSSEL
+        Me.N3DSSEL_title.Location = New System.Drawing.Point(48, 3)
+        Me.N3DSSEL_title.Name = "N3DSSEL_title"
+        Me.N3DSSEL_title.Size = New System.Drawing.Size(427, 24)
+        Me.N3DSSEL_title.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.N3DSSEL_title.TabIndex = 3
+        Me.N3DSSEL_title.TabStop = False
+        '
+        'Closebutton
+        '
+        Me.Closebutton.BackColor = System.Drawing.Color.Transparent
+        Me.Closebutton.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.Closebutton.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.close
+        Me.Closebutton.Location = New System.Drawing.Point(518, 0)
+        Me.Closebutton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Closebutton.Name = "Closebutton"
+        Me.Closebutton.Size = New System.Drawing.Size(45, 30)
+        Me.Closebutton.TabIndex = 2
+        Me.Closebutton.TabStop = False
+        '
         'Panel_description
         '
         Me.Panel_description.BackgroundImage = CType(resources.GetObject("Panel_description.BackgroundImage"), System.Drawing.Image)
         Me.Panel_description.Controls.Add(Me.Text_description)
-        Me.Panel_description.Location = New System.Drawing.Point(0, 423)
+        Me.Panel_description.Location = New System.Drawing.Point(0, 414)
         Me.Panel_description.Name = "Panel_description"
-        Me.Panel_description.Size = New System.Drawing.Size(649, 25)
+        Me.Panel_description.Size = New System.Drawing.Size(649, 34)
         Me.Panel_description.TabIndex = 44
         Me.Panel_description.Visible = False
         '
@@ -104,7 +127,7 @@ Partial Class N3DSSE_library
         Me.Text_description.ForeColor = System.Drawing.Color.White
         Me.Text_description.Location = New System.Drawing.Point(0, 0)
         Me.Text_description.Name = "Text_description"
-        Me.Text_description.Size = New System.Drawing.Size(649, 25)
+        Me.Text_description.Size = New System.Drawing.Size(649, 34)
         Me.Text_description.TabIndex = 33
         Me.Text_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -299,7 +322,7 @@ Partial Class N3DSSE_library
         '
         Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
         Me.Panel1.Controls.Add(Me.Icon_SMPBZSE)
-        Me.Panel1.Controls.Add(Me.Info_3DSSEL)
+        Me.Panel1.Controls.Add(Me.Icon_ARGSE)
         Me.Panel1.Controls.Add(Me.Icon_3DSS3DSCSE)
         Me.Panel1.Controls.Add(Me.Icon_TKCDSE)
         Me.Panel1.Location = New System.Drawing.Point(0, 82)
@@ -311,24 +334,21 @@ Partial Class N3DSSE_library
         '
         Me.Icon_SMPBZSE.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_SMPBZSE.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_battlegroundz
-        Me.Icon_SMPBZSE.Location = New System.Drawing.Point(111, 3)
+        Me.Icon_SMPBZSE.Location = New System.Drawing.Point(165, 3)
         Me.Icon_SMPBZSE.Name = "Icon_SMPBZSE"
         Me.Icon_SMPBZSE.Size = New System.Drawing.Size(48, 48)
-        Me.Icon_SMPBZSE.TabIndex = 164
+        Me.Icon_SMPBZSE.TabIndex = 165
         Me.Icon_SMPBZSE.TabStop = False
         '
-        'Info_3DSSEL
+        'Icon_ARGSE
         '
-        Me.Info_3DSSEL.AutoSize = True
-        Me.Info_3DSSEL.BackColor = System.Drawing.Color.Transparent
-        Me.Info_3DSSEL.Cursor = System.Windows.Forms.Cursors.Help
-        Me.Info_3DSSEL.Font = New System.Drawing.Font("Harlow Solid Italic", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Info_3DSSEL.ForeColor = System.Drawing.Color.Blue
-        Me.Info_3DSSEL.Location = New System.Drawing.Point(631, 342)
-        Me.Info_3DSSEL.Name = "Info_3DSSEL"
-        Me.Info_3DSSEL.Size = New System.Drawing.Size(14, 20)
-        Me.Info_3DSSEL.TabIndex = 163
-        Me.Info_3DSSEL.Text = "i"
+        Me.Icon_ARGSE.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_ARGSE.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon
+        Me.Icon_ARGSE.Location = New System.Drawing.Point(111, 3)
+        Me.Icon_ARGSE.Name = "Icon_ARGSE"
+        Me.Icon_ARGSE.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_ARGSE.TabIndex = 164
+        Me.Icon_ARGSE.TabStop = False
         '
         'Icon_3DSS3DSCSE
         '
@@ -354,7 +374,7 @@ Partial Class N3DSSE_library
         '
         Me.N3DSSEL_logo.BackColor = System.Drawing.Color.White
         Me.N3DSSEL_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.N3DSSEL_logo.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.N3DSSEL_logo.Cursor = System.Windows.Forms.Cursors.Default
         Me.N3DSSEL_logo.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources._3DSSEL_logo_2
         Me.N3DSSEL_logo.Location = New System.Drawing.Point(0, 0)
         Me.N3DSSEL_logo.Name = "N3DSSEL_logo"
@@ -362,28 +382,6 @@ Partial Class N3DSSE_library
         Me.N3DSSEL_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.N3DSSEL_logo.TabIndex = 27
         Me.N3DSSEL_logo.TabStop = False
-        '
-        'N3DSSEL_title
-        '
-        Me.N3DSSEL_title.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.title_3DSSEL
-        Me.N3DSSEL_title.Location = New System.Drawing.Point(48, 3)
-        Me.N3DSSEL_title.Name = "N3DSSEL_title"
-        Me.N3DSSEL_title.Size = New System.Drawing.Size(427, 24)
-        Me.N3DSSEL_title.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.N3DSSEL_title.TabIndex = 3
-        Me.N3DSSEL_title.TabStop = False
-        '
-        'Closebutton
-        '
-        Me.Closebutton.BackColor = System.Drawing.Color.Transparent
-        Me.Closebutton.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.Closebutton.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.close
-        Me.Closebutton.Location = New System.Drawing.Point(518, 0)
-        Me.Closebutton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.Closebutton.Name = "Closebutton"
-        Me.Closebutton.Size = New System.Drawing.Size(45, 30)
-        Me.Closebutton.TabIndex = 2
-        Me.Closebutton.TabStop = False
         '
         'N3DSSE_library
         '
@@ -402,17 +400,19 @@ Partial Class N3DSSE_library
         Me.Controls.Add(Me.Icon_MPITSE)
         Me.Controls.Add(Me.Panel_update)
         Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.N3DSSEL_logo_update)
         Me.Controls.Add(Me.Menu_icon_settings)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.N3DSSEL_logo)
         Me.Controls.Add(Me.N3DSSEL_header)
+        Me.Controls.Add(Me.N3DSSEL_logo_update)
+        Me.Controls.Add(Me.N3DSSEL_logo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "N3DSSE_library"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.N3DSSEL_header.ResumeLayout(False)
+        CType(Me.N3DSSEL_title, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_description.ResumeLayout(False)
         CType(Me.Icon_3DSSEL, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_TLSE, System.ComponentModel.ISupportInitialize).EndInit()
@@ -429,13 +429,11 @@ Partial Class N3DSSE_library
         CType(Me.N3DSSEL_logo_update, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Menu_icon_settings, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         CType(Me.Icon_SMPBZSE, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_ARGSE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_3DSS3DSCSE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_TKCDSE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.N3DSSEL_logo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.N3DSSEL_title, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -449,7 +447,6 @@ Partial Class N3DSSE_library
     Friend WithEvents N3DSSEL_title As System.Windows.Forms.PictureBox
     Friend WithEvents N3DSSEL_logo_update As System.Windows.Forms.PictureBox
     Friend WithEvents Menu_update As System.Windows.Forms.PictureBox
-    Friend WithEvents Info_3DSSEL As System.Windows.Forms.Label
     Friend WithEvents Text_N3DSSEL_version As System.Windows.Forms.Label
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents Panel_update As System.Windows.Forms.Panel
@@ -464,6 +461,7 @@ Partial Class N3DSSE_library
     Friend WithEvents Icon_ChibiRoboZLSE As System.Windows.Forms.PictureBox
     Friend WithEvents Panel_description As System.Windows.Forms.Panel
     Friend WithEvents Text_description As System.Windows.Forms.Label
+    Friend WithEvents Icon_ARGSE As System.Windows.Forms.PictureBox
     Friend WithEvents Icon_SMPBZSE As System.Windows.Forms.PictureBox
 
 End Class

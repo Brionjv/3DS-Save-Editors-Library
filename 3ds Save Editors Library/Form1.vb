@@ -50,9 +50,31 @@ Public Class N3DSSE_library
         TeamKirbyClashDeluxe.ShowDialog()
     End Sub
 
+    Private Sub Icon_TKCDSE_MouseLeave(sender As Object, e As EventArgs) Handles Icon_TKCDSE.MouseLeave
+        Icon_TKCDSE.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_TKCDSE_MouseMove(sender As Object, e As EventArgs) Handles Icon_TKCDSE.MouseMove
+        Icon_TKCDSE.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "Click to access to Team Kirby Clash Deluxe Save Editor" & vbNewLine & "Confirme to work with EU|US version"
+        Panel_description.Visible = True
+    End Sub
+
     Private Sub Icon_3DSS3DSCSE_Click(sender As Object, e As EventArgs) Handles Icon_3DSS3DSCSE.Click
         Me.Hide()
         _3dsCamera_3dsSound.ShowDialog()
+    End Sub
+
+    Private Sub Icon_3DSS3DSCSE_MouseLeave(sender As Object, e As EventArgs) Handles Icon_3DSS3DSCSE.MouseLeave
+        Icon_3DSS3DSCSE.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_3DSS3DSCSE_MouseMove(sender As Object, e As EventArgs) Handles Icon_3DSS3DSCSE.MouseMove
+        Icon_3DSS3DSCSE.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "Click to access to 3DS Sound and 3DS Camera Save Editor" & vbNewLine & "Confirme to work with EU version"
+        Panel_description.Visible = True
     End Sub
 
     Private Sub N3DSSE_library_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
@@ -71,7 +93,7 @@ Public Class N3DSSE_library
         End Try
     End Sub
 
-    Private Sub Info_3DSSEL_Click(sender As Object, e As EventArgs) Handles Info_3DSSEL.Click
+    Private Sub Info_3DSSEL_Click(sender As Object, e As EventArgs)
         fdialog.Description.Text = "Team Kirby Clash Deluxe Save Editor : Confirme to work with EU|US version" & vbNewLine & "3DS Sound and 3DS Camera Save Editor : Confirme to work with EU version"
         fdialog.ShowDialog()
     End Sub
@@ -248,43 +270,34 @@ Public Class N3DSSE_library
         Panel_description.Visible = True
     End Sub
 
-    Private Sub Closebutton_MouseMove(sender As Object, e As MouseEventArgs) Handles Closebutton.MouseMove
+    Private Sub Icon_ARGSE_Click(sender As Object, e As EventArgs) Handles Icon_ARGSE.Click
+        Me.Hide()
+        AR_Games.ShowDialog()
+    End Sub
+
+    Private Sub Icon_ARGSE_MouseLeave(sender As Object, e As EventArgs) Handles Icon_ARGSE.MouseLeave
+        Icon_ARGSE.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_ARGSE_MouseMove(sender As Object, e As EventArgs) Handles Icon_ARGSE.MouseMove
+        Icon_ARGSE.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "Click to access to 3DS AR Games Save Editor" & vbNewLine & "Confirme to work with EU version"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Icon_SMPBZSE_Click(sender As Object, e As EventArgs) Handles Icon_SMPBZSE.Click
 
     End Sub
 
-    Private Sub Menu_update_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_update.MouseMove
-
+    Private Sub Icon_SMPBZSE_MouseLeave(sender As Object, e As EventArgs) Handles Icon_SMPBZSE.MouseLeave
+        Icon_SMPBZSE.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
     End Sub
 
-    Private Sub Icon_MPITSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_MPITSE.MouseMove
-
-    End Sub
-
-    Private Sub Icon_NintendogscatSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_3DSNCSE.MouseMove
-
-    End Sub
-
-    Private Sub Icon_IronfallISE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_IronfallISE.MouseMove
-
-    End Sub
-
-    Private Sub Icon_PaparMarioSSSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_PMSSSE.MouseMove
-
-    End Sub
-
-    Private Sub Icon_ChibiRoboZLSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_ChibiRoboZLSE.MouseMove
-
-    End Sub
-
-    Private Sub Icon_MiitopiaSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_MiitopiaSE.MouseMove
-
-    End Sub
-
-    Private Sub Icon_TLSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_TLSE.MouseMove
-
-    End Sub
-
-    Private Sub Icon_3DSSEL_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_3DSSEL.MouseMove
-
+    Private Sub Icon_SMPBZSE_MouseMove(sender As Object, e As EventArgs) Handles Icon_SMPBZSE.MouseMove
+        Icon_SMPBZSE.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "Work in progress"
+        Panel_description.Visible = True
     End Sub
 End Class
