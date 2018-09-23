@@ -1,6 +1,7 @@
 ﻿Imports PackageIO
 Public Class AR_Games
     Dim _menu As String
+    Dim applicationpath = Application.StartupPath
     Private IsFormBeingDragged As Boolean = False
     Private MousedwnX As Integer
     Private MousedwnY As Integer
@@ -54,6 +55,12 @@ Public Class AR_Games
         open.Title = "Open menu file"
         open.ShowDialog()
         _menu = open.FileName
+        Try
+            My.Computer.FileSystem.CopyFile(
+                          _menu,
+                        applicationpath & "\backup\AR Games Augmented Reality\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\menu")
+        Catch ex As Exception
+        End Try
         Try
             Dim Writer As New PackageIO.Writer(_menu, PackageIO.Endian.Little)
             Writer.Position = &H0

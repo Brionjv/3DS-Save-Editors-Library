@@ -131,6 +131,14 @@
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.icon_return">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.icon_setall">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.icon_settings">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -140,6 +148,18 @@
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.icon_update_act">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_rarezombies">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_weapons">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_zombies">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -156,6 +176,114 @@
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.N3DSSEL_fdialog">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.panel_mainfea">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_10">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_11">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_12">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_13">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_14">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_15">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_16">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_17">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_18">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_19">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_2">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_20">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_21">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_22">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_23">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_24">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_25">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_26">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_3">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_4">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_5">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_6">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_7">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_8">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_9">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -256,6 +384,110 @@
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.TKCD_vigor">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_01">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_02">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_03">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_04">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_05">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_06">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_07">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_08">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_09">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_10">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_11">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_12">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_13">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_14">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_15">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_16">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_17">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_18">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_19">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_20">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_21">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_22">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_23">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_24">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_25">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.weapon_26">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

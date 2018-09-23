@@ -27,6 +27,11 @@ Public Class TeamKirbyClashDeluxe
     Dim Area_4 = &HD87
     Dim Area_5 = &HD88
     Dim Area_6 = &HD89
+    Dim Playtime = &H1B74
+    Dim Completmission = &H1B90
+    Dim Multibattles = &H1B94
+    Dim Multiencounters = &H1B64
+    Dim Profmessage = &H1BB4
     Dim HighScores As String
     Dim Rank As String
     Dim Time As String
@@ -151,6 +156,16 @@ Public Class TeamKirbyClashDeluxe
             valu_area_5.Value = Reader.ReadByte
             Reader.Position = Area_6
             valu_area_6.Value = Reader.ReadByte
+            Reader.Position = Completmission
+            valu_competmissions.Value = Reader.ReadUInt32
+            Reader.Position = Playtime
+            valu_playtime.Value = Reader.ReadUInt32
+            Reader.Position = Multibattles
+            valu_multibattles.Value = Reader.ReadUInt16
+            Reader.Position = Multiencounters
+            valu_multiencounters.Value = Reader.ReadUInt16
+            Reader.Position = Profmessage
+            Text_profmessage.Text = Reader.ReadUnicodeString(16)
         Catch ex As Exception
             fdialog.Description.Text = "Failed to read savedata.dat, make sure you have opened a save file or report this issue"
             fdialog.ShowDialog()
@@ -210,6 +225,16 @@ Public Class TeamKirbyClashDeluxe
             Writer.WriteUInt16(valu_level_4.Value)
             Writer.Position = Level_5
             Writer.WriteUInt16(valu_level_5.Value)
+            Writer.Position = Completmission
+            Writer.WriteUInt32(valu_competmissions.Value)
+            Writer.Position = Playtime
+            Writer.WriteUInt32(valu_playtime.Value)
+            Writer.Position = Multibattles
+            Writer.WriteUInt16(valu_multibattles.Value)
+            Writer.Position = Multiencounters
+            Writer.WriteUInt16(valu_multiencounters.Value)
+            Writer.Position = Profmessage
+            Writer.WriteUnicodeString(Text_profmessage.Text)
             If Select_Area.SelectedItem = Select_Area.Items.Item(0) Or Select_Area.SelectedItem = Select_Area.Items.Item(1) Or Select_Area.SelectedItem = Select_Area.Items.Item(2) Or Select_Area.SelectedItem = Select_Area.Items.Item(3) Or Select_Area.SelectedItem = Select_Area.Items.Item(4) Then
                 Writer.Position = HighScores_6
                 Writer.WriteUInt32(valu_highscore6.Value)
@@ -946,6 +971,15 @@ Public Class TeamKirbyClashDeluxe
         End If
     End Sub
 
+    Private Sub Icon_area_MouseMove(sender As Object, e As EventArgs) Handles Icon_area_1.MouseMove, Icon_area_2.MouseMove, Icon_area_3.MouseMove, Icon_area_4.MouseMove, Icon_area_5.MouseMove, Icon_area_6.MouseMove
+        Text_description.Text = "Click to unlock an area"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Icon_area_MouseLeave(sender As Object, e As EventArgs) Handles Icon_area_1.MouseLeave, Icon_area_2.MouseLeave, Icon_area_3.MouseLeave, Icon_area_4.MouseLeave, Icon_area_5.MouseLeave, Icon_area_6.MouseLeave
+        Panel_description.Visible = False
+    End Sub
+
     Private Sub Icon_area_1_Click(sender As Object, e As EventArgs) Handles Icon_area_1.Click
         If valu_area_1.Value = 1 Then
             valu_area_1.Value = 5
@@ -1079,6 +1113,15 @@ Public Class TeamKirbyClashDeluxe
 
     Private Sub Text_vigor_Click(sender As Object, e As EventArgs) Handles Text_vigor.Click, Fea_vigor.Click
         valu_vigor.Value = 255
+    End Sub
+
+    Private Sub Fea_vigor_MouseMove(sender As Object, e As EventArgs) Handles Fea_vigor.MouseMove, Text_vigor.MouseMove
+        Text_description.Text = "Click to max vigor"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Fea_vigor_MouseLeave(sender As Object, e As EventArgs) Handles Fea_vigor.MouseLeave, Text_vigor.MouseLeave
+        Panel_description.Visible = False
     End Sub
 
     Private Sub Info_level_MouseMove(sender As Object, e As EventArgs) Handles Info_level.MouseMove

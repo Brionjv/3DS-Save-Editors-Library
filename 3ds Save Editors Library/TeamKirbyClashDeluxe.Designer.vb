@@ -26,7 +26,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.TKCD_header = New System.Windows.Forms.Panel()
         Me.TKCD_title = New System.Windows.Forms.Label()
         Me.Closebutton = New System.Windows.Forms.PictureBox()
-        Me.TLSE_logo_update = New System.Windows.Forms.PictureBox()
+        Me.TKCD_logo = New System.Windows.Forms.PictureBox()
         Me.valu_tree = New System.Windows.Forms.NumericUpDown()
         Me.Select_tree = New System.Windows.Forms.ComboBox()
         Me.Fea_tree = New System.Windows.Forms.PictureBox()
@@ -75,6 +75,19 @@ Partial Class TeamKirbyClashDeluxe
         Me.Menu_button = New System.Windows.Forms.Panel()
         Me.Text_menu_button = New System.Windows.Forms.Label()
         Me.Panel_itemsediting = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.valu_multibattles = New System.Windows.Forms.NumericUpDown()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.valu_multiencounters = New System.Windows.Forms.NumericUpDown()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.valu_playtime = New System.Windows.Forms.NumericUpDown()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Text_completmissions = New System.Windows.Forms.Label()
+        Me.valu_competmissions = New System.Windows.Forms.NumericUpDown()
+        Me.Text_profmessage = New System.Windows.Forms.TextBox()
         Me.valu_exporb = New System.Windows.Forms.NumericUpDown()
         Me.Icon_exporb = New System.Windows.Forms.PictureBox()
         Me.valu_attackpot = New System.Windows.Forms.NumericUpDown()
@@ -251,9 +264,11 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_area_3 = New System.Windows.Forms.PictureBox()
         Me.Icon_area_2 = New System.Windows.Forms.PictureBox()
         Me.Icon_area_1 = New System.Windows.Forms.PictureBox()
+        Me.Panel_description = New System.Windows.Forms.Panel()
+        Me.Text_description = New System.Windows.Forms.Label()
         Me.TKCD_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TLSE_logo_update, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TKCD_logo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_tree, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Fea_tree, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_frag_rare, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -289,6 +304,14 @@ Partial Class TeamKirbyClashDeluxe
         Me.File_path.SuspendLayout()
         Me.Menu_button.SuspendLayout()
         Me.Panel_itemsediting.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        CType(Me.valu_multibattles, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel3.SuspendLayout()
+        CType(Me.valu_multiencounters, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
+        CType(Me.valu_playtime, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.valu_competmissions, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_exporb, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_exporb, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_attackpot, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -382,6 +405,7 @@ Partial Class TeamKirbyClashDeluxe
         CType(Me.Icon_area_3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_area_2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_area_1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_description.SuspendLayout()
         Me.SuspendLayout()
         '
         'TKCD_header
@@ -417,18 +441,18 @@ Partial Class TeamKirbyClashDeluxe
         Me.Closebutton.TabIndex = 2
         Me.Closebutton.TabStop = False
         '
-        'TLSE_logo_update
+        'TKCD_logo
         '
-        Me.TLSE_logo_update.BackColor = System.Drawing.Color.Transparent
-        Me.TLSE_logo_update.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.TLSE_logo_update.Cursor = System.Windows.Forms.Cursors.Default
-        Me.TLSE_logo_update.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon
-        Me.TLSE_logo_update.Location = New System.Drawing.Point(0, 0)
-        Me.TLSE_logo_update.Name = "TLSE_logo_update"
-        Me.TLSE_logo_update.Size = New System.Drawing.Size(60, 60)
-        Me.TLSE_logo_update.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.TLSE_logo_update.TabIndex = 29
-        Me.TLSE_logo_update.TabStop = False
+        Me.TKCD_logo.BackColor = System.Drawing.Color.Transparent
+        Me.TKCD_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.TKCD_logo.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TKCD_logo.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_icon
+        Me.TKCD_logo.Location = New System.Drawing.Point(0, 0)
+        Me.TKCD_logo.Name = "TKCD_logo"
+        Me.TKCD_logo.Size = New System.Drawing.Size(60, 60)
+        Me.TKCD_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.TKCD_logo.TabIndex = 29
+        Me.TKCD_logo.TabStop = False
         '
         'valu_tree
         '
@@ -975,6 +999,11 @@ Partial Class TeamKirbyClashDeluxe
         'Panel_itemsediting
         '
         Me.Panel_itemsediting.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_panel
+        Me.Panel_itemsediting.Controls.Add(Me.Panel4)
+        Me.Panel_itemsediting.Controls.Add(Me.Panel3)
+        Me.Panel_itemsediting.Controls.Add(Me.Panel2)
+        Me.Panel_itemsediting.Controls.Add(Me.Panel1)
+        Me.Panel_itemsediting.Controls.Add(Me.Text_profmessage)
         Me.Panel_itemsediting.Controls.Add(Me.valu_exporb)
         Me.Panel_itemsediting.Controls.Add(Me.Icon_exporb)
         Me.Panel_itemsediting.Controls.Add(Me.valu_attackpot)
@@ -1012,10 +1041,140 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_itemsediting.Size = New System.Drawing.Size(600, 490)
         Me.Panel_itemsediting.TabIndex = 52
         '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.Transparent
+        Me.Panel4.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.panel_mainfea
+        Me.Panel4.Controls.Add(Me.Label3)
+        Me.Panel4.Controls.Add(Me.valu_multibattles)
+        Me.Panel4.Location = New System.Drawing.Point(349, 451)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(229, 18)
+        Me.Panel4.TabIndex = 68
+        '
+        'Label3
+        '
+        Me.Label3.Location = New System.Drawing.Point(2, 2)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(162, 14)
+        Me.Label3.TabIndex = 56
+        Me.Label3.Text = "Multiplayer battles : "
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_multibattles
+        '
+        Me.valu_multibattles.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_multibattles.Location = New System.Drawing.Point(166, 1)
+        Me.valu_multibattles.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_multibattles.Name = "valu_multibattles"
+        Me.valu_multibattles.Size = New System.Drawing.Size(62, 16)
+        Me.valu_multibattles.TabIndex = 55
+        Me.valu_multibattles.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.Transparent
+        Me.Panel3.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.panel_mainfea
+        Me.Panel3.Controls.Add(Me.Label2)
+        Me.Panel3.Controls.Add(Me.valu_multiencounters)
+        Me.Panel3.Location = New System.Drawing.Point(349, 425)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(229, 18)
+        Me.Panel3.TabIndex = 67
+        '
+        'Label2
+        '
+        Me.Label2.Location = New System.Drawing.Point(2, 2)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(162, 14)
+        Me.Label2.TabIndex = 56
+        Me.Label2.Text = "Encounters : "
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_multiencounters
+        '
+        Me.valu_multiencounters.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_multiencounters.Location = New System.Drawing.Point(166, 1)
+        Me.valu_multiencounters.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
+        Me.valu_multiencounters.Name = "valu_multiencounters"
+        Me.valu_multiencounters.Size = New System.Drawing.Size(62, 16)
+        Me.valu_multiencounters.TabIndex = 55
+        Me.valu_multiencounters.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Panel2.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.panel_mainfea
+        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Controls.Add(Me.valu_playtime)
+        Me.Panel2.Location = New System.Drawing.Point(349, 399)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(229, 18)
+        Me.Panel2.TabIndex = 66
+        '
+        'Label1
+        '
+        Me.Label1.Location = New System.Drawing.Point(2, 2)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(141, 14)
+        Me.Label1.TabIndex = 56
+        Me.Label1.Text = "Gameplay time : "
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_playtime
+        '
+        Me.valu_playtime.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playtime.Location = New System.Drawing.Point(149, 1)
+        Me.valu_playtime.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_playtime.Name = "valu_playtime"
+        Me.valu_playtime.Size = New System.Drawing.Size(79, 16)
+        Me.valu_playtime.TabIndex = 55
+        Me.valu_playtime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel1.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.panel_mainfea
+        Me.Panel1.Controls.Add(Me.Text_completmissions)
+        Me.Panel1.Controls.Add(Me.valu_competmissions)
+        Me.Panel1.Location = New System.Drawing.Point(349, 373)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(229, 18)
+        Me.Panel1.TabIndex = 65
+        '
+        'Text_completmissions
+        '
+        Me.Text_completmissions.Location = New System.Drawing.Point(2, 2)
+        Me.Text_completmissions.Name = "Text_completmissions"
+        Me.Text_completmissions.Size = New System.Drawing.Size(141, 14)
+        Me.Text_completmissions.TabIndex = 56
+        Me.Text_completmissions.Text = "Quests cleared : "
+        Me.Text_completmissions.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'valu_competmissions
+        '
+        Me.valu_competmissions.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_competmissions.Location = New System.Drawing.Point(149, 1)
+        Me.valu_competmissions.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_competmissions.Name = "valu_competmissions"
+        Me.valu_competmissions.Size = New System.Drawing.Size(79, 16)
+        Me.valu_competmissions.TabIndex = 55
+        Me.valu_competmissions.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Text_profmessage
+        '
+        Me.Text_profmessage.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Text_profmessage.Location = New System.Drawing.Point(38, 16)
+        Me.Text_profmessage.MaxLength = 16
+        Me.Text_profmessage.Name = "Text_profmessage"
+        Me.Text_profmessage.Size = New System.Drawing.Size(125, 13)
+        Me.Text_profmessage.TabIndex = 64
+        Me.Text_profmessage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'valu_exporb
         '
         Me.valu_exporb.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_exporb.Location = New System.Drawing.Point(386, 445)
+        Me.valu_exporb.Location = New System.Drawing.Point(255, 452)
         Me.valu_exporb.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_exporb.Name = "valu_exporb"
         Me.valu_exporb.Size = New System.Drawing.Size(74, 16)
@@ -1026,7 +1185,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Icon_exporb.BackColor = System.Drawing.Color.Transparent
         Me.Icon_exporb.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.EXP_Orb
-        Me.Icon_exporb.Location = New System.Drawing.Point(386, 387)
+        Me.Icon_exporb.Location = New System.Drawing.Point(255, 394)
         Me.Icon_exporb.Name = "Icon_exporb"
         Me.Icon_exporb.Size = New System.Drawing.Size(74, 74)
         Me.Icon_exporb.TabIndex = 62
@@ -1035,7 +1194,7 @@ Partial Class TeamKirbyClashDeluxe
         'valu_attackpot
         '
         Me.valu_attackpot.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_attackpot.Location = New System.Drawing.Point(263, 445)
+        Me.valu_attackpot.Location = New System.Drawing.Point(132, 452)
         Me.valu_attackpot.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_attackpot.Name = "valu_attackpot"
         Me.valu_attackpot.Size = New System.Drawing.Size(74, 16)
@@ -1046,7 +1205,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Icon_attackpot.BackColor = System.Drawing.Color.Transparent
         Me.Icon_attackpot.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Attack_Potion
-        Me.Icon_attackpot.Location = New System.Drawing.Point(263, 387)
+        Me.Icon_attackpot.Location = New System.Drawing.Point(132, 394)
         Me.Icon_attackpot.Name = "Icon_attackpot"
         Me.Icon_attackpot.Size = New System.Drawing.Size(74, 74)
         Me.Icon_attackpot.TabIndex = 60
@@ -1055,7 +1214,7 @@ Partial Class TeamKirbyClashDeluxe
         'valu_staminapot
         '
         Me.valu_staminapot.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_staminapot.Location = New System.Drawing.Point(140, 445)
+        Me.valu_staminapot.Location = New System.Drawing.Point(9, 452)
         Me.valu_staminapot.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_staminapot.Name = "valu_staminapot"
         Me.valu_staminapot.Size = New System.Drawing.Size(74, 16)
@@ -1066,7 +1225,7 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Icon_staminapot.BackColor = System.Drawing.Color.Transparent
         Me.Icon_staminapot.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Stamina_Potion
-        Me.Icon_staminapot.Location = New System.Drawing.Point(140, 387)
+        Me.Icon_staminapot.Location = New System.Drawing.Point(9, 394)
         Me.Icon_staminapot.Name = "Icon_staminapot"
         Me.Icon_staminapot.Size = New System.Drawing.Size(74, 74)
         Me.Icon_staminapot.TabIndex = 58
@@ -2942,19 +3101,44 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_area_1.TabIndex = 0
         Me.Icon_area_1.TabStop = False
         '
+        'Panel_description
+        '
+        Me.Panel_description.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_description.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel_description.Controls.Add(Me.Text_description)
+        Me.Panel_description.Location = New System.Drawing.Point(0, 516)
+        Me.Panel_description.Name = "Panel_description"
+        Me.Panel_description.Size = New System.Drawing.Size(600, 33)
+        Me.Panel_description.TabIndex = 47
+        Me.Panel_description.Visible = False
+        '
+        'Text_description
+        '
+        Me.Text_description.BackColor = System.Drawing.Color.Transparent
+        Me.Text_description.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_description.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_description.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Text_description.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Text_description.Location = New System.Drawing.Point(0, 0)
+        Me.Text_description.Name = "Text_description"
+        Me.Text_description.Size = New System.Drawing.Size(600, 33)
+        Me.Text_description.TabIndex = 0
+        Me.Text_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'TeamKirbyClashDeluxe
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(600, 550)
+        Me.Controls.Add(Me.Panel_description)
         Me.Controls.Add(Me.Menu_panel)
         Me.Controls.Add(Me.Panel_menu_open)
         Me.Controls.Add(Me.Panel_music)
         Me.Controls.Add(Me.Hidden_things)
         Me.Controls.Add(Me.File_path)
         Me.Controls.Add(Me.Menu_button)
-        Me.Controls.Add(Me.TLSE_logo_update)
+        Me.Controls.Add(Me.TKCD_logo)
         Me.Controls.Add(Me.TKCD_header)
         Me.Controls.Add(Me.Panel_itemsediting)
         Me.Controls.Add(Me.Panel_lvlareaediting)
@@ -2966,7 +3150,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Text = "TeamKirbyClashDeluxe"
         Me.TKCD_header.ResumeLayout(False)
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TLSE_logo_update, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TKCD_logo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_tree, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Fea_tree, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_frag_rare, System.ComponentModel.ISupportInitialize).EndInit()
@@ -3003,6 +3187,15 @@ Partial Class TeamKirbyClashDeluxe
         Me.File_path.PerformLayout()
         Me.Menu_button.ResumeLayout(False)
         Me.Panel_itemsediting.ResumeLayout(False)
+        Me.Panel_itemsediting.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        CType(Me.valu_multibattles, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel3.ResumeLayout(False)
+        CType(Me.valu_multiencounters, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        CType(Me.valu_playtime, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.valu_competmissions, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_exporb, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_exporb, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_attackpot, System.ComponentModel.ISupportInitialize).EndInit()
@@ -3114,10 +3307,11 @@ Partial Class TeamKirbyClashDeluxe
         CType(Me.Icon_area_3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_area_2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_area_1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_description.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents TLSE_logo_update As System.Windows.Forms.PictureBox
+    Friend WithEvents TKCD_logo As System.Windows.Forms.PictureBox
     Friend WithEvents TKCD_header As System.Windows.Forms.Panel
     Friend WithEvents Closebutton As System.Windows.Forms.PictureBox
     Friend WithEvents TKCD_title As System.Windows.Forms.Label
@@ -3345,4 +3539,19 @@ Partial Class TeamKirbyClashDeluxe
     Friend WithEvents valu_completed_level_2 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Check_completed_level_1 As System.Windows.Forms.CheckBox
     Friend WithEvents valu_completed_level_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Text_profmessage As System.Windows.Forms.TextBox
+    Friend WithEvents Panel4 As System.Windows.Forms.Panel
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents valu_multibattles As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel3 As System.Windows.Forms.Panel
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents valu_multiencounters As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents valu_playtime As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_completmissions As System.Windows.Forms.Label
+    Friend WithEvents valu_competmissions As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel_description As System.Windows.Forms.Panel
+    Friend WithEvents Text_description As System.Windows.Forms.Label
 End Class

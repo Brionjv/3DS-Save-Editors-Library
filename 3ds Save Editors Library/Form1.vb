@@ -287,7 +287,8 @@ Public Class N3DSSE_library
     End Sub
 
     Private Sub Icon_SMPBZSE_Click(sender As Object, e As EventArgs) Handles Icon_SMPBZSE.Click
-
+        Me.Hide()
+        BattlegroundZ.ShowDialog()
     End Sub
 
     Private Sub Icon_SMPBZSE_MouseLeave(sender As Object, e As EventArgs) Handles Icon_SMPBZSE.MouseLeave
@@ -297,7 +298,7 @@ Public Class N3DSSE_library
 
     Private Sub Icon_SMPBZSE_MouseMove(sender As Object, e As EventArgs) Handles Icon_SMPBZSE.MouseMove
         Icon_SMPBZSE.BorderStyle = BorderStyle.FixedSingle
-        Text_description.Text = "Work in progress"
+        Text_description.Text = "Click to access to StreetPass Mii Plaza - Battleground Z Save Editor" & vbNewLine & "Confirme to work with EU version"
         Panel_description.Visible = True
     End Sub
 End Class

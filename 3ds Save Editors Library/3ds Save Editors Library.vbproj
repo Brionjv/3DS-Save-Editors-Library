@@ -88,6 +88,12 @@
     <Compile Include="AR Games.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="BattlegroundZ.Designer.vb">
+      <DependentUpon>BattlegroundZ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BattlegroundZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="fdialog.Designer.vb">
       <DependentUpon>fdialog.vb</DependentUpon>
     </Compile>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AR Games.resx">
       <DependentUpon>AR Games.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BattlegroundZ.resx">
+      <DependentUpon>BattlegroundZ.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fdialog.resx">
       <DependentUpon>fdialog.vb</DependentUpon>
@@ -238,6 +247,64 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\panel_mainfea.png" />
+    <None Include="Resources\weapon_26.png" />
+    <None Include="Resources\weapon_25.png" />
+    <None Include="Resources\weapon_24.png" />
+    <None Include="Resources\weapon_23.png" />
+    <None Include="Resources\weapon_22.png" />
+    <None Include="Resources\weapon_21.png" />
+    <None Include="Resources\weapon_20.png" />
+    <None Include="Resources\weapon_19.png" />
+    <None Include="Resources\weapon_18.png" />
+    <None Include="Resources\weapon_17.png" />
+    <None Include="Resources\weapon_16.png" />
+    <None Include="Resources\weapon_15.png" />
+    <None Include="Resources\weapon_14.png" />
+    <None Include="Resources\weapon_13.png" />
+    <None Include="Resources\weapon_12.png" />
+    <None Include="Resources\weapon_11.png" />
+    <None Include="Resources\weapon_10.png" />
+    <None Include="Resources\weapon_09.png" />
+    <None Include="Resources\weapon_08.png" />
+    <None Include="Resources\weapon_07.png" />
+    <None Include="Resources\weapon_06.png" />
+    <None Include="Resources\weapon_05.png" />
+    <None Include="Resources\weapon_04.png" />
+    <None Include="Resources\weapon_03.png" />
+    <None Include="Resources\weapon_02.png" />
+    <None Include="Resources\weapon_01.png" />
+    <None Include="Resources\Icon_zombinav_zombies.png" />
+    <None Include="Resources\Icon_zombinav_weapons.png" />
+    <None Include="Resources\Icon_zombinav_rarezombies.png" />
+    <None Include="Resources\icon_setall.png" />
+    <None Include="Resources\icon_return.png" />
+    <None Include="Resources\Rzombie_26.png" />
+    <None Include="Resources\Rzombie_25.png" />
+    <None Include="Resources\Rzombie_24.png" />
+    <None Include="Resources\Rzombie_23.png" />
+    <None Include="Resources\Rzombie_22.png" />
+    <None Include="Resources\Rzombie_21.png" />
+    <None Include="Resources\Rzombie_20.png" />
+    <None Include="Resources\Rzombie_19.png" />
+    <None Include="Resources\Rzombie_18.png" />
+    <None Include="Resources\Rzombie_17.png" />
+    <None Include="Resources\Rzombie_16.png" />
+    <None Include="Resources\Rzombie_15.png" />
+    <None Include="Resources\Rzombie_14.png" />
+    <None Include="Resources\Rzombie_13.png" />
+    <None Include="Resources\Rzombie_12.png" />
+    <None Include="Resources\Rzombie_11.png" />
+    <None Include="Resources\Rzombie_10.png" />
+    <None Include="Resources\Rzombie_9.png" />
+    <None Include="Resources\Rzombie_8.png" />
+    <None Include="Resources\Rzombie_7.png" />
+    <None Include="Resources\Rzombie_6.png" />
+    <None Include="Resources\Rzombie_5.png" />
+    <None Include="Resources\Rzombie_4.png" />
+    <None Include="Resources\Rzombie_3.png" />
+    <None Include="Resources\Rzombie_2.png" />
+    <None Include="Resources\Rzombie_1.png" />
     <None Include="Resources\icon_3DSARG.png" />
     <None Include="Resources\3DSARG_fdialog.png" />
     <None Include="Resources\icon.png" />
