@@ -1118,7 +1118,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(141, 14)
         Me.Label1.TabIndex = 56
-        Me.Label1.Text = "Gameplay time : "
+        Me.Label1.Text = "Gameplay time (seconds) : "
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'valu_playtime

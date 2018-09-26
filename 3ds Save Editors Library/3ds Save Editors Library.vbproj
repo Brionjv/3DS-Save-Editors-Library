@@ -247,6 +247,40 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\SMPBZSE_fdialog.png" />
+    <None Include="Resources\icon_trader.png" />
+    <None Include="Resources\zombie_ZombieStack.png" />
+    <None Include="Resources\zombie_ZombiePooch.png" />
+    <None Include="Resources\zombie_SuperScimad.png" />
+    <None Include="Resources\zombie_Slimebacker.png" />
+    <None Include="Resources\zombie_Rockler.png" />
+    <None Include="Resources\zombie_ProfScimad.png" />
+    <None Include="Resources\zombie_PostieMortis.png" />
+    <None Include="Resources\zombie_Pincan.png" />
+    <None Include="Resources\zombie_Gloopler.png" />
+    <None Include="Resources\zombie_Flopler.png" />
+    <None Include="Resources\zombie_DeadGoodQuarterback.png" />
+    <None Include="Resources\zombie_CleetusRotts.png" />
+    <None Include="Resources\zombie_Chundler.png" />
+    <None Include="Resources\zombie_ChunderChubbler.png" />
+    <None Include="Resources\zombie_ChubblyJubbly.png" />
+    <None Include="Resources\zombie_Chubbler.png" />
+    <None Include="Resources\zombie_Capacitoad.png" />
+    <None Include="Resources\zombie_Bulbler.png" />
+    <None Include="Resources\zombie_BubbaRotts.png" />
+    <None Include="Resources\zombie_Boomcorn.png" />
+    <None Include="Resources\zombie_BombiePooch.png" />
+    <None Include="Resources\zombie_Bombie.png" />
+    <None Include="Resources\zombie_BigZombiePooch.png" />
+    <None Include="Resources\zombie_BigSlimebacker.png" />
+    <None Include="Resources\zombie_BigRockler.png" />
+    <None Include="Resources\zombie_BigFlopler.png" />
+    <None Include="Resources\zombie_BigChundler.png" />
+    <None Include="Resources\zombie_BigChubbler.png" />
+    <None Include="Resources\zombie_BigBulbler.png" />
+    <None Include="Resources\zombie_BigBombiePooch.png" />
+    <None Include="Resources\zombie_BigBombie.png" />
+    <None Include="Resources\icon_survivors.png" />
     <None Include="Resources\panel_mainfea.png" />
     <None Include="Resources\weapon_26.png" />
     <None Include="Resources\weapon_25.png" />
@@ -341,6 +375,7 @@
     <None Include="Resources\TKCD_menu_icon_missionediting.png" />
     <None Include="Resources\TKCD_menu_icon_lvlareaediting.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

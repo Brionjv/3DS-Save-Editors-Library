@@ -166,9 +166,11 @@ Public Class TeamKirbyClashDeluxe
             valu_multiencounters.Value = Reader.ReadUInt16
             Reader.Position = Profmessage
             Text_profmessage.Text = Reader.ReadUnicodeString(16)
+            Text_menu_save.Visible = True
         Catch ex As Exception
-            fdialog.Description.Text = "Failed to read savedata.dat, make sure you have opened a save file or report this issue"
+            fdialog.Description.Text = "Failed to read savedata.dat, make sure you have opened a good save file or report this issue"
             fdialog.ShowDialog()
+            Text_menu_save.Visible = False
         End Try
     End Sub
 
@@ -539,14 +541,13 @@ Public Class TeamKirbyClashDeluxe
         Dim open As New OpenFileDialog
         fdialog.Description.Text = "Open savedata.dat" & vbNewLine & "Team Kirby Clash Deluxe Save Editor will make a backup of your save file, check ''backup'' folder"
         fdialog.ShowDialog()
-        open.Filter = "SAV files|*savedata.dat"
+        open.Filter = "DAT files|*savedata.dat"
         open.Title = "Open save savedata.dat"
         open.ShowDialog()
         savedata = open.FileName
         readfilesavedata()
         TextBox_fpath.Text = savedata
         makebaksavedata()
-        Text_menu_save.Visible = True
     End Sub
 
     Private Sub Text_menu_save_Click(sender As Object, e As EventArgs) Handles Text_menu_save.Click

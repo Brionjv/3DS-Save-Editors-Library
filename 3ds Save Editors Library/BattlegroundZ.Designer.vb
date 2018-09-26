@@ -85,8 +85,10 @@ Partial Class BattlegroundZ
         Me.valu_rzombie_1 = New System.Windows.Forms.NumericUpDown()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel_main = New System.Windows.Forms.Panel()
+        Me.valu_survivors = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_survivors = New System.Windows.Forms.PictureBox()
         Me.Icon_rarezombiesedit = New System.Windows.Forms.PictureBox()
-        Me.PictureBox28 = New System.Windows.Forms.PictureBox()
+        Me.Icon_zombiesedit = New System.Windows.Forms.PictureBox()
         Me.Icon_weaponsedit = New System.Windows.Forms.PictureBox()
         Me.Panel_weaponsedit = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
@@ -147,6 +149,73 @@ Partial Class BattlegroundZ
         Me.Panel_menu_open = New System.Windows.Forms.Panel()
         Me.Text_menu_save = New System.Windows.Forms.Label()
         Me.Text_menu_open = New System.Windows.Forms.Label()
+        Me.Panel_zombiesedit = New System.Windows.Forms.Panel()
+        Me.valu_zombie_31 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox81 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_30 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox82 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_29 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox83 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_28 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox84 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_27 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox85 = New System.Windows.Forms.PictureBox()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.valu_zombiesedit_unlockall = New System.Windows.Forms.NumericUpDown()
+        Me.Text_zombiesedit_unlockall = New System.Windows.Forms.Label()
+        Me.Icon_zombiesedit_return = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_26 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox29 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_25 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox56 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_24 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox57 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_23 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox58 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_22 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox59 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_21 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox60 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_20 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox61 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_19 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox62 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_18 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox63 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_17 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox64 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_16 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox65 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_15 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox66 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_14 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox67 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_13 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox68 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_12 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox69 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_11 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox70 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_10 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox71 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_9 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox72 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_8 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox73 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_7 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox74 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_6 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox75 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_5 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox76 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_4 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox77 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_3 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox78 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_2 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox79 = New System.Windows.Forms.PictureBox()
+        Me.valu_zombie_1 = New System.Windows.Forms.NumericUpDown()
+        Me.PictureBox80 = New System.Windows.Forms.PictureBox()
         CType(Me.SMPBZSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SMPBZSE_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -207,8 +276,10 @@ Partial Class BattlegroundZ
         CType(Me.valu_rzombie_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_main.SuspendLayout()
+        CType(Me.valu_survivors, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_survivors, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rarezombiesedit, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_zombiesedit, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_weaponsedit, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_weaponsedit.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -266,6 +337,72 @@ Partial Class BattlegroundZ
         CType(Me.valu_weapon_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_menu_open.SuspendLayout()
+        Me.Panel_zombiesedit.SuspendLayout()
+        CType(Me.valu_zombie_31, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox82, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_29, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox83, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox84, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_27, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox85, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel3.SuspendLayout()
+        CType(Me.valu_zombiesedit_unlockall, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_zombiesedit_return, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_25, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox56, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_23, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox76, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox77, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox78, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox79, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_zombie_1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox80, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SMPBZSE_logo
@@ -397,6 +534,7 @@ Partial Class BattlegroundZ
         Me.valu_rarezombiesedit_unlockall.TabIndex = 44
         Me.valu_rarezombiesedit_unlockall.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.valu_rarezombiesedit_unlockall.ThousandsSeparator = True
+        Me.valu_rarezombiesedit_unlockall.Value = New Decimal(New Integer() {999999, 0, 0, 0})
         '
         'Text_rarezombiesedit_unlockall
         '
@@ -931,7 +1069,7 @@ Partial Class BattlegroundZ
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_1
+        Me.PictureBox1.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.Rzombie_1
         Me.PictureBox1.Location = New System.Drawing.Point(94, 10)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(48, 48)
@@ -942,39 +1080,60 @@ Partial Class BattlegroundZ
         '
         Me.Panel_main.BackColor = System.Drawing.Color.Transparent
         Me.Panel_main.BackgroundImage = CType(resources.GetObject("Panel_main.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_main.Controls.Add(Me.valu_survivors)
+        Me.Panel_main.Controls.Add(Me.Icon_survivors)
         Me.Panel_main.Controls.Add(Me.Icon_rarezombiesedit)
-        Me.Panel_main.Controls.Add(Me.PictureBox28)
+        Me.Panel_main.Controls.Add(Me.Icon_zombiesedit)
         Me.Panel_main.Controls.Add(Me.Icon_weaponsedit)
         Me.Panel_main.Location = New System.Drawing.Point(2, 62)
         Me.Panel_main.Name = "Panel_main"
         Me.Panel_main.Size = New System.Drawing.Size(596, 500)
         Me.Panel_main.TabIndex = 33
         '
+        'valu_survivors
+        '
+        Me.valu_survivors.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_survivors.Location = New System.Drawing.Point(283, 171)
+        Me.valu_survivors.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_survivors.Name = "valu_survivors"
+        Me.valu_survivors.Size = New System.Drawing.Size(84, 16)
+        Me.valu_survivors.TabIndex = 4
+        Me.valu_survivors.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Icon_survivors
+        '
+        Me.Icon_survivors.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_survivors
+        Me.Icon_survivors.Location = New System.Drawing.Point(229, 163)
+        Me.Icon_survivors.Name = "Icon_survivors"
+        Me.Icon_survivors.Size = New System.Drawing.Size(48, 32)
+        Me.Icon_survivors.TabIndex = 3
+        Me.Icon_survivors.TabStop = False
+        '
         'Icon_rarezombiesedit
         '
-        Me.Icon_rarezombiesedit.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_rarezombies
         Me.Icon_rarezombiesedit.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_rarezombiesedit.Location = New System.Drawing.Point(378, 175)
+        Me.Icon_rarezombiesedit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_rarezombies
+        Me.Icon_rarezombiesedit.Location = New System.Drawing.Point(378, 274)
         Me.Icon_rarezombiesedit.Name = "Icon_rarezombiesedit"
         Me.Icon_rarezombiesedit.Size = New System.Drawing.Size(60, 63)
         Me.Icon_rarezombiesedit.TabIndex = 2
         Me.Icon_rarezombiesedit.TabStop = False
         '
-        'PictureBox28
+        'Icon_zombiesedit
         '
-        Me.PictureBox28.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_zombies
-        Me.PictureBox28.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox28.Location = New System.Drawing.Point(268, 175)
-        Me.PictureBox28.Name = "PictureBox28"
-        Me.PictureBox28.Size = New System.Drawing.Size(60, 63)
-        Me.PictureBox28.TabIndex = 1
-        Me.PictureBox28.TabStop = False
+        Me.Icon_zombiesedit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_zombiesedit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_zombies
+        Me.Icon_zombiesedit.Location = New System.Drawing.Point(268, 274)
+        Me.Icon_zombiesedit.Name = "Icon_zombiesedit"
+        Me.Icon_zombiesedit.Size = New System.Drawing.Size(60, 63)
+        Me.Icon_zombiesedit.TabIndex = 1
+        Me.Icon_zombiesedit.TabStop = False
         '
         'Icon_weaponsedit
         '
-        Me.Icon_weaponsedit.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_weapons
         Me.Icon_weaponsedit.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_weaponsedit.Location = New System.Drawing.Point(158, 175)
+        Me.Icon_weaponsedit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_weapons
+        Me.Icon_weaponsedit.Location = New System.Drawing.Point(158, 274)
         Me.Icon_weaponsedit.Name = "Icon_weaponsedit"
         Me.Icon_weaponsedit.Size = New System.Drawing.Size(60, 63)
         Me.Icon_weaponsedit.TabIndex = 0
@@ -1633,6 +1792,741 @@ Partial Class BattlegroundZ
         Me.Text_menu_open.Text = "Open"
         Me.Text_menu_open.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Panel_zombiesedit
+        '
+        Me.Panel_zombiesedit.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_zombiesedit.BackgroundImage = CType(resources.GetObject("Panel_zombiesedit.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_31)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox81)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_30)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox82)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_29)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox83)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_28)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox84)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_27)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox85)
+        Me.Panel_zombiesedit.Controls.Add(Me.Panel3)
+        Me.Panel_zombiesedit.Controls.Add(Me.Icon_zombiesedit_return)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_26)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox29)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_25)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox56)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_24)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox57)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_23)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox58)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_22)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox59)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_21)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox60)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_20)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox61)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_19)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox62)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_18)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox63)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_17)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox64)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_16)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox65)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_15)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox66)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_14)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox67)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_13)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox68)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_12)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox69)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_11)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox70)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_10)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox71)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_9)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox72)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_8)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox73)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_7)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox74)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_6)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox75)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_5)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox76)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_4)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox77)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_3)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox78)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_2)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox79)
+        Me.Panel_zombiesedit.Controls.Add(Me.valu_zombie_1)
+        Me.Panel_zombiesedit.Controls.Add(Me.PictureBox80)
+        Me.Panel_zombiesedit.Location = New System.Drawing.Point(2, 62)
+        Me.Panel_zombiesedit.Name = "Panel_zombiesedit"
+        Me.Panel_zombiesedit.Size = New System.Drawing.Size(596, 500)
+        Me.Panel_zombiesedit.TabIndex = 53
+        '
+        'valu_zombie_31
+        '
+        Me.valu_zombie_31.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_31.Location = New System.Drawing.Point(491, 414)
+        Me.valu_zombie_31.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_31.Name = "valu_zombie_31"
+        Me.valu_zombie_31.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_31.TabIndex = 63
+        Me.valu_zombie_31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_31.ThousandsSeparator = True
+        '
+        'PictureBox81
+        '
+        Me.PictureBox81.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_SuperScimad
+        Me.PictureBox81.Location = New System.Drawing.Point(499, 365)
+        Me.PictureBox81.Name = "PictureBox81"
+        Me.PictureBox81.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox81.TabIndex = 62
+        Me.PictureBox81.TabStop = False
+        '
+        'valu_zombie_30
+        '
+        Me.valu_zombie_30.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_30.Location = New System.Drawing.Point(401, 414)
+        Me.valu_zombie_30.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_30.Name = "valu_zombie_30"
+        Me.valu_zombie_30.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_30.TabIndex = 61
+        Me.valu_zombie_30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_30.ThousandsSeparator = True
+        '
+        'PictureBox82
+        '
+        Me.PictureBox82.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_ProfScimad
+        Me.PictureBox82.Location = New System.Drawing.Point(409, 365)
+        Me.PictureBox82.Name = "PictureBox82"
+        Me.PictureBox82.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox82.TabIndex = 60
+        Me.PictureBox82.TabStop = False
+        '
+        'valu_zombie_29
+        '
+        Me.valu_zombie_29.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_29.Location = New System.Drawing.Point(311, 414)
+        Me.valu_zombie_29.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_29.Name = "valu_zombie_29"
+        Me.valu_zombie_29.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_29.TabIndex = 59
+        Me.valu_zombie_29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_29.ThousandsSeparator = True
+        '
+        'PictureBox83
+        '
+        Me.PictureBox83.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Capacitoad
+        Me.PictureBox83.Location = New System.Drawing.Point(319, 365)
+        Me.PictureBox83.Name = "PictureBox83"
+        Me.PictureBox83.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox83.TabIndex = 58
+        Me.PictureBox83.TabStop = False
+        '
+        'valu_zombie_28
+        '
+        Me.valu_zombie_28.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_28.Location = New System.Drawing.Point(221, 414)
+        Me.valu_zombie_28.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_28.Name = "valu_zombie_28"
+        Me.valu_zombie_28.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_28.TabIndex = 57
+        Me.valu_zombie_28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_28.ThousandsSeparator = True
+        '
+        'PictureBox84
+        '
+        Me.PictureBox84.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_CleetusRotts
+        Me.PictureBox84.Location = New System.Drawing.Point(229, 365)
+        Me.PictureBox84.Name = "PictureBox84"
+        Me.PictureBox84.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox84.TabIndex = 56
+        Me.PictureBox84.TabStop = False
+        '
+        'valu_zombie_27
+        '
+        Me.valu_zombie_27.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_27.Location = New System.Drawing.Point(131, 414)
+        Me.valu_zombie_27.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_27.Name = "valu_zombie_27"
+        Me.valu_zombie_27.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_27.TabIndex = 55
+        Me.valu_zombie_27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_27.ThousandsSeparator = True
+        '
+        'PictureBox85
+        '
+        Me.PictureBox85.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BubbaRotts
+        Me.PictureBox85.Location = New System.Drawing.Point(139, 365)
+        Me.PictureBox85.Name = "PictureBox85"
+        Me.PictureBox85.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox85.TabIndex = 54
+        Me.PictureBox85.TabStop = False
+        '
+        'Panel3
+        '
+        Me.Panel3.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_setall
+        Me.Panel3.Controls.Add(Me.valu_zombiesedit_unlockall)
+        Me.Panel3.Controls.Add(Me.Text_zombiesedit_unlockall)
+        Me.Panel3.Location = New System.Drawing.Point(179, 451)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(239, 39)
+        Me.Panel3.TabIndex = 53
+        '
+        'valu_zombiesedit_unlockall
+        '
+        Me.valu_zombiesedit_unlockall.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombiesedit_unlockall.Location = New System.Drawing.Point(158, 11)
+        Me.valu_zombiesedit_unlockall.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombiesedit_unlockall.Name = "valu_zombiesedit_unlockall"
+        Me.valu_zombiesedit_unlockall.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombiesedit_unlockall.TabIndex = 44
+        Me.valu_zombiesedit_unlockall.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombiesedit_unlockall.ThousandsSeparator = True
+        Me.valu_zombiesedit_unlockall.Value = New Decimal(New Integer() {999999, 0, 0, 0})
+        '
+        'Text_zombiesedit_unlockall
+        '
+        Me.Text_zombiesedit_unlockall.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_zombiesedit_unlockall.Location = New System.Drawing.Point(0, 0)
+        Me.Text_zombiesedit_unlockall.Name = "Text_zombiesedit_unlockall"
+        Me.Text_zombiesedit_unlockall.Size = New System.Drawing.Size(152, 39)
+        Me.Text_zombiesedit_unlockall.TabIndex = 0
+        Me.Text_zombiesedit_unlockall.Text = "Set all zombies to"
+        Me.Text_zombiesedit_unlockall.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Icon_zombiesedit_return
+        '
+        Me.Icon_zombiesedit_return.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_zombiesedit_return.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_return
+        Me.Icon_zombiesedit_return.Location = New System.Drawing.Point(10, 451)
+        Me.Icon_zombiesedit_return.Name = "Icon_zombiesedit_return"
+        Me.Icon_zombiesedit_return.Size = New System.Drawing.Size(36, 39)
+        Me.Icon_zombiesedit_return.TabIndex = 52
+        Me.Icon_zombiesedit_return.TabStop = False
+        '
+        'valu_zombie_26
+        '
+        Me.valu_zombie_26.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_26.Location = New System.Drawing.Point(41, 414)
+        Me.valu_zombie_26.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_26.Name = "valu_zombie_26"
+        Me.valu_zombie_26.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_26.TabIndex = 51
+        Me.valu_zombie_26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_26.ThousandsSeparator = True
+        '
+        'PictureBox29
+        '
+        Me.PictureBox29.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_ChubblyJubbly
+        Me.PictureBox29.Location = New System.Drawing.Point(49, 365)
+        Me.PictureBox29.Name = "PictureBox29"
+        Me.PictureBox29.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox29.TabIndex = 50
+        Me.PictureBox29.TabStop = False
+        '
+        'valu_zombie_25
+        '
+        Me.valu_zombie_25.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_25.Location = New System.Drawing.Point(446, 343)
+        Me.valu_zombie_25.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_25.Name = "valu_zombie_25"
+        Me.valu_zombie_25.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_25.TabIndex = 49
+        Me.valu_zombie_25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_25.ThousandsSeparator = True
+        '
+        'PictureBox56
+        '
+        Me.PictureBox56.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_DeadGoodQuarterback
+        Me.PictureBox56.Location = New System.Drawing.Point(454, 294)
+        Me.PictureBox56.Name = "PictureBox56"
+        Me.PictureBox56.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox56.TabIndex = 48
+        Me.PictureBox56.TabStop = False
+        '
+        'valu_zombie_24
+        '
+        Me.valu_zombie_24.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_24.Location = New System.Drawing.Point(356, 343)
+        Me.valu_zombie_24.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_24.Name = "valu_zombie_24"
+        Me.valu_zombie_24.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_24.TabIndex = 47
+        Me.valu_zombie_24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_24.ThousandsSeparator = True
+        '
+        'PictureBox57
+        '
+        Me.PictureBox57.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Boomcorn
+        Me.PictureBox57.Location = New System.Drawing.Point(364, 294)
+        Me.PictureBox57.Name = "PictureBox57"
+        Me.PictureBox57.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox57.TabIndex = 46
+        Me.PictureBox57.TabStop = False
+        '
+        'valu_zombie_23
+        '
+        Me.valu_zombie_23.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_23.Location = New System.Drawing.Point(266, 343)
+        Me.valu_zombie_23.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_23.Name = "valu_zombie_23"
+        Me.valu_zombie_23.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_23.TabIndex = 45
+        Me.valu_zombie_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_23.ThousandsSeparator = True
+        '
+        'PictureBox58
+        '
+        Me.PictureBox58.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Pincan
+        Me.PictureBox58.Location = New System.Drawing.Point(274, 294)
+        Me.PictureBox58.Name = "PictureBox58"
+        Me.PictureBox58.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox58.TabIndex = 44
+        Me.PictureBox58.TabStop = False
+        '
+        'valu_zombie_22
+        '
+        Me.valu_zombie_22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_22.Location = New System.Drawing.Point(176, 343)
+        Me.valu_zombie_22.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_22.Name = "valu_zombie_22"
+        Me.valu_zombie_22.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_22.TabIndex = 43
+        Me.valu_zombie_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_22.ThousandsSeparator = True
+        '
+        'PictureBox59
+        '
+        Me.PictureBox59.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BigBulbler
+        Me.PictureBox59.Location = New System.Drawing.Point(184, 294)
+        Me.PictureBox59.Name = "PictureBox59"
+        Me.PictureBox59.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox59.TabIndex = 42
+        Me.PictureBox59.TabStop = False
+        '
+        'valu_zombie_21
+        '
+        Me.valu_zombie_21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_21.Location = New System.Drawing.Point(86, 343)
+        Me.valu_zombie_21.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_21.Name = "valu_zombie_21"
+        Me.valu_zombie_21.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_21.TabIndex = 41
+        Me.valu_zombie_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_21.ThousandsSeparator = True
+        '
+        'PictureBox60
+        '
+        Me.PictureBox60.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BigBombie
+        Me.PictureBox60.Location = New System.Drawing.Point(94, 294)
+        Me.PictureBox60.Name = "PictureBox60"
+        Me.PictureBox60.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox60.TabIndex = 40
+        Me.PictureBox60.TabStop = False
+        '
+        'valu_zombie_20
+        '
+        Me.valu_zombie_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_20.Location = New System.Drawing.Point(446, 272)
+        Me.valu_zombie_20.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_20.Name = "valu_zombie_20"
+        Me.valu_zombie_20.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_20.TabIndex = 39
+        Me.valu_zombie_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_20.ThousandsSeparator = True
+        '
+        'PictureBox61
+        '
+        Me.PictureBox61.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BigChubbler
+        Me.PictureBox61.Location = New System.Drawing.Point(454, 223)
+        Me.PictureBox61.Name = "PictureBox61"
+        Me.PictureBox61.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox61.TabIndex = 38
+        Me.PictureBox61.TabStop = False
+        '
+        'valu_zombie_19
+        '
+        Me.valu_zombie_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_19.Location = New System.Drawing.Point(356, 272)
+        Me.valu_zombie_19.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_19.Name = "valu_zombie_19"
+        Me.valu_zombie_19.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_19.TabIndex = 37
+        Me.valu_zombie_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_19.ThousandsSeparator = True
+        '
+        'PictureBox62
+        '
+        Me.PictureBox62.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BigBombiePooch
+        Me.PictureBox62.Location = New System.Drawing.Point(364, 223)
+        Me.PictureBox62.Name = "PictureBox62"
+        Me.PictureBox62.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox62.TabIndex = 36
+        Me.PictureBox62.TabStop = False
+        '
+        'valu_zombie_18
+        '
+        Me.valu_zombie_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_18.Location = New System.Drawing.Point(266, 272)
+        Me.valu_zombie_18.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_18.Name = "valu_zombie_18"
+        Me.valu_zombie_18.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_18.TabIndex = 35
+        Me.valu_zombie_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_18.ThousandsSeparator = True
+        '
+        'PictureBox63
+        '
+        Me.PictureBox63.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BigZombiePooch
+        Me.PictureBox63.Location = New System.Drawing.Point(274, 223)
+        Me.PictureBox63.Name = "PictureBox63"
+        Me.PictureBox63.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox63.TabIndex = 34
+        Me.PictureBox63.TabStop = False
+        '
+        'valu_zombie_17
+        '
+        Me.valu_zombie_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_17.Location = New System.Drawing.Point(176, 272)
+        Me.valu_zombie_17.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_17.Name = "valu_zombie_17"
+        Me.valu_zombie_17.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_17.TabIndex = 33
+        Me.valu_zombie_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_17.ThousandsSeparator = True
+        '
+        'PictureBox64
+        '
+        Me.PictureBox64.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BigChundler
+        Me.PictureBox64.Location = New System.Drawing.Point(184, 223)
+        Me.PictureBox64.Name = "PictureBox64"
+        Me.PictureBox64.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox64.TabIndex = 32
+        Me.PictureBox64.TabStop = False
+        '
+        'valu_zombie_16
+        '
+        Me.valu_zombie_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_16.Location = New System.Drawing.Point(86, 272)
+        Me.valu_zombie_16.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_16.Name = "valu_zombie_16"
+        Me.valu_zombie_16.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_16.TabIndex = 31
+        Me.valu_zombie_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_16.ThousandsSeparator = True
+        '
+        'PictureBox65
+        '
+        Me.PictureBox65.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BigSlimebacker
+        Me.PictureBox65.Location = New System.Drawing.Point(94, 223)
+        Me.PictureBox65.Name = "PictureBox65"
+        Me.PictureBox65.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox65.TabIndex = 30
+        Me.PictureBox65.TabStop = False
+        '
+        'valu_zombie_15
+        '
+        Me.valu_zombie_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_15.Location = New System.Drawing.Point(446, 201)
+        Me.valu_zombie_15.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_15.Name = "valu_zombie_15"
+        Me.valu_zombie_15.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_15.TabIndex = 29
+        Me.valu_zombie_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_15.ThousandsSeparator = True
+        '
+        'PictureBox66
+        '
+        Me.PictureBox66.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BigRockler
+        Me.PictureBox66.Location = New System.Drawing.Point(454, 152)
+        Me.PictureBox66.Name = "PictureBox66"
+        Me.PictureBox66.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox66.TabIndex = 28
+        Me.PictureBox66.TabStop = False
+        '
+        'valu_zombie_14
+        '
+        Me.valu_zombie_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_14.Location = New System.Drawing.Point(356, 201)
+        Me.valu_zombie_14.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_14.Name = "valu_zombie_14"
+        Me.valu_zombie_14.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_14.TabIndex = 27
+        Me.valu_zombie_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_14.ThousandsSeparator = True
+        '
+        'PictureBox67
+        '
+        Me.PictureBox67.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BigFlopler
+        Me.PictureBox67.Location = New System.Drawing.Point(364, 152)
+        Me.PictureBox67.Name = "PictureBox67"
+        Me.PictureBox67.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox67.TabIndex = 26
+        Me.PictureBox67.TabStop = False
+        '
+        'valu_zombie_13
+        '
+        Me.valu_zombie_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_13.Location = New System.Drawing.Point(266, 201)
+        Me.valu_zombie_13.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_13.Name = "valu_zombie_13"
+        Me.valu_zombie_13.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_13.TabIndex = 25
+        Me.valu_zombie_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_13.ThousandsSeparator = True
+        '
+        'PictureBox68
+        '
+        Me.PictureBox68.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Slimebacker
+        Me.PictureBox68.Location = New System.Drawing.Point(274, 152)
+        Me.PictureBox68.Name = "PictureBox68"
+        Me.PictureBox68.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox68.TabIndex = 24
+        Me.PictureBox68.TabStop = False
+        '
+        'valu_zombie_12
+        '
+        Me.valu_zombie_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_12.Location = New System.Drawing.Point(176, 201)
+        Me.valu_zombie_12.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_12.Name = "valu_zombie_12"
+        Me.valu_zombie_12.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_12.TabIndex = 23
+        Me.valu_zombie_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_12.ThousandsSeparator = True
+        '
+        'PictureBox69
+        '
+        Me.PictureBox69.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_PostieMortis
+        Me.PictureBox69.Location = New System.Drawing.Point(184, 152)
+        Me.PictureBox69.Name = "PictureBox69"
+        Me.PictureBox69.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox69.TabIndex = 22
+        Me.PictureBox69.TabStop = False
+        '
+        'valu_zombie_11
+        '
+        Me.valu_zombie_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_11.Location = New System.Drawing.Point(86, 201)
+        Me.valu_zombie_11.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_11.Name = "valu_zombie_11"
+        Me.valu_zombie_11.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_11.TabIndex = 21
+        Me.valu_zombie_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_11.ThousandsSeparator = True
+        '
+        'PictureBox70
+        '
+        Me.PictureBox70.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_ZombieStack
+        Me.PictureBox70.Location = New System.Drawing.Point(94, 152)
+        Me.PictureBox70.Name = "PictureBox70"
+        Me.PictureBox70.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox70.TabIndex = 20
+        Me.PictureBox70.TabStop = False
+        '
+        'valu_zombie_10
+        '
+        Me.valu_zombie_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_10.Location = New System.Drawing.Point(446, 130)
+        Me.valu_zombie_10.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_10.Name = "valu_zombie_10"
+        Me.valu_zombie_10.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_10.TabIndex = 19
+        Me.valu_zombie_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_10.ThousandsSeparator = True
+        '
+        'PictureBox71
+        '
+        Me.PictureBox71.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Gloopler
+        Me.PictureBox71.Location = New System.Drawing.Point(454, 81)
+        Me.PictureBox71.Name = "PictureBox71"
+        Me.PictureBox71.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox71.TabIndex = 18
+        Me.PictureBox71.TabStop = False
+        '
+        'valu_zombie_9
+        '
+        Me.valu_zombie_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_9.Location = New System.Drawing.Point(356, 130)
+        Me.valu_zombie_9.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_9.Name = "valu_zombie_9"
+        Me.valu_zombie_9.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_9.TabIndex = 17
+        Me.valu_zombie_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_9.ThousandsSeparator = True
+        '
+        'PictureBox72
+        '
+        Me.PictureBox72.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Bulbler
+        Me.PictureBox72.Location = New System.Drawing.Point(364, 81)
+        Me.PictureBox72.Name = "PictureBox72"
+        Me.PictureBox72.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox72.TabIndex = 16
+        Me.PictureBox72.TabStop = False
+        '
+        'valu_zombie_8
+        '
+        Me.valu_zombie_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_8.Location = New System.Drawing.Point(266, 130)
+        Me.valu_zombie_8.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_8.Name = "valu_zombie_8"
+        Me.valu_zombie_8.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_8.TabIndex = 15
+        Me.valu_zombie_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_8.ThousandsSeparator = True
+        '
+        'PictureBox73
+        '
+        Me.PictureBox73.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_ChunderChubbler
+        Me.PictureBox73.Location = New System.Drawing.Point(274, 81)
+        Me.PictureBox73.Name = "PictureBox73"
+        Me.PictureBox73.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox73.TabIndex = 14
+        Me.PictureBox73.TabStop = False
+        '
+        'valu_zombie_7
+        '
+        Me.valu_zombie_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_7.Location = New System.Drawing.Point(176, 130)
+        Me.valu_zombie_7.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_7.Name = "valu_zombie_7"
+        Me.valu_zombie_7.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_7.TabIndex = 13
+        Me.valu_zombie_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_7.ThousandsSeparator = True
+        '
+        'PictureBox74
+        '
+        Me.PictureBox74.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_BombiePooch
+        Me.PictureBox74.Location = New System.Drawing.Point(184, 81)
+        Me.PictureBox74.Name = "PictureBox74"
+        Me.PictureBox74.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox74.TabIndex = 12
+        Me.PictureBox74.TabStop = False
+        '
+        'valu_zombie_6
+        '
+        Me.valu_zombie_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_6.Location = New System.Drawing.Point(86, 130)
+        Me.valu_zombie_6.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_6.Name = "valu_zombie_6"
+        Me.valu_zombie_6.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_6.TabIndex = 11
+        Me.valu_zombie_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_6.ThousandsSeparator = True
+        '
+        'PictureBox75
+        '
+        Me.PictureBox75.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_ZombiePooch
+        Me.PictureBox75.Location = New System.Drawing.Point(94, 81)
+        Me.PictureBox75.Name = "PictureBox75"
+        Me.PictureBox75.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox75.TabIndex = 10
+        Me.PictureBox75.TabStop = False
+        '
+        'valu_zombie_5
+        '
+        Me.valu_zombie_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_5.Location = New System.Drawing.Point(446, 59)
+        Me.valu_zombie_5.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_5.Name = "valu_zombie_5"
+        Me.valu_zombie_5.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_5.TabIndex = 9
+        Me.valu_zombie_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_5.ThousandsSeparator = True
+        '
+        'PictureBox76
+        '
+        Me.PictureBox76.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Bombie
+        Me.PictureBox76.Location = New System.Drawing.Point(454, 10)
+        Me.PictureBox76.Name = "PictureBox76"
+        Me.PictureBox76.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox76.TabIndex = 8
+        Me.PictureBox76.TabStop = False
+        '
+        'valu_zombie_4
+        '
+        Me.valu_zombie_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_4.Location = New System.Drawing.Point(356, 59)
+        Me.valu_zombie_4.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_4.Name = "valu_zombie_4"
+        Me.valu_zombie_4.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_4.TabIndex = 7
+        Me.valu_zombie_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_4.ThousandsSeparator = True
+        '
+        'PictureBox77
+        '
+        Me.PictureBox77.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Chundler
+        Me.PictureBox77.Location = New System.Drawing.Point(364, 10)
+        Me.PictureBox77.Name = "PictureBox77"
+        Me.PictureBox77.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox77.TabIndex = 6
+        Me.PictureBox77.TabStop = False
+        '
+        'valu_zombie_3
+        '
+        Me.valu_zombie_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_3.Location = New System.Drawing.Point(266, 59)
+        Me.valu_zombie_3.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_3.Name = "valu_zombie_3"
+        Me.valu_zombie_3.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_3.TabIndex = 5
+        Me.valu_zombie_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_3.ThousandsSeparator = True
+        '
+        'PictureBox78
+        '
+        Me.PictureBox78.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Chubbler
+        Me.PictureBox78.Location = New System.Drawing.Point(274, 10)
+        Me.PictureBox78.Name = "PictureBox78"
+        Me.PictureBox78.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox78.TabIndex = 4
+        Me.PictureBox78.TabStop = False
+        '
+        'valu_zombie_2
+        '
+        Me.valu_zombie_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_2.Location = New System.Drawing.Point(176, 59)
+        Me.valu_zombie_2.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_2.Name = "valu_zombie_2"
+        Me.valu_zombie_2.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_2.TabIndex = 3
+        Me.valu_zombie_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_2.ThousandsSeparator = True
+        '
+        'PictureBox79
+        '
+        Me.PictureBox79.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Rockler
+        Me.PictureBox79.Location = New System.Drawing.Point(184, 10)
+        Me.PictureBox79.Name = "PictureBox79"
+        Me.PictureBox79.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox79.TabIndex = 2
+        Me.PictureBox79.TabStop = False
+        '
+        'valu_zombie_1
+        '
+        Me.valu_zombie_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_zombie_1.Location = New System.Drawing.Point(86, 59)
+        Me.valu_zombie_1.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
+        Me.valu_zombie_1.Name = "valu_zombie_1"
+        Me.valu_zombie_1.Size = New System.Drawing.Size(65, 16)
+        Me.valu_zombie_1.TabIndex = 1
+        Me.valu_zombie_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_zombie_1.ThousandsSeparator = True
+        '
+        'PictureBox80
+        '
+        Me.PictureBox80.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.zombie_Flopler
+        Me.PictureBox80.Location = New System.Drawing.Point(94, 10)
+        Me.PictureBox80.Name = "PictureBox80"
+        Me.PictureBox80.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox80.TabIndex = 0
+        Me.PictureBox80.TabStop = False
+        '
         'BattlegroundZ
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1644,6 +2538,7 @@ Partial Class BattlegroundZ
         Me.Controls.Add(Me.SMPBZSE_logo)
         Me.Controls.Add(Me.Panel_main)
         Me.Controls.Add(Me.Panel_weaponsedit)
+        Me.Controls.Add(Me.Panel_zombiesedit)
         Me.Controls.Add(Me.Panel_rarezombiesedit)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -1710,8 +2605,10 @@ Partial Class BattlegroundZ
         CType(Me.valu_rzombie_1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_main.ResumeLayout(False)
+        CType(Me.valu_survivors, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_survivors, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rarezombiesedit, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_zombiesedit, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_weaponsedit, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_weaponsedit.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
@@ -1769,6 +2666,72 @@ Partial Class BattlegroundZ
         CType(Me.valu_weapon_1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox55, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_menu_open.ResumeLayout(False)
+        Me.Panel_zombiesedit.ResumeLayout(False)
+        CType(Me.valu_zombie_31, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox82, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_29, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox83, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox84, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_27, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox85, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel3.ResumeLayout(False)
+        CType(Me.valu_zombiesedit_unlockall, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_zombiesedit_return, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_25, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox56, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_23, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox64, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox65, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox66, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox67, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox68, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox69, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox70, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox71, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox72, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox73, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox74, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox76, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox77, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox78, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox79, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_zombie_1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox80, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1835,7 +2798,7 @@ Partial Class BattlegroundZ
     Friend WithEvents Panel_main As System.Windows.Forms.Panel
     Friend WithEvents Icon_weaponsedit As System.Windows.Forms.PictureBox
     Friend WithEvents Icon_rarezombiesedit As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox28 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_zombiesedit As System.Windows.Forms.PictureBox
     Friend WithEvents valu_rarezombiesedit_unlockall As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel_weaponsedit As System.Windows.Forms.Panel
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
@@ -1896,4 +2859,73 @@ Partial Class BattlegroundZ
     Friend WithEvents Panel_menu_open As System.Windows.Forms.Panel
     Friend WithEvents Text_menu_save As System.Windows.Forms.Label
     Friend WithEvents Text_menu_open As System.Windows.Forms.Label
+    Friend WithEvents Icon_survivors As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_survivors As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel_zombiesedit As System.Windows.Forms.Panel
+    Friend WithEvents valu_zombie_31 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox81 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_30 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox82 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_29 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox83 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_28 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox84 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_27 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox85 As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel3 As System.Windows.Forms.Panel
+    Friend WithEvents valu_zombiesedit_unlockall As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Text_zombiesedit_unlockall As System.Windows.Forms.Label
+    Friend WithEvents Icon_zombiesedit_return As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_26 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox29 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_25 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox56 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_24 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox57 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_23 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox58 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_22 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox59 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_21 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox60 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox61 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox62 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox63 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox64 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox65 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox66 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox67 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox68 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox69 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox70 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox71 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox72 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox73 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox74 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox75 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox76 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox77 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox78 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox79 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_zombie_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents PictureBox80 As System.Windows.Forms.PictureBox
 End Class

@@ -301,4 +301,8 @@ Public Class N3DSSE_library
         Text_description.Text = "Click to access to StreetPass Mii Plaza - Battleground Z Save Editor" & vbNewLine & "Confirme to work with EU version"
         Panel_description.Visible = True
     End Sub
+
+    Private Sub Icon_SMPBZSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_SMPBZSE.MouseMove
+
+    End Sub
 End Class

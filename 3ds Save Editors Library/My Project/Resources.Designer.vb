@@ -383,6 +383,26 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property icon_survivors() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("icon_survivors", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property icon_trader() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("icon_trader", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property icon_update() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("icon_update", resourceCulture)
@@ -736,6 +756,16 @@ Namespace My.Resources
         Friend ReadOnly Property Rzombie_9() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Rzombie_9", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property SMPBZSE_fdialog() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("SMPBZSE_fdialog", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -1246,6 +1276,316 @@ Namespace My.Resources
         Friend ReadOnly Property weapon_26() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("weapon_26", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BigBombie() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BigBombie", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BigBombiePooch() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BigBombiePooch", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BigBulbler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BigBulbler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BigChubbler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BigChubbler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BigChundler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BigChundler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BigFlopler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BigFlopler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BigRockler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BigRockler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BigSlimebacker() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BigSlimebacker", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BigZombiePooch() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BigZombiePooch", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Bombie() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Bombie", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BombiePooch() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BombiePooch", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Boomcorn() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Boomcorn", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_BubbaRotts() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_BubbaRotts", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Bulbler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Bulbler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Capacitoad() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Capacitoad", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Chubbler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Chubbler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_ChubblyJubbly() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_ChubblyJubbly", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_ChunderChubbler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_ChunderChubbler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Chundler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Chundler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_CleetusRotts() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_CleetusRotts", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_DeadGoodQuarterback() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_DeadGoodQuarterback", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Flopler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Flopler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Gloopler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Gloopler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Pincan() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Pincan", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_PostieMortis() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_PostieMortis", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_ProfScimad() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_ProfScimad", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Rockler() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Rockler", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_Slimebacker() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_Slimebacker", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_SuperScimad() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_SuperScimad", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_ZombiePooch() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_ZombiePooch", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property zombie_ZombieStack() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zombie_ZombieStack", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
