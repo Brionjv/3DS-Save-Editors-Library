@@ -85,6 +85,7 @@ Partial Class BattlegroundZ
         Me.valu_rzombie_1 = New System.Windows.Forms.NumericUpDown()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel_main = New System.Windows.Forms.Panel()
+        Me.Icon_levelsedit = New System.Windows.Forms.PictureBox()
         Me.valu_survivors = New System.Windows.Forms.NumericUpDown()
         Me.Icon_survivors = New System.Windows.Forms.PictureBox()
         Me.Icon_rarezombiesedit = New System.Windows.Forms.PictureBox()
@@ -216,6 +217,51 @@ Partial Class BattlegroundZ
         Me.PictureBox79 = New System.Windows.Forms.PictureBox()
         Me.valu_zombie_1 = New System.Windows.Forms.NumericUpDown()
         Me.PictureBox80 = New System.Windows.Forms.PictureBox()
+        Me.Panel_levelsedit = New System.Windows.Forms.Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.PictureBox117 = New System.Windows.Forms.PictureBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.PictureBox118 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox116 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox28 = New System.Windows.Forms.PictureBox()
+        Me.Icon_levelsedit_return = New System.Windows.Forms.PictureBox()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.PictureBox115 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox114 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox113 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox112 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox111 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox110 = New System.Windows.Forms.PictureBox()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.PictureBox109 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox108 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox107 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox106 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox105 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox104 = New System.Windows.Forms.PictureBox()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.PictureBox103 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox102 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox101 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox100 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox99 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox98 = New System.Windows.Forms.PictureBox()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.PictureBox97 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox96 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox95 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox94 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox93 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox92 = New System.Windows.Forms.PictureBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox91 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox90 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox89 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox88 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox87 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox86 = New System.Windows.Forms.PictureBox()
         CType(Me.SMPBZSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SMPBZSE_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -276,6 +322,7 @@ Partial Class BattlegroundZ
         CType(Me.valu_rzombie_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_main.SuspendLayout()
+        CType(Me.Icon_levelsedit, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_survivors, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_survivors, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rarezombiesedit, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -403,6 +450,47 @@ Partial Class BattlegroundZ
         CType(Me.PictureBox79, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_zombie_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox80, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_levelsedit.SuspendLayout()
+        CType(Me.PictureBox117, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox118, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox116, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_levelsedit_return, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel7.SuspendLayout()
+        CType(Me.PictureBox115, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox114, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox113, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox112, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox111, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox110, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel5.SuspendLayout()
+        CType(Me.PictureBox109, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox108, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox107, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox106, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox105, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox104, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel6.SuspendLayout()
+        CType(Me.PictureBox103, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox102, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox101, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox100, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox99, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox98, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel4.SuspendLayout()
+        CType(Me.PictureBox97, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox96, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox95, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox94, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox93, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox92, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox91, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox90, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox89, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox88, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox87, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox86, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SMPBZSE_logo
@@ -1080,6 +1168,7 @@ Partial Class BattlegroundZ
         '
         Me.Panel_main.BackColor = System.Drawing.Color.Transparent
         Me.Panel_main.BackgroundImage = CType(resources.GetObject("Panel_main.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_main.Controls.Add(Me.Icon_levelsedit)
         Me.Panel_main.Controls.Add(Me.valu_survivors)
         Me.Panel_main.Controls.Add(Me.Icon_survivors)
         Me.Panel_main.Controls.Add(Me.Icon_rarezombiesedit)
@@ -1090,10 +1179,20 @@ Partial Class BattlegroundZ
         Me.Panel_main.Size = New System.Drawing.Size(596, 500)
         Me.Panel_main.TabIndex = 33
         '
+        'Icon_levelsedit
+        '
+        Me.Icon_levelsedit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_levelsedit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_levelsedit
+        Me.Icon_levelsedit.Location = New System.Drawing.Point(158, 320)
+        Me.Icon_levelsedit.Name = "Icon_levelsedit"
+        Me.Icon_levelsedit.Size = New System.Drawing.Size(60, 63)
+        Me.Icon_levelsedit.TabIndex = 5
+        Me.Icon_levelsedit.TabStop = False
+        '
         'valu_survivors
         '
         Me.valu_survivors.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_survivors.Location = New System.Drawing.Point(283, 171)
+        Me.valu_survivors.Location = New System.Drawing.Point(283, 126)
         Me.valu_survivors.Maximum = New Decimal(New Integer() {999999, 0, 0, 0})
         Me.valu_survivors.Name = "valu_survivors"
         Me.valu_survivors.Size = New System.Drawing.Size(84, 16)
@@ -1103,7 +1202,7 @@ Partial Class BattlegroundZ
         'Icon_survivors
         '
         Me.Icon_survivors.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_survivors
-        Me.Icon_survivors.Location = New System.Drawing.Point(229, 163)
+        Me.Icon_survivors.Location = New System.Drawing.Point(229, 118)
         Me.Icon_survivors.Name = "Icon_survivors"
         Me.Icon_survivors.Size = New System.Drawing.Size(48, 32)
         Me.Icon_survivors.TabIndex = 3
@@ -1113,7 +1212,7 @@ Partial Class BattlegroundZ
         '
         Me.Icon_rarezombiesedit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_rarezombiesedit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_rarezombies
-        Me.Icon_rarezombiesedit.Location = New System.Drawing.Point(378, 274)
+        Me.Icon_rarezombiesedit.Location = New System.Drawing.Point(378, 229)
         Me.Icon_rarezombiesedit.Name = "Icon_rarezombiesedit"
         Me.Icon_rarezombiesedit.Size = New System.Drawing.Size(60, 63)
         Me.Icon_rarezombiesedit.TabIndex = 2
@@ -1123,7 +1222,7 @@ Partial Class BattlegroundZ
         '
         Me.Icon_zombiesedit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_zombiesedit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_zombies
-        Me.Icon_zombiesedit.Location = New System.Drawing.Point(268, 274)
+        Me.Icon_zombiesedit.Location = New System.Drawing.Point(268, 229)
         Me.Icon_zombiesedit.Name = "Icon_zombiesedit"
         Me.Icon_zombiesedit.Size = New System.Drawing.Size(60, 63)
         Me.Icon_zombiesedit.TabIndex = 1
@@ -1133,7 +1232,7 @@ Partial Class BattlegroundZ
         '
         Me.Icon_weaponsedit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Icon_weaponsedit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_weapons
-        Me.Icon_weaponsedit.Location = New System.Drawing.Point(158, 274)
+        Me.Icon_weaponsedit.Location = New System.Drawing.Point(158, 229)
         Me.Icon_weaponsedit.Name = "Icon_weaponsedit"
         Me.Icon_weaponsedit.Size = New System.Drawing.Size(60, 63)
         Me.Icon_weaponsedit.TabIndex = 0
@@ -2527,6 +2626,485 @@ Partial Class BattlegroundZ
         Me.PictureBox80.TabIndex = 0
         Me.PictureBox80.TabStop = False
         '
+        'Panel_levelsedit
+        '
+        Me.Panel_levelsedit.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_levelsedit.BackgroundImage = CType(resources.GetObject("Panel_levelsedit.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_levelsedit.Controls.Add(Me.Label3)
+        Me.Panel_levelsedit.Controls.Add(Me.PictureBox117)
+        Me.Panel_levelsedit.Controls.Add(Me.Label4)
+        Me.Panel_levelsedit.Controls.Add(Me.PictureBox118)
+        Me.Panel_levelsedit.Controls.Add(Me.Label2)
+        Me.Panel_levelsedit.Controls.Add(Me.PictureBox116)
+        Me.Panel_levelsedit.Controls.Add(Me.Label1)
+        Me.Panel_levelsedit.Controls.Add(Me.PictureBox28)
+        Me.Panel_levelsedit.Controls.Add(Me.Icon_levelsedit_return)
+        Me.Panel_levelsedit.Controls.Add(Me.Panel7)
+        Me.Panel_levelsedit.Controls.Add(Me.Panel5)
+        Me.Panel_levelsedit.Controls.Add(Me.Panel6)
+        Me.Panel_levelsedit.Controls.Add(Me.Panel4)
+        Me.Panel_levelsedit.Controls.Add(Me.Panel1)
+        Me.Panel_levelsedit.Location = New System.Drawing.Point(2, 62)
+        Me.Panel_levelsedit.Name = "Panel_levelsedit"
+        Me.Panel_levelsedit.Size = New System.Drawing.Size(596, 500)
+        Me.Panel_levelsedit.TabIndex = 54
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(433, 451)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(97, 13)
+        Me.Label3.TabIndex = 61
+        Me.Label3.Text = "Level lock enabled"
+        '
+        'PictureBox117
+        '
+        Me.PictureBox117.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureBox117.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_lock
+        Me.PictureBox117.Location = New System.Drawing.Point(401, 447)
+        Me.PictureBox117.Name = "PictureBox117"
+        Me.PictureBox117.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox117.TabIndex = 60
+        Me.PictureBox117.TabStop = False
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(433, 424)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(71, 13)
+        Me.Label4.TabIndex = 59
+        Me.Label4.Text = "Level cleared"
+        '
+        'PictureBox118
+        '
+        Me.PictureBox118.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureBox118.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_clear
+        Me.PictureBox118.Location = New System.Drawing.Point(401, 420)
+        Me.PictureBox118.Name = "PictureBox118"
+        Me.PictureBox118.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox118.TabIndex = 58
+        Me.PictureBox118.TabStop = False
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(433, 397)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(74, 13)
+        Me.Label2.TabIndex = 57
+        Me.Label2.Text = "Level enabled"
+        '
+        'PictureBox116
+        '
+        Me.PictureBox116.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureBox116.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox116.Location = New System.Drawing.Point(401, 393)
+        Me.PictureBox116.Name = "PictureBox116"
+        Me.PictureBox116.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox116.TabIndex = 56
+        Me.PictureBox116.TabStop = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(433, 370)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(92, 13)
+        Me.Label1.TabIndex = 55
+        Me.Label1.Text = "Level not enabled"
+        '
+        'PictureBox28
+        '
+        Me.PictureBox28.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureBox28.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
+        Me.PictureBox28.Location = New System.Drawing.Point(401, 366)
+        Me.PictureBox28.Name = "PictureBox28"
+        Me.PictureBox28.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox28.TabIndex = 54
+        Me.PictureBox28.TabStop = False
+        '
+        'Icon_levelsedit_return
+        '
+        Me.Icon_levelsedit_return.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_levelsedit_return.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_return
+        Me.Icon_levelsedit_return.Location = New System.Drawing.Point(18, 449)
+        Me.Icon_levelsedit_return.Name = "Icon_levelsedit_return"
+        Me.Icon_levelsedit_return.Size = New System.Drawing.Size(36, 39)
+        Me.Icon_levelsedit_return.TabIndex = 53
+        Me.Icon_levelsedit_return.TabStop = False
+        '
+        'Panel7
+        '
+        Me.Panel7.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_5
+        Me.Panel7.Controls.Add(Me.PictureBox115)
+        Me.Panel7.Controls.Add(Me.PictureBox114)
+        Me.Panel7.Controls.Add(Me.PictureBox113)
+        Me.Panel7.Controls.Add(Me.PictureBox112)
+        Me.Panel7.Controls.Add(Me.PictureBox111)
+        Me.Panel7.Controls.Add(Me.PictureBox110)
+        Me.Panel7.Location = New System.Drawing.Point(100, 335)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(270, 162)
+        Me.Panel7.TabIndex = 4
+        '
+        'PictureBox115
+        '
+        Me.PictureBox115.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox115.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox115.Location = New System.Drawing.Point(123, 85)
+        Me.PictureBox115.Name = "PictureBox115"
+        Me.PictureBox115.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox115.TabIndex = 6
+        Me.PictureBox115.TabStop = False
+        '
+        'PictureBox114
+        '
+        Me.PictureBox114.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox114.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox114.Location = New System.Drawing.Point(84, 66)
+        Me.PictureBox114.Name = "PictureBox114"
+        Me.PictureBox114.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox114.TabIndex = 5
+        Me.PictureBox114.TabStop = False
+        '
+        'PictureBox113
+        '
+        Me.PictureBox113.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox113.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox113.Location = New System.Drawing.Point(161, 50)
+        Me.PictureBox113.Name = "PictureBox113"
+        Me.PictureBox113.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox113.TabIndex = 4
+        Me.PictureBox113.TabStop = False
+        '
+        'PictureBox112
+        '
+        Me.PictureBox112.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox112.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox112.Location = New System.Drawing.Point(123, 27)
+        Me.PictureBox112.Name = "PictureBox112"
+        Me.PictureBox112.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox112.TabIndex = 3
+        Me.PictureBox112.TabStop = False
+        '
+        'PictureBox111
+        '
+        Me.PictureBox111.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox111.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox111.Location = New System.Drawing.Point(84, 16)
+        Me.PictureBox111.Name = "PictureBox111"
+        Me.PictureBox111.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox111.TabIndex = 2
+        Me.PictureBox111.TabStop = False
+        '
+        'PictureBox110
+        '
+        Me.PictureBox110.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox110.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox110.Location = New System.Drawing.Point(123, 124)
+        Me.PictureBox110.Name = "PictureBox110"
+        Me.PictureBox110.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox110.TabIndex = 1
+        Me.PictureBox110.TabStop = False
+        '
+        'Panel5
+        '
+        Me.Panel5.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_4
+        Me.Panel5.Controls.Add(Me.PictureBox109)
+        Me.Panel5.Controls.Add(Me.PictureBox108)
+        Me.Panel5.Controls.Add(Me.PictureBox107)
+        Me.Panel5.Controls.Add(Me.PictureBox106)
+        Me.Panel5.Controls.Add(Me.PictureBox105)
+        Me.Panel5.Controls.Add(Me.PictureBox104)
+        Me.Panel5.Location = New System.Drawing.Point(301, 169)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(270, 162)
+        Me.Panel5.TabIndex = 3
+        '
+        'PictureBox109
+        '
+        Me.PictureBox109.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox109.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox109.Location = New System.Drawing.Point(147, 73)
+        Me.PictureBox109.Name = "PictureBox109"
+        Me.PictureBox109.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox109.TabIndex = 6
+        Me.PictureBox109.TabStop = False
+        '
+        'PictureBox108
+        '
+        Me.PictureBox108.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox108.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox108.Location = New System.Drawing.Point(120, 128)
+        Me.PictureBox108.Name = "PictureBox108"
+        Me.PictureBox108.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox108.TabIndex = 5
+        Me.PictureBox108.TabStop = False
+        '
+        'PictureBox107
+        '
+        Me.PictureBox107.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox107.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox107.Location = New System.Drawing.Point(70, 104)
+        Me.PictureBox107.Name = "PictureBox107"
+        Me.PictureBox107.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox107.TabIndex = 4
+        Me.PictureBox107.TabStop = False
+        '
+        'PictureBox106
+        '
+        Me.PictureBox106.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox106.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox106.Location = New System.Drawing.Point(166, 120)
+        Me.PictureBox106.Name = "PictureBox106"
+        Me.PictureBox106.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox106.TabIndex = 3
+        Me.PictureBox106.TabStop = False
+        '
+        'PictureBox105
+        '
+        Me.PictureBox105.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox105.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox105.Location = New System.Drawing.Point(197, 37)
+        Me.PictureBox105.Name = "PictureBox105"
+        Me.PictureBox105.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox105.TabIndex = 2
+        Me.PictureBox105.TabStop = False
+        '
+        'PictureBox104
+        '
+        Me.PictureBox104.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox104.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox104.Location = New System.Drawing.Point(148, 18)
+        Me.PictureBox104.Name = "PictureBox104"
+        Me.PictureBox104.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox104.TabIndex = 1
+        Me.PictureBox104.TabStop = False
+        '
+        'Panel6
+        '
+        Me.Panel6.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_3
+        Me.Panel6.Controls.Add(Me.PictureBox103)
+        Me.Panel6.Controls.Add(Me.PictureBox102)
+        Me.Panel6.Controls.Add(Me.PictureBox101)
+        Me.Panel6.Controls.Add(Me.PictureBox100)
+        Me.Panel6.Controls.Add(Me.PictureBox99)
+        Me.Panel6.Controls.Add(Me.PictureBox98)
+        Me.Panel6.Location = New System.Drawing.Point(25, 169)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(270, 162)
+        Me.Panel6.TabIndex = 2
+        '
+        'PictureBox103
+        '
+        Me.PictureBox103.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox103.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox103.Location = New System.Drawing.Point(153, 79)
+        Me.PictureBox103.Name = "PictureBox103"
+        Me.PictureBox103.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox103.TabIndex = 6
+        Me.PictureBox103.TabStop = False
+        '
+        'PictureBox102
+        '
+        Me.PictureBox102.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox102.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox102.Location = New System.Drawing.Point(65, 135)
+        Me.PictureBox102.Name = "PictureBox102"
+        Me.PictureBox102.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox102.TabIndex = 5
+        Me.PictureBox102.TabStop = False
+        '
+        'PictureBox101
+        '
+        Me.PictureBox101.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox101.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox101.Location = New System.Drawing.Point(78, 90)
+        Me.PictureBox101.Name = "PictureBox101"
+        Me.PictureBox101.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox101.TabIndex = 4
+        Me.PictureBox101.TabStop = False
+        '
+        'PictureBox100
+        '
+        Me.PictureBox100.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox100.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox100.Location = New System.Drawing.Point(201, 114)
+        Me.PictureBox100.Name = "PictureBox100"
+        Me.PictureBox100.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox100.TabIndex = 3
+        Me.PictureBox100.TabStop = False
+        '
+        'PictureBox99
+        '
+        Me.PictureBox99.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox99.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox99.Location = New System.Drawing.Point(197, 39)
+        Me.PictureBox99.Name = "PictureBox99"
+        Me.PictureBox99.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox99.TabIndex = 2
+        Me.PictureBox99.TabStop = False
+        '
+        'PictureBox98
+        '
+        Me.PictureBox98.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox98.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox98.Location = New System.Drawing.Point(37, 80)
+        Me.PictureBox98.Name = "PictureBox98"
+        Me.PictureBox98.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox98.TabIndex = 1
+        Me.PictureBox98.TabStop = False
+        '
+        'Panel4
+        '
+        Me.Panel4.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_2
+        Me.Panel4.Controls.Add(Me.PictureBox97)
+        Me.Panel4.Controls.Add(Me.PictureBox96)
+        Me.Panel4.Controls.Add(Me.PictureBox95)
+        Me.Panel4.Controls.Add(Me.PictureBox94)
+        Me.Panel4.Controls.Add(Me.PictureBox93)
+        Me.Panel4.Controls.Add(Me.PictureBox92)
+        Me.Panel4.Location = New System.Drawing.Point(301, 3)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(270, 162)
+        Me.Panel4.TabIndex = 1
+        '
+        'PictureBox97
+        '
+        Me.PictureBox97.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox97.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox97.Location = New System.Drawing.Point(123, 60)
+        Me.PictureBox97.Name = "PictureBox97"
+        Me.PictureBox97.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox97.TabIndex = 6
+        Me.PictureBox97.TabStop = False
+        '
+        'PictureBox96
+        '
+        Me.PictureBox96.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox96.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox96.Location = New System.Drawing.Point(184, 71)
+        Me.PictureBox96.Name = "PictureBox96"
+        Me.PictureBox96.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox96.TabIndex = 5
+        Me.PictureBox96.TabStop = False
+        '
+        'PictureBox95
+        '
+        Me.PictureBox95.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox95.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox95.Location = New System.Drawing.Point(122, 121)
+        Me.PictureBox95.Name = "PictureBox95"
+        Me.PictureBox95.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox95.TabIndex = 4
+        Me.PictureBox95.TabStop = False
+        '
+        'PictureBox94
+        '
+        Me.PictureBox94.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox94.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox94.Location = New System.Drawing.Point(209, 39)
+        Me.PictureBox94.Name = "PictureBox94"
+        Me.PictureBox94.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox94.TabIndex = 3
+        Me.PictureBox94.TabStop = False
+        '
+        'PictureBox93
+        '
+        Me.PictureBox93.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox93.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox93.Location = New System.Drawing.Point(63, 71)
+        Me.PictureBox93.Name = "PictureBox93"
+        Me.PictureBox93.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox93.TabIndex = 2
+        Me.PictureBox93.TabStop = False
+        '
+        'PictureBox92
+        '
+        Me.PictureBox92.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox92.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox92.Location = New System.Drawing.Point(37, 39)
+        Me.PictureBox92.Name = "PictureBox92"
+        Me.PictureBox92.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox92.TabIndex = 1
+        Me.PictureBox92.TabStop = False
+        '
+        'Panel1
+        '
+        Me.Panel1.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_1
+        Me.Panel1.Controls.Add(Me.PictureBox91)
+        Me.Panel1.Controls.Add(Me.PictureBox90)
+        Me.Panel1.Controls.Add(Me.PictureBox89)
+        Me.Panel1.Controls.Add(Me.PictureBox88)
+        Me.Panel1.Controls.Add(Me.PictureBox87)
+        Me.Panel1.Controls.Add(Me.PictureBox86)
+        Me.Panel1.Location = New System.Drawing.Point(25, 3)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(270, 162)
+        Me.Panel1.TabIndex = 0
+        '
+        'PictureBox91
+        '
+        Me.PictureBox91.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox91.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox91.Location = New System.Drawing.Point(202, 133)
+        Me.PictureBox91.Name = "PictureBox91"
+        Me.PictureBox91.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox91.TabIndex = 5
+        Me.PictureBox91.TabStop = False
+        '
+        'PictureBox90
+        '
+        Me.PictureBox90.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox90.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox90.Location = New System.Drawing.Point(134, 134)
+        Me.PictureBox90.Name = "PictureBox90"
+        Me.PictureBox90.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox90.TabIndex = 4
+        Me.PictureBox90.TabStop = False
+        '
+        'PictureBox89
+        '
+        Me.PictureBox89.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox89.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox89.Location = New System.Drawing.Point(64, 134)
+        Me.PictureBox89.Name = "PictureBox89"
+        Me.PictureBox89.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox89.TabIndex = 3
+        Me.PictureBox89.TabStop = False
+        '
+        'PictureBox88
+        '
+        Me.PictureBox88.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox88.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox88.Location = New System.Drawing.Point(180, 61)
+        Me.PictureBox88.Name = "PictureBox88"
+        Me.PictureBox88.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox88.TabIndex = 2
+        Me.PictureBox88.TabStop = False
+        '
+        'PictureBox87
+        '
+        Me.PictureBox87.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox87.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox87.Location = New System.Drawing.Point(122, 55)
+        Me.PictureBox87.Name = "PictureBox87"
+        Me.PictureBox87.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox87.TabIndex = 1
+        Me.PictureBox87.TabStop = False
+        '
+        'PictureBox86
+        '
+        Me.PictureBox86.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox86.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.PictureBox86.Location = New System.Drawing.Point(82, 36)
+        Me.PictureBox86.Name = "PictureBox86"
+        Me.PictureBox86.Size = New System.Drawing.Size(26, 21)
+        Me.PictureBox86.TabIndex = 0
+        Me.PictureBox86.TabStop = False
+        '
         'BattlegroundZ
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2540,6 +3118,7 @@ Partial Class BattlegroundZ
         Me.Controls.Add(Me.Panel_weaponsedit)
         Me.Controls.Add(Me.Panel_zombiesedit)
         Me.Controls.Add(Me.Panel_rarezombiesedit)
+        Me.Controls.Add(Me.Panel_levelsedit)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "BattlegroundZ"
@@ -2605,6 +3184,7 @@ Partial Class BattlegroundZ
         CType(Me.valu_rzombie_1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_main.ResumeLayout(False)
+        CType(Me.Icon_levelsedit, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_survivors, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_survivors, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rarezombiesedit, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2732,6 +3312,48 @@ Partial Class BattlegroundZ
         CType(Me.PictureBox79, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_zombie_1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox80, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_levelsedit.ResumeLayout(False)
+        Me.Panel_levelsedit.PerformLayout()
+        CType(Me.PictureBox117, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox118, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox116, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_levelsedit_return, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel7.ResumeLayout(False)
+        CType(Me.PictureBox115, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox114, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox113, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox112, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox111, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox110, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel5.ResumeLayout(False)
+        CType(Me.PictureBox109, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox108, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox107, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox106, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox105, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox104, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel6.ResumeLayout(False)
+        CType(Me.PictureBox103, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox102, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox101, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox100, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox99, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox98, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel4.ResumeLayout(False)
+        CType(Me.PictureBox97, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox96, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox95, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox94, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox93, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox92, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox91, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox90, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox89, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox88, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox87, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox86, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -2928,4 +3550,50 @@ Partial Class BattlegroundZ
     Friend WithEvents PictureBox79 As System.Windows.Forms.PictureBox
     Friend WithEvents valu_zombie_1 As System.Windows.Forms.NumericUpDown
     Friend WithEvents PictureBox80 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_levelsedit As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel_levelsedit As System.Windows.Forms.Panel
+    Friend WithEvents Panel7 As System.Windows.Forms.Panel
+    Friend WithEvents Panel5 As System.Windows.Forms.Panel
+    Friend WithEvents Panel6 As System.Windows.Forms.Panel
+    Friend WithEvents Panel4 As System.Windows.Forms.Panel
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Icon_levelsedit_return As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox91 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox90 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox89 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox88 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox87 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox86 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox97 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox96 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox95 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox94 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox93 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox92 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox115 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox114 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox113 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox112 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox111 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox110 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox109 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox108 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox107 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox106 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox105 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox104 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox103 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox102 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox101 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox100 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox99 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox98 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox28 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox117 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox118 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox116 As System.Windows.Forms.PictureBox
 End Class

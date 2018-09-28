@@ -493,6 +493,7 @@ Public Class BattlegroundZ
         Panel_rarezombiesedit.Visible = False
         Panel_weaponsedit.Visible = False
         Panel_zombiesedit.Visible = False
+        Panel_levelsedit.Visible = False
     End Sub
 
     Public Sub makebakmgZmb0()
@@ -515,6 +516,11 @@ Public Class BattlegroundZ
     End Sub
 
     Private Sub Icon_zombiesedit_return_Click(sender As Object, e As EventArgs) Handles Icon_zombiesedit_return.Click
+        hidepanels()
+        Panel_main.Visible = True
+    End Sub
+
+    Private Sub Icon_levelsedit_return_Click(sender As Object, e As EventArgs) Handles Icon_levelsedit_return.Click
         hidepanels()
         Panel_main.Visible = True
     End Sub
@@ -597,6 +603,11 @@ Public Class BattlegroundZ
         Panel_zombiesedit.Visible = True
     End Sub
 
+    Private Sub Icon_levelsedit_Click(sender As Object, e As EventArgs) Handles Icon_levelsedit.Click
+        hidepanels()
+        Panel_levelsedit.Visible = True
+    End Sub
+
     Private Sub Text_weaponsedit_unlockall_Click(sender As Object, e As EventArgs) Handles Text_weaponsedit_unlockall.Click
         valu_weapon_1.Value = 61695
         valu_weapon_2.Value = 61695
@@ -641,4 +652,5 @@ Public Class BattlegroundZ
     Private Sub Text_menu_save_Click(sender As Object, e As EventArgs) Handles Text_menu_save.Click
         writefilesavemgZmb0()
     End Sub
+
 End Class

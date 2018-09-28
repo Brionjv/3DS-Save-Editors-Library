@@ -247,6 +247,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\Icon_zombinav_levelsedit.png" />
+    <None Include="Resources\icon_level_na.png" />
+    <None Include="Resources\icon_level_lock.png" />
+    <None Include="Resources\icon_level_enable.png" />
+    <None Include="Resources\icon_level_clear.png" />
+    <None Include="Resources\area_5.png" />
+    <None Include="Resources\area_4.png" />
+    <None Include="Resources\area_3.png" />
+    <None Include="Resources\area_2.png" />
+    <None Include="Resources\area_1.png" />
     <None Include="Resources\SMPBZSE_fdialog.png" />
     <None Include="Resources\icon_trader.png" />
     <None Include="Resources\zombie_ZombieStack.png" />
