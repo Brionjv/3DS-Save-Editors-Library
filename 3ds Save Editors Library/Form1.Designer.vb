@@ -43,7 +43,7 @@ Partial Class N3DSSE_library
         Me.Text_N3DSSEL_version = New System.Windows.Forms.Label()
         Me.Menu_icon_settings = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Icon_SMPTS = New System.Windows.Forms.PictureBox()
         Me.Icon_SMPBZSE = New System.Windows.Forms.PictureBox()
         Me.Icon_ARGSE = New System.Windows.Forms.PictureBox()
         Me.Icon_3DSS3DSCSE = New System.Windows.Forms.PictureBox()
@@ -68,7 +68,7 @@ Partial Class N3DSSE_library
         Me.Panel2.SuspendLayout()
         CType(Me.Menu_icon_settings, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_SMPTS, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_SMPBZSE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_ARGSE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_3DSS3DSCSE, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -309,7 +309,7 @@ Partial Class N3DSSE_library
         'Panel1
         '
         Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
-        Me.Panel1.Controls.Add(Me.PictureBox1)
+        Me.Panel1.Controls.Add(Me.Icon_SMPTS)
         Me.Panel1.Controls.Add(Me.Icon_SMPBZSE)
         Me.Panel1.Controls.Add(Me.Icon_ARGSE)
         Me.Panel1.Controls.Add(Me.Icon_3DSS3DSCSE)
@@ -319,15 +319,15 @@ Partial Class N3DSSE_library
         Me.Panel1.Size = New System.Drawing.Size(649, 366)
         Me.Panel1.TabIndex = 29
         '
-        'PictureBox1
+        'Icon_SMPTS
         '
-        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_trader
-        Me.PictureBox1.Location = New System.Drawing.Point(219, 3)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(48, 48)
-        Me.PictureBox1.TabIndex = 166
-        Me.PictureBox1.TabStop = False
+        Me.Icon_SMPTS.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_SMPTS.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_trader
+        Me.Icon_SMPTS.Location = New System.Drawing.Point(219, 3)
+        Me.Icon_SMPTS.Name = "Icon_SMPTS"
+        Me.Icon_SMPTS.Size = New System.Drawing.Size(48, 48)
+        Me.Icon_SMPTS.TabIndex = 166
+        Me.Icon_SMPTS.TabStop = False
         '
         'Icon_SMPBZSE
         '
@@ -441,7 +441,7 @@ Partial Class N3DSSE_library
         Me.Panel2.ResumeLayout(False)
         CType(Me.Menu_icon_settings, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_SMPTS, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_SMPBZSE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_ARGSE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_3DSS3DSCSE, System.ComponentModel.ISupportInitialize).EndInit()
@@ -477,6 +477,6 @@ Partial Class N3DSSE_library
     Friend WithEvents Text_description As System.Windows.Forms.Label
     Friend WithEvents Icon_ARGSE As System.Windows.Forms.PictureBox
     Friend WithEvents Icon_SMPBZSE As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_SMPTS As System.Windows.Forms.PictureBox
 
 End Class

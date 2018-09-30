@@ -482,6 +482,8 @@ Public Class BattlegroundZ
             Writer.WriteUInt16(valu_weapon_25.Value)
             Writer.Position = weapon_26
             Writer.WriteUInt16(valu_weapon_26.Value)
+            fdialog.Description.Text = "Editing of mgZmb0.dat has been saved"
+            fdialog.ShowDialog()
         Catch ex As Exception
             fdialog.Description.Text = "Failed to edit mgZmb0.dat, make sure you have opened a save file or report this issue"
             fdialog.ShowDialog()

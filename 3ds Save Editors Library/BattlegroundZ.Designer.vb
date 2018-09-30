@@ -1182,6 +1182,7 @@ Partial Class BattlegroundZ
         'Icon_levelsedit
         '
         Me.Icon_levelsedit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_levelsedit.Enabled = False
         Me.Icon_levelsedit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_levelsedit
         Me.Icon_levelsedit.Location = New System.Drawing.Point(158, 320)
         Me.Icon_levelsedit.Name = "Icon_levelsedit"

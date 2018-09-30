@@ -302,7 +302,18 @@ Public Class N3DSSE_library
         Panel_description.Visible = True
     End Sub
 
-    Private Sub Icon_SMPBZSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_SMPBZSE.MouseMove
+    Private Sub Icon_SMPTS_Click(sender As Object, e As EventArgs) Handles Icon_SMPTS.Click
 
+    End Sub
+
+    Private Sub Icon_SMPTS_MouseLeave(sender As Object, e As EventArgs) Handles Icon_SMPTS.MouseLeave
+        Icon_SMPTS.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_SMPTS_MouseMove(sender As Object, e As EventArgs) Handles Icon_SMPTS.MouseMove
+        Icon_SMPTS.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "Work in progress"
+        Panel_description.Visible = True
     End Sub
 End Class
