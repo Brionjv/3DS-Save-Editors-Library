@@ -228,40 +228,70 @@ Partial Class BattlegroundZ
         Me.PictureBox28 = New System.Windows.Forms.PictureBox()
         Me.Icon_levelsedit_return = New System.Windows.Forms.PictureBox()
         Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.PictureBox115 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox114 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox113 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox112 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox111 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox110 = New System.Windows.Forms.PictureBox()
+        Me.valu_viroentree = New System.Windows.Forms.NumericUpDown()
+        Me.valu_reservoirtox = New System.Windows.Forms.NumericUpDown()
+        Me.valu_laboratoire = New System.Windows.Forms.NumericUpDown()
+        Me.valu_rififitoit = New System.Windows.Forms.NumericUpDown()
+        Me.valu_ascenseur = New System.Windows.Forms.NumericUpDown()
+        Me.valu_toit = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_reservoirtox = New System.Windows.Forms.PictureBox()
+        Me.Icon_laboratoire = New System.Windows.Forms.PictureBox()
+        Me.Icon_ascenseur = New System.Windows.Forms.PictureBox()
+        Me.Icon_toit = New System.Windows.Forms.PictureBox()
+        Me.Icon_rififitoit = New System.Windows.Forms.PictureBox()
+        Me.Icon_viroentree = New System.Windows.Forms.PictureBox()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.PictureBox109 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox108 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox107 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox106 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox105 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox104 = New System.Windows.Forms.PictureBox()
+        Me.valu_tunnel = New System.Windows.Forms.NumericUpDown()
+        Me.valu_cimetiere = New System.Windows.Forms.NumericUpDown()
+        Me.valu_rifificimetiere = New System.Windows.Forms.NumericUpDown()
+        Me.valu_centrelec = New System.Windows.Forms.NumericUpDown()
+        Me.valu_barrage = New System.Windows.Forms.NumericUpDown()
+        Me.valu_reservoir = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_centrelec = New System.Windows.Forms.PictureBox()
+        Me.Icon_cimetiere = New System.Windows.Forms.PictureBox()
+        Me.Icon_tunnel = New System.Windows.Forms.PictureBox()
+        Me.Icon_rifificimetiere = New System.Windows.Forms.PictureBox()
+        Me.Icon_barrage = New System.Windows.Forms.PictureBox()
+        Me.Icon_reservoir = New System.Windows.Forms.PictureBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.PictureBox103 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox102 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox101 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox100 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox99 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox98 = New System.Windows.Forms.PictureBox()
+        Me.valu_stationserv = New System.Windows.Forms.NumericUpDown()
+        Me.valu_chantier = New System.Windows.Forms.NumericUpDown()
+        Me.valu_autoroute = New System.Windows.Forms.NumericUpDown()
+        Me.valu_rififiquartresidentiel = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quartresidentiel = New System.Windows.Forms.NumericUpDown()
+        Me.valu_champmais = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_autoroute = New System.Windows.Forms.PictureBox()
+        Me.Icon_chantier = New System.Windows.Forms.PictureBox()
+        Me.Icon_quartresidentiel = New System.Windows.Forms.PictureBox()
+        Me.Icon_stationserv = New System.Windows.Forms.PictureBox()
+        Me.Icon_champmais = New System.Windows.Forms.PictureBox()
+        Me.Icon_rififiquartresidentiel = New System.Windows.Forms.PictureBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.PictureBox97 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox96 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox95 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox94 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox93 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox92 = New System.Windows.Forms.PictureBox()
+        Me.valu_rififiairerestauration = New System.Windows.Forms.NumericUpDown()
+        Me.valu_airerestauration = New System.Windows.Forms.NumericUpDown()
+        Me.valu_comentree = New System.Windows.Forms.NumericUpDown()
+        Me.valu_place = New System.Windows.Forms.NumericUpDown()
+        Me.valu_galerie = New System.Windows.Forms.NumericUpDown()
+        Me.valu_entrepot = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_galerie = New System.Windows.Forms.PictureBox()
+        Me.Icon_airerestauration = New System.Windows.Forms.PictureBox()
+        Me.Icon_comentree = New System.Windows.Forms.PictureBox()
+        Me.Icon_rififiairerestauration = New System.Windows.Forms.PictureBox()
+        Me.Icon_place = New System.Windows.Forms.PictureBox()
+        Me.Icon_entrepot = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox91 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox90 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox89 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox88 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox87 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox86 = New System.Windows.Forms.PictureBox()
+        Me.valu_station = New System.Windows.Forms.NumericUpDown()
+        Me.valu_parking = New System.Windows.Forms.NumericUpDown()
+        Me.valu_hopital = New System.Windows.Forms.NumericUpDown()
+        Me.valu_ruelle = New System.Windows.Forms.NumericUpDown()
+        Me.valu_stade = New System.Windows.Forms.NumericUpDown()
+        Me.valu_rififistade = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_station = New System.Windows.Forms.PictureBox()
+        Me.Icon_parking = New System.Windows.Forms.PictureBox()
+        Me.Icon_hopital = New System.Windows.Forms.PictureBox()
+        Me.Icon_ruelle = New System.Windows.Forms.PictureBox()
+        Me.Icon_stade = New System.Windows.Forms.PictureBox()
+        Me.Icon_rififistade = New System.Windows.Forms.PictureBox()
         CType(Me.SMPBZSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SMPBZSE_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -457,40 +487,70 @@ Partial Class BattlegroundZ
         CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_levelsedit_return, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel7.SuspendLayout()
-        CType(Me.PictureBox115, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox114, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox113, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox112, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox111, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox110, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_viroentree, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_reservoirtox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_laboratoire, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_rififitoit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_ascenseur, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_toit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_reservoirtox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_laboratoire, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_ascenseur, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_toit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_rififitoit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_viroentree, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel5.SuspendLayout()
-        CType(Me.PictureBox109, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox108, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox107, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox106, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox105, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox104, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_tunnel, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_cimetiere, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_rifificimetiere, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_centrelec, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_barrage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_reservoir, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_centrelec, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_cimetiere, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_tunnel, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_rifificimetiere, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_barrage, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_reservoir, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel6.SuspendLayout()
-        CType(Me.PictureBox103, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox102, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox101, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox100, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox99, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox98, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_stationserv, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_chantier, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_autoroute, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_rififiquartresidentiel, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_quartresidentiel, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_champmais, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_autoroute, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_chantier, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_quartresidentiel, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_stationserv, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_champmais, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_rififiquartresidentiel, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel4.SuspendLayout()
-        CType(Me.PictureBox97, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox96, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox95, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox94, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox93, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox92, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_rififiairerestauration, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_airerestauration, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_comentree, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_place, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_galerie, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_entrepot, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_galerie, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_airerestauration, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_comentree, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_rififiairerestauration, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_place, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_entrepot, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox91, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox90, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox89, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox88, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox87, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox86, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_station, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_parking, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_hopital, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_ruelle, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_stade, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_rififistade, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_station, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_parking, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_hopital, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_ruelle, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_stade, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_rififistade, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SMPBZSE_logo
@@ -524,7 +584,7 @@ Partial Class BattlegroundZ
         Me.SMPBZSE_title.Name = "SMPBZSE_title"
         Me.SMPBZSE_title.Size = New System.Drawing.Size(490, 13)
         Me.SMPBZSE_title.TabIndex = 3
-        Me.SMPBZSE_title.Text = "StreetPass Mii Plaza - Battleground Z Save Editor"
+        Me.SMPBZSE_title.Text = "StreetPass Mii Plaza - StreetPass Zombies / Battleground Z Save Editor"
         Me.SMPBZSE_title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Closebutton
@@ -1182,7 +1242,6 @@ Partial Class BattlegroundZ
         'Icon_levelsedit
         '
         Me.Icon_levelsedit.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_levelsedit.Enabled = False
         Me.Icon_levelsedit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.Icon_zombinav_levelsedit
         Me.Icon_levelsedit.Location = New System.Drawing.Point(158, 320)
         Me.Icon_levelsedit.Name = "Icon_levelsedit"
@@ -2649,6 +2708,7 @@ Partial Class BattlegroundZ
         Me.Panel_levelsedit.Name = "Panel_levelsedit"
         Me.Panel_levelsedit.Size = New System.Drawing.Size(596, 500)
         Me.Panel_levelsedit.TabIndex = 54
+        Me.Panel_levelsedit.Visible = False
         '
         'Label3
         '
@@ -2739,372 +2799,672 @@ Partial Class BattlegroundZ
         'Panel7
         '
         Me.Panel7.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_5
-        Me.Panel7.Controls.Add(Me.PictureBox115)
-        Me.Panel7.Controls.Add(Me.PictureBox114)
-        Me.Panel7.Controls.Add(Me.PictureBox113)
-        Me.Panel7.Controls.Add(Me.PictureBox112)
-        Me.Panel7.Controls.Add(Me.PictureBox111)
-        Me.Panel7.Controls.Add(Me.PictureBox110)
+        Me.Panel7.Controls.Add(Me.valu_viroentree)
+        Me.Panel7.Controls.Add(Me.valu_reservoirtox)
+        Me.Panel7.Controls.Add(Me.valu_laboratoire)
+        Me.Panel7.Controls.Add(Me.valu_rififitoit)
+        Me.Panel7.Controls.Add(Me.valu_ascenseur)
+        Me.Panel7.Controls.Add(Me.valu_toit)
+        Me.Panel7.Controls.Add(Me.Icon_reservoirtox)
+        Me.Panel7.Controls.Add(Me.Icon_laboratoire)
+        Me.Panel7.Controls.Add(Me.Icon_ascenseur)
+        Me.Panel7.Controls.Add(Me.Icon_toit)
+        Me.Panel7.Controls.Add(Me.Icon_rififitoit)
+        Me.Panel7.Controls.Add(Me.Icon_viroentree)
         Me.Panel7.Location = New System.Drawing.Point(100, 335)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(270, 162)
         Me.Panel7.TabIndex = 4
         '
-        'PictureBox115
+        'valu_viroentree
         '
-        Me.PictureBox115.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox115.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox115.Location = New System.Drawing.Point(123, 85)
-        Me.PictureBox115.Name = "PictureBox115"
-        Me.PictureBox115.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox115.TabIndex = 6
-        Me.PictureBox115.TabStop = False
+        Me.valu_viroentree.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_viroentree.Location = New System.Drawing.Point(82, 127)
+        Me.valu_viroentree.Name = "valu_viroentree"
+        Me.valu_viroentree.Size = New System.Drawing.Size(39, 16)
+        Me.valu_viroentree.TabIndex = 12
+        Me.valu_viroentree.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox114
+        'valu_reservoirtox
         '
-        Me.PictureBox114.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox114.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox114.Location = New System.Drawing.Point(84, 66)
-        Me.PictureBox114.Name = "PictureBox114"
-        Me.PictureBox114.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox114.TabIndex = 5
-        Me.PictureBox114.TabStop = False
+        Me.valu_reservoirtox.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_reservoirtox.Location = New System.Drawing.Point(155, 89)
+        Me.valu_reservoirtox.Name = "valu_reservoirtox"
+        Me.valu_reservoirtox.Size = New System.Drawing.Size(39, 16)
+        Me.valu_reservoirtox.TabIndex = 11
+        Me.valu_reservoirtox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox113
+        'valu_laboratoire
         '
-        Me.PictureBox113.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox113.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox113.Location = New System.Drawing.Point(161, 50)
-        Me.PictureBox113.Name = "PictureBox113"
-        Me.PictureBox113.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox113.TabIndex = 4
-        Me.PictureBox113.TabStop = False
+        Me.valu_laboratoire.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_laboratoire.Location = New System.Drawing.Point(39, 71)
+        Me.valu_laboratoire.Name = "valu_laboratoire"
+        Me.valu_laboratoire.Size = New System.Drawing.Size(39, 16)
+        Me.valu_laboratoire.TabIndex = 10
+        Me.valu_laboratoire.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox112
+        'valu_rififitoit
         '
-        Me.PictureBox112.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox112.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox112.Location = New System.Drawing.Point(123, 27)
-        Me.PictureBox112.Name = "PictureBox112"
-        Me.PictureBox112.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox112.TabIndex = 3
-        Me.PictureBox112.TabStop = False
+        Me.valu_rififitoit.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_rififitoit.Location = New System.Drawing.Point(39, 16)
+        Me.valu_rififitoit.Name = "valu_rififitoit"
+        Me.valu_rififitoit.Size = New System.Drawing.Size(39, 16)
+        Me.valu_rififitoit.TabIndex = 9
+        Me.valu_rififitoit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox111
+        'valu_ascenseur
         '
-        Me.PictureBox111.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox111.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox111.Location = New System.Drawing.Point(84, 16)
-        Me.PictureBox111.Name = "PictureBox111"
-        Me.PictureBox111.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox111.TabIndex = 2
-        Me.PictureBox111.TabStop = False
+        Me.valu_ascenseur.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ascenseur.Location = New System.Drawing.Point(189, 50)
+        Me.valu_ascenseur.Name = "valu_ascenseur"
+        Me.valu_ascenseur.Size = New System.Drawing.Size(39, 16)
+        Me.valu_ascenseur.TabIndex = 8
+        Me.valu_ascenseur.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox110
+        'valu_toit
         '
-        Me.PictureBox110.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox110.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox110.Location = New System.Drawing.Point(123, 124)
-        Me.PictureBox110.Name = "PictureBox110"
-        Me.PictureBox110.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox110.TabIndex = 1
-        Me.PictureBox110.TabStop = False
+        Me.valu_toit.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_toit.Location = New System.Drawing.Point(123, 8)
+        Me.valu_toit.Name = "valu_toit"
+        Me.valu_toit.Size = New System.Drawing.Size(39, 16)
+        Me.valu_toit.TabIndex = 7
+        Me.valu_toit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Icon_reservoirtox
+        '
+        Me.Icon_reservoirtox.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_reservoirtox.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_reservoirtox.Location = New System.Drawing.Point(123, 85)
+        Me.Icon_reservoirtox.Name = "Icon_reservoirtox"
+        Me.Icon_reservoirtox.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_reservoirtox.TabIndex = 6
+        Me.Icon_reservoirtox.TabStop = False
+        '
+        'Icon_laboratoire
+        '
+        Me.Icon_laboratoire.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_laboratoire.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_laboratoire.Location = New System.Drawing.Point(84, 66)
+        Me.Icon_laboratoire.Name = "Icon_laboratoire"
+        Me.Icon_laboratoire.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_laboratoire.TabIndex = 5
+        Me.Icon_laboratoire.TabStop = False
+        '
+        'Icon_ascenseur
+        '
+        Me.Icon_ascenseur.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_ascenseur.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_ascenseur.Location = New System.Drawing.Point(161, 50)
+        Me.Icon_ascenseur.Name = "Icon_ascenseur"
+        Me.Icon_ascenseur.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_ascenseur.TabIndex = 4
+        Me.Icon_ascenseur.TabStop = False
+        '
+        'Icon_toit
+        '
+        Me.Icon_toit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_toit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_toit.Location = New System.Drawing.Point(123, 27)
+        Me.Icon_toit.Name = "Icon_toit"
+        Me.Icon_toit.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_toit.TabIndex = 3
+        Me.Icon_toit.TabStop = False
+        '
+        'Icon_rififitoit
+        '
+        Me.Icon_rififitoit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_rififitoit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rififitoit.Location = New System.Drawing.Point(84, 16)
+        Me.Icon_rififitoit.Name = "Icon_rififitoit"
+        Me.Icon_rififitoit.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_rififitoit.TabIndex = 2
+        Me.Icon_rififitoit.TabStop = False
+        '
+        'Icon_viroentree
+        '
+        Me.Icon_viroentree.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_viroentree.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_viroentree.Location = New System.Drawing.Point(123, 124)
+        Me.Icon_viroentree.Name = "Icon_viroentree"
+        Me.Icon_viroentree.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_viroentree.TabIndex = 1
+        Me.Icon_viroentree.TabStop = False
         '
         'Panel5
         '
         Me.Panel5.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_4
-        Me.Panel5.Controls.Add(Me.PictureBox109)
-        Me.Panel5.Controls.Add(Me.PictureBox108)
-        Me.Panel5.Controls.Add(Me.PictureBox107)
-        Me.Panel5.Controls.Add(Me.PictureBox106)
-        Me.Panel5.Controls.Add(Me.PictureBox105)
-        Me.Panel5.Controls.Add(Me.PictureBox104)
+        Me.Panel5.Controls.Add(Me.valu_tunnel)
+        Me.Panel5.Controls.Add(Me.valu_cimetiere)
+        Me.Panel5.Controls.Add(Me.valu_rifificimetiere)
+        Me.Panel5.Controls.Add(Me.valu_centrelec)
+        Me.Panel5.Controls.Add(Me.valu_barrage)
+        Me.Panel5.Controls.Add(Me.valu_reservoir)
+        Me.Panel5.Controls.Add(Me.Icon_centrelec)
+        Me.Panel5.Controls.Add(Me.Icon_cimetiere)
+        Me.Panel5.Controls.Add(Me.Icon_tunnel)
+        Me.Panel5.Controls.Add(Me.Icon_rifificimetiere)
+        Me.Panel5.Controls.Add(Me.Icon_barrage)
+        Me.Panel5.Controls.Add(Me.Icon_reservoir)
         Me.Panel5.Location = New System.Drawing.Point(301, 169)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(270, 162)
         Me.Panel5.TabIndex = 3
         '
-        'PictureBox109
+        'valu_tunnel
         '
-        Me.PictureBox109.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox109.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox109.Location = New System.Drawing.Point(147, 73)
-        Me.PictureBox109.Name = "PictureBox109"
-        Me.PictureBox109.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox109.TabIndex = 6
-        Me.PictureBox109.TabStop = False
+        Me.valu_tunnel.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tunnel.Location = New System.Drawing.Point(27, 109)
+        Me.valu_tunnel.Name = "valu_tunnel"
+        Me.valu_tunnel.Size = New System.Drawing.Size(39, 16)
+        Me.valu_tunnel.TabIndex = 12
+        Me.valu_tunnel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox108
+        'valu_cimetiere
         '
-        Me.PictureBox108.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox108.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox108.Location = New System.Drawing.Point(120, 128)
-        Me.PictureBox108.Name = "PictureBox108"
-        Me.PictureBox108.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox108.TabIndex = 5
-        Me.PictureBox108.TabStop = False
+        Me.valu_cimetiere.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_cimetiere.Location = New System.Drawing.Point(110, 106)
+        Me.valu_cimetiere.Name = "valu_cimetiere"
+        Me.valu_cimetiere.Size = New System.Drawing.Size(39, 16)
+        Me.valu_cimetiere.TabIndex = 11
+        Me.valu_cimetiere.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox107
+        'valu_rifificimetiere
         '
-        Me.PictureBox107.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox107.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox107.Location = New System.Drawing.Point(70, 104)
-        Me.PictureBox107.Name = "PictureBox107"
-        Me.PictureBox107.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox107.TabIndex = 4
-        Me.PictureBox107.TabStop = False
+        Me.valu_rifificimetiere.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_rifificimetiere.Location = New System.Drawing.Point(197, 120)
+        Me.valu_rifificimetiere.Name = "valu_rifificimetiere"
+        Me.valu_rifificimetiere.Size = New System.Drawing.Size(39, 16)
+        Me.valu_rifificimetiere.TabIndex = 10
+        Me.valu_rifificimetiere.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox106
+        'valu_centrelec
         '
-        Me.PictureBox106.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox106.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox106.Location = New System.Drawing.Point(166, 120)
-        Me.PictureBox106.Name = "PictureBox106"
-        Me.PictureBox106.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox106.TabIndex = 3
-        Me.PictureBox106.TabStop = False
+        Me.valu_centrelec.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_centrelec.Location = New System.Drawing.Point(179, 73)
+        Me.valu_centrelec.Name = "valu_centrelec"
+        Me.valu_centrelec.Size = New System.Drawing.Size(39, 16)
+        Me.valu_centrelec.TabIndex = 9
+        Me.valu_centrelec.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox105
+        'valu_barrage
         '
-        Me.PictureBox105.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox105.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox105.Location = New System.Drawing.Point(197, 37)
-        Me.PictureBox105.Name = "PictureBox105"
-        Me.PictureBox105.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox105.TabIndex = 2
-        Me.PictureBox105.TabStop = False
+        Me.valu_barrage.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_barrage.Location = New System.Drawing.Point(229, 39)
+        Me.valu_barrage.Name = "valu_barrage"
+        Me.valu_barrage.Size = New System.Drawing.Size(39, 16)
+        Me.valu_barrage.TabIndex = 8
+        Me.valu_barrage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox104
+        'valu_reservoir
         '
-        Me.PictureBox104.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox104.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox104.Location = New System.Drawing.Point(148, 18)
-        Me.PictureBox104.Name = "PictureBox104"
-        Me.PictureBox104.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox104.TabIndex = 1
-        Me.PictureBox104.TabStop = False
+        Me.valu_reservoir.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_reservoir.Location = New System.Drawing.Point(103, 23)
+        Me.valu_reservoir.Name = "valu_reservoir"
+        Me.valu_reservoir.Size = New System.Drawing.Size(39, 16)
+        Me.valu_reservoir.TabIndex = 7
+        Me.valu_reservoir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Icon_centrelec
+        '
+        Me.Icon_centrelec.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_centrelec.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_centrelec.Location = New System.Drawing.Point(147, 73)
+        Me.Icon_centrelec.Name = "Icon_centrelec"
+        Me.Icon_centrelec.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_centrelec.TabIndex = 6
+        Me.Icon_centrelec.TabStop = False
+        '
+        'Icon_cimetiere
+        '
+        Me.Icon_cimetiere.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_cimetiere.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_cimetiere.Location = New System.Drawing.Point(120, 128)
+        Me.Icon_cimetiere.Name = "Icon_cimetiere"
+        Me.Icon_cimetiere.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_cimetiere.TabIndex = 5
+        Me.Icon_cimetiere.TabStop = False
+        '
+        'Icon_tunnel
+        '
+        Me.Icon_tunnel.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tunnel.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_tunnel.Location = New System.Drawing.Point(70, 104)
+        Me.Icon_tunnel.Name = "Icon_tunnel"
+        Me.Icon_tunnel.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_tunnel.TabIndex = 4
+        Me.Icon_tunnel.TabStop = False
+        '
+        'Icon_rifificimetiere
+        '
+        Me.Icon_rifificimetiere.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_rifificimetiere.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rifificimetiere.Location = New System.Drawing.Point(166, 120)
+        Me.Icon_rifificimetiere.Name = "Icon_rifificimetiere"
+        Me.Icon_rifificimetiere.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_rifificimetiere.TabIndex = 3
+        Me.Icon_rifificimetiere.TabStop = False
+        '
+        'Icon_barrage
+        '
+        Me.Icon_barrage.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_barrage.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_barrage.Location = New System.Drawing.Point(197, 37)
+        Me.Icon_barrage.Name = "Icon_barrage"
+        Me.Icon_barrage.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_barrage.TabIndex = 2
+        Me.Icon_barrage.TabStop = False
+        '
+        'Icon_reservoir
+        '
+        Me.Icon_reservoir.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_reservoir.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_reservoir.Location = New System.Drawing.Point(148, 18)
+        Me.Icon_reservoir.Name = "Icon_reservoir"
+        Me.Icon_reservoir.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_reservoir.TabIndex = 1
+        Me.Icon_reservoir.TabStop = False
         '
         'Panel6
         '
         Me.Panel6.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_3
-        Me.Panel6.Controls.Add(Me.PictureBox103)
-        Me.Panel6.Controls.Add(Me.PictureBox102)
-        Me.Panel6.Controls.Add(Me.PictureBox101)
-        Me.Panel6.Controls.Add(Me.PictureBox100)
-        Me.Panel6.Controls.Add(Me.PictureBox99)
-        Me.Panel6.Controls.Add(Me.PictureBox98)
+        Me.Panel6.Controls.Add(Me.valu_stationserv)
+        Me.Panel6.Controls.Add(Me.valu_chantier)
+        Me.Panel6.Controls.Add(Me.valu_autoroute)
+        Me.Panel6.Controls.Add(Me.valu_rififiquartresidentiel)
+        Me.Panel6.Controls.Add(Me.valu_quartresidentiel)
+        Me.Panel6.Controls.Add(Me.valu_champmais)
+        Me.Panel6.Controls.Add(Me.Icon_autoroute)
+        Me.Panel6.Controls.Add(Me.Icon_chantier)
+        Me.Panel6.Controls.Add(Me.Icon_quartresidentiel)
+        Me.Panel6.Controls.Add(Me.Icon_stationserv)
+        Me.Panel6.Controls.Add(Me.Icon_champmais)
+        Me.Panel6.Controls.Add(Me.Icon_rififiquartresidentiel)
         Me.Panel6.Location = New System.Drawing.Point(25, 169)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(270, 162)
         Me.Panel6.TabIndex = 2
         '
-        'PictureBox103
+        'valu_stationserv
         '
-        Me.PictureBox103.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox103.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox103.Location = New System.Drawing.Point(153, 79)
-        Me.PictureBox103.Name = "PictureBox103"
-        Me.PictureBox103.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox103.TabIndex = 6
-        Me.PictureBox103.TabStop = False
+        Me.valu_stationserv.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_stationserv.Location = New System.Drawing.Point(157, 119)
+        Me.valu_stationserv.Name = "valu_stationserv"
+        Me.valu_stationserv.Size = New System.Drawing.Size(39, 16)
+        Me.valu_stationserv.TabIndex = 12
+        Me.valu_stationserv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox102
+        'valu_chantier
         '
-        Me.PictureBox102.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox102.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox102.Location = New System.Drawing.Point(65, 135)
-        Me.PictureBox102.Name = "PictureBox102"
-        Me.PictureBox102.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox102.TabIndex = 5
-        Me.PictureBox102.TabStop = False
+        Me.valu_chantier.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_chantier.Location = New System.Drawing.Point(20, 140)
+        Me.valu_chantier.Name = "valu_chantier"
+        Me.valu_chantier.Size = New System.Drawing.Size(39, 16)
+        Me.valu_chantier.TabIndex = 11
+        Me.valu_chantier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox101
+        'valu_autoroute
         '
-        Me.PictureBox101.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox101.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox101.Location = New System.Drawing.Point(78, 90)
-        Me.PictureBox101.Name = "PictureBox101"
-        Me.PictureBox101.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox101.TabIndex = 4
-        Me.PictureBox101.TabStop = False
+        Me.valu_autoroute.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_autoroute.Location = New System.Drawing.Point(185, 78)
+        Me.valu_autoroute.Name = "valu_autoroute"
+        Me.valu_autoroute.Size = New System.Drawing.Size(39, 16)
+        Me.valu_autoroute.TabIndex = 10
+        Me.valu_autoroute.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox100
+        'valu_rififiquartresidentiel
         '
-        Me.PictureBox100.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox100.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox100.Location = New System.Drawing.Point(201, 114)
-        Me.PictureBox100.Name = "PictureBox100"
-        Me.PictureBox100.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox100.TabIndex = 3
-        Me.PictureBox100.TabStop = False
+        Me.valu_rififiquartresidentiel.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_rififiquartresidentiel.Location = New System.Drawing.Point(16, 60)
+        Me.valu_rififiquartresidentiel.Name = "valu_rififiquartresidentiel"
+        Me.valu_rififiquartresidentiel.Size = New System.Drawing.Size(39, 16)
+        Me.valu_rififiquartresidentiel.TabIndex = 9
+        Me.valu_rififiquartresidentiel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox99
+        'valu_quartresidentiel
         '
-        Me.PictureBox99.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox99.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox99.Location = New System.Drawing.Point(197, 39)
-        Me.PictureBox99.Name = "PictureBox99"
-        Me.PictureBox99.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox99.TabIndex = 2
-        Me.PictureBox99.TabStop = False
+        Me.valu_quartresidentiel.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quartresidentiel.Location = New System.Drawing.Point(88, 71)
+        Me.valu_quartresidentiel.Name = "valu_quartresidentiel"
+        Me.valu_quartresidentiel.Size = New System.Drawing.Size(39, 16)
+        Me.valu_quartresidentiel.TabIndex = 8
+        Me.valu_quartresidentiel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox98
+        'valu_champmais
         '
-        Me.PictureBox98.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox98.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox98.Location = New System.Drawing.Point(37, 80)
-        Me.PictureBox98.Name = "PictureBox98"
-        Me.PictureBox98.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox98.TabIndex = 1
-        Me.PictureBox98.TabStop = False
+        Me.valu_champmais.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_champmais.Location = New System.Drawing.Point(213, 18)
+        Me.valu_champmais.Name = "valu_champmais"
+        Me.valu_champmais.Size = New System.Drawing.Size(39, 16)
+        Me.valu_champmais.TabIndex = 7
+        Me.valu_champmais.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Icon_autoroute
+        '
+        Me.Icon_autoroute.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_autoroute.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_autoroute.Location = New System.Drawing.Point(153, 79)
+        Me.Icon_autoroute.Name = "Icon_autoroute"
+        Me.Icon_autoroute.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_autoroute.TabIndex = 6
+        Me.Icon_autoroute.TabStop = False
+        '
+        'Icon_chantier
+        '
+        Me.Icon_chantier.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_chantier.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_chantier.Location = New System.Drawing.Point(65, 135)
+        Me.Icon_chantier.Name = "Icon_chantier"
+        Me.Icon_chantier.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_chantier.TabIndex = 5
+        Me.Icon_chantier.TabStop = False
+        '
+        'Icon_quartresidentiel
+        '
+        Me.Icon_quartresidentiel.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quartresidentiel.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_quartresidentiel.Location = New System.Drawing.Point(78, 90)
+        Me.Icon_quartresidentiel.Name = "Icon_quartresidentiel"
+        Me.Icon_quartresidentiel.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_quartresidentiel.TabIndex = 4
+        Me.Icon_quartresidentiel.TabStop = False
+        '
+        'Icon_stationserv
+        '
+        Me.Icon_stationserv.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_stationserv.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_stationserv.Location = New System.Drawing.Point(201, 114)
+        Me.Icon_stationserv.Name = "Icon_stationserv"
+        Me.Icon_stationserv.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_stationserv.TabIndex = 3
+        Me.Icon_stationserv.TabStop = False
+        '
+        'Icon_champmais
+        '
+        Me.Icon_champmais.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_champmais.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_champmais.Location = New System.Drawing.Point(197, 39)
+        Me.Icon_champmais.Name = "Icon_champmais"
+        Me.Icon_champmais.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_champmais.TabIndex = 2
+        Me.Icon_champmais.TabStop = False
+        '
+        'Icon_rififiquartresidentiel
+        '
+        Me.Icon_rififiquartresidentiel.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_rififiquartresidentiel.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rififiquartresidentiel.Location = New System.Drawing.Point(37, 80)
+        Me.Icon_rififiquartresidentiel.Name = "Icon_rififiquartresidentiel"
+        Me.Icon_rififiquartresidentiel.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_rififiquartresidentiel.TabIndex = 1
+        Me.Icon_rififiquartresidentiel.TabStop = False
         '
         'Panel4
         '
         Me.Panel4.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_2
-        Me.Panel4.Controls.Add(Me.PictureBox97)
-        Me.Panel4.Controls.Add(Me.PictureBox96)
-        Me.Panel4.Controls.Add(Me.PictureBox95)
-        Me.Panel4.Controls.Add(Me.PictureBox94)
-        Me.Panel4.Controls.Add(Me.PictureBox93)
-        Me.Panel4.Controls.Add(Me.PictureBox92)
+        Me.Panel4.Controls.Add(Me.valu_rififiairerestauration)
+        Me.Panel4.Controls.Add(Me.valu_airerestauration)
+        Me.Panel4.Controls.Add(Me.valu_comentree)
+        Me.Panel4.Controls.Add(Me.valu_place)
+        Me.Panel4.Controls.Add(Me.valu_galerie)
+        Me.Panel4.Controls.Add(Me.valu_entrepot)
+        Me.Panel4.Controls.Add(Me.Icon_galerie)
+        Me.Panel4.Controls.Add(Me.Icon_airerestauration)
+        Me.Panel4.Controls.Add(Me.Icon_comentree)
+        Me.Panel4.Controls.Add(Me.Icon_rififiairerestauration)
+        Me.Panel4.Controls.Add(Me.Icon_place)
+        Me.Panel4.Controls.Add(Me.Icon_entrepot)
         Me.Panel4.Location = New System.Drawing.Point(301, 3)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(270, 162)
         Me.Panel4.TabIndex = 1
         '
-        'PictureBox97
+        'valu_rififiairerestauration
         '
-        Me.PictureBox97.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox97.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox97.Location = New System.Drawing.Point(123, 60)
-        Me.PictureBox97.Name = "PictureBox97"
-        Me.PictureBox97.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox97.TabIndex = 6
-        Me.PictureBox97.TabStop = False
+        Me.valu_rififiairerestauration.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_rififiairerestauration.Location = New System.Drawing.Point(216, 17)
+        Me.valu_rififiairerestauration.Name = "valu_rififiairerestauration"
+        Me.valu_rififiairerestauration.Size = New System.Drawing.Size(39, 16)
+        Me.valu_rififiairerestauration.TabIndex = 12
+        Me.valu_rififiairerestauration.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox96
+        'valu_airerestauration
         '
-        Me.PictureBox96.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox96.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox96.Location = New System.Drawing.Point(184, 71)
-        Me.PictureBox96.Name = "PictureBox96"
-        Me.PictureBox96.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox96.TabIndex = 5
-        Me.PictureBox96.TabStop = False
+        Me.valu_airerestauration.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_airerestauration.Location = New System.Drawing.Point(184, 98)
+        Me.valu_airerestauration.Name = "valu_airerestauration"
+        Me.valu_airerestauration.Size = New System.Drawing.Size(39, 16)
+        Me.valu_airerestauration.TabIndex = 11
+        Me.valu_airerestauration.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox95
+        'valu_comentree
         '
-        Me.PictureBox95.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox95.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox95.Location = New System.Drawing.Point(122, 121)
-        Me.PictureBox95.Name = "PictureBox95"
-        Me.PictureBox95.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox95.TabIndex = 4
-        Me.PictureBox95.TabStop = False
+        Me.valu_comentree.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_comentree.Location = New System.Drawing.Point(81, 123)
+        Me.valu_comentree.Name = "valu_comentree"
+        Me.valu_comentree.Size = New System.Drawing.Size(39, 16)
+        Me.valu_comentree.TabIndex = 10
+        Me.valu_comentree.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox94
+        'valu_place
         '
-        Me.PictureBox94.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox94.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox94.Location = New System.Drawing.Point(209, 39)
-        Me.PictureBox94.Name = "PictureBox94"
-        Me.PictureBox94.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox94.TabIndex = 3
-        Me.PictureBox94.TabStop = False
+        Me.valu_place.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_place.Location = New System.Drawing.Point(18, 78)
+        Me.valu_place.Name = "valu_place"
+        Me.valu_place.Size = New System.Drawing.Size(39, 16)
+        Me.valu_place.TabIndex = 9
+        Me.valu_place.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox93
+        'valu_galerie
         '
-        Me.PictureBox93.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox93.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox93.Location = New System.Drawing.Point(63, 71)
-        Me.PictureBox93.Name = "PictureBox93"
-        Me.PictureBox93.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox93.TabIndex = 2
-        Me.PictureBox93.TabStop = False
+        Me.valu_galerie.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_galerie.Location = New System.Drawing.Point(117, 41)
+        Me.valu_galerie.Name = "valu_galerie"
+        Me.valu_galerie.Size = New System.Drawing.Size(39, 16)
+        Me.valu_galerie.TabIndex = 8
+        Me.valu_galerie.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox92
+        'valu_entrepot
         '
-        Me.PictureBox92.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox92.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox92.Location = New System.Drawing.Point(37, 39)
-        Me.PictureBox92.Name = "PictureBox92"
-        Me.PictureBox92.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox92.TabIndex = 1
-        Me.PictureBox92.TabStop = False
+        Me.valu_entrepot.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_entrepot.Location = New System.Drawing.Point(10, 17)
+        Me.valu_entrepot.Name = "valu_entrepot"
+        Me.valu_entrepot.Size = New System.Drawing.Size(39, 16)
+        Me.valu_entrepot.TabIndex = 7
+        Me.valu_entrepot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Icon_galerie
+        '
+        Me.Icon_galerie.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_galerie.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_galerie.Location = New System.Drawing.Point(123, 60)
+        Me.Icon_galerie.Name = "Icon_galerie"
+        Me.Icon_galerie.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_galerie.TabIndex = 6
+        Me.Icon_galerie.TabStop = False
+        '
+        'Icon_airerestauration
+        '
+        Me.Icon_airerestauration.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_airerestauration.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_airerestauration.Location = New System.Drawing.Point(184, 71)
+        Me.Icon_airerestauration.Name = "Icon_airerestauration"
+        Me.Icon_airerestauration.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_airerestauration.TabIndex = 5
+        Me.Icon_airerestauration.TabStop = False
+        '
+        'Icon_comentree
+        '
+        Me.Icon_comentree.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_comentree.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_comentree.Location = New System.Drawing.Point(122, 121)
+        Me.Icon_comentree.Name = "Icon_comentree"
+        Me.Icon_comentree.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_comentree.TabIndex = 4
+        Me.Icon_comentree.TabStop = False
+        '
+        'Icon_rififiairerestauration
+        '
+        Me.Icon_rififiairerestauration.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_rififiairerestauration.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rififiairerestauration.Location = New System.Drawing.Point(209, 39)
+        Me.Icon_rififiairerestauration.Name = "Icon_rififiairerestauration"
+        Me.Icon_rififiairerestauration.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_rififiairerestauration.TabIndex = 3
+        Me.Icon_rififiairerestauration.TabStop = False
+        '
+        'Icon_place
+        '
+        Me.Icon_place.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_place.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_place.Location = New System.Drawing.Point(63, 71)
+        Me.Icon_place.Name = "Icon_place"
+        Me.Icon_place.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_place.TabIndex = 2
+        Me.Icon_place.TabStop = False
+        '
+        'Icon_entrepot
+        '
+        Me.Icon_entrepot.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_entrepot.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_entrepot.Location = New System.Drawing.Point(37, 39)
+        Me.Icon_entrepot.Name = "Icon_entrepot"
+        Me.Icon_entrepot.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_entrepot.TabIndex = 1
+        Me.Icon_entrepot.TabStop = False
         '
         'Panel1
         '
         Me.Panel1.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.area_1
-        Me.Panel1.Controls.Add(Me.PictureBox91)
-        Me.Panel1.Controls.Add(Me.PictureBox90)
-        Me.Panel1.Controls.Add(Me.PictureBox89)
-        Me.Panel1.Controls.Add(Me.PictureBox88)
-        Me.Panel1.Controls.Add(Me.PictureBox87)
-        Me.Panel1.Controls.Add(Me.PictureBox86)
+        Me.Panel1.Controls.Add(Me.valu_station)
+        Me.Panel1.Controls.Add(Me.valu_parking)
+        Me.Panel1.Controls.Add(Me.valu_hopital)
+        Me.Panel1.Controls.Add(Me.valu_ruelle)
+        Me.Panel1.Controls.Add(Me.valu_stade)
+        Me.Panel1.Controls.Add(Me.valu_rififistade)
+        Me.Panel1.Controls.Add(Me.Icon_station)
+        Me.Panel1.Controls.Add(Me.Icon_parking)
+        Me.Panel1.Controls.Add(Me.Icon_hopital)
+        Me.Panel1.Controls.Add(Me.Icon_ruelle)
+        Me.Panel1.Controls.Add(Me.Icon_stade)
+        Me.Panel1.Controls.Add(Me.Icon_rififistade)
         Me.Panel1.Location = New System.Drawing.Point(25, 3)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(270, 162)
         Me.Panel1.TabIndex = 0
         '
-        'PictureBox91
+        'valu_station
         '
-        Me.PictureBox91.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox91.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox91.Location = New System.Drawing.Point(202, 133)
-        Me.PictureBox91.Name = "PictureBox91"
-        Me.PictureBox91.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox91.TabIndex = 5
-        Me.PictureBox91.TabStop = False
+        Me.valu_station.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_station.Location = New System.Drawing.Point(222, 112)
+        Me.valu_station.Name = "valu_station"
+        Me.valu_station.Size = New System.Drawing.Size(39, 16)
+        Me.valu_station.TabIndex = 11
+        Me.valu_station.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox90
+        'valu_parking
         '
-        Me.PictureBox90.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox90.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox90.Location = New System.Drawing.Point(134, 134)
-        Me.PictureBox90.Name = "PictureBox90"
-        Me.PictureBox90.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox90.TabIndex = 4
-        Me.PictureBox90.TabStop = False
+        Me.valu_parking.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_parking.Location = New System.Drawing.Point(123, 112)
+        Me.valu_parking.Name = "valu_parking"
+        Me.valu_parking.Size = New System.Drawing.Size(39, 16)
+        Me.valu_parking.TabIndex = 10
+        Me.valu_parking.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox89
+        'valu_hopital
         '
-        Me.PictureBox89.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox89.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox89.Location = New System.Drawing.Point(64, 134)
-        Me.PictureBox89.Name = "PictureBox89"
-        Me.PictureBox89.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox89.TabIndex = 3
-        Me.PictureBox89.TabStop = False
+        Me.valu_hopital.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_hopital.Location = New System.Drawing.Point(16, 131)
+        Me.valu_hopital.Name = "valu_hopital"
+        Me.valu_hopital.Size = New System.Drawing.Size(39, 16)
+        Me.valu_hopital.TabIndex = 9
+        Me.valu_hopital.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox88
+        'valu_ruelle
         '
-        Me.PictureBox88.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox88.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox88.Location = New System.Drawing.Point(180, 61)
-        Me.PictureBox88.Name = "PictureBox88"
-        Me.PictureBox88.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox88.TabIndex = 2
-        Me.PictureBox88.TabStop = False
+        Me.valu_ruelle.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_ruelle.Location = New System.Drawing.Point(212, 66)
+        Me.valu_ruelle.Name = "valu_ruelle"
+        Me.valu_ruelle.Size = New System.Drawing.Size(39, 16)
+        Me.valu_ruelle.TabIndex = 8
+        Me.valu_ruelle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox87
+        'valu_stade
         '
-        Me.PictureBox87.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox87.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox87.Location = New System.Drawing.Point(122, 55)
-        Me.PictureBox87.Name = "PictureBox87"
-        Me.PictureBox87.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox87.TabIndex = 1
-        Me.PictureBox87.TabStop = False
+        Me.valu_stade.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_stade.Location = New System.Drawing.Point(82, 63)
+        Me.valu_stade.Name = "valu_stade"
+        Me.valu_stade.Size = New System.Drawing.Size(39, 16)
+        Me.valu_stade.TabIndex = 7
+        Me.valu_stade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'PictureBox86
+        'valu_rififistade
         '
-        Me.PictureBox86.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox86.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
-        Me.PictureBox86.Location = New System.Drawing.Point(82, 36)
-        Me.PictureBox86.Name = "PictureBox86"
-        Me.PictureBox86.Size = New System.Drawing.Size(26, 21)
-        Me.PictureBox86.TabIndex = 0
-        Me.PictureBox86.TabStop = False
+        Me.valu_rififistade.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_rififistade.Location = New System.Drawing.Point(37, 39)
+        Me.valu_rififistade.Name = "valu_rififistade"
+        Me.valu_rififistade.Size = New System.Drawing.Size(39, 16)
+        Me.valu_rififistade.TabIndex = 6
+        Me.valu_rififistade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Icon_station
+        '
+        Me.Icon_station.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_station.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_station.Location = New System.Drawing.Point(202, 133)
+        Me.Icon_station.Name = "Icon_station"
+        Me.Icon_station.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_station.TabIndex = 5
+        Me.Icon_station.TabStop = False
+        '
+        'Icon_parking
+        '
+        Me.Icon_parking.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_parking.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_parking.Location = New System.Drawing.Point(134, 134)
+        Me.Icon_parking.Name = "Icon_parking"
+        Me.Icon_parking.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_parking.TabIndex = 4
+        Me.Icon_parking.TabStop = False
+        '
+        'Icon_hopital
+        '
+        Me.Icon_hopital.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_hopital.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_hopital.Location = New System.Drawing.Point(64, 134)
+        Me.Icon_hopital.Name = "Icon_hopital"
+        Me.Icon_hopital.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_hopital.TabIndex = 3
+        Me.Icon_hopital.TabStop = False
+        '
+        'Icon_ruelle
+        '
+        Me.Icon_ruelle.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_ruelle.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_ruelle.Location = New System.Drawing.Point(180, 61)
+        Me.Icon_ruelle.Name = "Icon_ruelle"
+        Me.Icon_ruelle.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_ruelle.TabIndex = 2
+        Me.Icon_ruelle.TabStop = False
+        '
+        'Icon_stade
+        '
+        Me.Icon_stade.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_stade.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_stade.Location = New System.Drawing.Point(122, 55)
+        Me.Icon_stade.Name = "Icon_stade"
+        Me.Icon_stade.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_stade.TabIndex = 1
+        Me.Icon_stade.TabStop = False
+        '
+        'Icon_rififistade
+        '
+        Me.Icon_rififistade.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_rififistade.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rififistade.Location = New System.Drawing.Point(82, 36)
+        Me.Icon_rififistade.Name = "Icon_rififistade"
+        Me.Icon_rififistade.Size = New System.Drawing.Size(26, 21)
+        Me.Icon_rififistade.TabIndex = 0
+        Me.Icon_rififistade.TabStop = False
         '
         'BattlegroundZ
         '
@@ -3321,40 +3681,70 @@ Partial Class BattlegroundZ
         CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_levelsedit_return, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel7.ResumeLayout(False)
-        CType(Me.PictureBox115, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox114, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox113, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox112, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox111, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox110, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_viroentree, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_reservoirtox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_laboratoire, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_rififitoit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_ascenseur, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_toit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_reservoirtox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_laboratoire, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_ascenseur, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_toit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_rififitoit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_viroentree, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel5.ResumeLayout(False)
-        CType(Me.PictureBox109, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox108, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox107, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox106, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox105, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox104, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_tunnel, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_cimetiere, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_rifificimetiere, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_centrelec, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_barrage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_reservoir, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_centrelec, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_cimetiere, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_tunnel, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_rifificimetiere, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_barrage, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_reservoir, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel6.ResumeLayout(False)
-        CType(Me.PictureBox103, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox102, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox101, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox100, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox99, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox98, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_stationserv, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_chantier, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_autoroute, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_rififiquartresidentiel, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_quartresidentiel, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_champmais, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_autoroute, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_chantier, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_quartresidentiel, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_stationserv, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_champmais, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_rififiquartresidentiel, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel4.ResumeLayout(False)
-        CType(Me.PictureBox97, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox96, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox95, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox94, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox93, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox92, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_rififiairerestauration, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_airerestauration, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_comentree, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_place, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_galerie, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_entrepot, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_galerie, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_airerestauration, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_comentree, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_rififiairerestauration, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_place, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_entrepot, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
-        CType(Me.PictureBox91, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox90, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox89, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox88, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox87, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox86, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_station, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_parking, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_hopital, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_ruelle, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_stade, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_rififistade, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_station, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_parking, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_hopital, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_ruelle, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_stade, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_rififistade, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -3559,36 +3949,36 @@ Partial Class BattlegroundZ
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Icon_levelsedit_return As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox91 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox90 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox89 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox88 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox87 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox86 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox97 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox96 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox95 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox94 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox93 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox92 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox115 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox114 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox113 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox112 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox111 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox110 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox109 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox108 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox107 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox106 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox105 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox104 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox103 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox102 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox101 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox100 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox99 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox98 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_station As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_parking As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_hopital As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_ruelle As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_stade As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_rififistade As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_galerie As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_airerestauration As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_comentree As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_rififiairerestauration As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_place As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_entrepot As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_reservoirtox As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_laboratoire As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_ascenseur As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_toit As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_rififitoit As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_viroentree As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_centrelec As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_cimetiere As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tunnel As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_rifificimetiere As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_barrage As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_reservoir As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_autoroute As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_chantier As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quartresidentiel As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_stationserv As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_champmais As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_rififiquartresidentiel As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents PictureBox28 As System.Windows.Forms.PictureBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
@@ -3597,4 +3987,34 @@ Partial Class BattlegroundZ
     Friend WithEvents PictureBox118 As System.Windows.Forms.PictureBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents PictureBox116 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_viroentree As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_reservoirtox As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_laboratoire As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_rififitoit As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_ascenseur As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_toit As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tunnel As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_cimetiere As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_rifificimetiere As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_centrelec As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_barrage As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_reservoir As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_stationserv As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_chantier As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_autoroute As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_rififiquartresidentiel As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quartresidentiel As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_champmais As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_rififiairerestauration As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_airerestauration As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_comentree As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_place As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_galerie As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_entrepot As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_station As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_parking As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_hopital As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_ruelle As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_stade As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_rififistade As System.Windows.Forms.NumericUpDown
 End Class

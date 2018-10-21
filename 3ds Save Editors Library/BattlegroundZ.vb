@@ -1,4 +1,5 @@
 ﻿Imports PackageIO
+Imports System.IO
 Public Class BattlegroundZ
     Dim mgZmb0 As String
     Dim applicationpath = Application.StartupPath
@@ -89,6 +90,36 @@ Public Class BattlegroundZ
     Dim weapon_24 = &H65F8
     Dim weapon_25 = &H65FA
     Dim weapon_26 = &H65FC
+    Dim Station = &H30
+    Dim Hopital = &H31
+    Dim Parking = &H32
+    Dim Ruelle = &H33
+    Dim Stade = &H34
+    Dim Rififistade = &H35
+    Dim ComEntree = &H36
+    Dim Galerie = &H37
+    Dim Place = &H38
+    Dim Entrepot = &H39
+    Dim Airerestauration = &H3A
+    Dim Rififiairerestauration = &H3B
+    Dim Quartierresidentiel = &H3C
+    Dim Chantier = &H3D
+    Dim Stationservice = &H3E
+    Dim Autoroute = &H3F
+    Dim Champmais = &H40
+    Dim Rififiquartierresidentiel = &H41
+    Dim Tunnel = &H42
+    Dim Cimetiere = &H43
+    Dim Centraleelectrique = &H44
+    Dim Barrage = &H45
+    Dim Reservoir = &H46
+    Dim Rifificimetiere = &H47
+    Dim ViroEntree = &H48
+    Dim Reservoirtoxique = &H49
+    Dim Laboratoire = &H4A
+    Dim Ascenseur = &H4B
+    Dim Toit = &H4C
+    Dim Rififitoit = &H4D
 
     Private Sub Closebutton_Click(sender As Object, e As EventArgs) Handles Closebutton.Click
         fdialog.BackgroundImage = My.Resources.N3DSSEL_fdialog
@@ -303,6 +334,66 @@ Public Class BattlegroundZ
             valu_weapon_25.Value = Reader.ReadUInt16
             Reader.Position = weapon_26
             valu_weapon_26.Value = Reader.ReadUInt16
+            Reader.Position = Station
+            valu_station.Value = Reader.ReadByte
+            Reader.Position = Hopital
+            valu_hopital.Value = Reader.ReadByte
+            Reader.Position = Parking
+            valu_parking.Value = Reader.ReadByte
+            Reader.Position = Ruelle
+            valu_ruelle.Value = Reader.ReadByte
+            Reader.Position = Stade
+            valu_stade.Value = Reader.ReadByte
+            Reader.Position = Rififistade
+            valu_rififistade.Value = Reader.ReadByte
+            Reader.Position = ComEntree
+            valu_comentree.Value = Reader.ReadByte
+            Reader.Position = Galerie
+            valu_galerie.Value = Reader.ReadByte
+            Reader.Position = Place
+            valu_place.Value = Reader.ReadByte
+            Reader.Position = Entrepot
+            valu_entrepot.Value = Reader.ReadByte
+            Reader.Position = Airerestauration
+            valu_airerestauration.Value = Reader.ReadByte
+            Reader.Position = Rififiairerestauration
+            valu_rififiairerestauration.Value = Reader.ReadByte
+            Reader.Position = Quartierresidentiel
+            valu_quartresidentiel.Value = Reader.ReadByte
+            Reader.Position = Chantier
+            valu_chantier.Value = Reader.ReadByte
+            Reader.Position = Stationservice
+            valu_stationserv.Value = Reader.ReadByte
+            Reader.Position = Autoroute
+            valu_autoroute.Value = Reader.ReadByte
+            Reader.Position = Champmais
+            valu_champmais.Value = Reader.ReadByte
+            Reader.Position = Rififiquartierresidentiel
+            valu_rififiquartresidentiel.Value = Reader.ReadByte
+            Reader.Position = Tunnel
+            valu_tunnel.Value = Reader.ReadByte
+            Reader.Position = Cimetiere
+            valu_cimetiere.Value = Reader.ReadByte
+            Reader.Position = Centraleelectrique
+            valu_centrelec.Value = Reader.ReadByte
+            Reader.Position = Barrage
+            valu_barrage.Value = Reader.ReadByte
+            Reader.Position = Reservoir
+            valu_reservoir.Value = Reader.ReadByte
+            Reader.Position = Rifificimetiere
+            valu_rifificimetiere.Value = Reader.ReadByte
+            Reader.Position = ViroEntree
+            valu_viroentree.Value = Reader.ReadByte
+            Reader.Position = Reservoirtoxique
+            valu_reservoirtox.Value = Reader.ReadByte
+            Reader.Position = Laboratoire
+            valu_laboratoire.Value = Reader.ReadByte
+            Reader.Position = Ascenseur
+            valu_ascenseur.Value = Reader.ReadByte
+            Reader.Position = Toit
+            valu_toit.Value = Reader.ReadByte
+            Reader.Position = Rififitoit
+            valu_rififitoit.Value = Reader.ReadByte
             Text_menu_save.Visible = True
         Catch ex As Exception
             fdialog.Description.Text = "Failed to read mgZmb0.dat, make sure you have opened a good save file or report this issue"
@@ -482,6 +573,21 @@ Public Class BattlegroundZ
             Writer.WriteUInt16(valu_weapon_25.Value)
             Writer.Position = weapon_26
             Writer.WriteUInt16(valu_weapon_26.Value)
+
+            Dim fs As New FileStream(mgZmb0, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)
+            fs.Position = Station
+            fs.WriteByte(valu_station.Value)
+            fs.Position = Hopital
+            fs.WriteByte(valu_hopital.Value)
+            fs.Position = Parking
+            fs.WriteByte(valu_parking.Value)
+            fs.Position = Ruelle
+            fs.WriteByte(valu_ruelle.Value)
+            fs.Position = Stade
+            fs.WriteByte(valu_stade.Value)
+            fs.Position = Rififistade
+            fs.WriteByte(valu_rififistade.Value)
+
             fdialog.Description.Text = "Editing of mgZmb0.dat has been saved"
             fdialog.ShowDialog()
         Catch ex As Exception

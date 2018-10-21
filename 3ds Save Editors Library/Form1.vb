@@ -298,7 +298,7 @@ Public Class N3DSSE_library
 
     Private Sub Icon_SMPBZSE_MouseMove(sender As Object, e As EventArgs) Handles Icon_SMPBZSE.MouseMove
         Icon_SMPBZSE.BorderStyle = BorderStyle.FixedSingle
-        Text_description.Text = "Click to access to StreetPass Mii Plaza - Battleground Z Save Editor" & vbNewLine & "Confirme to work with EU version"
+        Text_description.Text = "Click to access to StreetPass Mii Plaza - StreetPass Zombies / Battleground Z Save Editor" & vbNewLine & "Confirme to work with EU version"
         Panel_description.Visible = True
     End Sub
 
@@ -313,7 +313,7 @@ Public Class N3DSSE_library
 
     Private Sub Icon_SMPTS_MouseMove(sender As Object, e As EventArgs) Handles Icon_SMPTS.MouseMove
         Icon_SMPTS.BorderStyle = BorderStyle.FixedSingle
-        Text_description.Text = "Work in progress"
+        Text_description.Text = "Click to access to StreetPass Mii Plaza - StreetPass Trader / Market Crashers Save Editor" & vbNewLine & "Confirme to work with EU version"
         Panel_description.Visible = True
     End Sub
 End Class
