@@ -135,7 +135,7 @@ Public Class BattlegroundZ
         Closebutton.Image = My.Resources.close_red
     End Sub
 
-    Private Sub TKCD_header_MouseDown(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles SMPBZSE_header.MouseDown, SMPBZSE_title.MouseDown
+    Private Sub SMPBZSE_header_MouseDown(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles SMPBZSE_header.MouseDown, SMPBZSE_title.MouseDown
         If e.Button = Windows.Forms.MouseButtons.Left Then
             IsFormBeingDragged = True
             MousedwnX = e.X
@@ -143,13 +143,13 @@ Public Class BattlegroundZ
         End If
     End Sub
 
-    Private Sub TKCD_header_MouseUp(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles SMPBZSE_header.MouseUp, SMPBZSE_title.MouseUp
+    Private Sub SMPBZSE_header_MouseUp(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles SMPBZSE_header.MouseUp, SMPBZSE_title.MouseUp
         If e.Button = Windows.Forms.MouseButtons.Left Then
             IsFormBeingDragged = False
         End If
     End Sub
 
-    Private Sub TKCD_header_MouseMove(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles SMPBZSE_header.MouseMove, SMPBZSE_title.MouseMove
+    Private Sub SMPBZSE_header_MouseMove(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles SMPBZSE_header.MouseMove, SMPBZSE_title.MouseMove
         If IsFormBeingDragged = True Then
             Dim tmp As Point = New Point()
             tmp.X = Me.Location.X + (e.X - MousedwnX)
@@ -587,7 +587,54 @@ Public Class BattlegroundZ
             fs.WriteByte(valu_stade.Value)
             fs.Position = Rififistade
             fs.WriteByte(valu_rififistade.Value)
-
+            fs.Position = ComEntree
+            fs.WriteByte(valu_comentree.Value)
+            fs.Position = Galerie
+            fs.WriteByte(valu_galerie.Value)
+            fs.Position = Place
+            fs.WriteByte(valu_place.Value)
+            fs.Position = Entrepot
+            fs.WriteByte(valu_entrepot.Value)
+            fs.Position = Airerestauration
+            fs.WriteByte(valu_airerestauration.Value)
+            fs.Position = Rififiairerestauration
+            fs.WriteByte(valu_rififiairerestauration.Value)
+            fs.Position = Quartierresidentiel
+            fs.WriteByte(valu_quartresidentiel.Value)
+            fs.Position = Chantier
+            fs.WriteByte(valu_chantier.Value)
+            fs.Position = Stationservice
+            fs.WriteByte(valu_stationserv.Value)
+            fs.Position = Autoroute
+            fs.WriteByte(valu_autoroute.Value)
+            fs.Position = Champmais
+            fs.WriteByte(valu_champmais.Value)
+            fs.Position = Rififiquartierresidentiel
+            fs.WriteByte(valu_rififiquartresidentiel.Value)
+            fs.Position = Tunnel
+            fs.WriteByte(valu_tunnel.Value)
+            fs.Position = Cimetiere
+            fs.WriteByte(valu_cimetiere.Value)
+            fs.Position = Centraleelectrique
+            fs.WriteByte(valu_centrelec.Value)
+            fs.Position = Barrage
+            fs.WriteByte(valu_barrage.Value)
+            fs.Position = Reservoir
+            fs.WriteByte(valu_reservoir.Value)
+            fs.Position = Rifificimetiere
+            fs.WriteByte(valu_rifificimetiere.Value)
+            fs.Position = ViroEntree
+            fs.WriteByte(valu_viroentree.Value)
+            fs.Position = Reservoirtoxique
+            fs.WriteByte(valu_reservoirtox.Value)
+            fs.Position = Laboratoire
+            fs.WriteByte(valu_laboratoire.Value)
+            fs.Position = Ascenseur
+            fs.WriteByte(valu_ascenseur.Value)
+            fs.Position = Toit
+            fs.WriteByte(valu_toit.Value)
+            fs.Position = Rififitoit
+            fs.WriteByte(valu_rififitoit.Value)
             fdialog.Description.Text = "Editing of mgZmb0.dat has been saved"
             fdialog.ShowDialog()
         Catch ex As Exception
@@ -759,6 +806,666 @@ Public Class BattlegroundZ
 
     Private Sub Text_menu_save_Click(sender As Object, e As EventArgs) Handles Text_menu_save.Click
         writefilesavemgZmb0()
+    End Sub
+
+    Private Sub Icon_station_Click(sender As Object, e As EventArgs) Handles Icon_station.Click
+        If valu_station.Value = 4 Then
+            valu_station.Value = 0
+        Else
+            valu_station.Value = valu_station.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_station_ValueChanged(sender As Object, e As EventArgs) Handles valu_station.ValueChanged
+        If valu_station.Value = 0 Then
+            Icon_station.Image = My.Resources.icon_level_na
+        ElseIf valu_station.Value = 1 Then
+            Icon_station.Image = My.Resources.icon_level_enable
+        ElseIf valu_station.Value = 2 Then
+            Icon_station.Image = My.Resources.icon_level_enable
+        ElseIf valu_station.Value = 3 Then
+            Icon_station.Image = My.Resources.icon_level_clear
+        ElseIf valu_station.Value = 4 Then
+            Icon_station.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_hopital_Click(sender As Object, e As EventArgs) Handles Icon_hopital.Click
+        If valu_hopital.Value = 4 Then
+            valu_hopital.Value = 0
+        Else
+            valu_hopital.Value = valu_hopital.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_hopital_ValueChanged(sender As Object, e As EventArgs) Handles valu_hopital.ValueChanged
+        If valu_hopital.Value = 0 Then
+            Icon_hopital.Image = My.Resources.icon_level_na
+        ElseIf valu_hopital.Value = 1 Then
+            Icon_hopital.Image = My.Resources.icon_level_enable
+        ElseIf valu_hopital.Value = 2 Then
+            Icon_hopital.Image = My.Resources.icon_level_enable
+        ElseIf valu_hopital.Value = 3 Then
+            Icon_hopital.Image = My.Resources.icon_level_clear
+        ElseIf valu_hopital.Value = 4 Then
+            Icon_hopital.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_parking_Click(sender As Object, e As EventArgs) Handles Icon_parking.Click
+        If valu_parking.Value = 4 Then
+            valu_parking.Value = 0
+        Else
+            valu_parking.Value = valu_parking.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_parking_ValueChanged(sender As Object, e As EventArgs) Handles valu_parking.ValueChanged
+        If valu_parking.Value = 0 Then
+            Icon_parking.Image = My.Resources.icon_level_na
+        ElseIf valu_parking.Value = 1 Then
+            Icon_parking.Image = My.Resources.icon_level_enable
+        ElseIf valu_parking.Value = 2 Then
+            Icon_parking.Image = My.Resources.icon_level_enable
+        ElseIf valu_parking.Value = 3 Then
+            Icon_parking.Image = My.Resources.icon_level_clear
+        ElseIf valu_parking.Value = 4 Then
+            Icon_parking.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_ruelle_Click(sender As Object, e As EventArgs) Handles Icon_ruelle.Click
+        If valu_ruelle.Value = 4 Then
+            valu_ruelle.Value = 0
+        Else
+            valu_ruelle.Value = valu_ruelle.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_ruelle_ValueChanged(sender As Object, e As EventArgs) Handles valu_ruelle.ValueChanged
+        If valu_ruelle.Value = 0 Then
+            Icon_ruelle.Image = My.Resources.icon_level_na
+        ElseIf valu_ruelle.Value = 1 Then
+            Icon_ruelle.Image = My.Resources.icon_level_enable
+        ElseIf valu_ruelle.Value = 2 Then
+            Icon_ruelle.Image = My.Resources.icon_level_enable
+        ElseIf valu_ruelle.Value = 3 Then
+            Icon_ruelle.Image = My.Resources.icon_level_clear
+        ElseIf valu_ruelle.Value = 4 Then
+            Icon_ruelle.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_stade_Click(sender As Object, e As EventArgs) Handles Icon_stade.Click
+        If valu_stade.Value = 4 Then
+            valu_stade.Value = 0
+        Else
+            valu_stade.Value = valu_stade.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_stade_ValueChanged(sender As Object, e As EventArgs) Handles valu_stade.ValueChanged
+        If valu_stade.Value = 0 Then
+            Icon_stade.Image = My.Resources.icon_level_na
+        ElseIf valu_stade.Value = 1 Then
+            Icon_stade.Image = My.Resources.icon_level_enable
+        ElseIf valu_stade.Value = 2 Then
+            Icon_stade.Image = My.Resources.icon_level_enable
+        ElseIf valu_stade.Value = 3 Then
+            Icon_stade.Image = My.Resources.icon_level_clear
+        ElseIf valu_stade.Value = 4 Then
+            Icon_stade.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_rififistade_Click(sender As Object, e As EventArgs) Handles Icon_rififistade.Click
+        If valu_rififistade.Value = 4 Then
+            valu_rififistade.Value = 0
+        Else
+            valu_rififistade.Value = valu_rififistade.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_rififistade_ValueChanged(sender As Object, e As EventArgs) Handles valu_rififistade.ValueChanged
+        If valu_rififistade.Value = 0 Then
+            Icon_rififistade.Image = My.Resources.icon_level_na
+        ElseIf valu_rififistade.Value = 1 Then
+            Icon_rififistade.Image = My.Resources.icon_level_enable
+        ElseIf valu_rififistade.Value = 2 Then
+            Icon_rififistade.Image = My.Resources.icon_level_enable
+        ElseIf valu_rififistade.Value = 3 Then
+            Icon_rififistade.Image = My.Resources.icon_level_clear
+        ElseIf valu_rififistade.Value = 4 Then
+            Icon_rififistade.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_comentree_Click(sender As Object, e As EventArgs) Handles Icon_comentree.Click
+        If valu_comentree.Value = 4 Then
+            valu_comentree.Value = 0
+        Else
+            valu_comentree.Value = valu_comentree.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_comentree_ValueChanged(sender As Object, e As EventArgs) Handles valu_comentree.ValueChanged
+        If valu_comentree.Value = 0 Then
+            Icon_comentree.Image = My.Resources.icon_level_na
+        ElseIf valu_comentree.Value = 1 Then
+            Icon_comentree.Image = My.Resources.icon_level_enable
+        ElseIf valu_comentree.Value = 2 Then
+            Icon_comentree.Image = My.Resources.icon_level_enable
+        ElseIf valu_comentree.Value = 3 Then
+            Icon_comentree.Image = My.Resources.icon_level_clear
+        ElseIf valu_comentree.Value = 4 Then
+            Icon_comentree.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_galerie_Click(sender As Object, e As EventArgs) Handles Icon_galerie.Click
+        If valu_galerie.Value = 4 Then
+            valu_galerie.Value = 0
+        Else
+            valu_galerie.Value = valu_galerie.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_galerie_ValueChanged(sender As Object, e As EventArgs) Handles valu_galerie.ValueChanged
+        If valu_galerie.Value = 0 Then
+            Icon_galerie.Image = My.Resources.icon_level_na
+        ElseIf valu_galerie.Value = 1 Then
+            Icon_galerie.Image = My.Resources.icon_level_enable
+        ElseIf valu_galerie.Value = 2 Then
+            Icon_galerie.Image = My.Resources.icon_level_enable
+        ElseIf valu_galerie.Value = 3 Then
+            Icon_galerie.Image = My.Resources.icon_level_clear
+        ElseIf valu_galerie.Value = 4 Then
+            Icon_galerie.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_place_Click(sender As Object, e As EventArgs) Handles Icon_place.Click
+        If valu_place.Value = 4 Then
+            valu_place.Value = 0
+        Else
+            valu_place.Value = valu_place.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_place_ValueChanged(sender As Object, e As EventArgs) Handles valu_place.ValueChanged
+        If valu_place.Value = 0 Then
+            Icon_place.Image = My.Resources.icon_level_na
+        ElseIf valu_place.Value = 1 Then
+            Icon_place.Image = My.Resources.icon_level_enable
+        ElseIf valu_place.Value = 2 Then
+            Icon_place.Image = My.Resources.icon_level_enable
+        ElseIf valu_place.Value = 3 Then
+            Icon_place.Image = My.Resources.icon_level_clear
+        ElseIf valu_place.Value = 4 Then
+            Icon_place.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_entrepot_Click(sender As Object, e As EventArgs) Handles Icon_entrepot.Click
+        If valu_entrepot.Value = 4 Then
+            valu_entrepot.Value = 0
+        Else
+            valu_entrepot.Value = valu_entrepot.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_entrepot_ValueChanged(sender As Object, e As EventArgs) Handles valu_entrepot.ValueChanged
+        If valu_entrepot.Value = 0 Then
+            Icon_entrepot.Image = My.Resources.icon_level_na
+        ElseIf valu_entrepot.Value = 1 Then
+            Icon_entrepot.Image = My.Resources.icon_level_enable
+        ElseIf valu_entrepot.Value = 2 Then
+            Icon_entrepot.Image = My.Resources.icon_level_enable
+        ElseIf valu_entrepot.Value = 3 Then
+            Icon_entrepot.Image = My.Resources.icon_level_clear
+        ElseIf valu_entrepot.Value = 4 Then
+            Icon_entrepot.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_airerestauration_Click(sender As Object, e As EventArgs) Handles Icon_airerestauration.Click
+        If valu_airerestauration.Value = 4 Then
+            valu_airerestauration.Value = 0
+        Else
+            valu_airerestauration.Value = valu_airerestauration.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_airerestauration_ValueChanged(sender As Object, e As EventArgs) Handles valu_airerestauration.ValueChanged
+        If valu_airerestauration.Value = 0 Then
+            Icon_airerestauration.Image = My.Resources.icon_level_na
+        ElseIf valu_airerestauration.Value = 1 Then
+            Icon_airerestauration.Image = My.Resources.icon_level_enable
+        ElseIf valu_airerestauration.Value = 2 Then
+            Icon_airerestauration.Image = My.Resources.icon_level_enable
+        ElseIf valu_airerestauration.Value = 3 Then
+            Icon_airerestauration.Image = My.Resources.icon_level_clear
+        ElseIf valu_airerestauration.Value = 4 Then
+            Icon_airerestauration.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_rififiairerestauration_Click(sender As Object, e As EventArgs) Handles Icon_rififiairerestauration.Click
+        If valu_rififiairerestauration.Value = 4 Then
+            valu_rififiairerestauration.Value = 0
+        Else
+            valu_rififiairerestauration.Value = valu_rififiairerestauration.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_rififiairerestauration_ValueChanged(sender As Object, e As EventArgs) Handles valu_rififiairerestauration.ValueChanged
+        If valu_rififiairerestauration.Value = 0 Then
+            Icon_rififiairerestauration.Image = My.Resources.icon_level_na
+        ElseIf valu_rififiairerestauration.Value = 1 Then
+            Icon_rififiairerestauration.Image = My.Resources.icon_level_enable
+        ElseIf valu_rififiairerestauration.Value = 2 Then
+            Icon_rififiairerestauration.Image = My.Resources.icon_level_enable
+        ElseIf valu_rififiairerestauration.Value = 3 Then
+            Icon_rififiairerestauration.Image = My.Resources.icon_level_clear
+        ElseIf valu_rififiairerestauration.Value = 4 Then
+            Icon_rififiairerestauration.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_quartresidentiel_Click(sender As Object, e As EventArgs) Handles Icon_quartresidentiel.Click
+        If valu_quartresidentiel.Value = 4 Then
+            valu_quartresidentiel.Value = 0
+        Else
+            valu_quartresidentiel.Value = valu_quartresidentiel.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_quartresidentiel_ValueChanged(sender As Object, e As EventArgs) Handles valu_quartresidentiel.ValueChanged
+        If valu_quartresidentiel.Value = 0 Then
+            Icon_quartresidentiel.Image = My.Resources.icon_level_na
+        ElseIf valu_quartresidentiel.Value = 1 Then
+            Icon_quartresidentiel.Image = My.Resources.icon_level_enable
+        ElseIf valu_quartresidentiel.Value = 2 Then
+            Icon_quartresidentiel.Image = My.Resources.icon_level_enable
+        ElseIf valu_quartresidentiel.Value = 3 Then
+            Icon_quartresidentiel.Image = My.Resources.icon_level_clear
+        ElseIf valu_quartresidentiel.Value = 4 Then
+            Icon_quartresidentiel.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_chantier_Click(sender As Object, e As EventArgs) Handles Icon_chantier.Click
+        If valu_chantier.Value = 4 Then
+            valu_chantier.Value = 0
+        Else
+            valu_chantier.Value = valu_chantier.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_chantier_ValueChanged(sender As Object, e As EventArgs) Handles valu_chantier.ValueChanged
+        If valu_chantier.Value = 0 Then
+            Icon_chantier.Image = My.Resources.icon_level_na
+        ElseIf valu_chantier.Value = 1 Then
+            Icon_chantier.Image = My.Resources.icon_level_enable
+        ElseIf valu_chantier.Value = 2 Then
+            Icon_chantier.Image = My.Resources.icon_level_enable
+        ElseIf valu_chantier.Value = 3 Then
+            Icon_chantier.Image = My.Resources.icon_level_clear
+        ElseIf valu_chantier.Value = 4 Then
+            Icon_chantier.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_stationserv_Click(sender As Object, e As EventArgs) Handles Icon_stationserv.Click
+        If valu_stationserv.Value = 4 Then
+            valu_stationserv.Value = 0
+        Else
+            valu_stationserv.Value = valu_stationserv.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_stationserv_ValueChanged(sender As Object, e As EventArgs) Handles valu_stationserv.ValueChanged
+        If valu_stationserv.Value = 0 Then
+            Icon_stationserv.Image = My.Resources.icon_level_na
+        ElseIf valu_stationserv.Value = 1 Then
+            Icon_stationserv.Image = My.Resources.icon_level_enable
+        ElseIf valu_stationserv.Value = 2 Then
+            Icon_stationserv.Image = My.Resources.icon_level_enable
+        ElseIf valu_stationserv.Value = 3 Then
+            Icon_stationserv.Image = My.Resources.icon_level_clear
+        ElseIf valu_stationserv.Value = 4 Then
+            Icon_stationserv.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_autoroute_Click(sender As Object, e As EventArgs) Handles Icon_autoroute.Click
+        If valu_autoroute.Value = 4 Then
+            valu_autoroute.Value = 0
+        Else
+            valu_autoroute.Value = valu_autoroute.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_autoroute_ValueChanged(sender As Object, e As EventArgs) Handles valu_autoroute.ValueChanged
+        If valu_autoroute.Value = 0 Then
+            Icon_autoroute.Image = My.Resources.icon_level_na
+        ElseIf valu_autoroute.Value = 1 Then
+            Icon_autoroute.Image = My.Resources.icon_level_enable
+        ElseIf valu_autoroute.Value = 2 Then
+            Icon_autoroute.Image = My.Resources.icon_level_enable
+        ElseIf valu_autoroute.Value = 3 Then
+            Icon_autoroute.Image = My.Resources.icon_level_clear
+        ElseIf valu_autoroute.Value = 4 Then
+            Icon_autoroute.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_champmais_Click(sender As Object, e As EventArgs) Handles Icon_champmais.Click
+        If valu_champmais.Value = 4 Then
+            valu_champmais.Value = 0
+        Else
+            valu_champmais.Value = valu_champmais.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_champmais_ValueChanged(sender As Object, e As EventArgs) Handles valu_champmais.ValueChanged
+        If valu_champmais.Value = 0 Then
+            Icon_champmais.Image = My.Resources.icon_level_na
+        ElseIf valu_champmais.Value = 1 Then
+            Icon_champmais.Image = My.Resources.icon_level_enable
+        ElseIf valu_champmais.Value = 2 Then
+            Icon_champmais.Image = My.Resources.icon_level_enable
+        ElseIf valu_champmais.Value = 3 Then
+            Icon_champmais.Image = My.Resources.icon_level_clear
+        ElseIf valu_champmais.Value = 4 Then
+            Icon_champmais.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_rififiquartresidentiel_Click(sender As Object, e As EventArgs) Handles Icon_rififiquartresidentiel.Click
+        If valu_rififiquartresidentiel.Value = 4 Then
+            valu_rififiquartresidentiel.Value = 0
+        Else
+            valu_rififiquartresidentiel.Value = valu_rififiquartresidentiel.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_rififiquartresidentiel_ValueChanged(sender As Object, e As EventArgs) Handles valu_rififiquartresidentiel.ValueChanged
+        If valu_rififiquartresidentiel.Value = 0 Then
+            Icon_rififiquartresidentiel.Image = My.Resources.icon_level_na
+        ElseIf valu_rififiquartresidentiel.Value = 1 Then
+            Icon_rififiquartresidentiel.Image = My.Resources.icon_level_enable
+        ElseIf valu_rififiquartresidentiel.Value = 2 Then
+            Icon_rififiquartresidentiel.Image = My.Resources.icon_level_enable
+        ElseIf valu_rififiquartresidentiel.Value = 3 Then
+            Icon_rififiquartresidentiel.Image = My.Resources.icon_level_clear
+        ElseIf valu_rififiquartresidentiel.Value = 4 Then
+            Icon_rififiquartresidentiel.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_tunnel_Click(sender As Object, e As EventArgs) Handles Icon_tunnel.Click
+        If valu_tunnel.Value = 4 Then
+            valu_tunnel.Value = 0
+        Else
+            valu_tunnel.Value = valu_tunnel.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_tunnel_ValueChanged(sender As Object, e As EventArgs) Handles valu_tunnel.ValueChanged
+        If valu_tunnel.Value = 0 Then
+            Icon_tunnel.Image = My.Resources.icon_level_na
+        ElseIf valu_tunnel.Value = 1 Then
+            Icon_tunnel.Image = My.Resources.icon_level_enable
+        ElseIf valu_tunnel.Value = 2 Then
+            Icon_tunnel.Image = My.Resources.icon_level_enable
+        ElseIf valu_tunnel.Value = 3 Then
+            Icon_tunnel.Image = My.Resources.icon_level_clear
+        ElseIf valu_tunnel.Value = 4 Then
+            Icon_tunnel.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_cimetiere_Click(sender As Object, e As EventArgs) Handles Icon_cimetiere.Click
+        If valu_cimetiere.Value = 4 Then
+            valu_cimetiere.Value = 0
+        Else
+            valu_cimetiere.Value = valu_cimetiere.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_cimetiere_ValueChanged(sender As Object, e As EventArgs) Handles valu_cimetiere.ValueChanged
+        If valu_cimetiere.Value = 0 Then
+            Icon_cimetiere.Image = My.Resources.icon_level_na
+        ElseIf valu_cimetiere.Value = 1 Then
+            Icon_cimetiere.Image = My.Resources.icon_level_enable
+        ElseIf valu_cimetiere.Value = 2 Then
+            Icon_cimetiere.Image = My.Resources.icon_level_enable
+        ElseIf valu_cimetiere.Value = 3 Then
+            Icon_cimetiere.Image = My.Resources.icon_level_clear
+        ElseIf valu_cimetiere.Value = 4 Then
+            Icon_cimetiere.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_centrelec_Click(sender As Object, e As EventArgs) Handles Icon_centrelec.Click
+        If valu_centrelec.Value = 4 Then
+            valu_centrelec.Value = 0
+        Else
+            valu_centrelec.Value = valu_centrelec.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_centrelec_ValueChanged(sender As Object, e As EventArgs) Handles valu_centrelec.ValueChanged
+        If valu_centrelec.Value = 0 Then
+            Icon_centrelec.Image = My.Resources.icon_level_na
+        ElseIf valu_centrelec.Value = 1 Then
+            Icon_centrelec.Image = My.Resources.icon_level_enable
+        ElseIf valu_centrelec.Value = 2 Then
+            Icon_centrelec.Image = My.Resources.icon_level_enable
+        ElseIf valu_centrelec.Value = 3 Then
+            Icon_centrelec.Image = My.Resources.icon_level_clear
+        ElseIf valu_centrelec.Value = 4 Then
+            Icon_centrelec.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_barrage_Click(sender As Object, e As EventArgs) Handles Icon_barrage.Click
+        If valu_barrage.Value = 4 Then
+            valu_barrage.Value = 0
+        Else
+            valu_barrage.Value = valu_barrage.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_barrage_ValueChanged(sender As Object, e As EventArgs) Handles valu_barrage.ValueChanged
+        If valu_barrage.Value = 0 Then
+            Icon_barrage.Image = My.Resources.icon_level_na
+        ElseIf valu_barrage.Value = 1 Then
+            Icon_barrage.Image = My.Resources.icon_level_enable
+        ElseIf valu_barrage.Value = 2 Then
+            Icon_barrage.Image = My.Resources.icon_level_enable
+        ElseIf valu_barrage.Value = 3 Then
+            Icon_barrage.Image = My.Resources.icon_level_clear
+        ElseIf valu_barrage.Value = 4 Then
+            Icon_barrage.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_reservoir_Click(sender As Object, e As EventArgs) Handles Icon_reservoir.Click
+        If valu_reservoir.Value = 4 Then
+            valu_reservoir.Value = 0
+        Else
+            valu_reservoir.Value = valu_reservoir.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_reservoir_ValueChanged(sender As Object, e As EventArgs) Handles valu_reservoir.ValueChanged
+        If valu_reservoir.Value = 0 Then
+            Icon_reservoir.Image = My.Resources.icon_level_na
+        ElseIf valu_reservoir.Value = 1 Then
+            Icon_reservoir.Image = My.Resources.icon_level_enable
+        ElseIf valu_reservoir.Value = 2 Then
+            Icon_reservoir.Image = My.Resources.icon_level_enable
+        ElseIf valu_reservoir.Value = 3 Then
+            Icon_reservoir.Image = My.Resources.icon_level_clear
+        ElseIf valu_reservoir.Value = 4 Then
+            Icon_reservoir.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_rifificimetiere_Click(sender As Object, e As EventArgs) Handles Icon_rifificimetiere.Click
+        If valu_rifificimetiere.Value = 4 Then
+            valu_rifificimetiere.Value = 0
+        Else
+            valu_rifificimetiere.Value = valu_rifificimetiere.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_rifificimetiere_ValueChanged(sender As Object, e As EventArgs) Handles valu_rifificimetiere.ValueChanged
+        If valu_rifificimetiere.Value = 0 Then
+            Icon_rifificimetiere.Image = My.Resources.icon_level_na
+        ElseIf valu_rifificimetiere.Value = 1 Then
+            Icon_rifificimetiere.Image = My.Resources.icon_level_enable
+        ElseIf valu_rifificimetiere.Value = 2 Then
+            Icon_rifificimetiere.Image = My.Resources.icon_level_enable
+        ElseIf valu_rifificimetiere.Value = 3 Then
+            Icon_rifificimetiere.Image = My.Resources.icon_level_clear
+        ElseIf valu_rifificimetiere.Value = 4 Then
+            Icon_rifificimetiere.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_viroentree_Click(sender As Object, e As EventArgs) Handles Icon_viroentree.Click
+        If valu_viroentree.Value = 4 Then
+            valu_viroentree.Value = 0
+        Else
+            valu_viroentree.Value = valu_viroentree.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_viroentree_ValueChanged(sender As Object, e As EventArgs) Handles valu_viroentree.ValueChanged
+        If valu_viroentree.Value = 0 Then
+            Icon_viroentree.Image = My.Resources.icon_level_na
+        ElseIf valu_viroentree.Value = 1 Then
+            Icon_viroentree.Image = My.Resources.icon_level_enable
+        ElseIf valu_viroentree.Value = 2 Then
+            Icon_viroentree.Image = My.Resources.icon_level_enable
+        ElseIf valu_viroentree.Value = 3 Then
+            Icon_viroentree.Image = My.Resources.icon_level_clear
+        ElseIf valu_viroentree.Value = 4 Then
+            Icon_viroentree.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_reservoirtox_Click(sender As Object, e As EventArgs) Handles Icon_reservoirtox.Click
+        If valu_reservoirtox.Value = 4 Then
+            valu_reservoirtox.Value = 0
+        Else
+            valu_reservoirtox.Value = valu_reservoirtox.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_reservoirtox_ValueChanged(sender As Object, e As EventArgs) Handles valu_reservoirtox.ValueChanged
+        If valu_reservoirtox.Value = 0 Then
+            Icon_reservoirtox.Image = My.Resources.icon_level_na
+        ElseIf valu_reservoirtox.Value = 1 Then
+            Icon_reservoirtox.Image = My.Resources.icon_level_enable
+        ElseIf valu_reservoirtox.Value = 2 Then
+            Icon_reservoirtox.Image = My.Resources.icon_level_enable
+        ElseIf valu_reservoirtox.Value = 3 Then
+            Icon_reservoirtox.Image = My.Resources.icon_level_clear
+        ElseIf valu_reservoirtox.Value = 4 Then
+            Icon_reservoirtox.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_laboratoire_Click(sender As Object, e As EventArgs) Handles Icon_laboratoire.Click
+        If valu_laboratoire.Value = 4 Then
+            valu_laboratoire.Value = 0
+        Else
+            valu_laboratoire.Value = valu_laboratoire.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_laboratoire_ValueChanged(sender As Object, e As EventArgs) Handles valu_laboratoire.ValueChanged
+        If valu_laboratoire.Value = 0 Then
+            Icon_laboratoire.Image = My.Resources.icon_level_na
+        ElseIf valu_laboratoire.Value = 1 Then
+            Icon_laboratoire.Image = My.Resources.icon_level_enable
+        ElseIf valu_laboratoire.Value = 2 Then
+            Icon_laboratoire.Image = My.Resources.icon_level_enable
+        ElseIf valu_laboratoire.Value = 3 Then
+            Icon_laboratoire.Image = My.Resources.icon_level_clear
+        ElseIf valu_laboratoire.Value = 4 Then
+            Icon_laboratoire.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_ascenseur_Click(sender As Object, e As EventArgs) Handles Icon_ascenseur.Click
+        If valu_ascenseur.Value = 4 Then
+            valu_ascenseur.Value = 0
+        Else
+            valu_ascenseur.Value = valu_ascenseur.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_ascenseur_ValueChanged(sender As Object, e As EventArgs) Handles valu_ascenseur.ValueChanged
+        If valu_ascenseur.Value = 0 Then
+            Icon_ascenseur.Image = My.Resources.icon_level_na
+        ElseIf valu_ascenseur.Value = 1 Then
+            Icon_ascenseur.Image = My.Resources.icon_level_enable
+        ElseIf valu_ascenseur.Value = 2 Then
+            Icon_ascenseur.Image = My.Resources.icon_level_enable
+        ElseIf valu_ascenseur.Value = 3 Then
+            Icon_ascenseur.Image = My.Resources.icon_level_clear
+        ElseIf valu_ascenseur.Value = 4 Then
+            Icon_ascenseur.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_Toit_Click(sender As Object, e As EventArgs) Handles Icon_toit.Click
+        If valu_Toit.Value = 4 Then
+            valu_Toit.Value = 0
+        Else
+            valu_Toit.Value = valu_Toit.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_Toit_ValueChanged(sender As Object, e As EventArgs) Handles valu_toit.ValueChanged
+        If valu_Toit.Value = 0 Then
+            Icon_Toit.Image = My.Resources.icon_level_na
+        ElseIf valu_Toit.Value = 1 Then
+            Icon_Toit.Image = My.Resources.icon_level_enable
+        ElseIf valu_Toit.Value = 2 Then
+            Icon_Toit.Image = My.Resources.icon_level_enable
+        ElseIf valu_Toit.Value = 3 Then
+            Icon_Toit.Image = My.Resources.icon_level_clear
+        ElseIf valu_Toit.Value = 4 Then
+            Icon_Toit.Image = My.Resources.icon_level_lock
+        End If
+    End Sub
+
+    Private Sub Icon_rififiToit_Click(sender As Object, e As EventArgs) Handles Icon_rififitoit.Click
+        If valu_rififiToit.Value = 4 Then
+            valu_rififiToit.Value = 0
+        Else
+            valu_rififiToit.Value = valu_rififiToit.Value + 1
+        End If
+    End Sub
+
+    Private Sub valu_rififiToit_ValueChanged(sender As Object, e As EventArgs) Handles valu_rififitoit.ValueChanged
+        If valu_rififiToit.Value = 0 Then
+            Icon_rififiToit.Image = My.Resources.icon_level_na
+        ElseIf valu_rififiToit.Value = 1 Then
+            Icon_rififiToit.Image = My.Resources.icon_level_enable
+        ElseIf valu_rififiToit.Value = 2 Then
+            Icon_rififiToit.Image = My.Resources.icon_level_enable
+        ElseIf valu_rififiToit.Value = 3 Then
+            Icon_rififiToit.Image = My.Resources.icon_level_clear
+        ElseIf valu_rififiToit.Value = 4 Then
+            Icon_rififiToit.Image = My.Resources.icon_level_lock
+        End If
     End Sub
 
 End Class

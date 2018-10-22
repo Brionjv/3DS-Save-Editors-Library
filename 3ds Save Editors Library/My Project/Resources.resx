@@ -196,6 +196,9 @@
   <data name="area_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\area_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon_dev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_dev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="TKCD_icon_rank_bronze" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_icon_rank_bronze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -217,9 +220,6 @@
   <data name="weapon_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\weapon_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Rzombie_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rzombie_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -228,9 +228,6 @@
   </data>
   <data name="weapon_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\weapon_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EXP_Orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EXP_Orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TKCD_icon_hammerhero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_icon_hammerhero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -243,6 +240,9 @@
   </data>
   <data name="TKCD_menu_icon_itemsediting" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_menu_icon_itemsediting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zombie_ZombiePooch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zombie_ZombiePooch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="weapon_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\weapon_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -298,11 +298,17 @@
   <data name="icon_update" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="zombie_SuperScimad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zombie_SuperScimad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="TKCD_fdialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_fdialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="weapon_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\weapon_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_trader1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_trader1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Rzombie_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rzombie_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,14 +343,11 @@
   <data name="zombie_Chundler" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zombie_Chundler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zombie_BigRockler" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zombie_BigRockler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="zombie_Bulbler" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zombie_Bulbler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_level_na" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_level_na.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="weapon_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\weapon_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="weapon_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\weapon_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -364,6 +367,9 @@
   <data name="Rzombie_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rzombie_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Rzombie_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rzombie_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -379,8 +385,8 @@
   <data name="zombie_ZombieStack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zombie_ZombieStack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EN_arean_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EN_arean_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="zombie_BigChundler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zombie_BigChundler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="weapon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\weapon_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -394,14 +400,17 @@
   <data name="zombie_BombiePooch" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zombie_BombiePooch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="TKCD_bg_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TKCD_bg_menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="N3DSCS_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\N3DSCS_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Rzombie_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rzombie_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zombie_SuperScimad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zombie_SuperScimad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_cavestory3dse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_cavestory3dse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TKCD_icon_music" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_icon_music.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -417,6 +426,9 @@
   </data>
   <data name="zombie_Flopler" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zombie_Flopler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_zombinav_levelsedit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_zombinav_levelsedit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TKCD_menu_icon_lvlareaediting" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_menu_icon_lvlareaediting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -514,11 +526,11 @@
   <data name="zombie_BigChubbler" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zombie_BigChubbler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zombie_BigChundler" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zombie_BigChundler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_level_na" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_level_na.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rzombie_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rzombie_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EN_arean_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EN_arean_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -535,14 +547,20 @@
   <data name="weapon_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\weapon_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="weapon_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\weapon_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="zombie_BigRockler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zombie_BigRockler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EN_arean_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EN_arean_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon_dev_act" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_dev_act.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon_battlegroundz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_battlegroundz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EN_arean_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EN_arean_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TKCD_icon_misson_na" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_icon_misson_na.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -565,9 +583,6 @@
   <data name="zombie_DeadGoodQuarterback" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zombie_DeadGoodQuarterback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="title_3DSSEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\title_3DSSEL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="N3DSCS_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\N3DSCS_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -589,8 +604,8 @@
   <data name="area_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\area_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zombie_ZombiePooch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zombie_ZombiePooch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="title_3DSSEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title_3DSSEL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="zombie_BigBombie" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zombie_BigBombie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -601,10 +616,10 @@
   <data name="TKCD_icon_rank_platinium" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TKCD_icon_rank_platinium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TKCD_bg_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TKCD_bg_menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EXP_Orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EXP_Orb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon_zombinav_levelsedit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_zombinav_levelsedit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="trader_bg_fund" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trader_bg_fund.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

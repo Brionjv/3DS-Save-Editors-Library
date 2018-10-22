@@ -2820,60 +2820,72 @@ Partial Class BattlegroundZ
         '
         Me.valu_viroentree.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_viroentree.Location = New System.Drawing.Point(82, 127)
+        Me.valu_viroentree.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_viroentree.Name = "valu_viroentree"
         Me.valu_viroentree.Size = New System.Drawing.Size(39, 16)
         Me.valu_viroentree.TabIndex = 12
         Me.valu_viroentree.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_viroentree.Visible = False
         '
         'valu_reservoirtox
         '
         Me.valu_reservoirtox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_reservoirtox.Location = New System.Drawing.Point(155, 89)
+        Me.valu_reservoirtox.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_reservoirtox.Name = "valu_reservoirtox"
         Me.valu_reservoirtox.Size = New System.Drawing.Size(39, 16)
         Me.valu_reservoirtox.TabIndex = 11
         Me.valu_reservoirtox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_reservoirtox.Visible = False
         '
         'valu_laboratoire
         '
         Me.valu_laboratoire.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_laboratoire.Location = New System.Drawing.Point(39, 71)
+        Me.valu_laboratoire.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_laboratoire.Name = "valu_laboratoire"
         Me.valu_laboratoire.Size = New System.Drawing.Size(39, 16)
         Me.valu_laboratoire.TabIndex = 10
         Me.valu_laboratoire.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_laboratoire.Visible = False
         '
         'valu_rififitoit
         '
         Me.valu_rififitoit.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rififitoit.Location = New System.Drawing.Point(39, 16)
+        Me.valu_rififitoit.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rififitoit.Name = "valu_rififitoit"
         Me.valu_rififitoit.Size = New System.Drawing.Size(39, 16)
         Me.valu_rififitoit.TabIndex = 9
         Me.valu_rififitoit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rififitoit.Visible = False
         '
         'valu_ascenseur
         '
         Me.valu_ascenseur.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_ascenseur.Location = New System.Drawing.Point(189, 50)
+        Me.valu_ascenseur.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_ascenseur.Name = "valu_ascenseur"
         Me.valu_ascenseur.Size = New System.Drawing.Size(39, 16)
         Me.valu_ascenseur.TabIndex = 8
         Me.valu_ascenseur.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_ascenseur.Visible = False
         '
         'valu_toit
         '
         Me.valu_toit.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_toit.Location = New System.Drawing.Point(123, 8)
+        Me.valu_toit.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_toit.Name = "valu_toit"
         Me.valu_toit.Size = New System.Drawing.Size(39, 16)
         Me.valu_toit.TabIndex = 7
         Me.valu_toit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_toit.Visible = False
         '
         'Icon_reservoirtox
         '
         Me.Icon_reservoirtox.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_reservoirtox.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_reservoirtox.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_reservoirtox.Location = New System.Drawing.Point(123, 85)
         Me.Icon_reservoirtox.Name = "Icon_reservoirtox"
         Me.Icon_reservoirtox.Size = New System.Drawing.Size(26, 21)
@@ -2883,7 +2895,7 @@ Partial Class BattlegroundZ
         'Icon_laboratoire
         '
         Me.Icon_laboratoire.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_laboratoire.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_laboratoire.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_laboratoire.Location = New System.Drawing.Point(84, 66)
         Me.Icon_laboratoire.Name = "Icon_laboratoire"
         Me.Icon_laboratoire.Size = New System.Drawing.Size(26, 21)
@@ -2893,7 +2905,7 @@ Partial Class BattlegroundZ
         'Icon_ascenseur
         '
         Me.Icon_ascenseur.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_ascenseur.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_ascenseur.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_ascenseur.Location = New System.Drawing.Point(161, 50)
         Me.Icon_ascenseur.Name = "Icon_ascenseur"
         Me.Icon_ascenseur.Size = New System.Drawing.Size(26, 21)
@@ -2903,7 +2915,7 @@ Partial Class BattlegroundZ
         'Icon_toit
         '
         Me.Icon_toit.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_toit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_toit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_toit.Location = New System.Drawing.Point(123, 27)
         Me.Icon_toit.Name = "Icon_toit"
         Me.Icon_toit.Size = New System.Drawing.Size(26, 21)
@@ -2913,7 +2925,7 @@ Partial Class BattlegroundZ
         'Icon_rififitoit
         '
         Me.Icon_rififitoit.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_rififitoit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rififitoit.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_rififitoit.Location = New System.Drawing.Point(84, 16)
         Me.Icon_rififitoit.Name = "Icon_rififitoit"
         Me.Icon_rififitoit.Size = New System.Drawing.Size(26, 21)
@@ -2923,7 +2935,7 @@ Partial Class BattlegroundZ
         'Icon_viroentree
         '
         Me.Icon_viroentree.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_viroentree.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_viroentree.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_viroentree.Location = New System.Drawing.Point(123, 124)
         Me.Icon_viroentree.Name = "Icon_viroentree"
         Me.Icon_viroentree.Size = New System.Drawing.Size(26, 21)
@@ -2954,60 +2966,72 @@ Partial Class BattlegroundZ
         '
         Me.valu_tunnel.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_tunnel.Location = New System.Drawing.Point(27, 109)
+        Me.valu_tunnel.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_tunnel.Name = "valu_tunnel"
         Me.valu_tunnel.Size = New System.Drawing.Size(39, 16)
         Me.valu_tunnel.TabIndex = 12
         Me.valu_tunnel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tunnel.Visible = False
         '
         'valu_cimetiere
         '
         Me.valu_cimetiere.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_cimetiere.Location = New System.Drawing.Point(110, 106)
+        Me.valu_cimetiere.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_cimetiere.Name = "valu_cimetiere"
         Me.valu_cimetiere.Size = New System.Drawing.Size(39, 16)
         Me.valu_cimetiere.TabIndex = 11
         Me.valu_cimetiere.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_cimetiere.Visible = False
         '
         'valu_rifificimetiere
         '
         Me.valu_rifificimetiere.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rifificimetiere.Location = New System.Drawing.Point(197, 120)
+        Me.valu_rifificimetiere.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rifificimetiere.Name = "valu_rifificimetiere"
         Me.valu_rifificimetiere.Size = New System.Drawing.Size(39, 16)
         Me.valu_rifificimetiere.TabIndex = 10
         Me.valu_rifificimetiere.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rifificimetiere.Visible = False
         '
         'valu_centrelec
         '
         Me.valu_centrelec.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_centrelec.Location = New System.Drawing.Point(179, 73)
+        Me.valu_centrelec.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_centrelec.Name = "valu_centrelec"
         Me.valu_centrelec.Size = New System.Drawing.Size(39, 16)
         Me.valu_centrelec.TabIndex = 9
         Me.valu_centrelec.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_centrelec.Visible = False
         '
         'valu_barrage
         '
         Me.valu_barrage.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_barrage.Location = New System.Drawing.Point(229, 39)
+        Me.valu_barrage.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_barrage.Name = "valu_barrage"
         Me.valu_barrage.Size = New System.Drawing.Size(39, 16)
         Me.valu_barrage.TabIndex = 8
         Me.valu_barrage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_barrage.Visible = False
         '
         'valu_reservoir
         '
         Me.valu_reservoir.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_reservoir.Location = New System.Drawing.Point(103, 23)
+        Me.valu_reservoir.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_reservoir.Name = "valu_reservoir"
         Me.valu_reservoir.Size = New System.Drawing.Size(39, 16)
         Me.valu_reservoir.TabIndex = 7
         Me.valu_reservoir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_reservoir.Visible = False
         '
         'Icon_centrelec
         '
         Me.Icon_centrelec.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_centrelec.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_centrelec.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_centrelec.Location = New System.Drawing.Point(147, 73)
         Me.Icon_centrelec.Name = "Icon_centrelec"
         Me.Icon_centrelec.Size = New System.Drawing.Size(26, 21)
@@ -3017,7 +3041,7 @@ Partial Class BattlegroundZ
         'Icon_cimetiere
         '
         Me.Icon_cimetiere.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_cimetiere.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_cimetiere.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_cimetiere.Location = New System.Drawing.Point(120, 128)
         Me.Icon_cimetiere.Name = "Icon_cimetiere"
         Me.Icon_cimetiere.Size = New System.Drawing.Size(26, 21)
@@ -3027,7 +3051,7 @@ Partial Class BattlegroundZ
         'Icon_tunnel
         '
         Me.Icon_tunnel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_tunnel.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_tunnel.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_tunnel.Location = New System.Drawing.Point(70, 104)
         Me.Icon_tunnel.Name = "Icon_tunnel"
         Me.Icon_tunnel.Size = New System.Drawing.Size(26, 21)
@@ -3037,7 +3061,7 @@ Partial Class BattlegroundZ
         'Icon_rifificimetiere
         '
         Me.Icon_rifificimetiere.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_rifificimetiere.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rifificimetiere.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_rifificimetiere.Location = New System.Drawing.Point(166, 120)
         Me.Icon_rifificimetiere.Name = "Icon_rifificimetiere"
         Me.Icon_rifificimetiere.Size = New System.Drawing.Size(26, 21)
@@ -3047,7 +3071,7 @@ Partial Class BattlegroundZ
         'Icon_barrage
         '
         Me.Icon_barrage.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_barrage.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_barrage.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_barrage.Location = New System.Drawing.Point(197, 37)
         Me.Icon_barrage.Name = "Icon_barrage"
         Me.Icon_barrage.Size = New System.Drawing.Size(26, 21)
@@ -3057,7 +3081,7 @@ Partial Class BattlegroundZ
         'Icon_reservoir
         '
         Me.Icon_reservoir.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_reservoir.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_reservoir.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_reservoir.Location = New System.Drawing.Point(148, 18)
         Me.Icon_reservoir.Name = "Icon_reservoir"
         Me.Icon_reservoir.Size = New System.Drawing.Size(26, 21)
@@ -3088,60 +3112,72 @@ Partial Class BattlegroundZ
         '
         Me.valu_stationserv.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_stationserv.Location = New System.Drawing.Point(157, 119)
+        Me.valu_stationserv.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_stationserv.Name = "valu_stationserv"
         Me.valu_stationserv.Size = New System.Drawing.Size(39, 16)
         Me.valu_stationserv.TabIndex = 12
         Me.valu_stationserv.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_stationserv.Visible = False
         '
         'valu_chantier
         '
         Me.valu_chantier.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_chantier.Location = New System.Drawing.Point(20, 140)
+        Me.valu_chantier.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_chantier.Name = "valu_chantier"
         Me.valu_chantier.Size = New System.Drawing.Size(39, 16)
         Me.valu_chantier.TabIndex = 11
         Me.valu_chantier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_chantier.Visible = False
         '
         'valu_autoroute
         '
         Me.valu_autoroute.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_autoroute.Location = New System.Drawing.Point(185, 78)
+        Me.valu_autoroute.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_autoroute.Name = "valu_autoroute"
         Me.valu_autoroute.Size = New System.Drawing.Size(39, 16)
         Me.valu_autoroute.TabIndex = 10
         Me.valu_autoroute.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_autoroute.Visible = False
         '
         'valu_rififiquartresidentiel
         '
         Me.valu_rififiquartresidentiel.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rififiquartresidentiel.Location = New System.Drawing.Point(16, 60)
+        Me.valu_rififiquartresidentiel.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rififiquartresidentiel.Name = "valu_rififiquartresidentiel"
         Me.valu_rififiquartresidentiel.Size = New System.Drawing.Size(39, 16)
         Me.valu_rififiquartresidentiel.TabIndex = 9
         Me.valu_rififiquartresidentiel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rififiquartresidentiel.Visible = False
         '
         'valu_quartresidentiel
         '
         Me.valu_quartresidentiel.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_quartresidentiel.Location = New System.Drawing.Point(88, 71)
+        Me.valu_quartresidentiel.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_quartresidentiel.Name = "valu_quartresidentiel"
         Me.valu_quartresidentiel.Size = New System.Drawing.Size(39, 16)
         Me.valu_quartresidentiel.TabIndex = 8
         Me.valu_quartresidentiel.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quartresidentiel.Visible = False
         '
         'valu_champmais
         '
         Me.valu_champmais.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_champmais.Location = New System.Drawing.Point(213, 18)
+        Me.valu_champmais.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_champmais.Name = "valu_champmais"
         Me.valu_champmais.Size = New System.Drawing.Size(39, 16)
         Me.valu_champmais.TabIndex = 7
         Me.valu_champmais.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_champmais.Visible = False
         '
         'Icon_autoroute
         '
         Me.Icon_autoroute.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_autoroute.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_autoroute.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_autoroute.Location = New System.Drawing.Point(153, 79)
         Me.Icon_autoroute.Name = "Icon_autoroute"
         Me.Icon_autoroute.Size = New System.Drawing.Size(26, 21)
@@ -3151,7 +3187,7 @@ Partial Class BattlegroundZ
         'Icon_chantier
         '
         Me.Icon_chantier.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_chantier.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_chantier.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_chantier.Location = New System.Drawing.Point(65, 135)
         Me.Icon_chantier.Name = "Icon_chantier"
         Me.Icon_chantier.Size = New System.Drawing.Size(26, 21)
@@ -3161,7 +3197,7 @@ Partial Class BattlegroundZ
         'Icon_quartresidentiel
         '
         Me.Icon_quartresidentiel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_quartresidentiel.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_quartresidentiel.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_quartresidentiel.Location = New System.Drawing.Point(78, 90)
         Me.Icon_quartresidentiel.Name = "Icon_quartresidentiel"
         Me.Icon_quartresidentiel.Size = New System.Drawing.Size(26, 21)
@@ -3171,7 +3207,7 @@ Partial Class BattlegroundZ
         'Icon_stationserv
         '
         Me.Icon_stationserv.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_stationserv.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_stationserv.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_stationserv.Location = New System.Drawing.Point(201, 114)
         Me.Icon_stationserv.Name = "Icon_stationserv"
         Me.Icon_stationserv.Size = New System.Drawing.Size(26, 21)
@@ -3181,7 +3217,7 @@ Partial Class BattlegroundZ
         'Icon_champmais
         '
         Me.Icon_champmais.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_champmais.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_champmais.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_champmais.Location = New System.Drawing.Point(197, 39)
         Me.Icon_champmais.Name = "Icon_champmais"
         Me.Icon_champmais.Size = New System.Drawing.Size(26, 21)
@@ -3191,7 +3227,7 @@ Partial Class BattlegroundZ
         'Icon_rififiquartresidentiel
         '
         Me.Icon_rififiquartresidentiel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_rififiquartresidentiel.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rififiquartresidentiel.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_rififiquartresidentiel.Location = New System.Drawing.Point(37, 80)
         Me.Icon_rififiquartresidentiel.Name = "Icon_rififiquartresidentiel"
         Me.Icon_rififiquartresidentiel.Size = New System.Drawing.Size(26, 21)
@@ -3222,60 +3258,72 @@ Partial Class BattlegroundZ
         '
         Me.valu_rififiairerestauration.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rififiairerestauration.Location = New System.Drawing.Point(216, 17)
+        Me.valu_rififiairerestauration.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rififiairerestauration.Name = "valu_rififiairerestauration"
         Me.valu_rififiairerestauration.Size = New System.Drawing.Size(39, 16)
         Me.valu_rififiairerestauration.TabIndex = 12
         Me.valu_rififiairerestauration.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rififiairerestauration.Visible = False
         '
         'valu_airerestauration
         '
         Me.valu_airerestauration.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_airerestauration.Location = New System.Drawing.Point(184, 98)
+        Me.valu_airerestauration.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_airerestauration.Name = "valu_airerestauration"
         Me.valu_airerestauration.Size = New System.Drawing.Size(39, 16)
         Me.valu_airerestauration.TabIndex = 11
         Me.valu_airerestauration.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_airerestauration.Visible = False
         '
         'valu_comentree
         '
         Me.valu_comentree.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_comentree.Location = New System.Drawing.Point(81, 123)
+        Me.valu_comentree.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_comentree.Name = "valu_comentree"
         Me.valu_comentree.Size = New System.Drawing.Size(39, 16)
         Me.valu_comentree.TabIndex = 10
         Me.valu_comentree.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_comentree.Visible = False
         '
         'valu_place
         '
         Me.valu_place.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_place.Location = New System.Drawing.Point(18, 78)
+        Me.valu_place.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_place.Name = "valu_place"
         Me.valu_place.Size = New System.Drawing.Size(39, 16)
         Me.valu_place.TabIndex = 9
         Me.valu_place.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_place.Visible = False
         '
         'valu_galerie
         '
         Me.valu_galerie.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_galerie.Location = New System.Drawing.Point(117, 41)
+        Me.valu_galerie.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_galerie.Name = "valu_galerie"
         Me.valu_galerie.Size = New System.Drawing.Size(39, 16)
         Me.valu_galerie.TabIndex = 8
         Me.valu_galerie.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_galerie.Visible = False
         '
         'valu_entrepot
         '
         Me.valu_entrepot.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_entrepot.Location = New System.Drawing.Point(10, 17)
+        Me.valu_entrepot.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_entrepot.Name = "valu_entrepot"
         Me.valu_entrepot.Size = New System.Drawing.Size(39, 16)
         Me.valu_entrepot.TabIndex = 7
         Me.valu_entrepot.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_entrepot.Visible = False
         '
         'Icon_galerie
         '
         Me.Icon_galerie.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_galerie.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_galerie.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_galerie.Location = New System.Drawing.Point(123, 60)
         Me.Icon_galerie.Name = "Icon_galerie"
         Me.Icon_galerie.Size = New System.Drawing.Size(26, 21)
@@ -3285,7 +3333,7 @@ Partial Class BattlegroundZ
         'Icon_airerestauration
         '
         Me.Icon_airerestauration.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_airerestauration.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_airerestauration.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_airerestauration.Location = New System.Drawing.Point(184, 71)
         Me.Icon_airerestauration.Name = "Icon_airerestauration"
         Me.Icon_airerestauration.Size = New System.Drawing.Size(26, 21)
@@ -3295,7 +3343,7 @@ Partial Class BattlegroundZ
         'Icon_comentree
         '
         Me.Icon_comentree.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_comentree.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_comentree.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_comentree.Location = New System.Drawing.Point(122, 121)
         Me.Icon_comentree.Name = "Icon_comentree"
         Me.Icon_comentree.Size = New System.Drawing.Size(26, 21)
@@ -3305,7 +3353,7 @@ Partial Class BattlegroundZ
         'Icon_rififiairerestauration
         '
         Me.Icon_rififiairerestauration.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_rififiairerestauration.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rififiairerestauration.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_rififiairerestauration.Location = New System.Drawing.Point(209, 39)
         Me.Icon_rififiairerestauration.Name = "Icon_rififiairerestauration"
         Me.Icon_rififiairerestauration.Size = New System.Drawing.Size(26, 21)
@@ -3315,7 +3363,7 @@ Partial Class BattlegroundZ
         'Icon_place
         '
         Me.Icon_place.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_place.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_place.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_place.Location = New System.Drawing.Point(63, 71)
         Me.Icon_place.Name = "Icon_place"
         Me.Icon_place.Size = New System.Drawing.Size(26, 21)
@@ -3325,7 +3373,7 @@ Partial Class BattlegroundZ
         'Icon_entrepot
         '
         Me.Icon_entrepot.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_entrepot.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_entrepot.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_entrepot.Location = New System.Drawing.Point(37, 39)
         Me.Icon_entrepot.Name = "Icon_entrepot"
         Me.Icon_entrepot.Size = New System.Drawing.Size(26, 21)
@@ -3356,60 +3404,72 @@ Partial Class BattlegroundZ
         '
         Me.valu_station.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_station.Location = New System.Drawing.Point(222, 112)
+        Me.valu_station.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_station.Name = "valu_station"
         Me.valu_station.Size = New System.Drawing.Size(39, 16)
         Me.valu_station.TabIndex = 11
         Me.valu_station.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_station.Visible = False
         '
         'valu_parking
         '
         Me.valu_parking.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_parking.Location = New System.Drawing.Point(123, 112)
+        Me.valu_parking.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_parking.Name = "valu_parking"
         Me.valu_parking.Size = New System.Drawing.Size(39, 16)
         Me.valu_parking.TabIndex = 10
         Me.valu_parking.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_parking.Visible = False
         '
         'valu_hopital
         '
         Me.valu_hopital.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_hopital.Location = New System.Drawing.Point(16, 131)
+        Me.valu_hopital.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_hopital.Name = "valu_hopital"
         Me.valu_hopital.Size = New System.Drawing.Size(39, 16)
         Me.valu_hopital.TabIndex = 9
         Me.valu_hopital.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_hopital.Visible = False
         '
         'valu_ruelle
         '
         Me.valu_ruelle.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_ruelle.Location = New System.Drawing.Point(212, 66)
+        Me.valu_ruelle.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_ruelle.Name = "valu_ruelle"
         Me.valu_ruelle.Size = New System.Drawing.Size(39, 16)
         Me.valu_ruelle.TabIndex = 8
         Me.valu_ruelle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_ruelle.Visible = False
         '
         'valu_stade
         '
         Me.valu_stade.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_stade.Location = New System.Drawing.Point(82, 63)
+        Me.valu_stade.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_stade.Name = "valu_stade"
         Me.valu_stade.Size = New System.Drawing.Size(39, 16)
         Me.valu_stade.TabIndex = 7
         Me.valu_stade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_stade.Visible = False
         '
         'valu_rififistade
         '
         Me.valu_rififistade.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.valu_rififistade.Location = New System.Drawing.Point(37, 39)
+        Me.valu_rififistade.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_rififistade.Name = "valu_rififistade"
         Me.valu_rififistade.Size = New System.Drawing.Size(39, 16)
         Me.valu_rififistade.TabIndex = 6
         Me.valu_rififistade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_rififistade.Visible = False
         '
         'Icon_station
         '
         Me.Icon_station.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_station.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_station.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_station.Location = New System.Drawing.Point(202, 133)
         Me.Icon_station.Name = "Icon_station"
         Me.Icon_station.Size = New System.Drawing.Size(26, 21)
@@ -3419,7 +3479,7 @@ Partial Class BattlegroundZ
         'Icon_parking
         '
         Me.Icon_parking.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_parking.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_parking.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_parking.Location = New System.Drawing.Point(134, 134)
         Me.Icon_parking.Name = "Icon_parking"
         Me.Icon_parking.Size = New System.Drawing.Size(26, 21)
@@ -3429,7 +3489,7 @@ Partial Class BattlegroundZ
         'Icon_hopital
         '
         Me.Icon_hopital.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_hopital.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_hopital.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_hopital.Location = New System.Drawing.Point(64, 134)
         Me.Icon_hopital.Name = "Icon_hopital"
         Me.Icon_hopital.Size = New System.Drawing.Size(26, 21)
@@ -3439,7 +3499,7 @@ Partial Class BattlegroundZ
         'Icon_ruelle
         '
         Me.Icon_ruelle.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_ruelle.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_ruelle.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_ruelle.Location = New System.Drawing.Point(180, 61)
         Me.Icon_ruelle.Name = "Icon_ruelle"
         Me.Icon_ruelle.Size = New System.Drawing.Size(26, 21)
@@ -3449,7 +3509,7 @@ Partial Class BattlegroundZ
         'Icon_stade
         '
         Me.Icon_stade.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_stade.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_stade.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_stade.Location = New System.Drawing.Point(122, 55)
         Me.Icon_stade.Name = "Icon_stade"
         Me.Icon_stade.Size = New System.Drawing.Size(26, 21)
@@ -3459,7 +3519,7 @@ Partial Class BattlegroundZ
         'Icon_rififistade
         '
         Me.Icon_rififistade.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_rififistade.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_enable
+        Me.Icon_rififistade.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.icon_level_na
         Me.Icon_rififistade.Location = New System.Drawing.Point(82, 36)
         Me.Icon_rififistade.Name = "Icon_rififistade"
         Me.Icon_rififistade.Size = New System.Drawing.Size(26, 21)
@@ -3472,6 +3532,7 @@ Partial Class BattlegroundZ
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(600, 568)
+        Me.Controls.Add(Me.Panel_levelsedit)
         Me.Controls.Add(Me.Panel_menu_open)
         Me.Controls.Add(Me.SMPBZSE_header)
         Me.Controls.Add(Me.SMPBZSE_logo)
@@ -3479,7 +3540,6 @@ Partial Class BattlegroundZ
         Me.Controls.Add(Me.Panel_weaponsedit)
         Me.Controls.Add(Me.Panel_zombiesedit)
         Me.Controls.Add(Me.Panel_rarezombiesedit)
-        Me.Controls.Add(Me.Panel_levelsedit)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "BattlegroundZ"

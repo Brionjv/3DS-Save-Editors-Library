@@ -303,7 +303,8 @@ Public Class N3DSSE_library
     End Sub
 
     Private Sub Icon_SMPTS_Click(sender As Object, e As EventArgs) Handles Icon_SMPTS.Click
-
+        Me.Hide()
+        Marketcrashers.ShowDialog()
     End Sub
 
     Private Sub Icon_SMPTS_MouseLeave(sender As Object, e As EventArgs) Handles Icon_SMPTS.MouseLeave
@@ -314,6 +315,22 @@ Public Class N3DSSE_library
     Private Sub Icon_SMPTS_MouseMove(sender As Object, e As EventArgs) Handles Icon_SMPTS.MouseMove
         Icon_SMPTS.BorderStyle = BorderStyle.FixedSingle
         Text_description.Text = "Click to access to StreetPass Mii Plaza - StreetPass Trader / Market Crashers Save Editor" & vbNewLine & "Confirme to work with EU version"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Icon_CSSE_Click(sender As Object, e As EventArgs) Handles Icon_CSSE.Click
+        Me.Hide()
+        Marketcrashers.ShowDialog()
+    End Sub
+
+    Private Sub Icon_CSSE_MouseLeave(sender As Object, e As EventArgs) Handles Icon_CSSE.MouseLeave
+        Icon_CSSE.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_CSSE_MouseMove(sender As Object, e As EventArgs) Handles Icon_CSSE.MouseMove
+        Icon_CSSE.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "Click to access to Cave Story 3D Save Editor" & vbNewLine & "Confirme to work with US version"
         Panel_description.Visible = True
     End Sub
 End Class

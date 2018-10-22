@@ -107,6 +107,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Marketcrashers.Designer.vb">
+      <DependentUpon>Marketcrashers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Marketcrashers.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marketcrashers.resx">
+      <DependentUpon>Marketcrashers.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -247,6 +256,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\trader_bg_fund.png" />
+    <None Include="Resources\icon_trader1.png" />
+    <None Include="Resources\icon_dev_act.png" />
+    <None Include="Resources\icon_dev.png" />
+    <None Include="Resources\icon_cavestory3dse.png" />
     <None Include="Resources\Icon_zombinav_levelsedit.png" />
     <None Include="Resources\icon_level_na.png" />
     <None Include="Resources\icon_level_lock.png" />
