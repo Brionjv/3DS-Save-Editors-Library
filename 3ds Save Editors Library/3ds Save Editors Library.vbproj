@@ -94,6 +94,12 @@
     <Compile Include="BattlegroundZ.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CaveStory3D.Designer.vb">
+      <DependentUpon>CaveStory3D.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CaveStory3D.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="fdialog.Designer.vb">
       <DependentUpon>fdialog.vb</DependentUpon>
     </Compile>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BattlegroundZ.resx">
       <DependentUpon>BattlegroundZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaveStory3D.resx">
+      <DependentUpon>CaveStory3D.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fdialog.resx">
       <DependentUpon>fdialog.vb</DependentUpon>
@@ -256,6 +265,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\exp_icon.png" />
+    <None Include="Resources\Supermissile.png" />
+    <None Include="Resources\Spur.png" />
+    <None Include="Resources\snake.png" />
+    <None Include="Resources\Polarstar.png" />
+    <None Include="Resources\Nemesisunav.png" />
+    <None Include="Resources\Nemesis.png" />
+    <None Include="Resources\Missilelauncher.png" />
+    <None Include="Resources\Machinegun.png" />
+    <None Include="Resources\Fireball.png" />
+    <None Include="Resources\Bubblineunav.png" />
+    <None Include="Resources\Bubbline.png" />
+    <None Include="Resources\Bladeunav.png" />
+    <None Include="Resources\Blade.png" />
+    <None Include="Resources\Quote_r.png" />
     <None Include="Resources\trader_bg_fund.png" />
     <None Include="Resources\icon_trader1.png" />
     <None Include="Resources\icon_dev_act.png" />

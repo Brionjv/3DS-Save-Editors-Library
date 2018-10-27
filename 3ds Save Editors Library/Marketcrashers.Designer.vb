@@ -30,15 +30,15 @@ Partial Class Marketcrashers
         Me.Text_menu_save = New System.Windows.Forms.Label()
         Me.Text_menu_open = New System.Windows.Forms.Label()
         Me.SMPMCSE_logo = New System.Windows.Forms.PictureBox()
-        Me.Fea_fund = New System.Windows.Forms.Panel()
-        Me.valu_fund = New System.Windows.Forms.NumericUpDown()
-        Me.Title_fund = New System.Windows.Forms.Label()
+        Me.Fea_assets = New System.Windows.Forms.Panel()
+        Me.Title_assets = New System.Windows.Forms.Label()
+        Me.valu_assets = New System.Windows.Forms.NumericUpDown()
         Me.SMPMCSE_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_menu_open.SuspendLayout()
         CType(Me.SMPMCSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Fea_fund.SuspendLayout()
-        CType(Me.valu_fund, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_assets.SuspendLayout()
+        CType(Me.valu_assets, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SMPMCSE_header
@@ -127,36 +127,36 @@ Partial Class Marketcrashers
         Me.SMPMCSE_logo.TabIndex = 53
         Me.SMPMCSE_logo.TabStop = False
         '
-        'Fea_fund
+        'Fea_assets
         '
-        Me.Fea_fund.BackColor = System.Drawing.Color.Transparent
-        Me.Fea_fund.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.trader_bg_fund
-        Me.Fea_fund.Controls.Add(Me.Title_fund)
-        Me.Fea_fund.Controls.Add(Me.valu_fund)
-        Me.Fea_fund.Location = New System.Drawing.Point(77, 102)
-        Me.Fea_fund.Name = "Fea_fund"
-        Me.Fea_fund.Size = New System.Drawing.Size(380, 50)
-        Me.Fea_fund.TabIndex = 56
+        Me.Fea_assets.BackColor = System.Drawing.Color.Transparent
+        Me.Fea_assets.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.trader_bg_fund
+        Me.Fea_assets.Controls.Add(Me.Title_assets)
+        Me.Fea_assets.Controls.Add(Me.valu_assets)
+        Me.Fea_assets.Location = New System.Drawing.Point(77, 102)
+        Me.Fea_assets.Name = "Fea_assets"
+        Me.Fea_assets.Size = New System.Drawing.Size(380, 50)
+        Me.Fea_assets.TabIndex = 56
         '
-        'valu_fund
+        'Title_assets
         '
-        Me.valu_fund.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_fund.Location = New System.Drawing.Point(130, 28)
-        Me.valu_fund.Maximum = New Decimal(New Integer() {99999999, 0, 0, 0})
-        Me.valu_fund.Name = "valu_fund"
-        Me.valu_fund.Size = New System.Drawing.Size(120, 16)
-        Me.valu_fund.TabIndex = 0
-        Me.valu_fund.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_fund.ThousandsSeparator = True
+        Me.Title_assets.Location = New System.Drawing.Point(93, 0)
+        Me.Title_assets.Name = "Title_assets"
+        Me.Title_assets.Size = New System.Drawing.Size(185, 23)
+        Me.Title_assets.TabIndex = 1
+        Me.Title_assets.Text = "Total Assets"
+        Me.Title_assets.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Title_fund
+        'valu_assets
         '
-        Me.Title_fund.Location = New System.Drawing.Point(93, 0)
-        Me.Title_fund.Name = "Title_fund"
-        Me.Title_fund.Size = New System.Drawing.Size(185, 23)
-        Me.Title_fund.TabIndex = 1
-        Me.Title_fund.Text = "Total de vos actifs"
-        Me.Title_fund.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.valu_assets.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_assets.Location = New System.Drawing.Point(130, 28)
+        Me.valu_assets.Maximum = New Decimal(New Integer() {99999999, 0, 0, 0})
+        Me.valu_assets.Name = "valu_assets"
+        Me.valu_assets.Size = New System.Drawing.Size(120, 16)
+        Me.valu_assets.TabIndex = 0
+        Me.valu_assets.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_assets.ThousandsSeparator = True
         '
         'Marketcrashers
         '
@@ -165,7 +165,7 @@ Partial Class Marketcrashers
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(534, 216)
         Me.ControlBox = False
-        Me.Controls.Add(Me.Fea_fund)
+        Me.Controls.Add(Me.Fea_assets)
         Me.Controls.Add(Me.Panel_menu_open)
         Me.Controls.Add(Me.SMPMCSE_header)
         Me.Controls.Add(Me.SMPMCSE_logo)
@@ -178,8 +178,8 @@ Partial Class Marketcrashers
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_menu_open.ResumeLayout(False)
         CType(Me.SMPMCSE_logo, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Fea_fund.ResumeLayout(False)
-        CType(Me.valu_fund, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_assets.ResumeLayout(False)
+        CType(Me.valu_assets, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -190,7 +190,7 @@ Partial Class Marketcrashers
     Friend WithEvents SMPMCSE_title As System.Windows.Forms.Label
     Friend WithEvents Closebutton As System.Windows.Forms.PictureBox
     Friend WithEvents SMPMCSE_logo As System.Windows.Forms.PictureBox
-    Friend WithEvents Fea_fund As System.Windows.Forms.Panel
-    Friend WithEvents Title_fund As System.Windows.Forms.Label
-    Friend WithEvents valu_fund As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Fea_assets As System.Windows.Forms.Panel
+    Friend WithEvents Title_assets As System.Windows.Forms.Label
+    Friend WithEvents valu_assets As System.Windows.Forms.NumericUpDown
 End Class

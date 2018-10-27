@@ -794,7 +794,7 @@ Public Class BattlegroundZ
 
     Private Sub Text_menu_open_Click(sender As Object, e As EventArgs) Handles Text_menu_open.Click
         Dim open As New OpenFileDialog
-        fdialog.Description.Text = "Open mgZmb0.dat" & vbNewLine & "Battleground Z Save Editor will make a backup of your save file, check ''backup'' folder"
+        fdialog.Description.Text = "Open mgZmb0.dat" & vbNewLine & "StreetPass Mii Plaza - StreetPass Zombies / Battleground Z Save Editor will make a backup of your save file, check ''backup'' folder"
         fdialog.ShowDialog()
         open.Filter = "DAT files|*mgZmb0.dat"
         open.Title = "Open save mgZmb0.dat"

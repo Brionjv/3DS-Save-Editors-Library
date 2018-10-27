@@ -16,3 +16,4 @@ D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3d
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.AR_Games.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.BattlegroundZ.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.Marketcrashers.resources
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.CaveStory3D.resources

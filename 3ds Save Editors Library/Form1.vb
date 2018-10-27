@@ -320,7 +320,7 @@ Public Class N3DSSE_library
 
     Private Sub Icon_CSSE_Click(sender As Object, e As EventArgs) Handles Icon_CSSE.Click
         Me.Hide()
-        Marketcrashers.ShowDialog()
+        CaveStory3D.ShowDialog()
     End Sub
 
     Private Sub Icon_CSSE_MouseLeave(sender As Object, e As EventArgs) Handles Icon_CSSE.MouseLeave
@@ -330,7 +330,11 @@ Public Class N3DSSE_library
 
     Private Sub Icon_CSSE_MouseMove(sender As Object, e As EventArgs) Handles Icon_CSSE.MouseMove
         Icon_CSSE.BorderStyle = BorderStyle.FixedSingle
-        Text_description.Text = "Click to access to Cave Story 3D Save Editor" & vbNewLine & "Confirme to work with US version"
+        Text_description.Text = "Click to access to Cave Story 3D Save Editor" & vbNewLine & "Confirme to work with EU version"
         Panel_description.Visible = True
+    End Sub
+
+    Private Sub Icon_CSSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_CSSE.MouseMove
+
     End Sub
 End Class
