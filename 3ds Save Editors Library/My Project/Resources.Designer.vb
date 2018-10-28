@@ -273,6 +273,16 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property CS3DSE_fdialog() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("CS3DSE_fdialog", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property EN_area_1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("EN_area_1", resourceCulture)
@@ -1026,6 +1036,16 @@ Namespace My.Resources
         Friend ReadOnly Property SMPBZSE_fdialog() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("SMPBZSE_fdialog", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property SMPMC_fdialog() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("SMPMC_fdialog", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -3,7 +3,6 @@ D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3d
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Release\3ds Save Editors Library.pdb
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Release\3ds Save Editors Library.xml
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\bin\Release\PackageIO.dll
-D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\3ds Save Editors Library.vbprojResolveAssemblyReference.cache
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.fdialog.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.Resources.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.TeamKirbyClashDeluxe.resources
@@ -17,3 +16,4 @@ D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3d
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.BattlegroundZ.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.Marketcrashers.resources
 D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\_3ds_Save_Editors_Library.CaveStory3D.resources
+D:\Users\Brion\Documents\Visual Studio 2012\Projects\3DS Save Editors Library\3ds Save Editors Library\obj\Release\3ds Save Editors Library.vbprojResolveAssemblyReference.cache

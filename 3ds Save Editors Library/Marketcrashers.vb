@@ -49,7 +49,7 @@ Public Class Marketcrashers
         Try
             My.Computer.FileSystem.CopyFile(
                           mgTrd0,
-                        applicationpath & "\backup\Market Crashers\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\mgTrd0.dat")
+                        applicationpath & "\backup\Streetpass Mii Plaza - Market Crashers\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\mgTrd0.dat")
         Catch ex As Exception
         End Try
     End Sub
@@ -96,4 +96,7 @@ Public Class Marketcrashers
         End Try
     End Sub
 
+    Private Sub Marketcrashers_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        fdialog.BackgroundImage = My.Resources.SMPMC_fdialog
+    End Sub
 End Class

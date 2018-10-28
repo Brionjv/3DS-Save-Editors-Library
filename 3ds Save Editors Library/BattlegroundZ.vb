@@ -655,7 +655,7 @@ Public Class BattlegroundZ
         Try
             My.Computer.FileSystem.CopyFile(
                           mgZmb0,
-                        applicationpath & "\backup\Battleground Z\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\mgZmb0.dat")
+                        applicationpath & "\backup\Streetpass Mii Plaza - Battleground Z\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\mgZmb0.dat")
         Catch ex As Exception
         End Try
     End Sub

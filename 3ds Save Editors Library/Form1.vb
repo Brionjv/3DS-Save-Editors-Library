@@ -337,4 +337,8 @@ Public Class N3DSSE_library
     Private Sub Icon_CSSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_CSSE.MouseMove
 
     End Sub
+
+    Private Sub Icon_SMPTS_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_SMPTS.MouseMove
+
+    End Sub
 End Class

@@ -99,6 +99,10 @@
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.CS3DSE_fdialog">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.EN_area_1">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -400,6 +404,10 @@
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.SMPBZSE_fdialog">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.SMPMC_fdialog">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
