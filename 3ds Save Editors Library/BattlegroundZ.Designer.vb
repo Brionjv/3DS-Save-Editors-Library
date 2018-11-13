@@ -292,6 +292,10 @@ Partial Class BattlegroundZ
         Me.Icon_ruelle = New System.Windows.Forms.PictureBox()
         Me.Icon_stade = New System.Windows.Forms.PictureBox()
         Me.Icon_rififistade = New System.Windows.Forms.PictureBox()
+        Me.Panel_jksm = New System.Windows.Forms.Panel()
+        Me.Icon_jksm = New System.Windows.Forms.PictureBox()
+        Me.Panel_chkpt = New System.Windows.Forms.Panel()
+        Me.Icon_chkpt = New System.Windows.Forms.PictureBox()
         CType(Me.SMPBZSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SMPBZSE_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -551,6 +555,10 @@ Partial Class BattlegroundZ
         CType(Me.Icon_ruelle, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_stade, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_rififistade, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_jksm.SuspendLayout()
+        CType(Me.Icon_jksm, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_chkpt.SuspendLayout()
+        CType(Me.Icon_chkpt, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SMPBZSE_logo
@@ -3526,12 +3534,58 @@ Partial Class BattlegroundZ
         Me.Icon_rififistade.TabIndex = 0
         Me.Icon_rififistade.TabStop = False
         '
+        'Panel_jksm
+        '
+        Me.Panel_jksm.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_jksm.BackgroundImage = CType(resources.GetObject("Panel_jksm.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_jksm.Controls.Add(Me.Icon_jksm)
+        Me.Panel_jksm.Location = New System.Drawing.Point(566, 34)
+        Me.Panel_jksm.Name = "Panel_jksm"
+        Me.Panel_jksm.Size = New System.Drawing.Size(31, 25)
+        Me.Panel_jksm.TabIndex = 59
+        '
+        'Icon_jksm
+        '
+        Me.Icon_jksm.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Icon_jksm.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Icon_jksm.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.compat_jksm
+        Me.Icon_jksm.Location = New System.Drawing.Point(0, 0)
+        Me.Icon_jksm.Name = "Icon_jksm"
+        Me.Icon_jksm.Size = New System.Drawing.Size(31, 25)
+        Me.Icon_jksm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_jksm.TabIndex = 0
+        Me.Icon_jksm.TabStop = False
+        '
+        'Panel_chkpt
+        '
+        Me.Panel_chkpt.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_chkpt.BackgroundImage = CType(resources.GetObject("Panel_chkpt.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_chkpt.Controls.Add(Me.Icon_chkpt)
+        Me.Panel_chkpt.Location = New System.Drawing.Point(534, 34)
+        Me.Panel_chkpt.Name = "Panel_chkpt"
+        Me.Panel_chkpt.Size = New System.Drawing.Size(31, 25)
+        Me.Panel_chkpt.TabIndex = 58
+        '
+        'Icon_chkpt
+        '
+        Me.Icon_chkpt.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Icon_chkpt.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Icon_chkpt.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.compat_chkpt
+        Me.Icon_chkpt.Location = New System.Drawing.Point(0, 0)
+        Me.Icon_chkpt.Name = "Icon_chkpt"
+        Me.Icon_chkpt.Size = New System.Drawing.Size(31, 25)
+        Me.Icon_chkpt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_chkpt.TabIndex = 1
+        Me.Icon_chkpt.TabStop = False
+        '
         'BattlegroundZ
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(600, 568)
+        Me.Controls.Add(Me.Panel_jksm)
+        Me.Controls.Add(Me.Panel_chkpt)
         Me.Controls.Add(Me.Panel_levelsedit)
         Me.Controls.Add(Me.Panel_menu_open)
         Me.Controls.Add(Me.SMPBZSE_header)
@@ -3805,6 +3859,10 @@ Partial Class BattlegroundZ
         CType(Me.Icon_ruelle, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_stade, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_rififistade, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_jksm.ResumeLayout(False)
+        CType(Me.Icon_jksm, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_chkpt.ResumeLayout(False)
+        CType(Me.Icon_chkpt, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -4077,4 +4135,8 @@ Partial Class BattlegroundZ
     Friend WithEvents valu_ruelle As System.Windows.Forms.NumericUpDown
     Friend WithEvents valu_stade As System.Windows.Forms.NumericUpDown
     Friend WithEvents valu_rififistade As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel_jksm As System.Windows.Forms.Panel
+    Friend WithEvents Icon_jksm As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel_chkpt As System.Windows.Forms.Panel
+    Friend WithEvents Icon_chkpt As System.Windows.Forms.PictureBox
 End Class

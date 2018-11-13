@@ -105,6 +105,7 @@ Public Class TeamKirbyClashDeluxe
         Panel_itemsediting.Visible = False
         Panel_highscoresediting.Visible = False
         Panel_lvlareaediting.Visible = False
+        Panel_missionsediting.Visible = False
     End Sub
 
     Public Sub hidepanelsarea()
@@ -524,6 +525,12 @@ Public Class TeamKirbyClashDeluxe
     Private Sub Menu_lvlareaediting_Click(sender As Object, e As EventArgs) Handles Menu_lvlareaediting.Click, Menu_text_lvlareaediting.Click
         hidepanels()
         Panel_lvlareaediting.Visible = True
+        Menu_panel.Visible = False
+    End Sub
+
+    Private Sub Menu_missionsediting_Click(sender As Object, e As EventArgs) Handles Menu_missionsediting.Click, Menu_text_missionsediting.Click
+        hidepanels()
+        Panel_missionsediting.Visible = True
         Menu_panel.Visible = False
     End Sub
 
@@ -1435,5 +1442,23 @@ Public Class TeamKirbyClashDeluxe
         Else
             valu_rank_q8.Value = valu_rank_q8.Value + 1
         End If
+    End Sub
+
+    Private Sub Icon_chkpt_MouseLeave(sender As Object, e As EventArgs) Handles Icon_chkpt.MouseLeave
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_chkpt_MouseMove(sender As Object, e As EventArgs) Handles Icon_chkpt.MouseMove
+        Text_description.Text = "Your save file is here on your SD card :" & vbNewLine & "3ds\Checkpoint\saves\0x[your region title] Team Kirby Clash Deluxe\*your folder name\savedata.dat"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Icon_jksm_MouseLeave(sender As Object, e As EventArgs) Handles Icon_jksm.MouseLeave
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_jksm_MouseMove(sender As Object, e As EventArgs) Handles Icon_jksm.MouseMove
+        Text_description.Text = "Your save file is here on your SD card :" & vbNewLine & "JKSV\Saves\Team Kirby Clash Deluxe\*your folder name\savedata.dat"
+        Panel_description.Visible = True
     End Sub
 End Class

@@ -115,6 +115,10 @@ Partial Class CaveStory3D
         Me.Icon_cave = New System.Windows.Forms.PictureBox()
         Me.Panel_menu = New System.Windows.Forms.Panel()
         Me.Text_menu = New System.Windows.Forms.Label()
+        Me.Panel_jksm = New System.Windows.Forms.Panel()
+        Me.Icon_jksm = New System.Windows.Forms.PictureBox()
+        Me.Panel_chkpt = New System.Windows.Forms.Panel()
+        Me.Icon_chkpt = New System.Windows.Forms.PictureBox()
         Me.Panel_menu_open.SuspendLayout()
         Me.CS3DSE_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -180,6 +184,10 @@ Partial Class CaveStory3D
         CType(Me.valu_hp, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_cave, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_menu.SuspendLayout()
+        Me.Panel_jksm.SuspendLayout()
+        CType(Me.Icon_jksm, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_chkpt.SuspendLayout()
+        CType(Me.Icon_chkpt, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel_menu_open
@@ -1155,6 +1163,50 @@ Partial Class CaveStory3D
         Me.Text_menu.Text = "Menu"
         Me.Text_menu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Panel_jksm
+        '
+        Me.Panel_jksm.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_jksm.BackgroundImage = CType(resources.GetObject("Panel_jksm.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_jksm.Controls.Add(Me.Icon_jksm)
+        Me.Panel_jksm.Location = New System.Drawing.Point(642, 34)
+        Me.Panel_jksm.Name = "Panel_jksm"
+        Me.Panel_jksm.Size = New System.Drawing.Size(31, 25)
+        Me.Panel_jksm.TabIndex = 62
+        '
+        'Icon_jksm
+        '
+        Me.Icon_jksm.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Icon_jksm.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Icon_jksm.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.compat_jksm
+        Me.Icon_jksm.Location = New System.Drawing.Point(0, 0)
+        Me.Icon_jksm.Name = "Icon_jksm"
+        Me.Icon_jksm.Size = New System.Drawing.Size(31, 25)
+        Me.Icon_jksm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_jksm.TabIndex = 0
+        Me.Icon_jksm.TabStop = False
+        '
+        'Panel_chkpt
+        '
+        Me.Panel_chkpt.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_chkpt.BackgroundImage = CType(resources.GetObject("Panel_chkpt.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_chkpt.Controls.Add(Me.Icon_chkpt)
+        Me.Panel_chkpt.Location = New System.Drawing.Point(610, 34)
+        Me.Panel_chkpt.Name = "Panel_chkpt"
+        Me.Panel_chkpt.Size = New System.Drawing.Size(31, 25)
+        Me.Panel_chkpt.TabIndex = 61
+        '
+        'Icon_chkpt
+        '
+        Me.Icon_chkpt.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Icon_chkpt.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Icon_chkpt.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.compat_chkpt
+        Me.Icon_chkpt.Location = New System.Drawing.Point(0, 0)
+        Me.Icon_chkpt.Name = "Icon_chkpt"
+        Me.Icon_chkpt.Size = New System.Drawing.Size(31, 25)
+        Me.Icon_chkpt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_chkpt.TabIndex = 1
+        Me.Icon_chkpt.TabStop = False
+        '
         'CaveStory3D
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1163,6 +1215,8 @@ Partial Class CaveStory3D
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(676, 482)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Panel_jksm)
+        Me.Controls.Add(Me.Panel_chkpt)
         Me.Controls.Add(Me.Panel_menu)
         Me.Controls.Add(Me.Panel_weaponsedit)
         Me.Controls.Add(Me.Panel_menu_open)
@@ -1248,6 +1302,10 @@ Partial Class CaveStory3D
         CType(Me.valu_hp, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_cave, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_menu.ResumeLayout(False)
+        Me.Panel_jksm.ResumeLayout(False)
+        CType(Me.Icon_jksm, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_chkpt.ResumeLayout(False)
+        CType(Me.Icon_chkpt, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1343,4 +1401,8 @@ Partial Class CaveStory3D
     Friend WithEvents valu_select_weapon_1 As System.Windows.Forms.NumericUpDown
     Friend WithEvents Panel_menu As System.Windows.Forms.Panel
     Friend WithEvents Text_menu As System.Windows.Forms.Label
+    Friend WithEvents Panel_jksm As System.Windows.Forms.Panel
+    Friend WithEvents Icon_jksm As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel_chkpt As System.Windows.Forms.Panel
+    Friend WithEvents Icon_chkpt As System.Windows.Forms.PictureBox
 End Class

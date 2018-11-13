@@ -46,6 +46,9 @@ Partial Class N3DSSE_library
         Me.Text_N3DSSEL_version = New System.Windows.Forms.Label()
         Me.Menu_icon_settings = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Icon_CSSE = New System.Windows.Forms.PictureBox()
         Me.Icon_SMPTS = New System.Windows.Forms.PictureBox()
@@ -55,9 +58,6 @@ Partial Class N3DSSE_library
         Me.Icon_TKCDSE = New System.Windows.Forms.PictureBox()
         Me.N3DSSEL_logo_update = New System.Windows.Forms.PictureBox()
         Me.N3DSSEL_logo = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.N3DSSEL_header.SuspendLayout()
         CType(Me.N3DSSEL_title, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -79,6 +79,9 @@ Partial Class N3DSSE_library
         Me.Panel2.SuspendLayout()
         CType(Me.Menu_icon_settings, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_CSSE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_SMPTS, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -88,9 +91,6 @@ Partial Class N3DSSE_library
         CType(Me.Icon_TKCDSE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.N3DSSEL_logo_update, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.N3DSSEL_logo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'N3DSSEL_header
@@ -373,6 +373,40 @@ Partial Class N3DSSE_library
         Me.Panel1.Size = New System.Drawing.Size(649, 366)
         Me.Panel1.TabIndex = 29
         '
+        'PictureBox3
+        '
+        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox3.Enabled = False
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(489, 3)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox3.TabIndex = 171
+        Me.PictureBox3.TabStop = False
+        Me.PictureBox3.Visible = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(435, 3)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox4.TabIndex = 170
+        Me.PictureBox4.TabStop = False
+        Me.PictureBox4.Visible = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(381, 3)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(48, 48)
+        Me.PictureBox5.TabIndex = 169
+        Me.PictureBox5.TabStop = False
+        Me.PictureBox5.Visible = False
+        '
         'PictureBox1
         '
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
@@ -471,37 +505,6 @@ Partial Class N3DSSE_library
         Me.N3DSSEL_logo.TabIndex = 27
         Me.N3DSSEL_logo.TabStop = False
         '
-        'PictureBox3
-        '
-        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox3.Enabled = False
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(489, 3)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(48, 48)
-        Me.PictureBox3.TabIndex = 171
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(435, 3)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(48, 48)
-        Me.PictureBox4.TabIndex = 170
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(381, 3)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(48, 48)
-        Me.PictureBox5.TabIndex = 169
-        Me.PictureBox5.TabStop = False
-        '
         'N3DSSE_library
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -551,6 +554,9 @@ Partial Class N3DSSE_library
         Me.Panel2.ResumeLayout(False)
         CType(Me.Menu_icon_settings, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_CSSE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_SMPTS, System.ComponentModel.ISupportInitialize).EndInit()
@@ -560,9 +566,6 @@ Partial Class N3DSSE_library
         CType(Me.Icon_TKCDSE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.N3DSSEL_logo_update, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.N3DSSEL_logo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

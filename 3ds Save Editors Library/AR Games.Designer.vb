@@ -30,11 +30,15 @@ Partial Class AR_Games
         Me.Fea_unlockgames = New System.Windows.Forms.PictureBox()
         Me.Panel_description = New System.Windows.Forms.Panel()
         Me.Text_description = New System.Windows.Forms.Label()
+        Me.Panel_jksm = New System.Windows.Forms.Panel()
+        Me.Icon_jksm = New System.Windows.Forms.PictureBox()
         CType(Me.TLSE_logo_update, System.ComponentModel.ISupportInitialize).BeginInit()
         Me._3DSARG_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Fea_unlockgames, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_description.SuspendLayout()
+        Me.Panel_jksm.SuspendLayout()
+        CType(Me.Icon_jksm, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TLSE_logo_update
@@ -59,7 +63,7 @@ Partial Class AR_Games
         Me._3DSARG_header.Location = New System.Drawing.Point(60, 0)
         Me._3DSARG_header.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me._3DSARG_header.Name = "_3DSARG_header"
-        Me._3DSARG_header.Size = New System.Drawing.Size(305, 30)
+        Me._3DSARG_header.Size = New System.Drawing.Size(376, 30)
         Me._3DSARG_header.TabIndex = 31
         '
         '_3DSARG_title
@@ -76,7 +80,7 @@ Partial Class AR_Games
         Me.Closebutton.BackColor = System.Drawing.Color.Transparent
         Me.Closebutton.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Closebutton.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.close
-        Me.Closebutton.Location = New System.Drawing.Point(258, 0)
+        Me.Closebutton.Location = New System.Drawing.Point(330, 0)
         Me.Closebutton.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Closebutton.Name = "Closebutton"
         Me.Closebutton.Size = New System.Drawing.Size(45, 30)
@@ -88,7 +92,7 @@ Partial Class AR_Games
         Me.Fea_unlockgames.BackColor = System.Drawing.Color.Transparent
         Me.Fea_unlockgames.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Fea_unlockgames.Image = CType(resources.GetObject("Fea_unlockgames.Image"), System.Drawing.Image)
-        Me.Fea_unlockgames.Location = New System.Drawing.Point(120, 62)
+        Me.Fea_unlockgames.Location = New System.Drawing.Point(157, 75)
         Me.Fea_unlockgames.Name = "Fea_unlockgames"
         Me.Fea_unlockgames.Size = New System.Drawing.Size(123, 124)
         Me.Fea_unlockgames.TabIndex = 32
@@ -98,9 +102,9 @@ Partial Class AR_Games
         '
         Me.Panel_description.BackColor = System.Drawing.Color.Gold
         Me.Panel_description.Controls.Add(Me.Text_description)
-        Me.Panel_description.Location = New System.Drawing.Point(2, 200)
+        Me.Panel_description.Location = New System.Drawing.Point(0, 211)
         Me.Panel_description.Name = "Panel_description"
-        Me.Panel_description.Size = New System.Drawing.Size(363, 25)
+        Me.Panel_description.Size = New System.Drawing.Size(436, 35)
         Me.Panel_description.TabIndex = 45
         Me.Panel_description.Visible = False
         '
@@ -112,9 +116,31 @@ Partial Class AR_Games
         Me.Text_description.ForeColor = System.Drawing.Color.White
         Me.Text_description.Location = New System.Drawing.Point(0, 0)
         Me.Text_description.Name = "Text_description"
-        Me.Text_description.Size = New System.Drawing.Size(363, 25)
+        Me.Text_description.Size = New System.Drawing.Size(436, 35)
         Me.Text_description.TabIndex = 33
         Me.Text_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel_jksm
+        '
+        Me.Panel_jksm.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_jksm.BackgroundImage = CType(resources.GetObject("Panel_jksm.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_jksm.Controls.Add(Me.Icon_jksm)
+        Me.Panel_jksm.Location = New System.Drawing.Point(403, 35)
+        Me.Panel_jksm.Name = "Panel_jksm"
+        Me.Panel_jksm.Size = New System.Drawing.Size(31, 25)
+        Me.Panel_jksm.TabIndex = 59
+        '
+        'Icon_jksm
+        '
+        Me.Icon_jksm.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Icon_jksm.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Icon_jksm.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.compat_jksm
+        Me.Icon_jksm.Location = New System.Drawing.Point(0, 0)
+        Me.Icon_jksm.Name = "Icon_jksm"
+        Me.Icon_jksm.Size = New System.Drawing.Size(31, 25)
+        Me.Icon_jksm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_jksm.TabIndex = 0
+        Me.Icon_jksm.TabStop = False
         '
         'AR_Games
         '
@@ -122,8 +148,9 @@ Partial Class AR_Games
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Cornsilk
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(363, 226)
+        Me.ClientSize = New System.Drawing.Size(436, 247)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Panel_jksm)
         Me.Controls.Add(Me.Panel_description)
         Me.Controls.Add(Me.Fea_unlockgames)
         Me.Controls.Add(Me._3DSARG_header)
@@ -139,6 +166,8 @@ Partial Class AR_Games
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Fea_unlockgames, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_description.ResumeLayout(False)
+        Me.Panel_jksm.ResumeLayout(False)
+        CType(Me.Icon_jksm, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -149,4 +178,6 @@ Partial Class AR_Games
     Friend WithEvents Fea_unlockgames As System.Windows.Forms.PictureBox
     Friend WithEvents Panel_description As System.Windows.Forms.Panel
     Friend WithEvents Text_description As System.Windows.Forms.Label
+    Friend WithEvents Panel_jksm As System.Windows.Forms.Panel
+    Friend WithEvents Icon_jksm As System.Windows.Forms.PictureBox
 End Class

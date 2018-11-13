@@ -99,6 +99,14 @@
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.compat_chkpt">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.compat_jksm">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.CS3DSE_fdialog">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -267,6 +275,14 @@
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.moremissions1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.moremissions2">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.N3DSCS_icon">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -291,7 +307,15 @@
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.playerlevel">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Polarstar">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.quest1and2shoppe">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -520,6 +544,22 @@
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.TKCD_vigor">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.tougherquest1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.tougherquest2">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.tougherquest3">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.toughquest1and2">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

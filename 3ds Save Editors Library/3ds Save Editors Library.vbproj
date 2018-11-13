@@ -265,6 +265,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\toughquest1and2.png" />
+    <None Include="Resources\tougherquest3.png" />
+    <None Include="Resources\tougherquest2.png" />
+    <None Include="Resources\tougherquest1.png" />
+    <None Include="Resources\quest1and2shoppe.png" />
+    <None Include="Resources\playerlevel.png" />
+    <None Include="Resources\moremissions2.png" />
+    <None Include="Resources\moremissions1.png" />
+    <None Include="Resources\compat_chkpt.png" />
+    <None Include="Resources\compat_jksm.png" />
     <None Include="Resources\SMPMC_fdialog.png" />
     <None Include="Resources\CS3DSE_fdialog.png" />
     <None Include="Resources\exp_icon.png" />

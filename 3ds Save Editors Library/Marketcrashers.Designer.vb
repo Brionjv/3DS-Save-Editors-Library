@@ -33,12 +33,20 @@ Partial Class Marketcrashers
         Me.Fea_assets = New System.Windows.Forms.Panel()
         Me.Title_assets = New System.Windows.Forms.Label()
         Me.valu_assets = New System.Windows.Forms.NumericUpDown()
+        Me.Panel_jksm = New System.Windows.Forms.Panel()
+        Me.Icon_jksm = New System.Windows.Forms.PictureBox()
+        Me.Panel_chkpt = New System.Windows.Forms.Panel()
+        Me.Icon_chkpt = New System.Windows.Forms.PictureBox()
         Me.SMPMCSE_header.SuspendLayout()
         CType(Me.Closebutton, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_menu_open.SuspendLayout()
         CType(Me.SMPMCSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Fea_assets.SuspendLayout()
         CType(Me.valu_assets, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_jksm.SuspendLayout()
+        CType(Me.Icon_jksm, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel_chkpt.SuspendLayout()
+        CType(Me.Icon_chkpt, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SMPMCSE_header
@@ -158,6 +166,50 @@ Partial Class Marketcrashers
         Me.valu_assets.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.valu_assets.ThousandsSeparator = True
         '
+        'Panel_jksm
+        '
+        Me.Panel_jksm.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_jksm.BackgroundImage = CType(resources.GetObject("Panel_jksm.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_jksm.Controls.Add(Me.Icon_jksm)
+        Me.Panel_jksm.Location = New System.Drawing.Point(501, 35)
+        Me.Panel_jksm.Name = "Panel_jksm"
+        Me.Panel_jksm.Size = New System.Drawing.Size(31, 25)
+        Me.Panel_jksm.TabIndex = 59
+        '
+        'Icon_jksm
+        '
+        Me.Icon_jksm.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Icon_jksm.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Icon_jksm.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.compat_jksm
+        Me.Icon_jksm.Location = New System.Drawing.Point(0, 0)
+        Me.Icon_jksm.Name = "Icon_jksm"
+        Me.Icon_jksm.Size = New System.Drawing.Size(31, 25)
+        Me.Icon_jksm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_jksm.TabIndex = 0
+        Me.Icon_jksm.TabStop = False
+        '
+        'Panel_chkpt
+        '
+        Me.Panel_chkpt.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_chkpt.BackgroundImage = CType(resources.GetObject("Panel_chkpt.BackgroundImage"), System.Drawing.Image)
+        Me.Panel_chkpt.Controls.Add(Me.Icon_chkpt)
+        Me.Panel_chkpt.Location = New System.Drawing.Point(469, 35)
+        Me.Panel_chkpt.Name = "Panel_chkpt"
+        Me.Panel_chkpt.Size = New System.Drawing.Size(31, 25)
+        Me.Panel_chkpt.TabIndex = 58
+        '
+        'Icon_chkpt
+        '
+        Me.Icon_chkpt.Cursor = System.Windows.Forms.Cursors.Help
+        Me.Icon_chkpt.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Icon_chkpt.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.compat_chkpt
+        Me.Icon_chkpt.Location = New System.Drawing.Point(0, 0)
+        Me.Icon_chkpt.Name = "Icon_chkpt"
+        Me.Icon_chkpt.Size = New System.Drawing.Size(31, 25)
+        Me.Icon_chkpt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_chkpt.TabIndex = 1
+        Me.Icon_chkpt.TabStop = False
+        '
         'Marketcrashers
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -165,6 +217,8 @@ Partial Class Marketcrashers
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(534, 216)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Panel_jksm)
+        Me.Controls.Add(Me.Panel_chkpt)
         Me.Controls.Add(Me.Fea_assets)
         Me.Controls.Add(Me.Panel_menu_open)
         Me.Controls.Add(Me.SMPMCSE_header)
@@ -180,6 +234,10 @@ Partial Class Marketcrashers
         CType(Me.SMPMCSE_logo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Fea_assets.ResumeLayout(False)
         CType(Me.valu_assets, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_jksm.ResumeLayout(False)
+        CType(Me.Icon_jksm, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel_chkpt.ResumeLayout(False)
+        CType(Me.Icon_chkpt, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -193,4 +251,8 @@ Partial Class Marketcrashers
     Friend WithEvents Fea_assets As System.Windows.Forms.Panel
     Friend WithEvents Title_assets As System.Windows.Forms.Label
     Friend WithEvents valu_assets As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Panel_jksm As System.Windows.Forms.Panel
+    Friend WithEvents Icon_jksm As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel_chkpt As System.Windows.Forms.Panel
+    Friend WithEvents Icon_chkpt As System.Windows.Forms.PictureBox
 End Class

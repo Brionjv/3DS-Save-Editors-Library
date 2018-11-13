@@ -83,4 +83,13 @@ Public Class AR_Games
         Text_description.Text = "Click to unlock all AR games"
         Panel_description.Visible = True
     End Sub
+
+    Private Sub Icon_jksm_MouseLeave(sender As Object, e As EventArgs) Handles Icon_jksm.MouseLeave
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_jksm_MouseMove(sender As Object, e As EventArgs) Handles Icon_jksm.MouseMove
+        Text_description.Text = "Your save file is here on your SD card :" & vbNewLine & "JKSV\SysSaves\AR Games Augmented Reality\*your folder name\menu"
+        Panel_description.Visible = True
+    End Sub
 End Class

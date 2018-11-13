@@ -115,4 +115,24 @@
             fdialog.ShowDialog()
         End Try
     End Sub
+
+    Private Sub Icon_jksm_MouseLeave(sender As Object, e As EventArgs) Handles Icon_jksm.MouseLeave
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_jksm_MouseMove(sender As Object, e As EventArgs) Handles Icon_jksm.MouseMove
+        Text_description.Text = "Your save file is here on your SD card :" & vbNewLine & "JKSV\SysSaves\Nintendo 3DS Camera\*your folder name\BACKUP.BIN"
+        Panel_description.BackgroundImage = My.Resources.bg_orange
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Icon_jksm_1_MouseLeave(sender As Object, e As EventArgs) Handles Icon_jksm_1.MouseLeave
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_jksm_1_MouseMove(sender As Object, e As EventArgs) Handles Icon_jksm_1.MouseMove
+        Text_description.Text = "Your save file is here on your SD card :" & vbNewLine & "JKSV\SysSaves\Nintendo 3DS Sound\*your folder name\SNOTE.BIN"
+        Panel_description.BackgroundImage = My.Resources.bg_blue
+        Panel_description.Visible = True
+    End Sub
 End Class
