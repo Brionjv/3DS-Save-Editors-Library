@@ -2,7 +2,7 @@
 
 ![Main](https://raw.githubusercontent.com/Brionjv/3DS-Save-Editors-Library/master/3DSSEL.png)
 
-Edit some 3ds games save file
+Edit 3ds games save file
 
 # How to use : 
 - Extract your save files with a homebrew (JK's Save Manager or other)
@@ -11,4 +11,4 @@ Edit some 3ds games save file
 
 # Releases :
 https://github.com/Brionjv/3DS-Save-Editors-Library/releases
-
+https://gbatemp.net/threads/release-3ds-save-editors-library.518626/
