@@ -108,6 +108,15 @@ Public Class TeamKirbyClashDeluxe
         Panel_missionsediting.Visible = False
     End Sub
 
+    Public Sub hidepages()
+        Panel_page_1.Visible = False
+        Panel_page_3.Visible = False
+        Panel_page_5.Visible = False
+        Panel_page_7.Visible = False
+        Panel_page_9.Visible = False
+        Panel_page_11.Visible = False
+    End Sub
+
     Public Sub hidepanelsarea()
         Panel_quest6.Visible = False
         Panel_quest7.Visible = False
@@ -1460,5 +1469,55 @@ Public Class TeamKirbyClashDeluxe
     Private Sub Icon_jksm_MouseMove(sender As Object, e As EventArgs) Handles Icon_jksm.MouseMove
         Text_description.Text = "Your save file is here on your SD card :" & vbNewLine & "JKSV\Saves\Team Kirby Clash Deluxe\*your folder name\savedata.dat"
         Panel_description.Visible = True
+    End Sub
+
+    Private Sub Icon_p1_arrowright_Click(sender As Object, e As EventArgs) Handles Icon_p1_arrowright.Click
+        hidepages()
+        Panel_page_3.Visible = True
+    End Sub
+
+    Private Sub Icon_p3_arrowleft_Click(sender As Object, e As EventArgs) Handles Icon_p3_arrowleft.Click
+        hidepages()
+        Panel_page_1.Visible = True
+    End Sub
+
+    Private Sub Icon_p3_arrowright_Click(sender As Object, e As EventArgs) Handles Icon_p3_arrowright.Click
+        hidepages()
+        Panel_page_5.Visible = True
+    End Sub
+
+    Private Sub Icon_p5_arrowleft_Click(sender As Object, e As EventArgs) Handles Icon_p5_arrowleft.Click
+        hidepages()
+        Panel_page_3.Visible = True
+    End Sub
+
+    Private Sub Icon_p5_arrowright_Click(sender As Object, e As EventArgs) Handles Icon_p5_arrowright.Click
+        hidepages()
+        Panel_page_7.Visible = True
+    End Sub
+
+    Private Sub Icon_p7_arrowleft_Click(sender As Object, e As EventArgs) Handles Icon_p7_arrowleft.Click
+        hidepages()
+        Panel_page_5.Visible = True
+    End Sub
+
+    Private Sub Icon_p7_arrowright_Click(sender As Object, e As EventArgs) Handles Icon_p7_arrowright.Click
+        hidepages()
+        Panel_page_9.Visible = True
+    End Sub
+
+    Private Sub Icon_p9_arrowleft_Click(sender As Object, e As EventArgs) Handles Icon_p9_arrowleft.Click
+        hidepages()
+        Panel_page_7.Visible = True
+    End Sub
+
+    Private Sub Icon_p9_arrowright_Click(sender As Object, e As EventArgs) Handles Icon_p9_arrowright.Click
+        hidepages()
+        Panel_page_11.Visible = True
+    End Sub
+
+    Private Sub Icon_p11_arrowleft_Click(sender As Object, e As EventArgs) Handles Icon_p11_arrowleft.Click
+        hidepages()
+        Panel_page_9.Visible = True
     End Sub
 End Class

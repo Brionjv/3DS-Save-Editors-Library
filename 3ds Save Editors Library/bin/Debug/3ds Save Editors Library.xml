@@ -239,6 +239,14 @@
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.icon_unknow">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.icon_unknow_act">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.icon_update">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -448,6 +456,14 @@
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.Supermissile">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.TCKD_leftarrow">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_3ds_Save_Editors_Library.My.Resources.Resources.TCKD_rightarrow">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

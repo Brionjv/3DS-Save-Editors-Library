@@ -146,6 +146,41 @@ Public Class N3DSSE_library
         End If
     End Sub
 
+    Private Sub Menu_unknow_Click(sender As Object, e As EventArgs) Handles Menu_unknow.Click
+        If valu_unknow.Value = 0 Then
+            valu_unknow.Value = 1
+        ElseIf valu_unknow.Value = 1 Then
+            valu_unknow.Value = 0
+        End If
+    End Sub
+
+    Private Sub Menu_unknow_MouseLeave(sender As Object, e As EventArgs) Handles Menu_unknow.MouseLeave
+        Menu_unknow.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Menu_unknow_MouseMove(sender As Object, e As EventArgs) Handles Menu_unknow.MouseMove
+        Menu_unknow.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "Click to see possible save editors, you are free to contribute" & vbNewLine & "See Github page or GBAtemp page"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub valu_unknow_ValueChanged(sender As Object, e As EventArgs) Handles valu_unknow.ValueChanged
+        If valu_unknow.Value = 0 Then
+            Menu_unknow.Image = My.Resources.icon_unknow
+            Unknow_1.Visible = False
+            Unknow_2.Visible = False
+            Unknow_3.Visible = False
+            Unknow_4.Visible = False
+        ElseIf valu_unknow.Value = 1 Then
+            Menu_unknow.Image = My.Resources.icon_unknow_act
+            Unknow_1.Visible = True
+            Unknow_2.Visible = True
+            Unknow_3.Visible = True
+            Unknow_4.Visible = True
+        End If
+    End Sub
+
     Private Sub N3DSSEL_logo_update_Click(sender As Object, e As EventArgs) Handles N3DSSEL_logo_update.Click
         Process.Start("https://github.com/Brionjv/3DS-Save-Editors-Library/releases")
     End Sub
@@ -161,7 +196,22 @@ Public Class N3DSSE_library
 
     Private Sub Icon_3DSSEL_MouseMove(sender As Object, e As EventArgs) Handles Icon_3DSSEL.MouseMove
         Icon_3DSSEL.BorderStyle = BorderStyle.FixedSingle
-        Text_description.Text = "Click to access to 3DS Save Editors Library page"
+        Text_description.Text = "Click to access to 3DS Save Editors Library page (Github)"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Icon_3DSSEL_1_Click(sender As Object, e As EventArgs) Handles Icon_3DSSEL_1.Click
+        Process.Start("https://gbatemp.net/threads/release-3ds-save-editors-library.518626/")
+    End Sub
+
+    Private Sub Icon_3DSSEL_1_MouseLeave(sender As Object, e As EventArgs) Handles Icon_3DSSEL_1.MouseLeave
+        Icon_3DSSEL_1.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Icon_3DSSEL_1_MouseMove(sender As Object, e As EventArgs) Handles Icon_3DSSEL_1.MouseMove
+        Icon_3DSSEL_1.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "Click to access to 3DS Save Editors Library page (Gbatemp.net)"
         Panel_description.Visible = True
     End Sub
 
@@ -334,11 +384,63 @@ Public Class N3DSSE_library
         Panel_description.Visible = True
     End Sub
 
-    Private Sub Icon_CSSE_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_CSSE.MouseMove
-
+    Private Sub Unknow_1_Click(sender As Object, e As EventArgs) Handles Unknow_1.Click
     End Sub
 
-    Private Sub Icon_SMPTS_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_SMPTS.MouseMove
+    Private Sub Unknow_1_MouseLeave(sender As Object, e As EventArgs) Handles Unknow_1.MouseLeave
+        Unknow_1.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Unknow_1_MouseMove(sender As Object, e As EventArgs) Handles Unknow_1.MouseMove
+        Unknow_1.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "Luigi's Mansion" & vbNewLine & "To do"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Unknow_2_Click(sender As Object, e As EventArgs) Handles Unknow_2.Click
+    End Sub
+
+    Private Sub Unknow_2_MouseLeave(sender As Object, e As EventArgs) Handles Unknow_2.MouseLeave
+        Unknow_2.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Unknow_2_MouseMove(sender As Object, e As EventArgs) Handles Unknow_2.MouseMove
+        Unknow_2.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "StreetPass Fishing / Ultimate Angler" & vbNewLine & "Possible ??"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Unknow_3_Click(sender As Object, e As EventArgs) Handles Unknow_3.Click
+    End Sub
+
+    Private Sub Unknow_3_MouseLeave(sender As Object, e As EventArgs) Handles Unknow_3.MouseLeave
+        Unknow_3.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Unknow_3_MouseMove(sender As Object, e As EventArgs) Handles Unknow_3.MouseMove
+        Unknow_3.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "StreetPass Chef / Feed Mii" & vbNewLine & "Possible ??"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Unknow_4_Click(sender As Object, e As EventArgs) Handles Unknow_4.Click
+    End Sub
+
+    Private Sub Unknow_4_MouseLeave(sender As Object, e As EventArgs) Handles Unknow_4.MouseLeave
+        Unknow_4.BorderStyle = BorderStyle.None
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Unknow_4_MouseMove(sender As Object, e As EventArgs) Handles Unknow_4.MouseMove
+        Unknow_4.BorderStyle = BorderStyle.FixedSingle
+        Text_description.Text = "StreetPass Squad / Mii Force" & vbNewLine & "Possible ??"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Icon_3DSSEL_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_3DSSEL.MouseMove
 
     End Sub
 End Class
