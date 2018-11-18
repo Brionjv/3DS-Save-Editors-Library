@@ -267,556 +267,578 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_description = New System.Windows.Forms.Panel()
         Me.Text_description = New System.Windows.Forms.Label()
         Me.Panel_missionsediting = New System.Windows.Forms.Panel()
-        Me.Panel_page_1 = New System.Windows.Forms.Panel()
-        Me.Icon_p1_arrowright = New System.Windows.Forms.PictureBox()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown77 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown78 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown79 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown80 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown81 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown82 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown83 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown84 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown85 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown86 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown87 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown88 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown89 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown90 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown91 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown92 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown93 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown94 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown95 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown96 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox77 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox78 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox79 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox80 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox81 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox82 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox83 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox84 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox85 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox86 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox87 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox88 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox89 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox90 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox91 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox92 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox93 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox94 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox95 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox96 = New System.Windows.Forms.PictureBox()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown109 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown110 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown111 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown112 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown113 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown114 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown115 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown116 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown117 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown118 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown119 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown120 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown121 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown122 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown123 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown124 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown125 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown126 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown127 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown128 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox109 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox110 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox111 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox112 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox113 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox114 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox115 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox116 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox117 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox118 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox119 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox120 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox121 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox122 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox123 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox124 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox125 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox126 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox127 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox128 = New System.Windows.Forms.PictureBox()
-        Me.Panel_page_11 = New System.Windows.Forms.Panel()
-        Me.Icon_p11_arrowleft = New System.Windows.Forms.PictureBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown44 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown45 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown46 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown47 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown48 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown49 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown50 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown51 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown52 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown9 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown10 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown11 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown12 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown13 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown14 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown15 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown16 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown5 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown6 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown7 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown8 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown3 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown4 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown2 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox26 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox27 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox28 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox29 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox30 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox31 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox32 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel_page_9 = New System.Windows.Forms.Panel()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.Text_setall_moremissions1 = New System.Windows.Forms.Label()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Text_setall_shoppe = New System.Windows.Forms.Label()
         Me.Icon_p9_arrowleft = New System.Windows.Forms.PictureBox()
         Me.Icon_p9_arrowright = New System.Windows.Forms.PictureBox()
         Me.Panel21 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown228 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown229 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown250 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown251 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown252 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown253 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown254 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown255 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown256 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown257 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown258 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown259 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown260 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown261 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown262 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown263 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown264 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown265 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown282 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown283 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown284 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown285 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox228 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox229 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox250 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox251 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox252 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox253 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox254 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox255 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox256 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox257 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox258 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox259 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox260 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox261 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox262 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox263 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox264 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox265 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox282 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox283 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox284 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox285 = New System.Windows.Forms.PictureBox()
+        Me.valu_moremissions1_22 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_21 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions1_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_moremissions1_22 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_21 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions1_1 = New System.Windows.Forms.PictureBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel22 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown298 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown299 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown300 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown301 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown302 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown303 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown304 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown305 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown306 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown307 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown308 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown309 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown310 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown311 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown312 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown313 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown314 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown315 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown316 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown317 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox298 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox299 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox300 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox301 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox302 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox303 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox304 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox305 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox306 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox307 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox308 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox309 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox310 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox311 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox312 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox313 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox314 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox315 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox316 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox317 = New System.Windows.Forms.PictureBox()
+        Me.valu_shoppe_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_shoppe_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_shoppe_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_shoppe_1 = New System.Windows.Forms.PictureBox()
         Me.Panel_page_7 = New System.Windows.Forms.Panel()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Text_setall_playlevel = New System.Windows.Forms.Label()
+        Me.Panel11 = New System.Windows.Forms.Panel()
+        Me.Text_setall_tgherquest3 = New System.Windows.Forms.Label()
         Me.Icon_p7_arrowleft = New System.Windows.Forms.PictureBox()
         Me.Icon_p7_arrowright = New System.Windows.Forms.PictureBox()
         Me.Panel18 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown230 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown231 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown232 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown233 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown234 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown235 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown236 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown237 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown238 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown239 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown240 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown241 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown242 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown243 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown244 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown245 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown246 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown247 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown248 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown249 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox230 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox231 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox232 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox233 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox234 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox235 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox236 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox237 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox238 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox239 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox240 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox241 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox242 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox243 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox244 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox245 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox246 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox247 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox248 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox249 = New System.Windows.Forms.PictureBox()
+        Me.valu_playlevel_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_playlevel_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_playlevel_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_playlevel_1 = New System.Windows.Forms.PictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel19 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown266 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown267 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown268 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown269 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown270 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown271 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown272 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown273 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown274 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown275 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown276 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown277 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown278 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown279 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown280 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown281 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox266 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox267 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox268 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox269 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox270 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox271 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox272 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox273 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox274 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox275 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox276 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox277 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox278 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox279 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox280 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox281 = New System.Windows.Forms.PictureBox()
+        Me.valu_tgherquest3_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest3_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_tgherquest3_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest3_1 = New System.Windows.Forms.PictureBox()
         Me.Panel_page_5 = New System.Windows.Forms.Panel()
+        Me.Panel20 = New System.Windows.Forms.Panel()
+        Me.Text_setall_tgherquest2 = New System.Windows.Forms.Label()
+        Me.Panel17 = New System.Windows.Forms.Panel()
+        Me.Text_setall_tgherquest1 = New System.Windows.Forms.Label()
         Me.Icon_p5_arrowleft = New System.Windows.Forms.PictureBox()
         Me.Icon_p5_arrowright = New System.Windows.Forms.PictureBox()
         Me.Panel15 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown140 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown169 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown170 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown171 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown172 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown173 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown174 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown175 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown176 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown177 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown178 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown179 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown180 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown181 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown182 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown183 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown184 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown185 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown186 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown187 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown188 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown189 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown190 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown191 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown192 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox140 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox169 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox170 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox171 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox172 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox173 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox174 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox175 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox176 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox177 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox178 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox179 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox180 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox181 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox182 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox183 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox184 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox185 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox186 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox187 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox188 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox189 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox190 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox191 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox192 = New System.Windows.Forms.PictureBox()
+        Me.valu_tgherquest2_25 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_24 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_23 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_22 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_21 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest2_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_tgherquest2_25 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_24 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_23 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_22 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_21 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest2_1 = New System.Windows.Forms.PictureBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Panel16 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown193 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown194 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown195 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown196 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown197 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown198 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown199 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown200 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown201 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown202 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown203 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown204 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown205 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown206 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown207 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown208 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown209 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown210 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown211 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown212 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown213 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown214 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown215 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown216 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown217 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown218 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown219 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown220 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown221 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown222 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown223 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown224 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox193 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox194 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox195 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox196 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox197 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox198 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox199 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox200 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox201 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox202 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox203 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox204 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox205 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox206 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox207 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox208 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox209 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox210 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox211 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox212 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox213 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox214 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox215 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox216 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox217 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox218 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox219 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox220 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox221 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox222 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox223 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox224 = New System.Windows.Forms.PictureBox()
+        Me.valu_tgherquest1_32 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_31 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_30 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_29 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_28 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_27 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_26 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_25 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_24 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_23 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_22 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_21 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tgherquest1_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_tgherquest1_32 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_31 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_30 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_29 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_28 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_27 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_26 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_25 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_24 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_23 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_22 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_21 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tgherquest1_1 = New System.Windows.Forms.PictureBox()
         Me.Panel_page_3 = New System.Windows.Forms.Panel()
+        Me.Panel24 = New System.Windows.Forms.Panel()
+        Me.Text_setall_tghquest2 = New System.Windows.Forms.Label()
+        Me.Panel23 = New System.Windows.Forms.Panel()
+        Me.Text_setall_tghquest1 = New System.Windows.Forms.Label()
         Me.Icon_p3_arrowleft = New System.Windows.Forms.PictureBox()
         Me.Icon_p3_arrowright = New System.Windows.Forms.PictureBox()
         Me.Panel12 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown69 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown70 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown71 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown72 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown73 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown74 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown75 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown76 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown97 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown98 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown99 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown100 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown101 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown102 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown103 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown104 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown105 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown106 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown107 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown108 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown129 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown130 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown131 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown132 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown133 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown134 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown135 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown136 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox69 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox70 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox71 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox72 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox73 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox74 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox75 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox76 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox97 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox98 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox99 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox100 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox101 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox102 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox103 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox104 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox105 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox106 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox107 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox108 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox129 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox130 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox131 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox132 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox133 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox134 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox135 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox136 = New System.Windows.Forms.PictureBox()
+        Me.valu_tghquest2_28 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_27 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_26 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_25 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_24 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_23 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_22 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_21 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest2_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_tghquest2_28 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_27 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_26 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_25 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_24 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_23 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_22 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_21 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest2_1 = New System.Windows.Forms.PictureBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel13 = New System.Windows.Forms.Panel()
-        Me.NumericUpDown141 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown142 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown143 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown144 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown145 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown146 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown147 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown148 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown149 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown150 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown151 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown152 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown153 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown154 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown155 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown156 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown157 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown158 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown159 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown160 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown161 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown162 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown163 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown164 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown165 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown166 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown167 = New System.Windows.Forms.NumericUpDown()
-        Me.NumericUpDown168 = New System.Windows.Forms.NumericUpDown()
-        Me.PictureBox141 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox142 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox143 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox144 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox145 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox146 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox147 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox148 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox149 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox150 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox151 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox152 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox153 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox154 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox155 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox156 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox157 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox158 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox159 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox160 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox161 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox162 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox163 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox164 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox165 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox166 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox167 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox168 = New System.Windows.Forms.PictureBox()
+        Me.valu_tghquest1_28 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_27 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_26 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_25 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_24 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_23 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_22 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_21 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_tghquest1_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_tghquest1_28 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_27 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_26 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_25 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_24 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_23 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_22 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_21 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_tghquest1_1 = New System.Windows.Forms.PictureBox()
+        Me.Panel_page_1 = New System.Windows.Forms.Panel()
+        Me.Panel26 = New System.Windows.Forms.Panel()
+        Me.Text_setall_quests2 = New System.Windows.Forms.Label()
+        Me.Panel25 = New System.Windows.Forms.Panel()
+        Me.Text_setall_quests1 = New System.Windows.Forms.Label()
+        Me.Icon_p1_arrowright = New System.Windows.Forms.PictureBox()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.valu_quests2_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests2_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_quests2_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests2_1 = New System.Windows.Forms.PictureBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.valu_quests1_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_quests1_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_quests1_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_quests1_1 = New System.Windows.Forms.PictureBox()
+        Me.Panel_page_11 = New System.Windows.Forms.Panel()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Text_setall_moremissions2 = New System.Windows.Forms.Label()
+        Me.Icon_p11_arrowleft = New System.Windows.Forms.PictureBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.valu_moremissions2_25 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_24 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_23 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_22 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_21 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_20 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_19 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_18 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_17 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_16 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_15 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_14 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_13 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_12 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_11 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_10 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_9 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_8 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_7 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_6 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_5 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_4 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_3 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_2 = New System.Windows.Forms.NumericUpDown()
+        Me.valu_moremissions2_1 = New System.Windows.Forms.NumericUpDown()
+        Me.Icon_moremissions2_25 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_24 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_23 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_22 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_21 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_20 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_19 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_18 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_17 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_16 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_15 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_14 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_13 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_12 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_11 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_10 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_9 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_8 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_7 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_6 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_5 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_4 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_2 = New System.Windows.Forms.PictureBox()
+        Me.Icon_moremissions2_1 = New System.Windows.Forms.PictureBox()
         Me.Panel_jksm = New System.Windows.Forms.Panel()
         Me.Icon_jksm = New System.Windows.Forms.PictureBox()
         Me.Panel_chkpt = New System.Windows.Forms.Panel()
@@ -962,545 +984,556 @@ Partial Class TeamKirbyClashDeluxe
         CType(Me.Icon_area_1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_description.SuspendLayout
         Me.Panel_missionsediting.SuspendLayout
-        Me.Panel_page_1.SuspendLayout
-        CType(Me.Icon_p1_arrowright,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel9.SuspendLayout
-        CType(Me.NumericUpDown77,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown78,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown79,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown80,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown81,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown82,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown83,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown84,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown85,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown86,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown87,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown88,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown89,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown90,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown91,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown92,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown93,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown94,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown95,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown96,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox77,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox78,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox79,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox80,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox81,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox82,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox83,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox84,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox85,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox86,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox87,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox88,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox89,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox90,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox91,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox92,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox93,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox94,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox95,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox96,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel10.SuspendLayout
-        CType(Me.NumericUpDown109,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown110,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown111,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown112,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown113,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown114,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown115,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown116,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown117,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown118,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown119,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown120,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown121,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown122,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown123,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown124,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown125,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown126,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown127,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown128,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox109,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox110,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox111,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox112,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox113,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox114,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox115,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox116,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox117,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox118,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox119,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox120,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox121,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox122,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox123,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox124,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox125,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox126,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox127,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox128,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel_page_11.SuspendLayout
-        CType(Me.Icon_p11_arrowleft,System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel5.SuspendLayout
-        CType(Me.NumericUpDown44,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown45,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown46,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown47,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown48,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown49,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown50,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown51,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown52,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown9,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown10,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown11,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown12,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown13,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown14,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown15,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown16,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown5,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown6,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown7,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown8,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown3,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown4,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown1,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox24,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox25,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox26,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox27,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox28,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox29,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox30,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox31,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox32,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox9,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox10,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox11,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox12,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox13,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox14,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox15,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox16,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox5,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox6,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox7,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox8,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox4,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox2,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_page_9.SuspendLayout
+        Me.Panel8.SuspendLayout
+        Me.Panel7.SuspendLayout
         CType(Me.Icon_p9_arrowleft,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.Icon_p9_arrowright,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel21.SuspendLayout
-        CType(Me.NumericUpDown228,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown229,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown250,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown251,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown252,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown253,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown254,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown255,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown256,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown257,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown258,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown259,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown260,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown261,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown262,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown263,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown264,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown265,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown282,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown283,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown284,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown285,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox228,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox229,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox250,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox251,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox252,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox253,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox254,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox255,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox256,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox257,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox258,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox259,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox260,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox261,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox262,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox263,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox264,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox265,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox282,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox283,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox284,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox285,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions1_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions1_1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel22.SuspendLayout
-        CType(Me.NumericUpDown298,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown299,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown300,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown301,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown302,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown303,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown304,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown305,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown306,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown307,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown308,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown309,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown310,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown311,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown312,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown313,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown314,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown315,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown316,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown317,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox298,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox299,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox300,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox301,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox302,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox303,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox304,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox305,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox306,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox307,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox308,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox309,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox310,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox311,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox312,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox313,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox314,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox315,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox316,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox317,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_shoppe_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_shoppe_1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_page_7.SuspendLayout
+        Me.Panel14.SuspendLayout
+        Me.Panel11.SuspendLayout
         CType(Me.Icon_p7_arrowleft,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.Icon_p7_arrowright,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel18.SuspendLayout
-        CType(Me.NumericUpDown230,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown231,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown232,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown233,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown234,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown235,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown236,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown237,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown238,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown239,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown240,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown241,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown242,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown243,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown244,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown245,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown246,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown247,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown248,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown249,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox230,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox231,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox232,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox233,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox234,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox235,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox236,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox237,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox238,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox239,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox240,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox241,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox242,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox243,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox244,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox245,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox246,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox247,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox248,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox249,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_playlevel_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_playlevel_1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel19.SuspendLayout
-        CType(Me.NumericUpDown266,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown267,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown268,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown269,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown270,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown271,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown272,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown273,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown274,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown275,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown276,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown277,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown278,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown279,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown280,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown281,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox266,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox267,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox268,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox269,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox270,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox271,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox272,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox273,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox274,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox275,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox276,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox277,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox278,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox279,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox280,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox281,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest3_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest3_1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_page_5.SuspendLayout
+        Me.Panel20.SuspendLayout
+        Me.Panel17.SuspendLayout
         CType(Me.Icon_p5_arrowleft,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.Icon_p5_arrowright,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel15.SuspendLayout
-        CType(Me.NumericUpDown140,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown169,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown170,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown171,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown172,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown173,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown174,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown175,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown176,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown177,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown178,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown179,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown180,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown181,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown182,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown183,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown184,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown185,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown186,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown187,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown188,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown189,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown190,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown191,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown192,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox140,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox169,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox170,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox171,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox172,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox173,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox174,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox175,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox176,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox177,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox178,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox179,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox180,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox181,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox182,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox183,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox184,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox185,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox186,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox187,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox188,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox189,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox190,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox191,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox192,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest2_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest2_1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel16.SuspendLayout
-        CType(Me.NumericUpDown193,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown194,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown195,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown196,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown197,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown198,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown199,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown200,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown201,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown202,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown203,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown204,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown205,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown206,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown207,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown208,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown209,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown210,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown211,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown212,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown213,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown214,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown215,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown216,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown217,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown218,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown219,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown220,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown221,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown222,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown223,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown224,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox193,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox194,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox195,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox196,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox197,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox198,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox199,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox200,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox201,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox202,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox203,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox204,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox205,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox206,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox207,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox208,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox209,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox210,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox211,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox212,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox213,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox214,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox215,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox216,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox217,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox218,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox219,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox220,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox221,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox222,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox223,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox224,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_32,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_31,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_30,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_29,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_28,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_27,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_26,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tgherquest1_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_32,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_31,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_30,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_29,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_28,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_27,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_26,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tgherquest1_1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_page_3.SuspendLayout
+        Me.Panel24.SuspendLayout
+        Me.Panel23.SuspendLayout
         CType(Me.Icon_p3_arrowleft,System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.Icon_p3_arrowright,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel12.SuspendLayout
-        CType(Me.NumericUpDown69,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown70,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown71,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown72,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown73,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown74,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown75,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown76,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown97,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown98,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown99,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown100,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown101,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown102,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown103,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown104,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown105,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown106,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown107,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown108,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown129,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown130,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown131,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown132,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown133,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown134,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown135,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown136,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox69,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox70,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox71,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox72,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox73,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox74,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox75,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox76,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox97,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox98,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox99,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox100,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox101,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox102,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox103,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox104,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox105,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox106,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox107,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox108,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox129,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox130,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox131,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox132,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox133,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox134,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox135,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox136,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_28,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_27,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_26,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest2_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_28,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_27,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_26,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest2_1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel13.SuspendLayout
-        CType(Me.NumericUpDown141,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown142,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown143,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown144,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown145,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown146,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown147,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown148,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown149,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown150,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown151,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown152,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown153,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown154,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown155,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown156,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown157,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown158,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown159,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown160,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown161,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown162,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown163,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown164,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown165,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown166,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown167,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.NumericUpDown168,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox141,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox142,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox143,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox144,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox145,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox146,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox147,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox148,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox149,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox150,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox151,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox152,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox153,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox154,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox155,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox156,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox157,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox158,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox159,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox160,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox161,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox162,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox163,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox164,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox165,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox166,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox167,System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox168,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_28,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_27,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_26,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_tghquest1_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_28,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_27,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_26,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_tghquest1_1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel_page_1.SuspendLayout
+        Me.Panel26.SuspendLayout
+        Me.Panel25.SuspendLayout
+        CType(Me.Icon_p1_arrowright,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel9.SuspendLayout
+        CType(Me.valu_quests2_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests2_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests2_1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel10.SuspendLayout
+        CType(Me.valu_quests1_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_quests1_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_quests1_1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel_page_11.SuspendLayout
+        Me.Panel6.SuspendLayout
+        CType(Me.Icon_p11_arrowleft,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel5.SuspendLayout
+        CType(Me.valu_moremissions2_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.valu_moremissions2_1,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_25,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_24,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_23,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_22,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_21,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_20,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_19,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_18,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_17,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_16,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_15,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_14,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_13,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_12,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_11,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_10,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_9,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_8,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_7,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_6,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_5,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_4,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_3,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_2,System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.Icon_moremissions2_1,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_jksm.SuspendLayout
         CType(Me.Icon_jksm,System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel_chkpt.SuspendLayout
@@ -4227,1619 +4260,23 @@ Partial Class TeamKirbyClashDeluxe
         'Panel_missionsediting
         '
         Me.Panel_missionsediting.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_panel
-        Me.Panel_missionsediting.Controls.Add(Me.Panel_page_1)
-        Me.Panel_missionsediting.Controls.Add(Me.Panel_page_11)
         Me.Panel_missionsediting.Controls.Add(Me.Panel_page_9)
         Me.Panel_missionsediting.Controls.Add(Me.Panel_page_7)
         Me.Panel_missionsediting.Controls.Add(Me.Panel_page_5)
         Me.Panel_missionsediting.Controls.Add(Me.Panel_page_3)
+        Me.Panel_missionsediting.Controls.Add(Me.Panel_page_1)
+        Me.Panel_missionsediting.Controls.Add(Me.Panel_page_11)
         Me.Panel_missionsediting.Location = New System.Drawing.Point(0, 60)
         Me.Panel_missionsediting.Name = "Panel_missionsediting"
         Me.Panel_missionsediting.Size = New System.Drawing.Size(600, 490)
         Me.Panel_missionsediting.TabIndex = 55
         '
-        'Panel_page_1
-        '
-        Me.Panel_page_1.BackColor = System.Drawing.Color.Transparent
-        Me.Panel_page_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel_page_1.Controls.Add(Me.Icon_p1_arrowright)
-        Me.Panel_page_1.Controls.Add(Me.Panel9)
-        Me.Panel_page_1.Controls.Add(Me.Label6)
-        Me.Panel_page_1.Controls.Add(Me.Label7)
-        Me.Panel_page_1.Controls.Add(Me.Panel10)
-        Me.Panel_page_1.Location = New System.Drawing.Point(13, 18)
-        Me.Panel_page_1.Name = "Panel_page_1"
-        Me.Panel_page_1.Size = New System.Drawing.Size(575, 454)
-        Me.Panel_page_1.TabIndex = 5
-        '
-        'Icon_p1_arrowright
-        '
-        Me.Icon_p1_arrowright.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_p1_arrowright.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TCKD_rightarrow
-        Me.Icon_p1_arrowright.Location = New System.Drawing.Point(536, 0)
-        Me.Icon_p1_arrowright.Name = "Icon_p1_arrowright"
-        Me.Icon_p1_arrowright.Size = New System.Drawing.Size(37, 31)
-        Me.Icon_p1_arrowright.TabIndex = 5
-        Me.Icon_p1_arrowright.TabStop = False
-        '
-        'Panel9
-        '
-        Me.Panel9.BackColor = System.Drawing.Color.Transparent
-        Me.Panel9.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.quest1and2shoppe
-        Me.Panel9.Controls.Add(Me.NumericUpDown77)
-        Me.Panel9.Controls.Add(Me.NumericUpDown78)
-        Me.Panel9.Controls.Add(Me.NumericUpDown79)
-        Me.Panel9.Controls.Add(Me.NumericUpDown80)
-        Me.Panel9.Controls.Add(Me.NumericUpDown81)
-        Me.Panel9.Controls.Add(Me.NumericUpDown82)
-        Me.Panel9.Controls.Add(Me.NumericUpDown83)
-        Me.Panel9.Controls.Add(Me.NumericUpDown84)
-        Me.Panel9.Controls.Add(Me.NumericUpDown85)
-        Me.Panel9.Controls.Add(Me.NumericUpDown86)
-        Me.Panel9.Controls.Add(Me.NumericUpDown87)
-        Me.Panel9.Controls.Add(Me.NumericUpDown88)
-        Me.Panel9.Controls.Add(Me.NumericUpDown89)
-        Me.Panel9.Controls.Add(Me.NumericUpDown90)
-        Me.Panel9.Controls.Add(Me.NumericUpDown91)
-        Me.Panel9.Controls.Add(Me.NumericUpDown92)
-        Me.Panel9.Controls.Add(Me.NumericUpDown93)
-        Me.Panel9.Controls.Add(Me.NumericUpDown94)
-        Me.Panel9.Controls.Add(Me.NumericUpDown95)
-        Me.Panel9.Controls.Add(Me.NumericUpDown96)
-        Me.Panel9.Controls.Add(Me.PictureBox77)
-        Me.Panel9.Controls.Add(Me.PictureBox78)
-        Me.Panel9.Controls.Add(Me.PictureBox79)
-        Me.Panel9.Controls.Add(Me.PictureBox80)
-        Me.Panel9.Controls.Add(Me.PictureBox81)
-        Me.Panel9.Controls.Add(Me.PictureBox82)
-        Me.Panel9.Controls.Add(Me.PictureBox83)
-        Me.Panel9.Controls.Add(Me.PictureBox84)
-        Me.Panel9.Controls.Add(Me.PictureBox85)
-        Me.Panel9.Controls.Add(Me.PictureBox86)
-        Me.Panel9.Controls.Add(Me.PictureBox87)
-        Me.Panel9.Controls.Add(Me.PictureBox88)
-        Me.Panel9.Controls.Add(Me.PictureBox89)
-        Me.Panel9.Controls.Add(Me.PictureBox90)
-        Me.Panel9.Controls.Add(Me.PictureBox91)
-        Me.Panel9.Controls.Add(Me.PictureBox92)
-        Me.Panel9.Controls.Add(Me.PictureBox93)
-        Me.Panel9.Controls.Add(Me.PictureBox94)
-        Me.Panel9.Controls.Add(Me.PictureBox95)
-        Me.Panel9.Controls.Add(Me.PictureBox96)
-        Me.Panel9.Location = New System.Drawing.Point(248, 250)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(320, 166)
-        Me.Panel9.TabIndex = 4
-        '
-        'NumericUpDown77
-        '
-        Me.NumericUpDown77.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown77.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown77.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown77.Name = "NumericUpDown77"
-        Me.NumericUpDown77.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown77.TabIndex = 38
-        Me.NumericUpDown77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown77.Visible = False
-        '
-        'NumericUpDown78
-        '
-        Me.NumericUpDown78.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown78.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown78.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown78.Name = "NumericUpDown78"
-        Me.NumericUpDown78.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown78.TabIndex = 37
-        Me.NumericUpDown78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown78.Visible = False
-        '
-        'NumericUpDown79
-        '
-        Me.NumericUpDown79.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown79.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown79.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown79.Name = "NumericUpDown79"
-        Me.NumericUpDown79.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown79.TabIndex = 36
-        Me.NumericUpDown79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown79.Visible = False
-        '
-        'NumericUpDown80
-        '
-        Me.NumericUpDown80.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown80.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown80.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown80.Name = "NumericUpDown80"
-        Me.NumericUpDown80.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown80.TabIndex = 35
-        Me.NumericUpDown80.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown80.Visible = False
-        '
-        'NumericUpDown81
-        '
-        Me.NumericUpDown81.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown81.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown81.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown81.Name = "NumericUpDown81"
-        Me.NumericUpDown81.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown81.TabIndex = 15
-        Me.NumericUpDown81.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown81.Visible = False
-        '
-        'NumericUpDown82
-        '
-        Me.NumericUpDown82.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown82.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown82.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown82.Name = "NumericUpDown82"
-        Me.NumericUpDown82.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown82.TabIndex = 14
-        Me.NumericUpDown82.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown82.Visible = False
-        '
-        'NumericUpDown83
-        '
-        Me.NumericUpDown83.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown83.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown83.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown83.Name = "NumericUpDown83"
-        Me.NumericUpDown83.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown83.TabIndex = 13
-        Me.NumericUpDown83.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown83.Visible = False
-        '
-        'NumericUpDown84
-        '
-        Me.NumericUpDown84.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown84.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown84.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown84.Name = "NumericUpDown84"
-        Me.NumericUpDown84.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown84.TabIndex = 12
-        Me.NumericUpDown84.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown84.Visible = False
-        '
-        'NumericUpDown85
-        '
-        Me.NumericUpDown85.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown85.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown85.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown85.Name = "NumericUpDown85"
-        Me.NumericUpDown85.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown85.TabIndex = 11
-        Me.NumericUpDown85.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown85.Visible = False
-        '
-        'NumericUpDown86
-        '
-        Me.NumericUpDown86.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown86.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown86.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown86.Name = "NumericUpDown86"
-        Me.NumericUpDown86.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown86.TabIndex = 10
-        Me.NumericUpDown86.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown86.Visible = False
-        '
-        'NumericUpDown87
-        '
-        Me.NumericUpDown87.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown87.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown87.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown87.Name = "NumericUpDown87"
-        Me.NumericUpDown87.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown87.TabIndex = 9
-        Me.NumericUpDown87.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown87.Visible = False
-        '
-        'NumericUpDown88
-        '
-        Me.NumericUpDown88.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown88.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown88.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown88.Name = "NumericUpDown88"
-        Me.NumericUpDown88.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown88.TabIndex = 8
-        Me.NumericUpDown88.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown88.Visible = False
-        '
-        'NumericUpDown89
-        '
-        Me.NumericUpDown89.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown89.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown89.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown89.Name = "NumericUpDown89"
-        Me.NumericUpDown89.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown89.TabIndex = 7
-        Me.NumericUpDown89.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown89.Visible = False
-        '
-        'NumericUpDown90
-        '
-        Me.NumericUpDown90.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown90.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown90.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown90.Name = "NumericUpDown90"
-        Me.NumericUpDown90.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown90.TabIndex = 6
-        Me.NumericUpDown90.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown90.Visible = False
-        '
-        'NumericUpDown91
-        '
-        Me.NumericUpDown91.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown91.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown91.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown91.Name = "NumericUpDown91"
-        Me.NumericUpDown91.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown91.TabIndex = 5
-        Me.NumericUpDown91.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown91.Visible = False
-        '
-        'NumericUpDown92
-        '
-        Me.NumericUpDown92.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown92.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown92.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown92.Name = "NumericUpDown92"
-        Me.NumericUpDown92.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown92.TabIndex = 4
-        Me.NumericUpDown92.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown92.Visible = False
-        '
-        'NumericUpDown93
-        '
-        Me.NumericUpDown93.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown93.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown93.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown93.Name = "NumericUpDown93"
-        Me.NumericUpDown93.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown93.TabIndex = 3
-        Me.NumericUpDown93.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown93.Visible = False
-        '
-        'NumericUpDown94
-        '
-        Me.NumericUpDown94.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown94.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown94.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown94.Name = "NumericUpDown94"
-        Me.NumericUpDown94.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown94.TabIndex = 2
-        Me.NumericUpDown94.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown94.Visible = False
-        '
-        'NumericUpDown95
-        '
-        Me.NumericUpDown95.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown95.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown95.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown95.Name = "NumericUpDown95"
-        Me.NumericUpDown95.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown95.TabIndex = 1
-        Me.NumericUpDown95.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown95.Visible = False
-        '
-        'NumericUpDown96
-        '
-        Me.NumericUpDown96.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown96.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown96.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown96.Name = "NumericUpDown96"
-        Me.NumericUpDown96.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown96.TabIndex = 0
-        Me.NumericUpDown96.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown96.Visible = False
-        '
-        'PictureBox77
-        '
-        Me.PictureBox77.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox77.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox77.Name = "PictureBox77"
-        Me.PictureBox77.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox77.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox77.TabIndex = 54
-        Me.PictureBox77.TabStop = False
-        '
-        'PictureBox78
-        '
-        Me.PictureBox78.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox78.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox78.Name = "PictureBox78"
-        Me.PictureBox78.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox78.TabIndex = 53
-        Me.PictureBox78.TabStop = False
-        '
-        'PictureBox79
-        '
-        Me.PictureBox79.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox79.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox79.Name = "PictureBox79"
-        Me.PictureBox79.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox79.TabIndex = 52
-        Me.PictureBox79.TabStop = False
-        '
-        'PictureBox80
-        '
-        Me.PictureBox80.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox80.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox80.Name = "PictureBox80"
-        Me.PictureBox80.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox80.TabIndex = 40
-        Me.PictureBox80.TabStop = False
-        '
-        'PictureBox81
-        '
-        Me.PictureBox81.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox81.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox81.Name = "PictureBox81"
-        Me.PictureBox81.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox81.TabIndex = 34
-        Me.PictureBox81.TabStop = False
-        '
-        'PictureBox82
-        '
-        Me.PictureBox82.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox82.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox82.Name = "PictureBox82"
-        Me.PictureBox82.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox82.TabIndex = 33
-        Me.PictureBox82.TabStop = False
-        '
-        'PictureBox83
-        '
-        Me.PictureBox83.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox83.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox83.Name = "PictureBox83"
-        Me.PictureBox83.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox83.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox83.TabIndex = 32
-        Me.PictureBox83.TabStop = False
-        '
-        'PictureBox84
-        '
-        Me.PictureBox84.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox84.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox84.Name = "PictureBox84"
-        Me.PictureBox84.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox84.TabIndex = 31
-        Me.PictureBox84.TabStop = False
-        '
-        'PictureBox85
-        '
-        Me.PictureBox85.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox85.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox85.Name = "PictureBox85"
-        Me.PictureBox85.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox85.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox85.TabIndex = 30
-        Me.PictureBox85.TabStop = False
-        '
-        'PictureBox86
-        '
-        Me.PictureBox86.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox86.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox86.Name = "PictureBox86"
-        Me.PictureBox86.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox86.TabIndex = 29
-        Me.PictureBox86.TabStop = False
-        '
-        'PictureBox87
-        '
-        Me.PictureBox87.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox87.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox87.Name = "PictureBox87"
-        Me.PictureBox87.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox87.TabIndex = 28
-        Me.PictureBox87.TabStop = False
-        '
-        'PictureBox88
-        '
-        Me.PictureBox88.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox88.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox88.Name = "PictureBox88"
-        Me.PictureBox88.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox88.TabIndex = 27
-        Me.PictureBox88.TabStop = False
-        '
-        'PictureBox89
-        '
-        Me.PictureBox89.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox89.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox89.Name = "PictureBox89"
-        Me.PictureBox89.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox89.TabIndex = 26
-        Me.PictureBox89.TabStop = False
-        '
-        'PictureBox90
-        '
-        Me.PictureBox90.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox90.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox90.Name = "PictureBox90"
-        Me.PictureBox90.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox90.TabIndex = 25
-        Me.PictureBox90.TabStop = False
-        '
-        'PictureBox91
-        '
-        Me.PictureBox91.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox91.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox91.Name = "PictureBox91"
-        Me.PictureBox91.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox91.TabIndex = 24
-        Me.PictureBox91.TabStop = False
-        '
-        'PictureBox92
-        '
-        Me.PictureBox92.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox92.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox92.Name = "PictureBox92"
-        Me.PictureBox92.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox92.TabIndex = 23
-        Me.PictureBox92.TabStop = False
-        '
-        'PictureBox93
-        '
-        Me.PictureBox93.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox93.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox93.Name = "PictureBox93"
-        Me.PictureBox93.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox93.TabIndex = 22
-        Me.PictureBox93.TabStop = False
-        '
-        'PictureBox94
-        '
-        Me.PictureBox94.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox94.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox94.Name = "PictureBox94"
-        Me.PictureBox94.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox94.TabIndex = 21
-        Me.PictureBox94.TabStop = False
-        '
-        'PictureBox95
-        '
-        Me.PictureBox95.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox95.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox95.Name = "PictureBox95"
-        Me.PictureBox95.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox95.TabIndex = 20
-        Me.PictureBox95.TabStop = False
-        '
-        'PictureBox96
-        '
-        Me.PictureBox96.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox96.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox96.Name = "PictureBox96"
-        Me.PictureBox96.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox96.TabIndex = 4
-        Me.PictureBox96.TabStop = False
-        '
-        'Label6
-        '
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Location = New System.Drawing.Point(248, 234)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(320, 13)
-        Me.Label6.TabIndex = 3
-        Me.Label6.Text = "Quests 2"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label7
-        '
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Location = New System.Drawing.Point(7, 40)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(320, 13)
-        Me.Label7.TabIndex = 2
-        Me.Label7.Text = "Quests 1"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Panel10
-        '
-        Me.Panel10.BackColor = System.Drawing.Color.Transparent
-        Me.Panel10.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.quest1and2shoppe
-        Me.Panel10.Controls.Add(Me.NumericUpDown109)
-        Me.Panel10.Controls.Add(Me.NumericUpDown110)
-        Me.Panel10.Controls.Add(Me.NumericUpDown111)
-        Me.Panel10.Controls.Add(Me.NumericUpDown112)
-        Me.Panel10.Controls.Add(Me.NumericUpDown113)
-        Me.Panel10.Controls.Add(Me.NumericUpDown114)
-        Me.Panel10.Controls.Add(Me.NumericUpDown115)
-        Me.Panel10.Controls.Add(Me.NumericUpDown116)
-        Me.Panel10.Controls.Add(Me.NumericUpDown117)
-        Me.Panel10.Controls.Add(Me.NumericUpDown118)
-        Me.Panel10.Controls.Add(Me.NumericUpDown119)
-        Me.Panel10.Controls.Add(Me.NumericUpDown120)
-        Me.Panel10.Controls.Add(Me.NumericUpDown121)
-        Me.Panel10.Controls.Add(Me.NumericUpDown122)
-        Me.Panel10.Controls.Add(Me.NumericUpDown123)
-        Me.Panel10.Controls.Add(Me.NumericUpDown124)
-        Me.Panel10.Controls.Add(Me.NumericUpDown125)
-        Me.Panel10.Controls.Add(Me.NumericUpDown126)
-        Me.Panel10.Controls.Add(Me.NumericUpDown127)
-        Me.Panel10.Controls.Add(Me.NumericUpDown128)
-        Me.Panel10.Controls.Add(Me.PictureBox109)
-        Me.Panel10.Controls.Add(Me.PictureBox110)
-        Me.Panel10.Controls.Add(Me.PictureBox111)
-        Me.Panel10.Controls.Add(Me.PictureBox112)
-        Me.Panel10.Controls.Add(Me.PictureBox113)
-        Me.Panel10.Controls.Add(Me.PictureBox114)
-        Me.Panel10.Controls.Add(Me.PictureBox115)
-        Me.Panel10.Controls.Add(Me.PictureBox116)
-        Me.Panel10.Controls.Add(Me.PictureBox117)
-        Me.Panel10.Controls.Add(Me.PictureBox118)
-        Me.Panel10.Controls.Add(Me.PictureBox119)
-        Me.Panel10.Controls.Add(Me.PictureBox120)
-        Me.Panel10.Controls.Add(Me.PictureBox121)
-        Me.Panel10.Controls.Add(Me.PictureBox122)
-        Me.Panel10.Controls.Add(Me.PictureBox123)
-        Me.Panel10.Controls.Add(Me.PictureBox124)
-        Me.Panel10.Controls.Add(Me.PictureBox125)
-        Me.Panel10.Controls.Add(Me.PictureBox126)
-        Me.Panel10.Controls.Add(Me.PictureBox127)
-        Me.Panel10.Controls.Add(Me.PictureBox128)
-        Me.Panel10.Location = New System.Drawing.Point(7, 55)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(320, 166)
-        Me.Panel10.TabIndex = 0
-        '
-        'NumericUpDown109
-        '
-        Me.NumericUpDown109.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown109.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown109.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown109.Name = "NumericUpDown109"
-        Me.NumericUpDown109.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown109.TabIndex = 38
-        Me.NumericUpDown109.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown109.Visible = False
-        '
-        'NumericUpDown110
-        '
-        Me.NumericUpDown110.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown110.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown110.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown110.Name = "NumericUpDown110"
-        Me.NumericUpDown110.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown110.TabIndex = 37
-        Me.NumericUpDown110.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown110.Visible = False
-        '
-        'NumericUpDown111
-        '
-        Me.NumericUpDown111.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown111.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown111.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown111.Name = "NumericUpDown111"
-        Me.NumericUpDown111.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown111.TabIndex = 36
-        Me.NumericUpDown111.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown111.Visible = False
-        '
-        'NumericUpDown112
-        '
-        Me.NumericUpDown112.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown112.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown112.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown112.Name = "NumericUpDown112"
-        Me.NumericUpDown112.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown112.TabIndex = 35
-        Me.NumericUpDown112.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown112.Visible = False
-        '
-        'NumericUpDown113
-        '
-        Me.NumericUpDown113.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown113.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown113.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown113.Name = "NumericUpDown113"
-        Me.NumericUpDown113.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown113.TabIndex = 15
-        Me.NumericUpDown113.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown113.Visible = False
-        '
-        'NumericUpDown114
-        '
-        Me.NumericUpDown114.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown114.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown114.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown114.Name = "NumericUpDown114"
-        Me.NumericUpDown114.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown114.TabIndex = 14
-        Me.NumericUpDown114.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown114.Visible = False
-        '
-        'NumericUpDown115
-        '
-        Me.NumericUpDown115.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown115.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown115.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown115.Name = "NumericUpDown115"
-        Me.NumericUpDown115.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown115.TabIndex = 13
-        Me.NumericUpDown115.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown115.Visible = False
-        '
-        'NumericUpDown116
-        '
-        Me.NumericUpDown116.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown116.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown116.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown116.Name = "NumericUpDown116"
-        Me.NumericUpDown116.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown116.TabIndex = 12
-        Me.NumericUpDown116.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown116.Visible = False
-        '
-        'NumericUpDown117
-        '
-        Me.NumericUpDown117.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown117.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown117.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown117.Name = "NumericUpDown117"
-        Me.NumericUpDown117.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown117.TabIndex = 11
-        Me.NumericUpDown117.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown117.Visible = False
-        '
-        'NumericUpDown118
-        '
-        Me.NumericUpDown118.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown118.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown118.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown118.Name = "NumericUpDown118"
-        Me.NumericUpDown118.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown118.TabIndex = 10
-        Me.NumericUpDown118.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown118.Visible = False
-        '
-        'NumericUpDown119
-        '
-        Me.NumericUpDown119.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown119.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown119.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown119.Name = "NumericUpDown119"
-        Me.NumericUpDown119.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown119.TabIndex = 9
-        Me.NumericUpDown119.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown119.Visible = False
-        '
-        'NumericUpDown120
-        '
-        Me.NumericUpDown120.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown120.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown120.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown120.Name = "NumericUpDown120"
-        Me.NumericUpDown120.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown120.TabIndex = 8
-        Me.NumericUpDown120.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown120.Visible = False
-        '
-        'NumericUpDown121
-        '
-        Me.NumericUpDown121.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown121.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown121.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown121.Name = "NumericUpDown121"
-        Me.NumericUpDown121.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown121.TabIndex = 7
-        Me.NumericUpDown121.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown121.Visible = False
-        '
-        'NumericUpDown122
-        '
-        Me.NumericUpDown122.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown122.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown122.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown122.Name = "NumericUpDown122"
-        Me.NumericUpDown122.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown122.TabIndex = 6
-        Me.NumericUpDown122.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown122.Visible = False
-        '
-        'NumericUpDown123
-        '
-        Me.NumericUpDown123.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown123.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown123.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown123.Name = "NumericUpDown123"
-        Me.NumericUpDown123.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown123.TabIndex = 5
-        Me.NumericUpDown123.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown123.Visible = False
-        '
-        'NumericUpDown124
-        '
-        Me.NumericUpDown124.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown124.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown124.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown124.Name = "NumericUpDown124"
-        Me.NumericUpDown124.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown124.TabIndex = 4
-        Me.NumericUpDown124.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown124.Visible = False
-        '
-        'NumericUpDown125
-        '
-        Me.NumericUpDown125.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown125.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown125.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown125.Name = "NumericUpDown125"
-        Me.NumericUpDown125.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown125.TabIndex = 3
-        Me.NumericUpDown125.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown125.Visible = False
-        '
-        'NumericUpDown126
-        '
-        Me.NumericUpDown126.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown126.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown126.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown126.Name = "NumericUpDown126"
-        Me.NumericUpDown126.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown126.TabIndex = 2
-        Me.NumericUpDown126.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown126.Visible = False
-        '
-        'NumericUpDown127
-        '
-        Me.NumericUpDown127.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown127.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown127.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown127.Name = "NumericUpDown127"
-        Me.NumericUpDown127.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown127.TabIndex = 1
-        Me.NumericUpDown127.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown127.Visible = False
-        '
-        'NumericUpDown128
-        '
-        Me.NumericUpDown128.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown128.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown128.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown128.Name = "NumericUpDown128"
-        Me.NumericUpDown128.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown128.TabIndex = 0
-        Me.NumericUpDown128.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown128.Visible = False
-        '
-        'PictureBox109
-        '
-        Me.PictureBox109.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox109.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox109.Name = "PictureBox109"
-        Me.PictureBox109.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox109.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox109.TabIndex = 54
-        Me.PictureBox109.TabStop = False
-        '
-        'PictureBox110
-        '
-        Me.PictureBox110.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox110.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox110.Name = "PictureBox110"
-        Me.PictureBox110.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox110.TabIndex = 53
-        Me.PictureBox110.TabStop = False
-        '
-        'PictureBox111
-        '
-        Me.PictureBox111.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox111.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox111.Name = "PictureBox111"
-        Me.PictureBox111.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox111.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox111.TabIndex = 52
-        Me.PictureBox111.TabStop = False
-        '
-        'PictureBox112
-        '
-        Me.PictureBox112.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox112.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox112.Name = "PictureBox112"
-        Me.PictureBox112.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox112.TabIndex = 40
-        Me.PictureBox112.TabStop = False
-        '
-        'PictureBox113
-        '
-        Me.PictureBox113.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox113.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox113.Name = "PictureBox113"
-        Me.PictureBox113.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox113.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox113.TabIndex = 34
-        Me.PictureBox113.TabStop = False
-        '
-        'PictureBox114
-        '
-        Me.PictureBox114.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox114.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox114.Name = "PictureBox114"
-        Me.PictureBox114.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox114.TabIndex = 33
-        Me.PictureBox114.TabStop = False
-        '
-        'PictureBox115
-        '
-        Me.PictureBox115.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox115.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox115.Name = "PictureBox115"
-        Me.PictureBox115.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox115.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox115.TabIndex = 32
-        Me.PictureBox115.TabStop = False
-        '
-        'PictureBox116
-        '
-        Me.PictureBox116.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox116.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox116.Name = "PictureBox116"
-        Me.PictureBox116.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox116.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox116.TabIndex = 31
-        Me.PictureBox116.TabStop = False
-        '
-        'PictureBox117
-        '
-        Me.PictureBox117.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox117.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox117.Name = "PictureBox117"
-        Me.PictureBox117.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox117.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox117.TabIndex = 30
-        Me.PictureBox117.TabStop = False
-        '
-        'PictureBox118
-        '
-        Me.PictureBox118.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox118.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox118.Name = "PictureBox118"
-        Me.PictureBox118.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox118.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox118.TabIndex = 29
-        Me.PictureBox118.TabStop = False
-        '
-        'PictureBox119
-        '
-        Me.PictureBox119.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox119.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox119.Name = "PictureBox119"
-        Me.PictureBox119.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox119.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox119.TabIndex = 28
-        Me.PictureBox119.TabStop = False
-        '
-        'PictureBox120
-        '
-        Me.PictureBox120.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox120.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox120.Name = "PictureBox120"
-        Me.PictureBox120.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox120.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox120.TabIndex = 27
-        Me.PictureBox120.TabStop = False
-        '
-        'PictureBox121
-        '
-        Me.PictureBox121.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox121.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox121.Name = "PictureBox121"
-        Me.PictureBox121.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox121.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox121.TabIndex = 26
-        Me.PictureBox121.TabStop = False
-        '
-        'PictureBox122
-        '
-        Me.PictureBox122.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox122.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox122.Name = "PictureBox122"
-        Me.PictureBox122.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox122.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox122.TabIndex = 25
-        Me.PictureBox122.TabStop = False
-        '
-        'PictureBox123
-        '
-        Me.PictureBox123.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox123.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox123.Name = "PictureBox123"
-        Me.PictureBox123.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox123.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox123.TabIndex = 24
-        Me.PictureBox123.TabStop = False
-        '
-        'PictureBox124
-        '
-        Me.PictureBox124.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox124.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox124.Name = "PictureBox124"
-        Me.PictureBox124.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox124.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox124.TabIndex = 23
-        Me.PictureBox124.TabStop = False
-        '
-        'PictureBox125
-        '
-        Me.PictureBox125.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox125.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox125.Name = "PictureBox125"
-        Me.PictureBox125.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox125.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox125.TabIndex = 22
-        Me.PictureBox125.TabStop = False
-        '
-        'PictureBox126
-        '
-        Me.PictureBox126.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox126.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox126.Name = "PictureBox126"
-        Me.PictureBox126.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox126.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox126.TabIndex = 21
-        Me.PictureBox126.TabStop = False
-        '
-        'PictureBox127
-        '
-        Me.PictureBox127.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox127.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox127.Name = "PictureBox127"
-        Me.PictureBox127.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox127.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox127.TabIndex = 20
-        Me.PictureBox127.TabStop = False
-        '
-        'PictureBox128
-        '
-        Me.PictureBox128.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox128.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox128.Name = "PictureBox128"
-        Me.PictureBox128.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox128.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox128.TabIndex = 4
-        Me.PictureBox128.TabStop = False
-        '
-        'Panel_page_11
-        '
-        Me.Panel_page_11.BackColor = System.Drawing.Color.Transparent
-        Me.Panel_page_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel_page_11.Controls.Add(Me.Icon_p11_arrowleft)
-        Me.Panel_page_11.Controls.Add(Me.Label4)
-        Me.Panel_page_11.Controls.Add(Me.Panel5)
-        Me.Panel_page_11.Location = New System.Drawing.Point(13, 18)
-        Me.Panel_page_11.Name = "Panel_page_11"
-        Me.Panel_page_11.Size = New System.Drawing.Size(575, 454)
-        Me.Panel_page_11.TabIndex = 4
-        '
-        'Icon_p11_arrowleft
-        '
-        Me.Icon_p11_arrowleft.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Icon_p11_arrowleft.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TCKD_leftarrow
-        Me.Icon_p11_arrowleft.Location = New System.Drawing.Point(0, 0)
-        Me.Icon_p11_arrowleft.Name = "Icon_p11_arrowleft"
-        Me.Icon_p11_arrowleft.Size = New System.Drawing.Size(37, 31)
-        Me.Icon_p11_arrowleft.TabIndex = 9
-        Me.Icon_p11_arrowleft.TabStop = False
-        '
-        'Label4
-        '
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Location = New System.Drawing.Point(7, 40)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(320, 13)
-        Me.Label4.TabIndex = 2
-        Me.Label4.Text = "More Missions 2"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Panel5
-        '
-        Me.Panel5.BackColor = System.Drawing.Color.Transparent
-        Me.Panel5.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.moremissions2
-        Me.Panel5.Controls.Add(Me.NumericUpDown44)
-        Me.Panel5.Controls.Add(Me.NumericUpDown45)
-        Me.Panel5.Controls.Add(Me.NumericUpDown46)
-        Me.Panel5.Controls.Add(Me.NumericUpDown47)
-        Me.Panel5.Controls.Add(Me.NumericUpDown48)
-        Me.Panel5.Controls.Add(Me.NumericUpDown49)
-        Me.Panel5.Controls.Add(Me.NumericUpDown50)
-        Me.Panel5.Controls.Add(Me.NumericUpDown51)
-        Me.Panel5.Controls.Add(Me.NumericUpDown52)
-        Me.Panel5.Controls.Add(Me.NumericUpDown9)
-        Me.Panel5.Controls.Add(Me.NumericUpDown10)
-        Me.Panel5.Controls.Add(Me.NumericUpDown11)
-        Me.Panel5.Controls.Add(Me.NumericUpDown12)
-        Me.Panel5.Controls.Add(Me.NumericUpDown13)
-        Me.Panel5.Controls.Add(Me.NumericUpDown14)
-        Me.Panel5.Controls.Add(Me.NumericUpDown15)
-        Me.Panel5.Controls.Add(Me.NumericUpDown16)
-        Me.Panel5.Controls.Add(Me.NumericUpDown5)
-        Me.Panel5.Controls.Add(Me.NumericUpDown6)
-        Me.Panel5.Controls.Add(Me.NumericUpDown7)
-        Me.Panel5.Controls.Add(Me.NumericUpDown8)
-        Me.Panel5.Controls.Add(Me.NumericUpDown3)
-        Me.Panel5.Controls.Add(Me.NumericUpDown4)
-        Me.Panel5.Controls.Add(Me.NumericUpDown2)
-        Me.Panel5.Controls.Add(Me.NumericUpDown1)
-        Me.Panel5.Controls.Add(Me.PictureBox24)
-        Me.Panel5.Controls.Add(Me.PictureBox25)
-        Me.Panel5.Controls.Add(Me.PictureBox26)
-        Me.Panel5.Controls.Add(Me.PictureBox27)
-        Me.Panel5.Controls.Add(Me.PictureBox28)
-        Me.Panel5.Controls.Add(Me.PictureBox29)
-        Me.Panel5.Controls.Add(Me.PictureBox30)
-        Me.Panel5.Controls.Add(Me.PictureBox31)
-        Me.Panel5.Controls.Add(Me.PictureBox32)
-        Me.Panel5.Controls.Add(Me.PictureBox9)
-        Me.Panel5.Controls.Add(Me.PictureBox10)
-        Me.Panel5.Controls.Add(Me.PictureBox11)
-        Me.Panel5.Controls.Add(Me.PictureBox12)
-        Me.Panel5.Controls.Add(Me.PictureBox13)
-        Me.Panel5.Controls.Add(Me.PictureBox14)
-        Me.Panel5.Controls.Add(Me.PictureBox15)
-        Me.Panel5.Controls.Add(Me.PictureBox16)
-        Me.Panel5.Controls.Add(Me.PictureBox5)
-        Me.Panel5.Controls.Add(Me.PictureBox6)
-        Me.Panel5.Controls.Add(Me.PictureBox7)
-        Me.Panel5.Controls.Add(Me.PictureBox8)
-        Me.Panel5.Controls.Add(Me.PictureBox3)
-        Me.Panel5.Controls.Add(Me.PictureBox4)
-        Me.Panel5.Controls.Add(Me.PictureBox2)
-        Me.Panel5.Controls.Add(Me.PictureBox1)
-        Me.Panel5.Location = New System.Drawing.Point(7, 55)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(320, 166)
-        Me.Panel5.TabIndex = 0
-        '
-        'NumericUpDown44
-        '
-        Me.NumericUpDown44.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown44.Location = New System.Drawing.Point(23, 150)
-        Me.NumericUpDown44.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown44.Name = "NumericUpDown44"
-        Me.NumericUpDown44.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown44.TabIndex = 44
-        Me.NumericUpDown44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown44.Visible = False
-        '
-        'NumericUpDown45
-        '
-        Me.NumericUpDown45.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown45.Location = New System.Drawing.Point(277, 108)
-        Me.NumericUpDown45.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown45.Name = "NumericUpDown45"
-        Me.NumericUpDown45.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown45.TabIndex = 43
-        Me.NumericUpDown45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown45.Visible = False
-        '
-        'NumericUpDown46
-        '
-        Me.NumericUpDown46.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown46.Location = New System.Drawing.Point(241, 108)
-        Me.NumericUpDown46.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown46.Name = "NumericUpDown46"
-        Me.NumericUpDown46.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown46.TabIndex = 42
-        Me.NumericUpDown46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown46.Visible = False
-        '
-        'NumericUpDown47
-        '
-        Me.NumericUpDown47.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown47.Location = New System.Drawing.Point(205, 108)
-        Me.NumericUpDown47.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown47.Name = "NumericUpDown47"
-        Me.NumericUpDown47.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown47.TabIndex = 41
-        Me.NumericUpDown47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown47.Visible = False
-        '
-        'NumericUpDown48
-        '
-        Me.NumericUpDown48.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown48.Location = New System.Drawing.Point(169, 108)
-        Me.NumericUpDown48.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown48.Name = "NumericUpDown48"
-        Me.NumericUpDown48.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown48.TabIndex = 39
-        Me.NumericUpDown48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown48.Visible = False
-        '
-        'NumericUpDown49
-        '
-        Me.NumericUpDown49.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown49.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown49.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown49.Name = "NumericUpDown49"
-        Me.NumericUpDown49.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown49.TabIndex = 38
-        Me.NumericUpDown49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown49.Visible = False
-        '
-        'NumericUpDown50
-        '
-        Me.NumericUpDown50.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown50.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown50.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown50.Name = "NumericUpDown50"
-        Me.NumericUpDown50.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown50.TabIndex = 37
-        Me.NumericUpDown50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown50.Visible = False
-        '
-        'NumericUpDown51
-        '
-        Me.NumericUpDown51.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown51.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown51.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown51.Name = "NumericUpDown51"
-        Me.NumericUpDown51.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown51.TabIndex = 36
-        Me.NumericUpDown51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown51.Visible = False
-        '
-        'NumericUpDown52
-        '
-        Me.NumericUpDown52.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown52.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown52.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown52.Name = "NumericUpDown52"
-        Me.NumericUpDown52.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown52.TabIndex = 35
-        Me.NumericUpDown52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown52.Visible = False
-        '
-        'NumericUpDown9
-        '
-        Me.NumericUpDown9.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown9.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown9.Name = "NumericUpDown9"
-        Me.NumericUpDown9.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown9.TabIndex = 15
-        Me.NumericUpDown9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown9.Visible = False
-        '
-        'NumericUpDown10
-        '
-        Me.NumericUpDown10.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown10.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown10.Name = "NumericUpDown10"
-        Me.NumericUpDown10.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown10.TabIndex = 14
-        Me.NumericUpDown10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown10.Visible = False
-        '
-        'NumericUpDown11
-        '
-        Me.NumericUpDown11.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown11.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown11.Name = "NumericUpDown11"
-        Me.NumericUpDown11.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown11.TabIndex = 13
-        Me.NumericUpDown11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown11.Visible = False
-        '
-        'NumericUpDown12
-        '
-        Me.NumericUpDown12.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown12.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown12.Name = "NumericUpDown12"
-        Me.NumericUpDown12.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown12.TabIndex = 12
-        Me.NumericUpDown12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown12.Visible = False
-        '
-        'NumericUpDown13
-        '
-        Me.NumericUpDown13.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown13.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown13.Name = "NumericUpDown13"
-        Me.NumericUpDown13.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown13.TabIndex = 11
-        Me.NumericUpDown13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown13.Visible = False
-        '
-        'NumericUpDown14
-        '
-        Me.NumericUpDown14.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown14.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown14.Name = "NumericUpDown14"
-        Me.NumericUpDown14.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown14.TabIndex = 10
-        Me.NumericUpDown14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown14.Visible = False
-        '
-        'NumericUpDown15
-        '
-        Me.NumericUpDown15.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown15.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown15.Name = "NumericUpDown15"
-        Me.NumericUpDown15.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown15.TabIndex = 9
-        Me.NumericUpDown15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown15.Visible = False
-        '
-        'NumericUpDown16
-        '
-        Me.NumericUpDown16.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown16.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown16.Name = "NumericUpDown16"
-        Me.NumericUpDown16.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown16.TabIndex = 8
-        Me.NumericUpDown16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown16.Visible = False
-        '
-        'NumericUpDown5
-        '
-        Me.NumericUpDown5.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown5.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown5.Name = "NumericUpDown5"
-        Me.NumericUpDown5.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown5.TabIndex = 7
-        Me.NumericUpDown5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown5.Visible = False
-        '
-        'NumericUpDown6
-        '
-        Me.NumericUpDown6.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown6.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown6.Name = "NumericUpDown6"
-        Me.NumericUpDown6.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown6.TabIndex = 6
-        Me.NumericUpDown6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown6.Visible = False
-        '
-        'NumericUpDown7
-        '
-        Me.NumericUpDown7.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown7.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown7.Name = "NumericUpDown7"
-        Me.NumericUpDown7.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown7.TabIndex = 5
-        Me.NumericUpDown7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown7.Visible = False
-        '
-        'NumericUpDown8
-        '
-        Me.NumericUpDown8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown8.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown8.Name = "NumericUpDown8"
-        Me.NumericUpDown8.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown8.TabIndex = 4
-        Me.NumericUpDown8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown8.Visible = False
-        '
-        'NumericUpDown3
-        '
-        Me.NumericUpDown3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown3.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown3.Name = "NumericUpDown3"
-        Me.NumericUpDown3.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown3.TabIndex = 3
-        Me.NumericUpDown3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown3.Visible = False
-        '
-        'NumericUpDown4
-        '
-        Me.NumericUpDown4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown4.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown4.Name = "NumericUpDown4"
-        Me.NumericUpDown4.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown4.TabIndex = 2
-        Me.NumericUpDown4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown4.Visible = False
-        '
-        'NumericUpDown2
-        '
-        Me.NumericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown2.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown2.Name = "NumericUpDown2"
-        Me.NumericUpDown2.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown2.TabIndex = 1
-        Me.NumericUpDown2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown2.Visible = False
-        '
-        'NumericUpDown1
-        '
-        Me.NumericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown1.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown1.TabIndex = 0
-        Me.NumericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown1.Visible = False
-        '
-        'PictureBox24
-        '
-        Me.PictureBox24.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox24.Location = New System.Drawing.Point(35, 131)
-        Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox24.TabIndex = 59
-        Me.PictureBox24.TabStop = False
-        '
-        'PictureBox25
-        '
-        Me.PictureBox25.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox25.Location = New System.Drawing.Point(275, 89)
-        Me.PictureBox25.Name = "PictureBox25"
-        Me.PictureBox25.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox25.TabIndex = 58
-        Me.PictureBox25.TabStop = False
-        '
-        'PictureBox26
-        '
-        Me.PictureBox26.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox26.Location = New System.Drawing.Point(243, 89)
-        Me.PictureBox26.Name = "PictureBox26"
-        Me.PictureBox26.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox26.TabIndex = 57
-        Me.PictureBox26.TabStop = False
-        '
-        'PictureBox27
-        '
-        Me.PictureBox27.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox27.Location = New System.Drawing.Point(211, 89)
-        Me.PictureBox27.Name = "PictureBox27"
-        Me.PictureBox27.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox27.TabIndex = 56
-        Me.PictureBox27.TabStop = False
-        '
-        'PictureBox28
-        '
-        Me.PictureBox28.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox28.Location = New System.Drawing.Point(179, 89)
-        Me.PictureBox28.Name = "PictureBox28"
-        Me.PictureBox28.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox28.TabIndex = 55
-        Me.PictureBox28.TabStop = False
-        '
-        'PictureBox29
-        '
-        Me.PictureBox29.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox29.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox29.Name = "PictureBox29"
-        Me.PictureBox29.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox29.TabIndex = 54
-        Me.PictureBox29.TabStop = False
-        '
-        'PictureBox30
-        '
-        Me.PictureBox30.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox30.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox30.Name = "PictureBox30"
-        Me.PictureBox30.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox30.TabIndex = 53
-        Me.PictureBox30.TabStop = False
-        '
-        'PictureBox31
-        '
-        Me.PictureBox31.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox31.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox31.Name = "PictureBox31"
-        Me.PictureBox31.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox31.TabIndex = 52
-        Me.PictureBox31.TabStop = False
-        '
-        'PictureBox32
-        '
-        Me.PictureBox32.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox32.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox32.Name = "PictureBox32"
-        Me.PictureBox32.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox32.TabIndex = 40
-        Me.PictureBox32.TabStop = False
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox9.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox9.TabIndex = 34
-        Me.PictureBox9.TabStop = False
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox10.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox10.TabIndex = 33
-        Me.PictureBox10.TabStop = False
-        '
-        'PictureBox11
-        '
-        Me.PictureBox11.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox11.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox11.TabIndex = 32
-        Me.PictureBox11.TabStop = False
-        '
-        'PictureBox12
-        '
-        Me.PictureBox12.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox12.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox12.TabIndex = 31
-        Me.PictureBox12.TabStop = False
-        '
-        'PictureBox13
-        '
-        Me.PictureBox13.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox13.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox13.TabIndex = 30
-        Me.PictureBox13.TabStop = False
-        '
-        'PictureBox14
-        '
-        Me.PictureBox14.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox14.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox14.TabIndex = 29
-        Me.PictureBox14.TabStop = False
-        '
-        'PictureBox15
-        '
-        Me.PictureBox15.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox15.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox15.TabIndex = 28
-        Me.PictureBox15.TabStop = False
-        '
-        'PictureBox16
-        '
-        Me.PictureBox16.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox16.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox16.TabIndex = 27
-        Me.PictureBox16.TabStop = False
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox5.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox5.TabIndex = 26
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox6.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox6.TabIndex = 25
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox7.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox7.TabIndex = 24
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox8.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox8.TabIndex = 23
-        Me.PictureBox8.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox3.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox3.TabIndex = 22
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox4.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox4.TabIndex = 21
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox2.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox2.TabIndex = 20
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
-        '
         'Panel_page_9
         '
         Me.Panel_page_9.BackColor = System.Drawing.Color.Transparent
         Me.Panel_page_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel_page_9.Controls.Add(Me.Panel8)
+        Me.Panel_page_9.Controls.Add(Me.Panel7)
         Me.Panel_page_9.Controls.Add(Me.Icon_p9_arrowleft)
         Me.Panel_page_9.Controls.Add(Me.Icon_p9_arrowright)
         Me.Panel_page_9.Controls.Add(Me.Panel21)
@@ -5850,6 +4287,49 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_page_9.Name = "Panel_page_9"
         Me.Panel_page_9.Size = New System.Drawing.Size(575, 454)
         Me.Panel_page_9.TabIndex = 9
+        Me.Panel_page_9.Visible = false
+        '
+        'Panel8
+        '
+        Me.Panel8.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel8.Controls.Add(Me.Text_setall_moremissions1)
+        Me.Panel8.Location = New System.Drawing.Point(183, 396)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(65, 20)
+        Me.Panel8.TabIndex = 12
+        '
+        'Text_setall_moremissions1
+        '
+        Me.Text_setall_moremissions1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_moremissions1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_moremissions1.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_moremissions1.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_moremissions1.Name = "Text_setall_moremissions1"
+        Me.Text_setall_moremissions1.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_moremissions1.TabIndex = 0
+        Me.Text_setall_moremissions1.Text = "Set all to"
+        Me.Text_setall_moremissions1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel7
+        '
+        Me.Panel7.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel7.Controls.Add(Me.Text_setall_shoppe)
+        Me.Panel7.Location = New System.Drawing.Point(327, 201)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(65, 20)
+        Me.Panel7.TabIndex = 11
+        '
+        'Text_setall_shoppe
+        '
+        Me.Text_setall_shoppe.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_shoppe.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_shoppe.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_shoppe.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_shoppe.Name = "Text_setall_shoppe"
+        Me.Text_setall_shoppe.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_shoppe.TabIndex = 0
+        Me.Text_setall_shoppe.Text = "Set all to"
+        Me.Text_setall_shoppe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Icon_p9_arrowleft
         '
@@ -5859,7 +4339,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_p9_arrowleft.Name = "Icon_p9_arrowleft"
         Me.Icon_p9_arrowleft.Size = New System.Drawing.Size(37, 31)
         Me.Icon_p9_arrowleft.TabIndex = 9
-        Me.Icon_p9_arrowleft.TabStop = False
+        Me.Icon_p9_arrowleft.TabStop = false
         '
         'Icon_p9_arrowright
         '
@@ -5869,522 +4349,522 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_p9_arrowright.Name = "Icon_p9_arrowright"
         Me.Icon_p9_arrowright.Size = New System.Drawing.Size(37, 31)
         Me.Icon_p9_arrowright.TabIndex = 8
-        Me.Icon_p9_arrowright.TabStop = False
+        Me.Icon_p9_arrowright.TabStop = false
         '
         'Panel21
         '
         Me.Panel21.BackColor = System.Drawing.Color.Transparent
         Me.Panel21.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.moremissions1
-        Me.Panel21.Controls.Add(Me.NumericUpDown228)
-        Me.Panel21.Controls.Add(Me.NumericUpDown229)
-        Me.Panel21.Controls.Add(Me.NumericUpDown250)
-        Me.Panel21.Controls.Add(Me.NumericUpDown251)
-        Me.Panel21.Controls.Add(Me.NumericUpDown252)
-        Me.Panel21.Controls.Add(Me.NumericUpDown253)
-        Me.Panel21.Controls.Add(Me.NumericUpDown254)
-        Me.Panel21.Controls.Add(Me.NumericUpDown255)
-        Me.Panel21.Controls.Add(Me.NumericUpDown256)
-        Me.Panel21.Controls.Add(Me.NumericUpDown257)
-        Me.Panel21.Controls.Add(Me.NumericUpDown258)
-        Me.Panel21.Controls.Add(Me.NumericUpDown259)
-        Me.Panel21.Controls.Add(Me.NumericUpDown260)
-        Me.Panel21.Controls.Add(Me.NumericUpDown261)
-        Me.Panel21.Controls.Add(Me.NumericUpDown262)
-        Me.Panel21.Controls.Add(Me.NumericUpDown263)
-        Me.Panel21.Controls.Add(Me.NumericUpDown264)
-        Me.Panel21.Controls.Add(Me.NumericUpDown265)
-        Me.Panel21.Controls.Add(Me.NumericUpDown282)
-        Me.Panel21.Controls.Add(Me.NumericUpDown283)
-        Me.Panel21.Controls.Add(Me.NumericUpDown284)
-        Me.Panel21.Controls.Add(Me.NumericUpDown285)
-        Me.Panel21.Controls.Add(Me.PictureBox228)
-        Me.Panel21.Controls.Add(Me.PictureBox229)
-        Me.Panel21.Controls.Add(Me.PictureBox250)
-        Me.Panel21.Controls.Add(Me.PictureBox251)
-        Me.Panel21.Controls.Add(Me.PictureBox252)
-        Me.Panel21.Controls.Add(Me.PictureBox253)
-        Me.Panel21.Controls.Add(Me.PictureBox254)
-        Me.Panel21.Controls.Add(Me.PictureBox255)
-        Me.Panel21.Controls.Add(Me.PictureBox256)
-        Me.Panel21.Controls.Add(Me.PictureBox257)
-        Me.Panel21.Controls.Add(Me.PictureBox258)
-        Me.Panel21.Controls.Add(Me.PictureBox259)
-        Me.Panel21.Controls.Add(Me.PictureBox260)
-        Me.Panel21.Controls.Add(Me.PictureBox261)
-        Me.Panel21.Controls.Add(Me.PictureBox262)
-        Me.Panel21.Controls.Add(Me.PictureBox263)
-        Me.Panel21.Controls.Add(Me.PictureBox264)
-        Me.Panel21.Controls.Add(Me.PictureBox265)
-        Me.Panel21.Controls.Add(Me.PictureBox282)
-        Me.Panel21.Controls.Add(Me.PictureBox283)
-        Me.Panel21.Controls.Add(Me.PictureBox284)
-        Me.Panel21.Controls.Add(Me.PictureBox285)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_22)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_21)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_20)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_19)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_18)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_17)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_16)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_15)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_14)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_13)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_12)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_11)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_10)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_9)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_8)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_7)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_6)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_5)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_4)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_3)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_2)
+        Me.Panel21.Controls.Add(Me.valu_moremissions1_1)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_22)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_21)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_20)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_19)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_18)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_17)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_16)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_15)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_14)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_13)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_12)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_11)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_10)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_9)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_8)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_7)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_6)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_5)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_4)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_3)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_2)
+        Me.Panel21.Controls.Add(Me.Icon_moremissions1_1)
         Me.Panel21.Location = New System.Drawing.Point(248, 250)
         Me.Panel21.Name = "Panel21"
         Me.Panel21.Size = New System.Drawing.Size(320, 166)
         Me.Panel21.TabIndex = 4
         '
-        'NumericUpDown228
-        '
-        Me.NumericUpDown228.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown228.Location = New System.Drawing.Point(205, 108)
-        Me.NumericUpDown228.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown228.Name = "NumericUpDown228"
-        Me.NumericUpDown228.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown228.TabIndex = 41
-        Me.NumericUpDown228.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown228.Visible = False
-        '
-        'NumericUpDown229
-        '
-        Me.NumericUpDown229.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown229.Location = New System.Drawing.Point(169, 108)
-        Me.NumericUpDown229.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown229.Name = "NumericUpDown229"
-        Me.NumericUpDown229.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown229.TabIndex = 39
-        Me.NumericUpDown229.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown229.Visible = False
-        '
-        'NumericUpDown250
-        '
-        Me.NumericUpDown250.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown250.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown250.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown250.Name = "NumericUpDown250"
-        Me.NumericUpDown250.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown250.TabIndex = 38
-        Me.NumericUpDown250.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown250.Visible = False
-        '
-        'NumericUpDown251
-        '
-        Me.NumericUpDown251.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown251.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown251.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown251.Name = "NumericUpDown251"
-        Me.NumericUpDown251.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown251.TabIndex = 37
-        Me.NumericUpDown251.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown251.Visible = False
-        '
-        'NumericUpDown252
-        '
-        Me.NumericUpDown252.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown252.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown252.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown252.Name = "NumericUpDown252"
-        Me.NumericUpDown252.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown252.TabIndex = 36
-        Me.NumericUpDown252.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown252.Visible = False
-        '
-        'NumericUpDown253
-        '
-        Me.NumericUpDown253.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown253.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown253.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown253.Name = "NumericUpDown253"
-        Me.NumericUpDown253.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown253.TabIndex = 35
-        Me.NumericUpDown253.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown253.Visible = False
-        '
-        'NumericUpDown254
-        '
-        Me.NumericUpDown254.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown254.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown254.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown254.Name = "NumericUpDown254"
-        Me.NumericUpDown254.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown254.TabIndex = 15
-        Me.NumericUpDown254.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown254.Visible = False
-        '
-        'NumericUpDown255
-        '
-        Me.NumericUpDown255.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown255.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown255.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown255.Name = "NumericUpDown255"
-        Me.NumericUpDown255.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown255.TabIndex = 14
-        Me.NumericUpDown255.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown255.Visible = False
-        '
-        'NumericUpDown256
-        '
-        Me.NumericUpDown256.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown256.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown256.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown256.Name = "NumericUpDown256"
-        Me.NumericUpDown256.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown256.TabIndex = 13
-        Me.NumericUpDown256.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown256.Visible = False
-        '
-        'NumericUpDown257
-        '
-        Me.NumericUpDown257.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown257.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown257.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown257.Name = "NumericUpDown257"
-        Me.NumericUpDown257.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown257.TabIndex = 12
-        Me.NumericUpDown257.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown257.Visible = False
-        '
-        'NumericUpDown258
-        '
-        Me.NumericUpDown258.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown258.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown258.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown258.Name = "NumericUpDown258"
-        Me.NumericUpDown258.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown258.TabIndex = 11
-        Me.NumericUpDown258.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown258.Visible = False
-        '
-        'NumericUpDown259
-        '
-        Me.NumericUpDown259.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown259.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown259.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown259.Name = "NumericUpDown259"
-        Me.NumericUpDown259.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown259.TabIndex = 10
-        Me.NumericUpDown259.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown259.Visible = False
-        '
-        'NumericUpDown260
-        '
-        Me.NumericUpDown260.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown260.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown260.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown260.Name = "NumericUpDown260"
-        Me.NumericUpDown260.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown260.TabIndex = 9
-        Me.NumericUpDown260.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown260.Visible = False
-        '
-        'NumericUpDown261
-        '
-        Me.NumericUpDown261.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown261.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown261.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown261.Name = "NumericUpDown261"
-        Me.NumericUpDown261.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown261.TabIndex = 8
-        Me.NumericUpDown261.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown261.Visible = False
-        '
-        'NumericUpDown262
-        '
-        Me.NumericUpDown262.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown262.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown262.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown262.Name = "NumericUpDown262"
-        Me.NumericUpDown262.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown262.TabIndex = 7
-        Me.NumericUpDown262.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown262.Visible = False
-        '
-        'NumericUpDown263
-        '
-        Me.NumericUpDown263.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown263.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown263.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown263.Name = "NumericUpDown263"
-        Me.NumericUpDown263.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown263.TabIndex = 6
-        Me.NumericUpDown263.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown263.Visible = False
-        '
-        'NumericUpDown264
-        '
-        Me.NumericUpDown264.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown264.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown264.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown264.Name = "NumericUpDown264"
-        Me.NumericUpDown264.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown264.TabIndex = 5
-        Me.NumericUpDown264.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown264.Visible = False
-        '
-        'NumericUpDown265
-        '
-        Me.NumericUpDown265.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown265.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown265.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown265.Name = "NumericUpDown265"
-        Me.NumericUpDown265.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown265.TabIndex = 4
-        Me.NumericUpDown265.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown265.Visible = False
-        '
-        'NumericUpDown282
-        '
-        Me.NumericUpDown282.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown282.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown282.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown282.Name = "NumericUpDown282"
-        Me.NumericUpDown282.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown282.TabIndex = 3
-        Me.NumericUpDown282.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown282.Visible = False
-        '
-        'NumericUpDown283
-        '
-        Me.NumericUpDown283.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown283.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown283.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown283.Name = "NumericUpDown283"
-        Me.NumericUpDown283.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown283.TabIndex = 2
-        Me.NumericUpDown283.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown283.Visible = False
-        '
-        'NumericUpDown284
-        '
-        Me.NumericUpDown284.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown284.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown284.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown284.Name = "NumericUpDown284"
-        Me.NumericUpDown284.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown284.TabIndex = 1
-        Me.NumericUpDown284.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown284.Visible = False
-        '
-        'NumericUpDown285
-        '
-        Me.NumericUpDown285.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown285.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown285.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown285.Name = "NumericUpDown285"
-        Me.NumericUpDown285.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown285.TabIndex = 0
-        Me.NumericUpDown285.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown285.Visible = False
-        '
-        'PictureBox228
-        '
-        Me.PictureBox228.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox228.Location = New System.Drawing.Point(211, 89)
-        Me.PictureBox228.Name = "PictureBox228"
-        Me.PictureBox228.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox228.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox228.TabIndex = 56
-        Me.PictureBox228.TabStop = False
-        '
-        'PictureBox229
-        '
-        Me.PictureBox229.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox229.Location = New System.Drawing.Point(179, 89)
-        Me.PictureBox229.Name = "PictureBox229"
-        Me.PictureBox229.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox229.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox229.TabIndex = 55
-        Me.PictureBox229.TabStop = False
-        '
-        'PictureBox250
-        '
-        Me.PictureBox250.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox250.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox250.Name = "PictureBox250"
-        Me.PictureBox250.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox250.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox250.TabIndex = 54
-        Me.PictureBox250.TabStop = False
-        '
-        'PictureBox251
-        '
-        Me.PictureBox251.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox251.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox251.Name = "PictureBox251"
-        Me.PictureBox251.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox251.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox251.TabIndex = 53
-        Me.PictureBox251.TabStop = False
-        '
-        'PictureBox252
-        '
-        Me.PictureBox252.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox252.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox252.Name = "PictureBox252"
-        Me.PictureBox252.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox252.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox252.TabIndex = 52
-        Me.PictureBox252.TabStop = False
-        '
-        'PictureBox253
-        '
-        Me.PictureBox253.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox253.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox253.Name = "PictureBox253"
-        Me.PictureBox253.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox253.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox253.TabIndex = 40
-        Me.PictureBox253.TabStop = False
-        '
-        'PictureBox254
-        '
-        Me.PictureBox254.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox254.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox254.Name = "PictureBox254"
-        Me.PictureBox254.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox254.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox254.TabIndex = 34
-        Me.PictureBox254.TabStop = False
-        '
-        'PictureBox255
-        '
-        Me.PictureBox255.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox255.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox255.Name = "PictureBox255"
-        Me.PictureBox255.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox255.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox255.TabIndex = 33
-        Me.PictureBox255.TabStop = False
-        '
-        'PictureBox256
-        '
-        Me.PictureBox256.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox256.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox256.Name = "PictureBox256"
-        Me.PictureBox256.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox256.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox256.TabIndex = 32
-        Me.PictureBox256.TabStop = False
-        '
-        'PictureBox257
-        '
-        Me.PictureBox257.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox257.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox257.Name = "PictureBox257"
-        Me.PictureBox257.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox257.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox257.TabIndex = 31
-        Me.PictureBox257.TabStop = False
-        '
-        'PictureBox258
-        '
-        Me.PictureBox258.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox258.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox258.Name = "PictureBox258"
-        Me.PictureBox258.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox258.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox258.TabIndex = 30
-        Me.PictureBox258.TabStop = False
-        '
-        'PictureBox259
-        '
-        Me.PictureBox259.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox259.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox259.Name = "PictureBox259"
-        Me.PictureBox259.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox259.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox259.TabIndex = 29
-        Me.PictureBox259.TabStop = False
-        '
-        'PictureBox260
-        '
-        Me.PictureBox260.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox260.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox260.Name = "PictureBox260"
-        Me.PictureBox260.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox260.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox260.TabIndex = 28
-        Me.PictureBox260.TabStop = False
-        '
-        'PictureBox261
-        '
-        Me.PictureBox261.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox261.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox261.Name = "PictureBox261"
-        Me.PictureBox261.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox261.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox261.TabIndex = 27
-        Me.PictureBox261.TabStop = False
-        '
-        'PictureBox262
-        '
-        Me.PictureBox262.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox262.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox262.Name = "PictureBox262"
-        Me.PictureBox262.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox262.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox262.TabIndex = 26
-        Me.PictureBox262.TabStop = False
-        '
-        'PictureBox263
-        '
-        Me.PictureBox263.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox263.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox263.Name = "PictureBox263"
-        Me.PictureBox263.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox263.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox263.TabIndex = 25
-        Me.PictureBox263.TabStop = False
-        '
-        'PictureBox264
-        '
-        Me.PictureBox264.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox264.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox264.Name = "PictureBox264"
-        Me.PictureBox264.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox264.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox264.TabIndex = 24
-        Me.PictureBox264.TabStop = False
-        '
-        'PictureBox265
-        '
-        Me.PictureBox265.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox265.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox265.Name = "PictureBox265"
-        Me.PictureBox265.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox265.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox265.TabIndex = 23
-        Me.PictureBox265.TabStop = False
-        '
-        'PictureBox282
-        '
-        Me.PictureBox282.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox282.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox282.Name = "PictureBox282"
-        Me.PictureBox282.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox282.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox282.TabIndex = 22
-        Me.PictureBox282.TabStop = False
-        '
-        'PictureBox283
-        '
-        Me.PictureBox283.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox283.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox283.Name = "PictureBox283"
-        Me.PictureBox283.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox283.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox283.TabIndex = 21
-        Me.PictureBox283.TabStop = False
-        '
-        'PictureBox284
-        '
-        Me.PictureBox284.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox284.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox284.Name = "PictureBox284"
-        Me.PictureBox284.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox284.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox284.TabIndex = 20
-        Me.PictureBox284.TabStop = False
-        '
-        'PictureBox285
-        '
-        Me.PictureBox285.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox285.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox285.Name = "PictureBox285"
-        Me.PictureBox285.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox285.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox285.TabIndex = 4
-        Me.PictureBox285.TabStop = False
+        'valu_moremissions1_22
+        '
+        Me.valu_moremissions1_22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_22.Location = New System.Drawing.Point(205, 108)
+        Me.valu_moremissions1_22.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_22.Name = "valu_moremissions1_22"
+        Me.valu_moremissions1_22.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_22.TabIndex = 41
+        Me.valu_moremissions1_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_22.Visible = false
+        '
+        'valu_moremissions1_21
+        '
+        Me.valu_moremissions1_21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_21.Location = New System.Drawing.Point(169, 108)
+        Me.valu_moremissions1_21.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_21.Name = "valu_moremissions1_21"
+        Me.valu_moremissions1_21.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_21.TabIndex = 39
+        Me.valu_moremissions1_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_21.Visible = false
+        '
+        'valu_moremissions1_20
+        '
+        Me.valu_moremissions1_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_moremissions1_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_20.Name = "valu_moremissions1_20"
+        Me.valu_moremissions1_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_20.TabIndex = 38
+        Me.valu_moremissions1_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_20.Visible = false
+        '
+        'valu_moremissions1_19
+        '
+        Me.valu_moremissions1_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_moremissions1_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_19.Name = "valu_moremissions1_19"
+        Me.valu_moremissions1_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_19.TabIndex = 37
+        Me.valu_moremissions1_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_19.Visible = false
+        '
+        'valu_moremissions1_18
+        '
+        Me.valu_moremissions1_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_moremissions1_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_18.Name = "valu_moremissions1_18"
+        Me.valu_moremissions1_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_18.TabIndex = 36
+        Me.valu_moremissions1_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_18.Visible = false
+        '
+        'valu_moremissions1_17
+        '
+        Me.valu_moremissions1_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_moremissions1_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_17.Name = "valu_moremissions1_17"
+        Me.valu_moremissions1_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_17.TabIndex = 35
+        Me.valu_moremissions1_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_17.Visible = false
+        '
+        'valu_moremissions1_16
+        '
+        Me.valu_moremissions1_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_moremissions1_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_16.Name = "valu_moremissions1_16"
+        Me.valu_moremissions1_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_16.TabIndex = 15
+        Me.valu_moremissions1_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_16.Visible = false
+        '
+        'valu_moremissions1_15
+        '
+        Me.valu_moremissions1_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_moremissions1_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_15.Name = "valu_moremissions1_15"
+        Me.valu_moremissions1_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_15.TabIndex = 14
+        Me.valu_moremissions1_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_15.Visible = false
+        '
+        'valu_moremissions1_14
+        '
+        Me.valu_moremissions1_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_moremissions1_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_14.Name = "valu_moremissions1_14"
+        Me.valu_moremissions1_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_14.TabIndex = 13
+        Me.valu_moremissions1_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_14.Visible = false
+        '
+        'valu_moremissions1_13
+        '
+        Me.valu_moremissions1_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_moremissions1_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_13.Name = "valu_moremissions1_13"
+        Me.valu_moremissions1_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_13.TabIndex = 12
+        Me.valu_moremissions1_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_13.Visible = false
+        '
+        'valu_moremissions1_12
+        '
+        Me.valu_moremissions1_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_moremissions1_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_12.Name = "valu_moremissions1_12"
+        Me.valu_moremissions1_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_12.TabIndex = 11
+        Me.valu_moremissions1_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_12.Visible = false
+        '
+        'valu_moremissions1_11
+        '
+        Me.valu_moremissions1_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_moremissions1_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_11.Name = "valu_moremissions1_11"
+        Me.valu_moremissions1_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_11.TabIndex = 10
+        Me.valu_moremissions1_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_11.Visible = false
+        '
+        'valu_moremissions1_10
+        '
+        Me.valu_moremissions1_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_moremissions1_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_10.Name = "valu_moremissions1_10"
+        Me.valu_moremissions1_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_10.TabIndex = 9
+        Me.valu_moremissions1_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_10.Visible = false
+        '
+        'valu_moremissions1_9
+        '
+        Me.valu_moremissions1_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_moremissions1_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_9.Name = "valu_moremissions1_9"
+        Me.valu_moremissions1_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_9.TabIndex = 8
+        Me.valu_moremissions1_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_9.Visible = false
+        '
+        'valu_moremissions1_8
+        '
+        Me.valu_moremissions1_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_moremissions1_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_8.Name = "valu_moremissions1_8"
+        Me.valu_moremissions1_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_8.TabIndex = 7
+        Me.valu_moremissions1_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_8.Visible = false
+        '
+        'valu_moremissions1_7
+        '
+        Me.valu_moremissions1_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_moremissions1_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_7.Name = "valu_moremissions1_7"
+        Me.valu_moremissions1_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_7.TabIndex = 6
+        Me.valu_moremissions1_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_7.Visible = false
+        '
+        'valu_moremissions1_6
+        '
+        Me.valu_moremissions1_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_moremissions1_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_6.Name = "valu_moremissions1_6"
+        Me.valu_moremissions1_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_6.TabIndex = 5
+        Me.valu_moremissions1_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_6.Visible = false
+        '
+        'valu_moremissions1_5
+        '
+        Me.valu_moremissions1_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_moremissions1_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_5.Name = "valu_moremissions1_5"
+        Me.valu_moremissions1_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_5.TabIndex = 4
+        Me.valu_moremissions1_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_5.Visible = false
+        '
+        'valu_moremissions1_4
+        '
+        Me.valu_moremissions1_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_moremissions1_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_4.Name = "valu_moremissions1_4"
+        Me.valu_moremissions1_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_4.TabIndex = 3
+        Me.valu_moremissions1_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_4.Visible = false
+        '
+        'valu_moremissions1_3
+        '
+        Me.valu_moremissions1_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_moremissions1_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_3.Name = "valu_moremissions1_3"
+        Me.valu_moremissions1_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_3.TabIndex = 2
+        Me.valu_moremissions1_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_3.Visible = false
+        '
+        'valu_moremissions1_2
+        '
+        Me.valu_moremissions1_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_moremissions1_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_2.Name = "valu_moremissions1_2"
+        Me.valu_moremissions1_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_2.TabIndex = 1
+        Me.valu_moremissions1_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_2.Visible = false
+        '
+        'valu_moremissions1_1
+        '
+        Me.valu_moremissions1_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions1_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_moremissions1_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions1_1.Name = "valu_moremissions1_1"
+        Me.valu_moremissions1_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions1_1.TabIndex = 0
+        Me.valu_moremissions1_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions1_1.Visible = false
+        '
+        'Icon_moremissions1_22
+        '
+        Me.Icon_moremissions1_22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_22.Location = New System.Drawing.Point(211, 89)
+        Me.Icon_moremissions1_22.Name = "Icon_moremissions1_22"
+        Me.Icon_moremissions1_22.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_22.TabIndex = 56
+        Me.Icon_moremissions1_22.TabStop = false
+        '
+        'Icon_moremissions1_21
+        '
+        Me.Icon_moremissions1_21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_21.Location = New System.Drawing.Point(179, 89)
+        Me.Icon_moremissions1_21.Name = "Icon_moremissions1_21"
+        Me.Icon_moremissions1_21.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_21.TabIndex = 55
+        Me.Icon_moremissions1_21.TabStop = false
+        '
+        'Icon_moremissions1_20
+        '
+        Me.Icon_moremissions1_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_moremissions1_20.Name = "Icon_moremissions1_20"
+        Me.Icon_moremissions1_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_20.TabIndex = 54
+        Me.Icon_moremissions1_20.TabStop = false
+        '
+        'Icon_moremissions1_19
+        '
+        Me.Icon_moremissions1_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_moremissions1_19.Name = "Icon_moremissions1_19"
+        Me.Icon_moremissions1_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_19.TabIndex = 53
+        Me.Icon_moremissions1_19.TabStop = false
+        '
+        'Icon_moremissions1_18
+        '
+        Me.Icon_moremissions1_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_moremissions1_18.Name = "Icon_moremissions1_18"
+        Me.Icon_moremissions1_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_18.TabIndex = 52
+        Me.Icon_moremissions1_18.TabStop = false
+        '
+        'Icon_moremissions1_17
+        '
+        Me.Icon_moremissions1_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_moremissions1_17.Name = "Icon_moremissions1_17"
+        Me.Icon_moremissions1_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_17.TabIndex = 40
+        Me.Icon_moremissions1_17.TabStop = false
+        '
+        'Icon_moremissions1_16
+        '
+        Me.Icon_moremissions1_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_moremissions1_16.Name = "Icon_moremissions1_16"
+        Me.Icon_moremissions1_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_16.TabIndex = 34
+        Me.Icon_moremissions1_16.TabStop = false
+        '
+        'Icon_moremissions1_15
+        '
+        Me.Icon_moremissions1_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_moremissions1_15.Name = "Icon_moremissions1_15"
+        Me.Icon_moremissions1_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_15.TabIndex = 33
+        Me.Icon_moremissions1_15.TabStop = false
+        '
+        'Icon_moremissions1_14
+        '
+        Me.Icon_moremissions1_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_moremissions1_14.Name = "Icon_moremissions1_14"
+        Me.Icon_moremissions1_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_14.TabIndex = 32
+        Me.Icon_moremissions1_14.TabStop = false
+        '
+        'Icon_moremissions1_13
+        '
+        Me.Icon_moremissions1_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_moremissions1_13.Name = "Icon_moremissions1_13"
+        Me.Icon_moremissions1_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_13.TabIndex = 31
+        Me.Icon_moremissions1_13.TabStop = false
+        '
+        'Icon_moremissions1_12
+        '
+        Me.Icon_moremissions1_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_moremissions1_12.Name = "Icon_moremissions1_12"
+        Me.Icon_moremissions1_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_12.TabIndex = 30
+        Me.Icon_moremissions1_12.TabStop = false
+        '
+        'Icon_moremissions1_11
+        '
+        Me.Icon_moremissions1_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_moremissions1_11.Name = "Icon_moremissions1_11"
+        Me.Icon_moremissions1_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_11.TabIndex = 29
+        Me.Icon_moremissions1_11.TabStop = false
+        '
+        'Icon_moremissions1_10
+        '
+        Me.Icon_moremissions1_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_moremissions1_10.Name = "Icon_moremissions1_10"
+        Me.Icon_moremissions1_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_10.TabIndex = 28
+        Me.Icon_moremissions1_10.TabStop = false
+        '
+        'Icon_moremissions1_9
+        '
+        Me.Icon_moremissions1_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_moremissions1_9.Name = "Icon_moremissions1_9"
+        Me.Icon_moremissions1_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_9.TabIndex = 27
+        Me.Icon_moremissions1_9.TabStop = false
+        '
+        'Icon_moremissions1_8
+        '
+        Me.Icon_moremissions1_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_moremissions1_8.Name = "Icon_moremissions1_8"
+        Me.Icon_moremissions1_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_8.TabIndex = 26
+        Me.Icon_moremissions1_8.TabStop = false
+        '
+        'Icon_moremissions1_7
+        '
+        Me.Icon_moremissions1_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_moremissions1_7.Name = "Icon_moremissions1_7"
+        Me.Icon_moremissions1_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_7.TabIndex = 25
+        Me.Icon_moremissions1_7.TabStop = false
+        '
+        'Icon_moremissions1_6
+        '
+        Me.Icon_moremissions1_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_moremissions1_6.Name = "Icon_moremissions1_6"
+        Me.Icon_moremissions1_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_6.TabIndex = 24
+        Me.Icon_moremissions1_6.TabStop = false
+        '
+        'Icon_moremissions1_5
+        '
+        Me.Icon_moremissions1_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_moremissions1_5.Name = "Icon_moremissions1_5"
+        Me.Icon_moremissions1_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_5.TabIndex = 23
+        Me.Icon_moremissions1_5.TabStop = false
+        '
+        'Icon_moremissions1_4
+        '
+        Me.Icon_moremissions1_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_moremissions1_4.Name = "Icon_moremissions1_4"
+        Me.Icon_moremissions1_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_4.TabIndex = 22
+        Me.Icon_moremissions1_4.TabStop = false
+        '
+        'Icon_moremissions1_3
+        '
+        Me.Icon_moremissions1_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_moremissions1_3.Name = "Icon_moremissions1_3"
+        Me.Icon_moremissions1_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_3.TabIndex = 21
+        Me.Icon_moremissions1_3.TabStop = false
+        '
+        'Icon_moremissions1_2
+        '
+        Me.Icon_moremissions1_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_moremissions1_2.Name = "Icon_moremissions1_2"
+        Me.Icon_moremissions1_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_2.TabIndex = 20
+        Me.Icon_moremissions1_2.TabStop = false
+        '
+        'Icon_moremissions1_1
+        '
+        Me.Icon_moremissions1_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions1_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_moremissions1_1.Name = "Icon_moremissions1_1"
+        Me.Icon_moremissions1_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions1_1.TabIndex = 4
+        Me.Icon_moremissions1_1.TabStop = false
         '
         'Label14
         '
@@ -6410,475 +4890,477 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel22.BackColor = System.Drawing.Color.Transparent
         Me.Panel22.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.quest1and2shoppe
-        Me.Panel22.Controls.Add(Me.NumericUpDown298)
-        Me.Panel22.Controls.Add(Me.NumericUpDown299)
-        Me.Panel22.Controls.Add(Me.NumericUpDown300)
-        Me.Panel22.Controls.Add(Me.NumericUpDown301)
-        Me.Panel22.Controls.Add(Me.NumericUpDown302)
-        Me.Panel22.Controls.Add(Me.NumericUpDown303)
-        Me.Panel22.Controls.Add(Me.NumericUpDown304)
-        Me.Panel22.Controls.Add(Me.NumericUpDown305)
-        Me.Panel22.Controls.Add(Me.NumericUpDown306)
-        Me.Panel22.Controls.Add(Me.NumericUpDown307)
-        Me.Panel22.Controls.Add(Me.NumericUpDown308)
-        Me.Panel22.Controls.Add(Me.NumericUpDown309)
-        Me.Panel22.Controls.Add(Me.NumericUpDown310)
-        Me.Panel22.Controls.Add(Me.NumericUpDown311)
-        Me.Panel22.Controls.Add(Me.NumericUpDown312)
-        Me.Panel22.Controls.Add(Me.NumericUpDown313)
-        Me.Panel22.Controls.Add(Me.NumericUpDown314)
-        Me.Panel22.Controls.Add(Me.NumericUpDown315)
-        Me.Panel22.Controls.Add(Me.NumericUpDown316)
-        Me.Panel22.Controls.Add(Me.NumericUpDown317)
-        Me.Panel22.Controls.Add(Me.PictureBox298)
-        Me.Panel22.Controls.Add(Me.PictureBox299)
-        Me.Panel22.Controls.Add(Me.PictureBox300)
-        Me.Panel22.Controls.Add(Me.PictureBox301)
-        Me.Panel22.Controls.Add(Me.PictureBox302)
-        Me.Panel22.Controls.Add(Me.PictureBox303)
-        Me.Panel22.Controls.Add(Me.PictureBox304)
-        Me.Panel22.Controls.Add(Me.PictureBox305)
-        Me.Panel22.Controls.Add(Me.PictureBox306)
-        Me.Panel22.Controls.Add(Me.PictureBox307)
-        Me.Panel22.Controls.Add(Me.PictureBox308)
-        Me.Panel22.Controls.Add(Me.PictureBox309)
-        Me.Panel22.Controls.Add(Me.PictureBox310)
-        Me.Panel22.Controls.Add(Me.PictureBox311)
-        Me.Panel22.Controls.Add(Me.PictureBox312)
-        Me.Panel22.Controls.Add(Me.PictureBox313)
-        Me.Panel22.Controls.Add(Me.PictureBox314)
-        Me.Panel22.Controls.Add(Me.PictureBox315)
-        Me.Panel22.Controls.Add(Me.PictureBox316)
-        Me.Panel22.Controls.Add(Me.PictureBox317)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_20)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_19)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_18)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_17)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_16)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_15)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_14)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_13)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_12)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_11)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_10)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_9)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_8)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_7)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_6)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_5)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_4)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_3)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_2)
+        Me.Panel22.Controls.Add(Me.valu_shoppe_1)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_20)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_19)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_18)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_17)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_16)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_15)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_14)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_13)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_12)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_11)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_10)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_9)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_8)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_7)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_6)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_5)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_4)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_3)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_2)
+        Me.Panel22.Controls.Add(Me.Icon_shoppe_1)
         Me.Panel22.Location = New System.Drawing.Point(7, 55)
         Me.Panel22.Name = "Panel22"
         Me.Panel22.Size = New System.Drawing.Size(320, 166)
         Me.Panel22.TabIndex = 0
         '
-        'NumericUpDown298
-        '
-        Me.NumericUpDown298.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown298.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown298.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown298.Name = "NumericUpDown298"
-        Me.NumericUpDown298.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown298.TabIndex = 38
-        Me.NumericUpDown298.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown298.Visible = False
-        '
-        'NumericUpDown299
-        '
-        Me.NumericUpDown299.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown299.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown299.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown299.Name = "NumericUpDown299"
-        Me.NumericUpDown299.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown299.TabIndex = 37
-        Me.NumericUpDown299.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown299.Visible = False
-        '
-        'NumericUpDown300
-        '
-        Me.NumericUpDown300.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown300.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown300.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown300.Name = "NumericUpDown300"
-        Me.NumericUpDown300.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown300.TabIndex = 36
-        Me.NumericUpDown300.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown300.Visible = False
-        '
-        'NumericUpDown301
-        '
-        Me.NumericUpDown301.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown301.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown301.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown301.Name = "NumericUpDown301"
-        Me.NumericUpDown301.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown301.TabIndex = 35
-        Me.NumericUpDown301.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown301.Visible = False
-        '
-        'NumericUpDown302
-        '
-        Me.NumericUpDown302.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown302.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown302.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown302.Name = "NumericUpDown302"
-        Me.NumericUpDown302.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown302.TabIndex = 15
-        Me.NumericUpDown302.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown302.Visible = False
-        '
-        'NumericUpDown303
-        '
-        Me.NumericUpDown303.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown303.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown303.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown303.Name = "NumericUpDown303"
-        Me.NumericUpDown303.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown303.TabIndex = 14
-        Me.NumericUpDown303.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown303.Visible = False
-        '
-        'NumericUpDown304
-        '
-        Me.NumericUpDown304.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown304.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown304.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown304.Name = "NumericUpDown304"
-        Me.NumericUpDown304.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown304.TabIndex = 13
-        Me.NumericUpDown304.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown304.Visible = False
-        '
-        'NumericUpDown305
-        '
-        Me.NumericUpDown305.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown305.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown305.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown305.Name = "NumericUpDown305"
-        Me.NumericUpDown305.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown305.TabIndex = 12
-        Me.NumericUpDown305.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown305.Visible = False
-        '
-        'NumericUpDown306
-        '
-        Me.NumericUpDown306.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown306.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown306.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown306.Name = "NumericUpDown306"
-        Me.NumericUpDown306.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown306.TabIndex = 11
-        Me.NumericUpDown306.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown306.Visible = False
-        '
-        'NumericUpDown307
-        '
-        Me.NumericUpDown307.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown307.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown307.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown307.Name = "NumericUpDown307"
-        Me.NumericUpDown307.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown307.TabIndex = 10
-        Me.NumericUpDown307.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown307.Visible = False
-        '
-        'NumericUpDown308
-        '
-        Me.NumericUpDown308.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown308.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown308.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown308.Name = "NumericUpDown308"
-        Me.NumericUpDown308.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown308.TabIndex = 9
-        Me.NumericUpDown308.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown308.Visible = False
-        '
-        'NumericUpDown309
-        '
-        Me.NumericUpDown309.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown309.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown309.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown309.Name = "NumericUpDown309"
-        Me.NumericUpDown309.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown309.TabIndex = 8
-        Me.NumericUpDown309.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown309.Visible = False
-        '
-        'NumericUpDown310
-        '
-        Me.NumericUpDown310.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown310.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown310.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown310.Name = "NumericUpDown310"
-        Me.NumericUpDown310.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown310.TabIndex = 7
-        Me.NumericUpDown310.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown310.Visible = False
-        '
-        'NumericUpDown311
-        '
-        Me.NumericUpDown311.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown311.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown311.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown311.Name = "NumericUpDown311"
-        Me.NumericUpDown311.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown311.TabIndex = 6
-        Me.NumericUpDown311.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown311.Visible = False
-        '
-        'NumericUpDown312
-        '
-        Me.NumericUpDown312.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown312.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown312.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown312.Name = "NumericUpDown312"
-        Me.NumericUpDown312.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown312.TabIndex = 5
-        Me.NumericUpDown312.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown312.Visible = False
-        '
-        'NumericUpDown313
-        '
-        Me.NumericUpDown313.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown313.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown313.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown313.Name = "NumericUpDown313"
-        Me.NumericUpDown313.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown313.TabIndex = 4
-        Me.NumericUpDown313.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown313.Visible = False
-        '
-        'NumericUpDown314
-        '
-        Me.NumericUpDown314.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown314.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown314.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown314.Name = "NumericUpDown314"
-        Me.NumericUpDown314.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown314.TabIndex = 3
-        Me.NumericUpDown314.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown314.Visible = False
-        '
-        'NumericUpDown315
-        '
-        Me.NumericUpDown315.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown315.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown315.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown315.Name = "NumericUpDown315"
-        Me.NumericUpDown315.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown315.TabIndex = 2
-        Me.NumericUpDown315.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown315.Visible = False
-        '
-        'NumericUpDown316
-        '
-        Me.NumericUpDown316.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown316.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown316.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown316.Name = "NumericUpDown316"
-        Me.NumericUpDown316.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown316.TabIndex = 1
-        Me.NumericUpDown316.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown316.Visible = False
-        '
-        'NumericUpDown317
-        '
-        Me.NumericUpDown317.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown317.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown317.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown317.Name = "NumericUpDown317"
-        Me.NumericUpDown317.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown317.TabIndex = 0
-        Me.NumericUpDown317.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown317.Visible = False
-        '
-        'PictureBox298
-        '
-        Me.PictureBox298.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox298.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox298.Name = "PictureBox298"
-        Me.PictureBox298.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox298.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox298.TabIndex = 54
-        Me.PictureBox298.TabStop = False
-        '
-        'PictureBox299
-        '
-        Me.PictureBox299.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox299.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox299.Name = "PictureBox299"
-        Me.PictureBox299.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox299.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox299.TabIndex = 53
-        Me.PictureBox299.TabStop = False
-        '
-        'PictureBox300
-        '
-        Me.PictureBox300.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox300.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox300.Name = "PictureBox300"
-        Me.PictureBox300.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox300.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox300.TabIndex = 52
-        Me.PictureBox300.TabStop = False
-        '
-        'PictureBox301
-        '
-        Me.PictureBox301.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox301.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox301.Name = "PictureBox301"
-        Me.PictureBox301.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox301.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox301.TabIndex = 40
-        Me.PictureBox301.TabStop = False
-        '
-        'PictureBox302
-        '
-        Me.PictureBox302.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox302.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox302.Name = "PictureBox302"
-        Me.PictureBox302.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox302.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox302.TabIndex = 34
-        Me.PictureBox302.TabStop = False
-        '
-        'PictureBox303
-        '
-        Me.PictureBox303.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox303.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox303.Name = "PictureBox303"
-        Me.PictureBox303.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox303.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox303.TabIndex = 33
-        Me.PictureBox303.TabStop = False
-        '
-        'PictureBox304
-        '
-        Me.PictureBox304.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox304.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox304.Name = "PictureBox304"
-        Me.PictureBox304.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox304.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox304.TabIndex = 32
-        Me.PictureBox304.TabStop = False
-        '
-        'PictureBox305
-        '
-        Me.PictureBox305.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox305.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox305.Name = "PictureBox305"
-        Me.PictureBox305.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox305.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox305.TabIndex = 31
-        Me.PictureBox305.TabStop = False
-        '
-        'PictureBox306
-        '
-        Me.PictureBox306.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox306.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox306.Name = "PictureBox306"
-        Me.PictureBox306.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox306.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox306.TabIndex = 30
-        Me.PictureBox306.TabStop = False
-        '
-        'PictureBox307
-        '
-        Me.PictureBox307.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox307.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox307.Name = "PictureBox307"
-        Me.PictureBox307.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox307.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox307.TabIndex = 29
-        Me.PictureBox307.TabStop = False
-        '
-        'PictureBox308
-        '
-        Me.PictureBox308.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox308.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox308.Name = "PictureBox308"
-        Me.PictureBox308.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox308.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox308.TabIndex = 28
-        Me.PictureBox308.TabStop = False
-        '
-        'PictureBox309
-        '
-        Me.PictureBox309.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox309.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox309.Name = "PictureBox309"
-        Me.PictureBox309.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox309.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox309.TabIndex = 27
-        Me.PictureBox309.TabStop = False
-        '
-        'PictureBox310
-        '
-        Me.PictureBox310.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox310.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox310.Name = "PictureBox310"
-        Me.PictureBox310.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox310.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox310.TabIndex = 26
-        Me.PictureBox310.TabStop = False
-        '
-        'PictureBox311
-        '
-        Me.PictureBox311.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox311.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox311.Name = "PictureBox311"
-        Me.PictureBox311.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox311.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox311.TabIndex = 25
-        Me.PictureBox311.TabStop = False
-        '
-        'PictureBox312
-        '
-        Me.PictureBox312.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox312.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox312.Name = "PictureBox312"
-        Me.PictureBox312.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox312.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox312.TabIndex = 24
-        Me.PictureBox312.TabStop = False
-        '
-        'PictureBox313
-        '
-        Me.PictureBox313.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox313.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox313.Name = "PictureBox313"
-        Me.PictureBox313.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox313.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox313.TabIndex = 23
-        Me.PictureBox313.TabStop = False
-        '
-        'PictureBox314
-        '
-        Me.PictureBox314.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox314.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox314.Name = "PictureBox314"
-        Me.PictureBox314.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox314.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox314.TabIndex = 22
-        Me.PictureBox314.TabStop = False
-        '
-        'PictureBox315
-        '
-        Me.PictureBox315.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox315.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox315.Name = "PictureBox315"
-        Me.PictureBox315.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox315.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox315.TabIndex = 21
-        Me.PictureBox315.TabStop = False
-        '
-        'PictureBox316
-        '
-        Me.PictureBox316.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox316.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox316.Name = "PictureBox316"
-        Me.PictureBox316.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox316.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox316.TabIndex = 20
-        Me.PictureBox316.TabStop = False
-        '
-        'PictureBox317
-        '
-        Me.PictureBox317.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox317.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox317.Name = "PictureBox317"
-        Me.PictureBox317.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox317.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox317.TabIndex = 4
-        Me.PictureBox317.TabStop = False
+        'valu_shoppe_20
+        '
+        Me.valu_shoppe_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_shoppe_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_20.Name = "valu_shoppe_20"
+        Me.valu_shoppe_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_20.TabIndex = 38
+        Me.valu_shoppe_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_20.Visible = false
+        '
+        'valu_shoppe_19
+        '
+        Me.valu_shoppe_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_shoppe_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_19.Name = "valu_shoppe_19"
+        Me.valu_shoppe_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_19.TabIndex = 37
+        Me.valu_shoppe_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_19.Visible = false
+        '
+        'valu_shoppe_18
+        '
+        Me.valu_shoppe_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_shoppe_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_18.Name = "valu_shoppe_18"
+        Me.valu_shoppe_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_18.TabIndex = 36
+        Me.valu_shoppe_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_18.Visible = false
+        '
+        'valu_shoppe_17
+        '
+        Me.valu_shoppe_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_shoppe_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_17.Name = "valu_shoppe_17"
+        Me.valu_shoppe_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_17.TabIndex = 35
+        Me.valu_shoppe_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_17.Visible = false
+        '
+        'valu_shoppe_16
+        '
+        Me.valu_shoppe_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_shoppe_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_16.Name = "valu_shoppe_16"
+        Me.valu_shoppe_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_16.TabIndex = 15
+        Me.valu_shoppe_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_16.Visible = false
+        '
+        'valu_shoppe_15
+        '
+        Me.valu_shoppe_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_shoppe_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_15.Name = "valu_shoppe_15"
+        Me.valu_shoppe_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_15.TabIndex = 14
+        Me.valu_shoppe_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_15.Visible = false
+        '
+        'valu_shoppe_14
+        '
+        Me.valu_shoppe_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_shoppe_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_14.Name = "valu_shoppe_14"
+        Me.valu_shoppe_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_14.TabIndex = 13
+        Me.valu_shoppe_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_14.Visible = false
+        '
+        'valu_shoppe_13
+        '
+        Me.valu_shoppe_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_shoppe_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_13.Name = "valu_shoppe_13"
+        Me.valu_shoppe_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_13.TabIndex = 12
+        Me.valu_shoppe_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_13.Visible = false
+        '
+        'valu_shoppe_12
+        '
+        Me.valu_shoppe_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_shoppe_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_12.Name = "valu_shoppe_12"
+        Me.valu_shoppe_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_12.TabIndex = 11
+        Me.valu_shoppe_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_12.Visible = false
+        '
+        'valu_shoppe_11
+        '
+        Me.valu_shoppe_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_shoppe_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_11.Name = "valu_shoppe_11"
+        Me.valu_shoppe_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_11.TabIndex = 10
+        Me.valu_shoppe_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_11.Visible = false
+        '
+        'valu_shoppe_10
+        '
+        Me.valu_shoppe_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_shoppe_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_10.Name = "valu_shoppe_10"
+        Me.valu_shoppe_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_10.TabIndex = 9
+        Me.valu_shoppe_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_10.Visible = false
+        '
+        'valu_shoppe_9
+        '
+        Me.valu_shoppe_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_shoppe_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_9.Name = "valu_shoppe_9"
+        Me.valu_shoppe_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_9.TabIndex = 8
+        Me.valu_shoppe_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_9.Visible = false
+        '
+        'valu_shoppe_8
+        '
+        Me.valu_shoppe_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_shoppe_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_8.Name = "valu_shoppe_8"
+        Me.valu_shoppe_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_8.TabIndex = 7
+        Me.valu_shoppe_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_8.Visible = false
+        '
+        'valu_shoppe_7
+        '
+        Me.valu_shoppe_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_shoppe_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_7.Name = "valu_shoppe_7"
+        Me.valu_shoppe_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_7.TabIndex = 6
+        Me.valu_shoppe_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_7.Visible = false
+        '
+        'valu_shoppe_6
+        '
+        Me.valu_shoppe_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_shoppe_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_6.Name = "valu_shoppe_6"
+        Me.valu_shoppe_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_6.TabIndex = 5
+        Me.valu_shoppe_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_6.Visible = false
+        '
+        'valu_shoppe_5
+        '
+        Me.valu_shoppe_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_shoppe_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_5.Name = "valu_shoppe_5"
+        Me.valu_shoppe_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_5.TabIndex = 4
+        Me.valu_shoppe_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_5.Visible = false
+        '
+        'valu_shoppe_4
+        '
+        Me.valu_shoppe_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_shoppe_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_4.Name = "valu_shoppe_4"
+        Me.valu_shoppe_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_4.TabIndex = 3
+        Me.valu_shoppe_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_4.Visible = false
+        '
+        'valu_shoppe_3
+        '
+        Me.valu_shoppe_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_shoppe_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_3.Name = "valu_shoppe_3"
+        Me.valu_shoppe_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_3.TabIndex = 2
+        Me.valu_shoppe_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_3.Visible = false
+        '
+        'valu_shoppe_2
+        '
+        Me.valu_shoppe_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_shoppe_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_2.Name = "valu_shoppe_2"
+        Me.valu_shoppe_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_2.TabIndex = 1
+        Me.valu_shoppe_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_2.Visible = false
+        '
+        'valu_shoppe_1
+        '
+        Me.valu_shoppe_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_shoppe_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_shoppe_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_shoppe_1.Name = "valu_shoppe_1"
+        Me.valu_shoppe_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_shoppe_1.TabIndex = 0
+        Me.valu_shoppe_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_shoppe_1.Visible = false
+        '
+        'Icon_shoppe_20
+        '
+        Me.Icon_shoppe_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_shoppe_20.Name = "Icon_shoppe_20"
+        Me.Icon_shoppe_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_20.TabIndex = 54
+        Me.Icon_shoppe_20.TabStop = false
+        '
+        'Icon_shoppe_19
+        '
+        Me.Icon_shoppe_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_shoppe_19.Name = "Icon_shoppe_19"
+        Me.Icon_shoppe_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_19.TabIndex = 53
+        Me.Icon_shoppe_19.TabStop = false
+        '
+        'Icon_shoppe_18
+        '
+        Me.Icon_shoppe_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_shoppe_18.Name = "Icon_shoppe_18"
+        Me.Icon_shoppe_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_18.TabIndex = 52
+        Me.Icon_shoppe_18.TabStop = false
+        '
+        'Icon_shoppe_17
+        '
+        Me.Icon_shoppe_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_shoppe_17.Name = "Icon_shoppe_17"
+        Me.Icon_shoppe_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_17.TabIndex = 40
+        Me.Icon_shoppe_17.TabStop = false
+        '
+        'Icon_shoppe_16
+        '
+        Me.Icon_shoppe_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_shoppe_16.Name = "Icon_shoppe_16"
+        Me.Icon_shoppe_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_16.TabIndex = 34
+        Me.Icon_shoppe_16.TabStop = false
+        '
+        'Icon_shoppe_15
+        '
+        Me.Icon_shoppe_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_shoppe_15.Name = "Icon_shoppe_15"
+        Me.Icon_shoppe_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_15.TabIndex = 33
+        Me.Icon_shoppe_15.TabStop = false
+        '
+        'Icon_shoppe_14
+        '
+        Me.Icon_shoppe_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_shoppe_14.Name = "Icon_shoppe_14"
+        Me.Icon_shoppe_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_14.TabIndex = 32
+        Me.Icon_shoppe_14.TabStop = false
+        '
+        'Icon_shoppe_13
+        '
+        Me.Icon_shoppe_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_shoppe_13.Name = "Icon_shoppe_13"
+        Me.Icon_shoppe_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_13.TabIndex = 31
+        Me.Icon_shoppe_13.TabStop = false
+        '
+        'Icon_shoppe_12
+        '
+        Me.Icon_shoppe_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_shoppe_12.Name = "Icon_shoppe_12"
+        Me.Icon_shoppe_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_12.TabIndex = 30
+        Me.Icon_shoppe_12.TabStop = false
+        '
+        'Icon_shoppe_11
+        '
+        Me.Icon_shoppe_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_shoppe_11.Name = "Icon_shoppe_11"
+        Me.Icon_shoppe_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_11.TabIndex = 29
+        Me.Icon_shoppe_11.TabStop = false
+        '
+        'Icon_shoppe_10
+        '
+        Me.Icon_shoppe_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_shoppe_10.Name = "Icon_shoppe_10"
+        Me.Icon_shoppe_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_10.TabIndex = 28
+        Me.Icon_shoppe_10.TabStop = false
+        '
+        'Icon_shoppe_9
+        '
+        Me.Icon_shoppe_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_shoppe_9.Name = "Icon_shoppe_9"
+        Me.Icon_shoppe_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_9.TabIndex = 27
+        Me.Icon_shoppe_9.TabStop = false
+        '
+        'Icon_shoppe_8
+        '
+        Me.Icon_shoppe_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_shoppe_8.Name = "Icon_shoppe_8"
+        Me.Icon_shoppe_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_8.TabIndex = 26
+        Me.Icon_shoppe_8.TabStop = false
+        '
+        'Icon_shoppe_7
+        '
+        Me.Icon_shoppe_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_shoppe_7.Name = "Icon_shoppe_7"
+        Me.Icon_shoppe_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_7.TabIndex = 25
+        Me.Icon_shoppe_7.TabStop = false
+        '
+        'Icon_shoppe_6
+        '
+        Me.Icon_shoppe_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_shoppe_6.Name = "Icon_shoppe_6"
+        Me.Icon_shoppe_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_6.TabIndex = 24
+        Me.Icon_shoppe_6.TabStop = false
+        '
+        'Icon_shoppe_5
+        '
+        Me.Icon_shoppe_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_shoppe_5.Name = "Icon_shoppe_5"
+        Me.Icon_shoppe_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_5.TabIndex = 23
+        Me.Icon_shoppe_5.TabStop = false
+        '
+        'Icon_shoppe_4
+        '
+        Me.Icon_shoppe_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_shoppe_4.Name = "Icon_shoppe_4"
+        Me.Icon_shoppe_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_4.TabIndex = 22
+        Me.Icon_shoppe_4.TabStop = false
+        '
+        'Icon_shoppe_3
+        '
+        Me.Icon_shoppe_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_shoppe_3.Name = "Icon_shoppe_3"
+        Me.Icon_shoppe_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_3.TabIndex = 21
+        Me.Icon_shoppe_3.TabStop = false
+        '
+        'Icon_shoppe_2
+        '
+        Me.Icon_shoppe_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_shoppe_2.Name = "Icon_shoppe_2"
+        Me.Icon_shoppe_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_2.TabIndex = 20
+        Me.Icon_shoppe_2.TabStop = false
+        '
+        'Icon_shoppe_1
+        '
+        Me.Icon_shoppe_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_shoppe_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_shoppe_1.Name = "Icon_shoppe_1"
+        Me.Icon_shoppe_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_shoppe_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_shoppe_1.TabIndex = 4
+        Me.Icon_shoppe_1.TabStop = false
         '
         'Panel_page_7
         '
         Me.Panel_page_7.BackColor = System.Drawing.Color.Transparent
         Me.Panel_page_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel_page_7.Controls.Add(Me.Panel14)
+        Me.Panel_page_7.Controls.Add(Me.Panel11)
         Me.Panel_page_7.Controls.Add(Me.Icon_p7_arrowleft)
         Me.Panel_page_7.Controls.Add(Me.Icon_p7_arrowright)
         Me.Panel_page_7.Controls.Add(Me.Panel18)
@@ -6889,6 +5371,49 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_page_7.Name = "Panel_page_7"
         Me.Panel_page_7.Size = New System.Drawing.Size(575, 454)
         Me.Panel_page_7.TabIndex = 8
+        Me.Panel_page_7.Visible = false
+        '
+        'Panel14
+        '
+        Me.Panel14.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel14.Controls.Add(Me.Text_setall_playlevel)
+        Me.Panel14.Location = New System.Drawing.Point(183, 396)
+        Me.Panel14.Name = "Panel14"
+        Me.Panel14.Size = New System.Drawing.Size(65, 20)
+        Me.Panel14.TabIndex = 12
+        '
+        'Text_setall_playlevel
+        '
+        Me.Text_setall_playlevel.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_playlevel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_playlevel.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_playlevel.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_playlevel.Name = "Text_setall_playlevel"
+        Me.Text_setall_playlevel.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_playlevel.TabIndex = 0
+        Me.Text_setall_playlevel.Text = "Set all to"
+        Me.Text_setall_playlevel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel11
+        '
+        Me.Panel11.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel11.Controls.Add(Me.Text_setall_tgherquest3)
+        Me.Panel11.Location = New System.Drawing.Point(327, 201)
+        Me.Panel11.Name = "Panel11"
+        Me.Panel11.Size = New System.Drawing.Size(65, 20)
+        Me.Panel11.TabIndex = 11
+        '
+        'Text_setall_tgherquest3
+        '
+        Me.Text_setall_tgherquest3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_tgherquest3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_tgherquest3.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_tgherquest3.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_tgherquest3.Name = "Text_setall_tgherquest3"
+        Me.Text_setall_tgherquest3.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_tgherquest3.TabIndex = 0
+        Me.Text_setall_tgherquest3.Text = "Set all to"
+        Me.Text_setall_tgherquest3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Icon_p7_arrowleft
         '
@@ -6898,7 +5423,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_p7_arrowleft.Name = "Icon_p7_arrowleft"
         Me.Icon_p7_arrowleft.Size = New System.Drawing.Size(37, 31)
         Me.Icon_p7_arrowleft.TabIndex = 9
-        Me.Icon_p7_arrowleft.TabStop = False
+        Me.Icon_p7_arrowleft.TabStop = false
         '
         'Icon_p7_arrowright
         '
@@ -6908,476 +5433,476 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_p7_arrowright.Name = "Icon_p7_arrowright"
         Me.Icon_p7_arrowright.Size = New System.Drawing.Size(37, 31)
         Me.Icon_p7_arrowright.TabIndex = 8
-        Me.Icon_p7_arrowright.TabStop = False
+        Me.Icon_p7_arrowright.TabStop = false
         '
         'Panel18
         '
         Me.Panel18.BackColor = System.Drawing.Color.Transparent
         Me.Panel18.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.playerlevel
-        Me.Panel18.Controls.Add(Me.NumericUpDown230)
-        Me.Panel18.Controls.Add(Me.NumericUpDown231)
-        Me.Panel18.Controls.Add(Me.NumericUpDown232)
-        Me.Panel18.Controls.Add(Me.NumericUpDown233)
-        Me.Panel18.Controls.Add(Me.NumericUpDown234)
-        Me.Panel18.Controls.Add(Me.NumericUpDown235)
-        Me.Panel18.Controls.Add(Me.NumericUpDown236)
-        Me.Panel18.Controls.Add(Me.NumericUpDown237)
-        Me.Panel18.Controls.Add(Me.NumericUpDown238)
-        Me.Panel18.Controls.Add(Me.NumericUpDown239)
-        Me.Panel18.Controls.Add(Me.NumericUpDown240)
-        Me.Panel18.Controls.Add(Me.NumericUpDown241)
-        Me.Panel18.Controls.Add(Me.NumericUpDown242)
-        Me.Panel18.Controls.Add(Me.NumericUpDown243)
-        Me.Panel18.Controls.Add(Me.NumericUpDown244)
-        Me.Panel18.Controls.Add(Me.NumericUpDown245)
-        Me.Panel18.Controls.Add(Me.NumericUpDown246)
-        Me.Panel18.Controls.Add(Me.NumericUpDown247)
-        Me.Panel18.Controls.Add(Me.NumericUpDown248)
-        Me.Panel18.Controls.Add(Me.NumericUpDown249)
-        Me.Panel18.Controls.Add(Me.PictureBox230)
-        Me.Panel18.Controls.Add(Me.PictureBox231)
-        Me.Panel18.Controls.Add(Me.PictureBox232)
-        Me.Panel18.Controls.Add(Me.PictureBox233)
-        Me.Panel18.Controls.Add(Me.PictureBox234)
-        Me.Panel18.Controls.Add(Me.PictureBox235)
-        Me.Panel18.Controls.Add(Me.PictureBox236)
-        Me.Panel18.Controls.Add(Me.PictureBox237)
-        Me.Panel18.Controls.Add(Me.PictureBox238)
-        Me.Panel18.Controls.Add(Me.PictureBox239)
-        Me.Panel18.Controls.Add(Me.PictureBox240)
-        Me.Panel18.Controls.Add(Me.PictureBox241)
-        Me.Panel18.Controls.Add(Me.PictureBox242)
-        Me.Panel18.Controls.Add(Me.PictureBox243)
-        Me.Panel18.Controls.Add(Me.PictureBox244)
-        Me.Panel18.Controls.Add(Me.PictureBox245)
-        Me.Panel18.Controls.Add(Me.PictureBox246)
-        Me.Panel18.Controls.Add(Me.PictureBox247)
-        Me.Panel18.Controls.Add(Me.PictureBox248)
-        Me.Panel18.Controls.Add(Me.PictureBox249)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_20)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_19)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_18)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_17)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_16)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_15)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_14)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_13)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_12)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_11)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_10)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_9)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_8)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_7)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_6)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_5)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_4)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_3)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_2)
+        Me.Panel18.Controls.Add(Me.valu_playlevel_1)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_20)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_19)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_18)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_17)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_16)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_15)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_14)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_13)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_12)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_11)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_10)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_9)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_8)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_7)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_6)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_5)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_4)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_3)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_2)
+        Me.Panel18.Controls.Add(Me.Icon_playlevel_1)
         Me.Panel18.Location = New System.Drawing.Point(248, 250)
         Me.Panel18.Name = "Panel18"
         Me.Panel18.Size = New System.Drawing.Size(320, 166)
         Me.Panel18.TabIndex = 4
         '
-        'NumericUpDown230
-        '
-        Me.NumericUpDown230.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown230.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown230.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown230.Name = "NumericUpDown230"
-        Me.NumericUpDown230.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown230.TabIndex = 38
-        Me.NumericUpDown230.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown230.Visible = False
-        '
-        'NumericUpDown231
-        '
-        Me.NumericUpDown231.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown231.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown231.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown231.Name = "NumericUpDown231"
-        Me.NumericUpDown231.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown231.TabIndex = 37
-        Me.NumericUpDown231.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown231.Visible = False
-        '
-        'NumericUpDown232
-        '
-        Me.NumericUpDown232.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown232.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown232.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown232.Name = "NumericUpDown232"
-        Me.NumericUpDown232.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown232.TabIndex = 36
-        Me.NumericUpDown232.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown232.Visible = False
-        '
-        'NumericUpDown233
-        '
-        Me.NumericUpDown233.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown233.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown233.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown233.Name = "NumericUpDown233"
-        Me.NumericUpDown233.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown233.TabIndex = 35
-        Me.NumericUpDown233.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown233.Visible = False
-        '
-        'NumericUpDown234
-        '
-        Me.NumericUpDown234.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown234.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown234.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown234.Name = "NumericUpDown234"
-        Me.NumericUpDown234.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown234.TabIndex = 15
-        Me.NumericUpDown234.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown234.Visible = False
-        '
-        'NumericUpDown235
-        '
-        Me.NumericUpDown235.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown235.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown235.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown235.Name = "NumericUpDown235"
-        Me.NumericUpDown235.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown235.TabIndex = 14
-        Me.NumericUpDown235.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown235.Visible = False
-        '
-        'NumericUpDown236
-        '
-        Me.NumericUpDown236.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown236.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown236.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown236.Name = "NumericUpDown236"
-        Me.NumericUpDown236.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown236.TabIndex = 13
-        Me.NumericUpDown236.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown236.Visible = False
-        '
-        'NumericUpDown237
-        '
-        Me.NumericUpDown237.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown237.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown237.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown237.Name = "NumericUpDown237"
-        Me.NumericUpDown237.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown237.TabIndex = 12
-        Me.NumericUpDown237.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown237.Visible = False
-        '
-        'NumericUpDown238
-        '
-        Me.NumericUpDown238.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown238.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown238.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown238.Name = "NumericUpDown238"
-        Me.NumericUpDown238.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown238.TabIndex = 11
-        Me.NumericUpDown238.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown238.Visible = False
-        '
-        'NumericUpDown239
-        '
-        Me.NumericUpDown239.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown239.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown239.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown239.Name = "NumericUpDown239"
-        Me.NumericUpDown239.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown239.TabIndex = 10
-        Me.NumericUpDown239.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown239.Visible = False
-        '
-        'NumericUpDown240
-        '
-        Me.NumericUpDown240.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown240.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown240.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown240.Name = "NumericUpDown240"
-        Me.NumericUpDown240.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown240.TabIndex = 9
-        Me.NumericUpDown240.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown240.Visible = False
-        '
-        'NumericUpDown241
-        '
-        Me.NumericUpDown241.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown241.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown241.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown241.Name = "NumericUpDown241"
-        Me.NumericUpDown241.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown241.TabIndex = 8
-        Me.NumericUpDown241.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown241.Visible = False
-        '
-        'NumericUpDown242
-        '
-        Me.NumericUpDown242.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown242.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown242.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown242.Name = "NumericUpDown242"
-        Me.NumericUpDown242.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown242.TabIndex = 7
-        Me.NumericUpDown242.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown242.Visible = False
-        '
-        'NumericUpDown243
-        '
-        Me.NumericUpDown243.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown243.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown243.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown243.Name = "NumericUpDown243"
-        Me.NumericUpDown243.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown243.TabIndex = 6
-        Me.NumericUpDown243.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown243.Visible = False
-        '
-        'NumericUpDown244
-        '
-        Me.NumericUpDown244.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown244.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown244.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown244.Name = "NumericUpDown244"
-        Me.NumericUpDown244.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown244.TabIndex = 5
-        Me.NumericUpDown244.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown244.Visible = False
-        '
-        'NumericUpDown245
-        '
-        Me.NumericUpDown245.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown245.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown245.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown245.Name = "NumericUpDown245"
-        Me.NumericUpDown245.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown245.TabIndex = 4
-        Me.NumericUpDown245.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown245.Visible = False
-        '
-        'NumericUpDown246
-        '
-        Me.NumericUpDown246.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown246.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown246.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown246.Name = "NumericUpDown246"
-        Me.NumericUpDown246.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown246.TabIndex = 3
-        Me.NumericUpDown246.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown246.Visible = False
-        '
-        'NumericUpDown247
-        '
-        Me.NumericUpDown247.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown247.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown247.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown247.Name = "NumericUpDown247"
-        Me.NumericUpDown247.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown247.TabIndex = 2
-        Me.NumericUpDown247.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown247.Visible = False
-        '
-        'NumericUpDown248
-        '
-        Me.NumericUpDown248.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown248.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown248.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown248.Name = "NumericUpDown248"
-        Me.NumericUpDown248.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown248.TabIndex = 1
-        Me.NumericUpDown248.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown248.Visible = False
-        '
-        'NumericUpDown249
-        '
-        Me.NumericUpDown249.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown249.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown249.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown249.Name = "NumericUpDown249"
-        Me.NumericUpDown249.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown249.TabIndex = 0
-        Me.NumericUpDown249.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown249.Visible = False
-        '
-        'PictureBox230
-        '
-        Me.PictureBox230.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox230.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox230.Name = "PictureBox230"
-        Me.PictureBox230.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox230.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox230.TabIndex = 54
-        Me.PictureBox230.TabStop = False
-        '
-        'PictureBox231
-        '
-        Me.PictureBox231.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox231.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox231.Name = "PictureBox231"
-        Me.PictureBox231.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox231.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox231.TabIndex = 53
-        Me.PictureBox231.TabStop = False
-        '
-        'PictureBox232
-        '
-        Me.PictureBox232.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox232.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox232.Name = "PictureBox232"
-        Me.PictureBox232.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox232.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox232.TabIndex = 52
-        Me.PictureBox232.TabStop = False
-        '
-        'PictureBox233
-        '
-        Me.PictureBox233.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox233.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox233.Name = "PictureBox233"
-        Me.PictureBox233.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox233.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox233.TabIndex = 40
-        Me.PictureBox233.TabStop = False
-        '
-        'PictureBox234
-        '
-        Me.PictureBox234.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox234.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox234.Name = "PictureBox234"
-        Me.PictureBox234.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox234.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox234.TabIndex = 34
-        Me.PictureBox234.TabStop = False
-        '
-        'PictureBox235
-        '
-        Me.PictureBox235.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox235.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox235.Name = "PictureBox235"
-        Me.PictureBox235.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox235.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox235.TabIndex = 33
-        Me.PictureBox235.TabStop = False
-        '
-        'PictureBox236
-        '
-        Me.PictureBox236.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox236.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox236.Name = "PictureBox236"
-        Me.PictureBox236.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox236.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox236.TabIndex = 32
-        Me.PictureBox236.TabStop = False
-        '
-        'PictureBox237
-        '
-        Me.PictureBox237.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox237.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox237.Name = "PictureBox237"
-        Me.PictureBox237.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox237.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox237.TabIndex = 31
-        Me.PictureBox237.TabStop = False
-        '
-        'PictureBox238
-        '
-        Me.PictureBox238.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox238.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox238.Name = "PictureBox238"
-        Me.PictureBox238.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox238.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox238.TabIndex = 30
-        Me.PictureBox238.TabStop = False
-        '
-        'PictureBox239
-        '
-        Me.PictureBox239.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox239.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox239.Name = "PictureBox239"
-        Me.PictureBox239.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox239.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox239.TabIndex = 29
-        Me.PictureBox239.TabStop = False
-        '
-        'PictureBox240
-        '
-        Me.PictureBox240.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox240.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox240.Name = "PictureBox240"
-        Me.PictureBox240.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox240.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox240.TabIndex = 28
-        Me.PictureBox240.TabStop = False
-        '
-        'PictureBox241
-        '
-        Me.PictureBox241.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox241.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox241.Name = "PictureBox241"
-        Me.PictureBox241.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox241.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox241.TabIndex = 27
-        Me.PictureBox241.TabStop = False
-        '
-        'PictureBox242
-        '
-        Me.PictureBox242.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox242.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox242.Name = "PictureBox242"
-        Me.PictureBox242.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox242.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox242.TabIndex = 26
-        Me.PictureBox242.TabStop = False
-        '
-        'PictureBox243
-        '
-        Me.PictureBox243.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox243.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox243.Name = "PictureBox243"
-        Me.PictureBox243.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox243.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox243.TabIndex = 25
-        Me.PictureBox243.TabStop = False
-        '
-        'PictureBox244
-        '
-        Me.PictureBox244.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox244.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox244.Name = "PictureBox244"
-        Me.PictureBox244.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox244.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox244.TabIndex = 24
-        Me.PictureBox244.TabStop = False
-        '
-        'PictureBox245
-        '
-        Me.PictureBox245.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox245.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox245.Name = "PictureBox245"
-        Me.PictureBox245.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox245.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox245.TabIndex = 23
-        Me.PictureBox245.TabStop = False
-        '
-        'PictureBox246
-        '
-        Me.PictureBox246.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox246.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox246.Name = "PictureBox246"
-        Me.PictureBox246.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox246.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox246.TabIndex = 22
-        Me.PictureBox246.TabStop = False
-        '
-        'PictureBox247
-        '
-        Me.PictureBox247.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox247.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox247.Name = "PictureBox247"
-        Me.PictureBox247.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox247.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox247.TabIndex = 21
-        Me.PictureBox247.TabStop = False
-        '
-        'PictureBox248
-        '
-        Me.PictureBox248.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox248.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox248.Name = "PictureBox248"
-        Me.PictureBox248.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox248.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox248.TabIndex = 20
-        Me.PictureBox248.TabStop = False
-        '
-        'PictureBox249
-        '
-        Me.PictureBox249.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox249.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox249.Name = "PictureBox249"
-        Me.PictureBox249.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox249.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox249.TabIndex = 4
-        Me.PictureBox249.TabStop = False
+        'valu_playlevel_20
+        '
+        Me.valu_playlevel_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_playlevel_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_20.Name = "valu_playlevel_20"
+        Me.valu_playlevel_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_20.TabIndex = 38
+        Me.valu_playlevel_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_20.Visible = false
+        '
+        'valu_playlevel_19
+        '
+        Me.valu_playlevel_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_playlevel_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_19.Name = "valu_playlevel_19"
+        Me.valu_playlevel_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_19.TabIndex = 37
+        Me.valu_playlevel_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_19.Visible = false
+        '
+        'valu_playlevel_18
+        '
+        Me.valu_playlevel_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_playlevel_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_18.Name = "valu_playlevel_18"
+        Me.valu_playlevel_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_18.TabIndex = 36
+        Me.valu_playlevel_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_18.Visible = false
+        '
+        'valu_playlevel_17
+        '
+        Me.valu_playlevel_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_playlevel_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_17.Name = "valu_playlevel_17"
+        Me.valu_playlevel_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_17.TabIndex = 35
+        Me.valu_playlevel_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_17.Visible = false
+        '
+        'valu_playlevel_16
+        '
+        Me.valu_playlevel_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_playlevel_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_16.Name = "valu_playlevel_16"
+        Me.valu_playlevel_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_16.TabIndex = 15
+        Me.valu_playlevel_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_16.Visible = false
+        '
+        'valu_playlevel_15
+        '
+        Me.valu_playlevel_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_playlevel_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_15.Name = "valu_playlevel_15"
+        Me.valu_playlevel_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_15.TabIndex = 14
+        Me.valu_playlevel_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_15.Visible = false
+        '
+        'valu_playlevel_14
+        '
+        Me.valu_playlevel_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_playlevel_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_14.Name = "valu_playlevel_14"
+        Me.valu_playlevel_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_14.TabIndex = 13
+        Me.valu_playlevel_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_14.Visible = false
+        '
+        'valu_playlevel_13
+        '
+        Me.valu_playlevel_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_playlevel_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_13.Name = "valu_playlevel_13"
+        Me.valu_playlevel_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_13.TabIndex = 12
+        Me.valu_playlevel_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_13.Visible = false
+        '
+        'valu_playlevel_12
+        '
+        Me.valu_playlevel_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_playlevel_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_12.Name = "valu_playlevel_12"
+        Me.valu_playlevel_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_12.TabIndex = 11
+        Me.valu_playlevel_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_12.Visible = false
+        '
+        'valu_playlevel_11
+        '
+        Me.valu_playlevel_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_playlevel_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_11.Name = "valu_playlevel_11"
+        Me.valu_playlevel_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_11.TabIndex = 10
+        Me.valu_playlevel_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_11.Visible = false
+        '
+        'valu_playlevel_10
+        '
+        Me.valu_playlevel_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_playlevel_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_10.Name = "valu_playlevel_10"
+        Me.valu_playlevel_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_10.TabIndex = 9
+        Me.valu_playlevel_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_10.Visible = false
+        '
+        'valu_playlevel_9
+        '
+        Me.valu_playlevel_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_playlevel_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_9.Name = "valu_playlevel_9"
+        Me.valu_playlevel_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_9.TabIndex = 8
+        Me.valu_playlevel_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_9.Visible = false
+        '
+        'valu_playlevel_8
+        '
+        Me.valu_playlevel_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_playlevel_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_8.Name = "valu_playlevel_8"
+        Me.valu_playlevel_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_8.TabIndex = 7
+        Me.valu_playlevel_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_8.Visible = false
+        '
+        'valu_playlevel_7
+        '
+        Me.valu_playlevel_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_playlevel_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_7.Name = "valu_playlevel_7"
+        Me.valu_playlevel_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_7.TabIndex = 6
+        Me.valu_playlevel_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_7.Visible = false
+        '
+        'valu_playlevel_6
+        '
+        Me.valu_playlevel_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_playlevel_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_6.Name = "valu_playlevel_6"
+        Me.valu_playlevel_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_6.TabIndex = 5
+        Me.valu_playlevel_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_6.Visible = false
+        '
+        'valu_playlevel_5
+        '
+        Me.valu_playlevel_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_playlevel_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_5.Name = "valu_playlevel_5"
+        Me.valu_playlevel_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_5.TabIndex = 4
+        Me.valu_playlevel_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_5.Visible = false
+        '
+        'valu_playlevel_4
+        '
+        Me.valu_playlevel_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_playlevel_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_4.Name = "valu_playlevel_4"
+        Me.valu_playlevel_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_4.TabIndex = 3
+        Me.valu_playlevel_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_4.Visible = false
+        '
+        'valu_playlevel_3
+        '
+        Me.valu_playlevel_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_playlevel_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_3.Name = "valu_playlevel_3"
+        Me.valu_playlevel_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_3.TabIndex = 2
+        Me.valu_playlevel_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_3.Visible = false
+        '
+        'valu_playlevel_2
+        '
+        Me.valu_playlevel_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_playlevel_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_2.Name = "valu_playlevel_2"
+        Me.valu_playlevel_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_2.TabIndex = 1
+        Me.valu_playlevel_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_2.Visible = false
+        '
+        'valu_playlevel_1
+        '
+        Me.valu_playlevel_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_playlevel_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_playlevel_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_playlevel_1.Name = "valu_playlevel_1"
+        Me.valu_playlevel_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_playlevel_1.TabIndex = 0
+        Me.valu_playlevel_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_playlevel_1.Visible = false
+        '
+        'Icon_playlevel_20
+        '
+        Me.Icon_playlevel_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_playlevel_20.Name = "Icon_playlevel_20"
+        Me.Icon_playlevel_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_20.TabIndex = 54
+        Me.Icon_playlevel_20.TabStop = false
+        '
+        'Icon_playlevel_19
+        '
+        Me.Icon_playlevel_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_playlevel_19.Name = "Icon_playlevel_19"
+        Me.Icon_playlevel_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_19.TabIndex = 53
+        Me.Icon_playlevel_19.TabStop = false
+        '
+        'Icon_playlevel_18
+        '
+        Me.Icon_playlevel_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_playlevel_18.Name = "Icon_playlevel_18"
+        Me.Icon_playlevel_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_18.TabIndex = 52
+        Me.Icon_playlevel_18.TabStop = false
+        '
+        'Icon_playlevel_17
+        '
+        Me.Icon_playlevel_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_playlevel_17.Name = "Icon_playlevel_17"
+        Me.Icon_playlevel_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_17.TabIndex = 40
+        Me.Icon_playlevel_17.TabStop = false
+        '
+        'Icon_playlevel_16
+        '
+        Me.Icon_playlevel_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_playlevel_16.Name = "Icon_playlevel_16"
+        Me.Icon_playlevel_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_16.TabIndex = 34
+        Me.Icon_playlevel_16.TabStop = false
+        '
+        'Icon_playlevel_15
+        '
+        Me.Icon_playlevel_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_playlevel_15.Name = "Icon_playlevel_15"
+        Me.Icon_playlevel_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_15.TabIndex = 33
+        Me.Icon_playlevel_15.TabStop = false
+        '
+        'Icon_playlevel_14
+        '
+        Me.Icon_playlevel_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_playlevel_14.Name = "Icon_playlevel_14"
+        Me.Icon_playlevel_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_14.TabIndex = 32
+        Me.Icon_playlevel_14.TabStop = false
+        '
+        'Icon_playlevel_13
+        '
+        Me.Icon_playlevel_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_playlevel_13.Name = "Icon_playlevel_13"
+        Me.Icon_playlevel_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_13.TabIndex = 31
+        Me.Icon_playlevel_13.TabStop = false
+        '
+        'Icon_playlevel_12
+        '
+        Me.Icon_playlevel_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_playlevel_12.Name = "Icon_playlevel_12"
+        Me.Icon_playlevel_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_12.TabIndex = 30
+        Me.Icon_playlevel_12.TabStop = false
+        '
+        'Icon_playlevel_11
+        '
+        Me.Icon_playlevel_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_playlevel_11.Name = "Icon_playlevel_11"
+        Me.Icon_playlevel_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_11.TabIndex = 29
+        Me.Icon_playlevel_11.TabStop = false
+        '
+        'Icon_playlevel_10
+        '
+        Me.Icon_playlevel_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_playlevel_10.Name = "Icon_playlevel_10"
+        Me.Icon_playlevel_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_10.TabIndex = 28
+        Me.Icon_playlevel_10.TabStop = false
+        '
+        'Icon_playlevel_9
+        '
+        Me.Icon_playlevel_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_playlevel_9.Name = "Icon_playlevel_9"
+        Me.Icon_playlevel_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_9.TabIndex = 27
+        Me.Icon_playlevel_9.TabStop = false
+        '
+        'Icon_playlevel_8
+        '
+        Me.Icon_playlevel_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_playlevel_8.Name = "Icon_playlevel_8"
+        Me.Icon_playlevel_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_8.TabIndex = 26
+        Me.Icon_playlevel_8.TabStop = false
+        '
+        'Icon_playlevel_7
+        '
+        Me.Icon_playlevel_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_playlevel_7.Name = "Icon_playlevel_7"
+        Me.Icon_playlevel_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_7.TabIndex = 25
+        Me.Icon_playlevel_7.TabStop = false
+        '
+        'Icon_playlevel_6
+        '
+        Me.Icon_playlevel_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_playlevel_6.Name = "Icon_playlevel_6"
+        Me.Icon_playlevel_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_6.TabIndex = 24
+        Me.Icon_playlevel_6.TabStop = false
+        '
+        'Icon_playlevel_5
+        '
+        Me.Icon_playlevel_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_playlevel_5.Name = "Icon_playlevel_5"
+        Me.Icon_playlevel_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_5.TabIndex = 23
+        Me.Icon_playlevel_5.TabStop = false
+        '
+        'Icon_playlevel_4
+        '
+        Me.Icon_playlevel_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_playlevel_4.Name = "Icon_playlevel_4"
+        Me.Icon_playlevel_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_4.TabIndex = 22
+        Me.Icon_playlevel_4.TabStop = false
+        '
+        'Icon_playlevel_3
+        '
+        Me.Icon_playlevel_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_playlevel_3.Name = "Icon_playlevel_3"
+        Me.Icon_playlevel_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_3.TabIndex = 21
+        Me.Icon_playlevel_3.TabStop = false
+        '
+        'Icon_playlevel_2
+        '
+        Me.Icon_playlevel_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_playlevel_2.Name = "Icon_playlevel_2"
+        Me.Icon_playlevel_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_2.TabIndex = 20
+        Me.Icon_playlevel_2.TabStop = false
+        '
+        'Icon_playlevel_1
+        '
+        Me.Icon_playlevel_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_playlevel_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_playlevel_1.Name = "Icon_playlevel_1"
+        Me.Icon_playlevel_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_playlevel_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_playlevel_1.TabIndex = 4
+        Me.Icon_playlevel_1.TabStop = false
         '
         'Label12
         '
@@ -7403,383 +5928,385 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel19.BackColor = System.Drawing.Color.Transparent
         Me.Panel19.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.tougherquest3
-        Me.Panel19.Controls.Add(Me.NumericUpDown266)
-        Me.Panel19.Controls.Add(Me.NumericUpDown267)
-        Me.Panel19.Controls.Add(Me.NumericUpDown268)
-        Me.Panel19.Controls.Add(Me.NumericUpDown269)
-        Me.Panel19.Controls.Add(Me.NumericUpDown270)
-        Me.Panel19.Controls.Add(Me.NumericUpDown271)
-        Me.Panel19.Controls.Add(Me.NumericUpDown272)
-        Me.Panel19.Controls.Add(Me.NumericUpDown273)
-        Me.Panel19.Controls.Add(Me.NumericUpDown274)
-        Me.Panel19.Controls.Add(Me.NumericUpDown275)
-        Me.Panel19.Controls.Add(Me.NumericUpDown276)
-        Me.Panel19.Controls.Add(Me.NumericUpDown277)
-        Me.Panel19.Controls.Add(Me.NumericUpDown278)
-        Me.Panel19.Controls.Add(Me.NumericUpDown279)
-        Me.Panel19.Controls.Add(Me.NumericUpDown280)
-        Me.Panel19.Controls.Add(Me.NumericUpDown281)
-        Me.Panel19.Controls.Add(Me.PictureBox266)
-        Me.Panel19.Controls.Add(Me.PictureBox267)
-        Me.Panel19.Controls.Add(Me.PictureBox268)
-        Me.Panel19.Controls.Add(Me.PictureBox269)
-        Me.Panel19.Controls.Add(Me.PictureBox270)
-        Me.Panel19.Controls.Add(Me.PictureBox271)
-        Me.Panel19.Controls.Add(Me.PictureBox272)
-        Me.Panel19.Controls.Add(Me.PictureBox273)
-        Me.Panel19.Controls.Add(Me.PictureBox274)
-        Me.Panel19.Controls.Add(Me.PictureBox275)
-        Me.Panel19.Controls.Add(Me.PictureBox276)
-        Me.Panel19.Controls.Add(Me.PictureBox277)
-        Me.Panel19.Controls.Add(Me.PictureBox278)
-        Me.Panel19.Controls.Add(Me.PictureBox279)
-        Me.Panel19.Controls.Add(Me.PictureBox280)
-        Me.Panel19.Controls.Add(Me.PictureBox281)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_16)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_15)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_14)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_13)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_12)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_11)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_10)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_9)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_8)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_7)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_6)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_5)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_4)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_3)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_2)
+        Me.Panel19.Controls.Add(Me.valu_tgherquest3_1)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_16)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_15)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_14)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_13)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_12)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_11)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_10)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_9)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_8)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_7)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_6)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_5)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_4)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_3)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_2)
+        Me.Panel19.Controls.Add(Me.Icon_tgherquest3_1)
         Me.Panel19.Location = New System.Drawing.Point(7, 55)
         Me.Panel19.Name = "Panel19"
         Me.Panel19.Size = New System.Drawing.Size(320, 166)
         Me.Panel19.TabIndex = 0
         '
-        'NumericUpDown266
+        'valu_tgherquest3_16
         '
-        Me.NumericUpDown266.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown266.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown266.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown266.Name = "NumericUpDown266"
-        Me.NumericUpDown266.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown266.TabIndex = 15
-        Me.NumericUpDown266.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown266.Visible = False
+        Me.valu_tgherquest3_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_tgherquest3_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_16.Name = "valu_tgherquest3_16"
+        Me.valu_tgherquest3_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_16.TabIndex = 15
+        Me.valu_tgherquest3_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_16.Visible = false
         '
-        'NumericUpDown267
+        'valu_tgherquest3_15
         '
-        Me.NumericUpDown267.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown267.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown267.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown267.Name = "NumericUpDown267"
-        Me.NumericUpDown267.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown267.TabIndex = 14
-        Me.NumericUpDown267.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown267.Visible = False
+        Me.valu_tgherquest3_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_tgherquest3_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_15.Name = "valu_tgherquest3_15"
+        Me.valu_tgherquest3_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_15.TabIndex = 14
+        Me.valu_tgherquest3_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_15.Visible = false
         '
-        'NumericUpDown268
+        'valu_tgherquest3_14
         '
-        Me.NumericUpDown268.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown268.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown268.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown268.Name = "NumericUpDown268"
-        Me.NumericUpDown268.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown268.TabIndex = 13
-        Me.NumericUpDown268.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown268.Visible = False
+        Me.valu_tgherquest3_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_tgherquest3_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_14.Name = "valu_tgherquest3_14"
+        Me.valu_tgherquest3_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_14.TabIndex = 13
+        Me.valu_tgherquest3_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_14.Visible = false
         '
-        'NumericUpDown269
+        'valu_tgherquest3_13
         '
-        Me.NumericUpDown269.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown269.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown269.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown269.Name = "NumericUpDown269"
-        Me.NumericUpDown269.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown269.TabIndex = 12
-        Me.NumericUpDown269.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown269.Visible = False
+        Me.valu_tgherquest3_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_tgherquest3_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_13.Name = "valu_tgherquest3_13"
+        Me.valu_tgherquest3_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_13.TabIndex = 12
+        Me.valu_tgherquest3_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_13.Visible = false
         '
-        'NumericUpDown270
+        'valu_tgherquest3_12
         '
-        Me.NumericUpDown270.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown270.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown270.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown270.Name = "NumericUpDown270"
-        Me.NumericUpDown270.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown270.TabIndex = 11
-        Me.NumericUpDown270.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown270.Visible = False
+        Me.valu_tgherquest3_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_tgherquest3_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_12.Name = "valu_tgherquest3_12"
+        Me.valu_tgherquest3_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_12.TabIndex = 11
+        Me.valu_tgherquest3_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_12.Visible = false
         '
-        'NumericUpDown271
+        'valu_tgherquest3_11
         '
-        Me.NumericUpDown271.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown271.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown271.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown271.Name = "NumericUpDown271"
-        Me.NumericUpDown271.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown271.TabIndex = 10
-        Me.NumericUpDown271.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown271.Visible = False
+        Me.valu_tgherquest3_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_tgherquest3_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_11.Name = "valu_tgherquest3_11"
+        Me.valu_tgherquest3_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_11.TabIndex = 10
+        Me.valu_tgherquest3_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_11.Visible = false
         '
-        'NumericUpDown272
+        'valu_tgherquest3_10
         '
-        Me.NumericUpDown272.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown272.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown272.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown272.Name = "NumericUpDown272"
-        Me.NumericUpDown272.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown272.TabIndex = 9
-        Me.NumericUpDown272.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown272.Visible = False
+        Me.valu_tgherquest3_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_tgherquest3_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_10.Name = "valu_tgherquest3_10"
+        Me.valu_tgherquest3_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_10.TabIndex = 9
+        Me.valu_tgherquest3_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_10.Visible = false
         '
-        'NumericUpDown273
+        'valu_tgherquest3_9
         '
-        Me.NumericUpDown273.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown273.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown273.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown273.Name = "NumericUpDown273"
-        Me.NumericUpDown273.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown273.TabIndex = 8
-        Me.NumericUpDown273.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown273.Visible = False
+        Me.valu_tgherquest3_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_tgherquest3_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_9.Name = "valu_tgherquest3_9"
+        Me.valu_tgherquest3_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_9.TabIndex = 8
+        Me.valu_tgherquest3_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_9.Visible = false
         '
-        'NumericUpDown274
+        'valu_tgherquest3_8
         '
-        Me.NumericUpDown274.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown274.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown274.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown274.Name = "NumericUpDown274"
-        Me.NumericUpDown274.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown274.TabIndex = 7
-        Me.NumericUpDown274.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown274.Visible = False
+        Me.valu_tgherquest3_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_tgherquest3_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_8.Name = "valu_tgherquest3_8"
+        Me.valu_tgherquest3_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_8.TabIndex = 7
+        Me.valu_tgherquest3_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_8.Visible = false
         '
-        'NumericUpDown275
+        'valu_tgherquest3_7
         '
-        Me.NumericUpDown275.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown275.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown275.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown275.Name = "NumericUpDown275"
-        Me.NumericUpDown275.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown275.TabIndex = 6
-        Me.NumericUpDown275.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown275.Visible = False
+        Me.valu_tgherquest3_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_tgherquest3_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_7.Name = "valu_tgherquest3_7"
+        Me.valu_tgherquest3_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_7.TabIndex = 6
+        Me.valu_tgherquest3_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_7.Visible = false
         '
-        'NumericUpDown276
+        'valu_tgherquest3_6
         '
-        Me.NumericUpDown276.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown276.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown276.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown276.Name = "NumericUpDown276"
-        Me.NumericUpDown276.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown276.TabIndex = 5
-        Me.NumericUpDown276.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown276.Visible = False
+        Me.valu_tgherquest3_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_tgherquest3_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_6.Name = "valu_tgherquest3_6"
+        Me.valu_tgherquest3_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_6.TabIndex = 5
+        Me.valu_tgherquest3_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_6.Visible = false
         '
-        'NumericUpDown277
+        'valu_tgherquest3_5
         '
-        Me.NumericUpDown277.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown277.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown277.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown277.Name = "NumericUpDown277"
-        Me.NumericUpDown277.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown277.TabIndex = 4
-        Me.NumericUpDown277.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown277.Visible = False
+        Me.valu_tgherquest3_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_tgherquest3_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_5.Name = "valu_tgherquest3_5"
+        Me.valu_tgherquest3_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_5.TabIndex = 4
+        Me.valu_tgherquest3_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_5.Visible = false
         '
-        'NumericUpDown278
+        'valu_tgherquest3_4
         '
-        Me.NumericUpDown278.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown278.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown278.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown278.Name = "NumericUpDown278"
-        Me.NumericUpDown278.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown278.TabIndex = 3
-        Me.NumericUpDown278.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown278.Visible = False
+        Me.valu_tgherquest3_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_tgherquest3_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_4.Name = "valu_tgherquest3_4"
+        Me.valu_tgherquest3_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_4.TabIndex = 3
+        Me.valu_tgherquest3_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_4.Visible = false
         '
-        'NumericUpDown279
+        'valu_tgherquest3_3
         '
-        Me.NumericUpDown279.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown279.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown279.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown279.Name = "NumericUpDown279"
-        Me.NumericUpDown279.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown279.TabIndex = 2
-        Me.NumericUpDown279.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown279.Visible = False
+        Me.valu_tgherquest3_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_tgherquest3_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_3.Name = "valu_tgherquest3_3"
+        Me.valu_tgherquest3_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_3.TabIndex = 2
+        Me.valu_tgherquest3_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_3.Visible = false
         '
-        'NumericUpDown280
+        'valu_tgherquest3_2
         '
-        Me.NumericUpDown280.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown280.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown280.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown280.Name = "NumericUpDown280"
-        Me.NumericUpDown280.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown280.TabIndex = 1
-        Me.NumericUpDown280.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown280.Visible = False
+        Me.valu_tgherquest3_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_tgherquest3_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_2.Name = "valu_tgherquest3_2"
+        Me.valu_tgherquest3_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_2.TabIndex = 1
+        Me.valu_tgherquest3_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_2.Visible = false
         '
-        'NumericUpDown281
+        'valu_tgherquest3_1
         '
-        Me.NumericUpDown281.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown281.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown281.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown281.Name = "NumericUpDown281"
-        Me.NumericUpDown281.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown281.TabIndex = 0
-        Me.NumericUpDown281.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown281.Visible = False
+        Me.valu_tgherquest3_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest3_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_tgherquest3_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest3_1.Name = "valu_tgherquest3_1"
+        Me.valu_tgherquest3_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest3_1.TabIndex = 0
+        Me.valu_tgherquest3_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest3_1.Visible = false
         '
-        'PictureBox266
+        'Icon_tgherquest3_16
         '
-        Me.PictureBox266.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox266.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox266.Name = "PictureBox266"
-        Me.PictureBox266.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox266.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox266.TabIndex = 34
-        Me.PictureBox266.TabStop = False
+        Me.Icon_tgherquest3_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_tgherquest3_16.Name = "Icon_tgherquest3_16"
+        Me.Icon_tgherquest3_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_16.TabIndex = 34
+        Me.Icon_tgherquest3_16.TabStop = false
         '
-        'PictureBox267
+        'Icon_tgherquest3_15
         '
-        Me.PictureBox267.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox267.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox267.Name = "PictureBox267"
-        Me.PictureBox267.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox267.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox267.TabIndex = 33
-        Me.PictureBox267.TabStop = False
+        Me.Icon_tgherquest3_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_tgherquest3_15.Name = "Icon_tgherquest3_15"
+        Me.Icon_tgherquest3_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_15.TabIndex = 33
+        Me.Icon_tgherquest3_15.TabStop = false
         '
-        'PictureBox268
+        'Icon_tgherquest3_14
         '
-        Me.PictureBox268.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox268.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox268.Name = "PictureBox268"
-        Me.PictureBox268.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox268.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox268.TabIndex = 32
-        Me.PictureBox268.TabStop = False
+        Me.Icon_tgherquest3_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_tgherquest3_14.Name = "Icon_tgherquest3_14"
+        Me.Icon_tgherquest3_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_14.TabIndex = 32
+        Me.Icon_tgherquest3_14.TabStop = false
         '
-        'PictureBox269
+        'Icon_tgherquest3_13
         '
-        Me.PictureBox269.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox269.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox269.Name = "PictureBox269"
-        Me.PictureBox269.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox269.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox269.TabIndex = 31
-        Me.PictureBox269.TabStop = False
+        Me.Icon_tgherquest3_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_tgherquest3_13.Name = "Icon_tgherquest3_13"
+        Me.Icon_tgherquest3_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_13.TabIndex = 31
+        Me.Icon_tgherquest3_13.TabStop = false
         '
-        'PictureBox270
+        'Icon_tgherquest3_12
         '
-        Me.PictureBox270.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox270.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox270.Name = "PictureBox270"
-        Me.PictureBox270.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox270.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox270.TabIndex = 30
-        Me.PictureBox270.TabStop = False
+        Me.Icon_tgherquest3_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_tgherquest3_12.Name = "Icon_tgherquest3_12"
+        Me.Icon_tgherquest3_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_12.TabIndex = 30
+        Me.Icon_tgherquest3_12.TabStop = false
         '
-        'PictureBox271
+        'Icon_tgherquest3_11
         '
-        Me.PictureBox271.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox271.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox271.Name = "PictureBox271"
-        Me.PictureBox271.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox271.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox271.TabIndex = 29
-        Me.PictureBox271.TabStop = False
+        Me.Icon_tgherquest3_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_tgherquest3_11.Name = "Icon_tgherquest3_11"
+        Me.Icon_tgherquest3_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_11.TabIndex = 29
+        Me.Icon_tgherquest3_11.TabStop = false
         '
-        'PictureBox272
+        'Icon_tgherquest3_10
         '
-        Me.PictureBox272.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox272.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox272.Name = "PictureBox272"
-        Me.PictureBox272.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox272.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox272.TabIndex = 28
-        Me.PictureBox272.TabStop = False
+        Me.Icon_tgherquest3_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_tgherquest3_10.Name = "Icon_tgherquest3_10"
+        Me.Icon_tgherquest3_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_10.TabIndex = 28
+        Me.Icon_tgherquest3_10.TabStop = false
         '
-        'PictureBox273
+        'Icon_tgherquest3_9
         '
-        Me.PictureBox273.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox273.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox273.Name = "PictureBox273"
-        Me.PictureBox273.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox273.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox273.TabIndex = 27
-        Me.PictureBox273.TabStop = False
+        Me.Icon_tgherquest3_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_tgherquest3_9.Name = "Icon_tgherquest3_9"
+        Me.Icon_tgherquest3_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_9.TabIndex = 27
+        Me.Icon_tgherquest3_9.TabStop = false
         '
-        'PictureBox274
+        'Icon_tgherquest3_8
         '
-        Me.PictureBox274.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox274.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox274.Name = "PictureBox274"
-        Me.PictureBox274.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox274.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox274.TabIndex = 26
-        Me.PictureBox274.TabStop = False
+        Me.Icon_tgherquest3_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_tgherquest3_8.Name = "Icon_tgherquest3_8"
+        Me.Icon_tgherquest3_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_8.TabIndex = 26
+        Me.Icon_tgherquest3_8.TabStop = false
         '
-        'PictureBox275
+        'Icon_tgherquest3_7
         '
-        Me.PictureBox275.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox275.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox275.Name = "PictureBox275"
-        Me.PictureBox275.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox275.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox275.TabIndex = 25
-        Me.PictureBox275.TabStop = False
+        Me.Icon_tgherquest3_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_tgherquest3_7.Name = "Icon_tgherquest3_7"
+        Me.Icon_tgherquest3_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_7.TabIndex = 25
+        Me.Icon_tgherquest3_7.TabStop = false
         '
-        'PictureBox276
+        'Icon_tgherquest3_6
         '
-        Me.PictureBox276.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox276.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox276.Name = "PictureBox276"
-        Me.PictureBox276.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox276.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox276.TabIndex = 24
-        Me.PictureBox276.TabStop = False
+        Me.Icon_tgherquest3_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_tgherquest3_6.Name = "Icon_tgherquest3_6"
+        Me.Icon_tgherquest3_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_6.TabIndex = 24
+        Me.Icon_tgherquest3_6.TabStop = false
         '
-        'PictureBox277
+        'Icon_tgherquest3_5
         '
-        Me.PictureBox277.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox277.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox277.Name = "PictureBox277"
-        Me.PictureBox277.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox277.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox277.TabIndex = 23
-        Me.PictureBox277.TabStop = False
+        Me.Icon_tgherquest3_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_tgherquest3_5.Name = "Icon_tgherquest3_5"
+        Me.Icon_tgherquest3_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_5.TabIndex = 23
+        Me.Icon_tgherquest3_5.TabStop = false
         '
-        'PictureBox278
+        'Icon_tgherquest3_4
         '
-        Me.PictureBox278.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox278.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox278.Name = "PictureBox278"
-        Me.PictureBox278.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox278.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox278.TabIndex = 22
-        Me.PictureBox278.TabStop = False
+        Me.Icon_tgherquest3_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_tgherquest3_4.Name = "Icon_tgherquest3_4"
+        Me.Icon_tgherquest3_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_4.TabIndex = 22
+        Me.Icon_tgherquest3_4.TabStop = false
         '
-        'PictureBox279
+        'Icon_tgherquest3_3
         '
-        Me.PictureBox279.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox279.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox279.Name = "PictureBox279"
-        Me.PictureBox279.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox279.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox279.TabIndex = 21
-        Me.PictureBox279.TabStop = False
+        Me.Icon_tgherquest3_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_tgherquest3_3.Name = "Icon_tgherquest3_3"
+        Me.Icon_tgherquest3_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_3.TabIndex = 21
+        Me.Icon_tgherquest3_3.TabStop = false
         '
-        'PictureBox280
+        'Icon_tgherquest3_2
         '
-        Me.PictureBox280.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox280.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox280.Name = "PictureBox280"
-        Me.PictureBox280.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox280.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox280.TabIndex = 20
-        Me.PictureBox280.TabStop = False
+        Me.Icon_tgherquest3_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_tgherquest3_2.Name = "Icon_tgherquest3_2"
+        Me.Icon_tgherquest3_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_2.TabIndex = 20
+        Me.Icon_tgherquest3_2.TabStop = false
         '
-        'PictureBox281
+        'Icon_tgherquest3_1
         '
-        Me.PictureBox281.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox281.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox281.Name = "PictureBox281"
-        Me.PictureBox281.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox281.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox281.TabIndex = 4
-        Me.PictureBox281.TabStop = False
+        Me.Icon_tgherquest3_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest3_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_tgherquest3_1.Name = "Icon_tgherquest3_1"
+        Me.Icon_tgherquest3_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest3_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest3_1.TabIndex = 4
+        Me.Icon_tgherquest3_1.TabStop = false
         '
         'Panel_page_5
         '
         Me.Panel_page_5.BackColor = System.Drawing.Color.Transparent
         Me.Panel_page_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel_page_5.Controls.Add(Me.Panel20)
+        Me.Panel_page_5.Controls.Add(Me.Panel17)
         Me.Panel_page_5.Controls.Add(Me.Icon_p5_arrowleft)
         Me.Panel_page_5.Controls.Add(Me.Icon_p5_arrowright)
         Me.Panel_page_5.Controls.Add(Me.Panel15)
@@ -7790,6 +6317,49 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_page_5.Name = "Panel_page_5"
         Me.Panel_page_5.Size = New System.Drawing.Size(575, 454)
         Me.Panel_page_5.TabIndex = 7
+        Me.Panel_page_5.Visible = false
+        '
+        'Panel20
+        '
+        Me.Panel20.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel20.Controls.Add(Me.Text_setall_tgherquest2)
+        Me.Panel20.Location = New System.Drawing.Point(183, 396)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(65, 20)
+        Me.Panel20.TabIndex = 12
+        '
+        'Text_setall_tgherquest2
+        '
+        Me.Text_setall_tgherquest2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_tgherquest2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_tgherquest2.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_tgherquest2.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_tgherquest2.Name = "Text_setall_tgherquest2"
+        Me.Text_setall_tgherquest2.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_tgherquest2.TabIndex = 0
+        Me.Text_setall_tgherquest2.Text = "Set all to"
+        Me.Text_setall_tgherquest2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel17
+        '
+        Me.Panel17.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel17.Controls.Add(Me.Text_setall_tgherquest1)
+        Me.Panel17.Location = New System.Drawing.Point(327, 201)
+        Me.Panel17.Name = "Panel17"
+        Me.Panel17.Size = New System.Drawing.Size(65, 20)
+        Me.Panel17.TabIndex = 11
+        '
+        'Text_setall_tgherquest1
+        '
+        Me.Text_setall_tgherquest1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_tgherquest1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_tgherquest1.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_tgherquest1.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_tgherquest1.Name = "Text_setall_tgherquest1"
+        Me.Text_setall_tgherquest1.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_tgherquest1.TabIndex = 0
+        Me.Text_setall_tgherquest1.Text = "Set all to"
+        Me.Text_setall_tgherquest1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Icon_p5_arrowleft
         '
@@ -7799,7 +6369,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_p5_arrowleft.Name = "Icon_p5_arrowleft"
         Me.Icon_p5_arrowleft.Size = New System.Drawing.Size(37, 31)
         Me.Icon_p5_arrowleft.TabIndex = 9
-        Me.Icon_p5_arrowleft.TabStop = False
+        Me.Icon_p5_arrowleft.TabStop = false
         '
         'Icon_p5_arrowright
         '
@@ -7809,591 +6379,591 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_p5_arrowright.Name = "Icon_p5_arrowright"
         Me.Icon_p5_arrowright.Size = New System.Drawing.Size(37, 31)
         Me.Icon_p5_arrowright.TabIndex = 8
-        Me.Icon_p5_arrowright.TabStop = False
+        Me.Icon_p5_arrowright.TabStop = false
         '
         'Panel15
         '
         Me.Panel15.BackColor = System.Drawing.Color.Transparent
         Me.Panel15.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.tougherquest2
-        Me.Panel15.Controls.Add(Me.NumericUpDown140)
-        Me.Panel15.Controls.Add(Me.NumericUpDown169)
-        Me.Panel15.Controls.Add(Me.NumericUpDown170)
-        Me.Panel15.Controls.Add(Me.NumericUpDown171)
-        Me.Panel15.Controls.Add(Me.NumericUpDown172)
-        Me.Panel15.Controls.Add(Me.NumericUpDown173)
-        Me.Panel15.Controls.Add(Me.NumericUpDown174)
-        Me.Panel15.Controls.Add(Me.NumericUpDown175)
-        Me.Panel15.Controls.Add(Me.NumericUpDown176)
-        Me.Panel15.Controls.Add(Me.NumericUpDown177)
-        Me.Panel15.Controls.Add(Me.NumericUpDown178)
-        Me.Panel15.Controls.Add(Me.NumericUpDown179)
-        Me.Panel15.Controls.Add(Me.NumericUpDown180)
-        Me.Panel15.Controls.Add(Me.NumericUpDown181)
-        Me.Panel15.Controls.Add(Me.NumericUpDown182)
-        Me.Panel15.Controls.Add(Me.NumericUpDown183)
-        Me.Panel15.Controls.Add(Me.NumericUpDown184)
-        Me.Panel15.Controls.Add(Me.NumericUpDown185)
-        Me.Panel15.Controls.Add(Me.NumericUpDown186)
-        Me.Panel15.Controls.Add(Me.NumericUpDown187)
-        Me.Panel15.Controls.Add(Me.NumericUpDown188)
-        Me.Panel15.Controls.Add(Me.NumericUpDown189)
-        Me.Panel15.Controls.Add(Me.NumericUpDown190)
-        Me.Panel15.Controls.Add(Me.NumericUpDown191)
-        Me.Panel15.Controls.Add(Me.NumericUpDown192)
-        Me.Panel15.Controls.Add(Me.PictureBox140)
-        Me.Panel15.Controls.Add(Me.PictureBox169)
-        Me.Panel15.Controls.Add(Me.PictureBox170)
-        Me.Panel15.Controls.Add(Me.PictureBox171)
-        Me.Panel15.Controls.Add(Me.PictureBox172)
-        Me.Panel15.Controls.Add(Me.PictureBox173)
-        Me.Panel15.Controls.Add(Me.PictureBox174)
-        Me.Panel15.Controls.Add(Me.PictureBox175)
-        Me.Panel15.Controls.Add(Me.PictureBox176)
-        Me.Panel15.Controls.Add(Me.PictureBox177)
-        Me.Panel15.Controls.Add(Me.PictureBox178)
-        Me.Panel15.Controls.Add(Me.PictureBox179)
-        Me.Panel15.Controls.Add(Me.PictureBox180)
-        Me.Panel15.Controls.Add(Me.PictureBox181)
-        Me.Panel15.Controls.Add(Me.PictureBox182)
-        Me.Panel15.Controls.Add(Me.PictureBox183)
-        Me.Panel15.Controls.Add(Me.PictureBox184)
-        Me.Panel15.Controls.Add(Me.PictureBox185)
-        Me.Panel15.Controls.Add(Me.PictureBox186)
-        Me.Panel15.Controls.Add(Me.PictureBox187)
-        Me.Panel15.Controls.Add(Me.PictureBox188)
-        Me.Panel15.Controls.Add(Me.PictureBox189)
-        Me.Panel15.Controls.Add(Me.PictureBox190)
-        Me.Panel15.Controls.Add(Me.PictureBox191)
-        Me.Panel15.Controls.Add(Me.PictureBox192)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_25)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_24)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_23)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_22)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_21)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_20)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_19)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_18)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_17)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_16)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_15)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_14)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_13)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_12)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_11)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_10)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_9)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_8)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_7)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_6)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_5)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_4)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_3)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_2)
+        Me.Panel15.Controls.Add(Me.valu_tgherquest2_1)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_25)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_24)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_23)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_22)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_21)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_20)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_19)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_18)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_17)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_16)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_15)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_14)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_13)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_12)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_11)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_10)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_9)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_8)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_7)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_6)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_5)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_4)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_3)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_2)
+        Me.Panel15.Controls.Add(Me.Icon_tgherquest2_1)
         Me.Panel15.Location = New System.Drawing.Point(248, 250)
         Me.Panel15.Name = "Panel15"
         Me.Panel15.Size = New System.Drawing.Size(320, 166)
         Me.Panel15.TabIndex = 4
         '
-        'NumericUpDown140
-        '
-        Me.NumericUpDown140.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown140.Location = New System.Drawing.Point(23, 150)
-        Me.NumericUpDown140.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown140.Name = "NumericUpDown140"
-        Me.NumericUpDown140.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown140.TabIndex = 44
-        Me.NumericUpDown140.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown140.Visible = False
-        '
-        'NumericUpDown169
-        '
-        Me.NumericUpDown169.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown169.Location = New System.Drawing.Point(277, 108)
-        Me.NumericUpDown169.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown169.Name = "NumericUpDown169"
-        Me.NumericUpDown169.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown169.TabIndex = 43
-        Me.NumericUpDown169.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown169.Visible = False
-        '
-        'NumericUpDown170
-        '
-        Me.NumericUpDown170.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown170.Location = New System.Drawing.Point(241, 108)
-        Me.NumericUpDown170.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown170.Name = "NumericUpDown170"
-        Me.NumericUpDown170.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown170.TabIndex = 42
-        Me.NumericUpDown170.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown170.Visible = False
-        '
-        'NumericUpDown171
-        '
-        Me.NumericUpDown171.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown171.Location = New System.Drawing.Point(205, 108)
-        Me.NumericUpDown171.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown171.Name = "NumericUpDown171"
-        Me.NumericUpDown171.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown171.TabIndex = 41
-        Me.NumericUpDown171.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown171.Visible = False
-        '
-        'NumericUpDown172
-        '
-        Me.NumericUpDown172.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown172.Location = New System.Drawing.Point(169, 108)
-        Me.NumericUpDown172.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown172.Name = "NumericUpDown172"
-        Me.NumericUpDown172.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown172.TabIndex = 39
-        Me.NumericUpDown172.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown172.Visible = False
-        '
-        'NumericUpDown173
-        '
-        Me.NumericUpDown173.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown173.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown173.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown173.Name = "NumericUpDown173"
-        Me.NumericUpDown173.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown173.TabIndex = 38
-        Me.NumericUpDown173.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown173.Visible = False
-        '
-        'NumericUpDown174
-        '
-        Me.NumericUpDown174.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown174.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown174.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown174.Name = "NumericUpDown174"
-        Me.NumericUpDown174.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown174.TabIndex = 37
-        Me.NumericUpDown174.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown174.Visible = False
-        '
-        'NumericUpDown175
-        '
-        Me.NumericUpDown175.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown175.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown175.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown175.Name = "NumericUpDown175"
-        Me.NumericUpDown175.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown175.TabIndex = 36
-        Me.NumericUpDown175.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown175.Visible = False
-        '
-        'NumericUpDown176
-        '
-        Me.NumericUpDown176.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown176.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown176.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown176.Name = "NumericUpDown176"
-        Me.NumericUpDown176.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown176.TabIndex = 35
-        Me.NumericUpDown176.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown176.Visible = False
-        '
-        'NumericUpDown177
-        '
-        Me.NumericUpDown177.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown177.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown177.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown177.Name = "NumericUpDown177"
-        Me.NumericUpDown177.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown177.TabIndex = 15
-        Me.NumericUpDown177.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown177.Visible = False
-        '
-        'NumericUpDown178
-        '
-        Me.NumericUpDown178.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown178.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown178.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown178.Name = "NumericUpDown178"
-        Me.NumericUpDown178.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown178.TabIndex = 14
-        Me.NumericUpDown178.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown178.Visible = False
-        '
-        'NumericUpDown179
-        '
-        Me.NumericUpDown179.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown179.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown179.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown179.Name = "NumericUpDown179"
-        Me.NumericUpDown179.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown179.TabIndex = 13
-        Me.NumericUpDown179.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown179.Visible = False
-        '
-        'NumericUpDown180
-        '
-        Me.NumericUpDown180.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown180.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown180.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown180.Name = "NumericUpDown180"
-        Me.NumericUpDown180.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown180.TabIndex = 12
-        Me.NumericUpDown180.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown180.Visible = False
-        '
-        'NumericUpDown181
-        '
-        Me.NumericUpDown181.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown181.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown181.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown181.Name = "NumericUpDown181"
-        Me.NumericUpDown181.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown181.TabIndex = 11
-        Me.NumericUpDown181.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown181.Visible = False
-        '
-        'NumericUpDown182
-        '
-        Me.NumericUpDown182.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown182.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown182.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown182.Name = "NumericUpDown182"
-        Me.NumericUpDown182.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown182.TabIndex = 10
-        Me.NumericUpDown182.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown182.Visible = False
-        '
-        'NumericUpDown183
-        '
-        Me.NumericUpDown183.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown183.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown183.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown183.Name = "NumericUpDown183"
-        Me.NumericUpDown183.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown183.TabIndex = 9
-        Me.NumericUpDown183.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown183.Visible = False
-        '
-        'NumericUpDown184
-        '
-        Me.NumericUpDown184.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown184.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown184.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown184.Name = "NumericUpDown184"
-        Me.NumericUpDown184.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown184.TabIndex = 8
-        Me.NumericUpDown184.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown184.Visible = False
-        '
-        'NumericUpDown185
-        '
-        Me.NumericUpDown185.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown185.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown185.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown185.Name = "NumericUpDown185"
-        Me.NumericUpDown185.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown185.TabIndex = 7
-        Me.NumericUpDown185.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown185.Visible = False
-        '
-        'NumericUpDown186
-        '
-        Me.NumericUpDown186.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown186.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown186.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown186.Name = "NumericUpDown186"
-        Me.NumericUpDown186.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown186.TabIndex = 6
-        Me.NumericUpDown186.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown186.Visible = False
-        '
-        'NumericUpDown187
-        '
-        Me.NumericUpDown187.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown187.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown187.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown187.Name = "NumericUpDown187"
-        Me.NumericUpDown187.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown187.TabIndex = 5
-        Me.NumericUpDown187.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown187.Visible = False
-        '
-        'NumericUpDown188
-        '
-        Me.NumericUpDown188.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown188.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown188.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown188.Name = "NumericUpDown188"
-        Me.NumericUpDown188.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown188.TabIndex = 4
-        Me.NumericUpDown188.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown188.Visible = False
-        '
-        'NumericUpDown189
-        '
-        Me.NumericUpDown189.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown189.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown189.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown189.Name = "NumericUpDown189"
-        Me.NumericUpDown189.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown189.TabIndex = 3
-        Me.NumericUpDown189.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown189.Visible = False
-        '
-        'NumericUpDown190
-        '
-        Me.NumericUpDown190.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown190.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown190.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown190.Name = "NumericUpDown190"
-        Me.NumericUpDown190.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown190.TabIndex = 2
-        Me.NumericUpDown190.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown190.Visible = False
-        '
-        'NumericUpDown191
-        '
-        Me.NumericUpDown191.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown191.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown191.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown191.Name = "NumericUpDown191"
-        Me.NumericUpDown191.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown191.TabIndex = 1
-        Me.NumericUpDown191.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown191.Visible = False
-        '
-        'NumericUpDown192
-        '
-        Me.NumericUpDown192.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown192.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown192.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown192.Name = "NumericUpDown192"
-        Me.NumericUpDown192.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown192.TabIndex = 0
-        Me.NumericUpDown192.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown192.Visible = False
-        '
-        'PictureBox140
-        '
-        Me.PictureBox140.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox140.Location = New System.Drawing.Point(35, 131)
-        Me.PictureBox140.Name = "PictureBox140"
-        Me.PictureBox140.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox140.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox140.TabIndex = 59
-        Me.PictureBox140.TabStop = False
-        '
-        'PictureBox169
-        '
-        Me.PictureBox169.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox169.Location = New System.Drawing.Point(275, 89)
-        Me.PictureBox169.Name = "PictureBox169"
-        Me.PictureBox169.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox169.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox169.TabIndex = 58
-        Me.PictureBox169.TabStop = False
-        '
-        'PictureBox170
-        '
-        Me.PictureBox170.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox170.Location = New System.Drawing.Point(243, 89)
-        Me.PictureBox170.Name = "PictureBox170"
-        Me.PictureBox170.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox170.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox170.TabIndex = 57
-        Me.PictureBox170.TabStop = False
-        '
-        'PictureBox171
-        '
-        Me.PictureBox171.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox171.Location = New System.Drawing.Point(211, 89)
-        Me.PictureBox171.Name = "PictureBox171"
-        Me.PictureBox171.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox171.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox171.TabIndex = 56
-        Me.PictureBox171.TabStop = False
-        '
-        'PictureBox172
-        '
-        Me.PictureBox172.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox172.Location = New System.Drawing.Point(179, 89)
-        Me.PictureBox172.Name = "PictureBox172"
-        Me.PictureBox172.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox172.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox172.TabIndex = 55
-        Me.PictureBox172.TabStop = False
-        '
-        'PictureBox173
-        '
-        Me.PictureBox173.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox173.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox173.Name = "PictureBox173"
-        Me.PictureBox173.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox173.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox173.TabIndex = 54
-        Me.PictureBox173.TabStop = False
-        '
-        'PictureBox174
-        '
-        Me.PictureBox174.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox174.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox174.Name = "PictureBox174"
-        Me.PictureBox174.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox174.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox174.TabIndex = 53
-        Me.PictureBox174.TabStop = False
-        '
-        'PictureBox175
-        '
-        Me.PictureBox175.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox175.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox175.Name = "PictureBox175"
-        Me.PictureBox175.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox175.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox175.TabIndex = 52
-        Me.PictureBox175.TabStop = False
-        '
-        'PictureBox176
-        '
-        Me.PictureBox176.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox176.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox176.Name = "PictureBox176"
-        Me.PictureBox176.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox176.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox176.TabIndex = 40
-        Me.PictureBox176.TabStop = False
-        '
-        'PictureBox177
-        '
-        Me.PictureBox177.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox177.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox177.Name = "PictureBox177"
-        Me.PictureBox177.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox177.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox177.TabIndex = 34
-        Me.PictureBox177.TabStop = False
-        '
-        'PictureBox178
-        '
-        Me.PictureBox178.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox178.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox178.Name = "PictureBox178"
-        Me.PictureBox178.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox178.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox178.TabIndex = 33
-        Me.PictureBox178.TabStop = False
-        '
-        'PictureBox179
-        '
-        Me.PictureBox179.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox179.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox179.Name = "PictureBox179"
-        Me.PictureBox179.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox179.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox179.TabIndex = 32
-        Me.PictureBox179.TabStop = False
-        '
-        'PictureBox180
-        '
-        Me.PictureBox180.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox180.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox180.Name = "PictureBox180"
-        Me.PictureBox180.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox180.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox180.TabIndex = 31
-        Me.PictureBox180.TabStop = False
-        '
-        'PictureBox181
-        '
-        Me.PictureBox181.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox181.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox181.Name = "PictureBox181"
-        Me.PictureBox181.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox181.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox181.TabIndex = 30
-        Me.PictureBox181.TabStop = False
-        '
-        'PictureBox182
-        '
-        Me.PictureBox182.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox182.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox182.Name = "PictureBox182"
-        Me.PictureBox182.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox182.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox182.TabIndex = 29
-        Me.PictureBox182.TabStop = False
-        '
-        'PictureBox183
-        '
-        Me.PictureBox183.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox183.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox183.Name = "PictureBox183"
-        Me.PictureBox183.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox183.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox183.TabIndex = 28
-        Me.PictureBox183.TabStop = False
-        '
-        'PictureBox184
-        '
-        Me.PictureBox184.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox184.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox184.Name = "PictureBox184"
-        Me.PictureBox184.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox184.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox184.TabIndex = 27
-        Me.PictureBox184.TabStop = False
-        '
-        'PictureBox185
-        '
-        Me.PictureBox185.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox185.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox185.Name = "PictureBox185"
-        Me.PictureBox185.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox185.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox185.TabIndex = 26
-        Me.PictureBox185.TabStop = False
-        '
-        'PictureBox186
-        '
-        Me.PictureBox186.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox186.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox186.Name = "PictureBox186"
-        Me.PictureBox186.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox186.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox186.TabIndex = 25
-        Me.PictureBox186.TabStop = False
-        '
-        'PictureBox187
-        '
-        Me.PictureBox187.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox187.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox187.Name = "PictureBox187"
-        Me.PictureBox187.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox187.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox187.TabIndex = 24
-        Me.PictureBox187.TabStop = False
-        '
-        'PictureBox188
-        '
-        Me.PictureBox188.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox188.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox188.Name = "PictureBox188"
-        Me.PictureBox188.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox188.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox188.TabIndex = 23
-        Me.PictureBox188.TabStop = False
-        '
-        'PictureBox189
-        '
-        Me.PictureBox189.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox189.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox189.Name = "PictureBox189"
-        Me.PictureBox189.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox189.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox189.TabIndex = 22
-        Me.PictureBox189.TabStop = False
-        '
-        'PictureBox190
-        '
-        Me.PictureBox190.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox190.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox190.Name = "PictureBox190"
-        Me.PictureBox190.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox190.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox190.TabIndex = 21
-        Me.PictureBox190.TabStop = False
-        '
-        'PictureBox191
-        '
-        Me.PictureBox191.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox191.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox191.Name = "PictureBox191"
-        Me.PictureBox191.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox191.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox191.TabIndex = 20
-        Me.PictureBox191.TabStop = False
-        '
-        'PictureBox192
-        '
-        Me.PictureBox192.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox192.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox192.Name = "PictureBox192"
-        Me.PictureBox192.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox192.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox192.TabIndex = 4
-        Me.PictureBox192.TabStop = False
+        'valu_tgherquest2_25
+        '
+        Me.valu_tgherquest2_25.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_25.Location = New System.Drawing.Point(23, 150)
+        Me.valu_tgherquest2_25.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_25.Name = "valu_tgherquest2_25"
+        Me.valu_tgherquest2_25.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_25.TabIndex = 44
+        Me.valu_tgherquest2_25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_25.Visible = false
+        '
+        'valu_tgherquest2_24
+        '
+        Me.valu_tgherquest2_24.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_24.Location = New System.Drawing.Point(277, 108)
+        Me.valu_tgherquest2_24.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_24.Name = "valu_tgherquest2_24"
+        Me.valu_tgherquest2_24.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_24.TabIndex = 43
+        Me.valu_tgherquest2_24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_24.Visible = false
+        '
+        'valu_tgherquest2_23
+        '
+        Me.valu_tgherquest2_23.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_23.Location = New System.Drawing.Point(241, 108)
+        Me.valu_tgherquest2_23.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_23.Name = "valu_tgherquest2_23"
+        Me.valu_tgherquest2_23.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_23.TabIndex = 42
+        Me.valu_tgherquest2_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_23.Visible = false
+        '
+        'valu_tgherquest2_22
+        '
+        Me.valu_tgherquest2_22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_22.Location = New System.Drawing.Point(205, 108)
+        Me.valu_tgherquest2_22.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_22.Name = "valu_tgherquest2_22"
+        Me.valu_tgherquest2_22.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_22.TabIndex = 41
+        Me.valu_tgherquest2_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_22.Visible = false
+        '
+        'valu_tgherquest2_21
+        '
+        Me.valu_tgherquest2_21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_21.Location = New System.Drawing.Point(169, 108)
+        Me.valu_tgherquest2_21.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_21.Name = "valu_tgherquest2_21"
+        Me.valu_tgherquest2_21.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_21.TabIndex = 39
+        Me.valu_tgherquest2_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_21.Visible = false
+        '
+        'valu_tgherquest2_20
+        '
+        Me.valu_tgherquest2_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_tgherquest2_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_20.Name = "valu_tgherquest2_20"
+        Me.valu_tgherquest2_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_20.TabIndex = 38
+        Me.valu_tgherquest2_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_20.Visible = false
+        '
+        'valu_tgherquest2_19
+        '
+        Me.valu_tgherquest2_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_tgherquest2_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_19.Name = "valu_tgherquest2_19"
+        Me.valu_tgherquest2_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_19.TabIndex = 37
+        Me.valu_tgherquest2_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_19.Visible = false
+        '
+        'valu_tgherquest2_18
+        '
+        Me.valu_tgherquest2_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_tgherquest2_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_18.Name = "valu_tgherquest2_18"
+        Me.valu_tgherquest2_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_18.TabIndex = 36
+        Me.valu_tgherquest2_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_18.Visible = false
+        '
+        'valu_tgherquest2_17
+        '
+        Me.valu_tgherquest2_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_tgherquest2_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_17.Name = "valu_tgherquest2_17"
+        Me.valu_tgherquest2_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_17.TabIndex = 35
+        Me.valu_tgherquest2_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_17.Visible = false
+        '
+        'valu_tgherquest2_16
+        '
+        Me.valu_tgherquest2_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_tgherquest2_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_16.Name = "valu_tgherquest2_16"
+        Me.valu_tgherquest2_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_16.TabIndex = 15
+        Me.valu_tgherquest2_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_16.Visible = false
+        '
+        'valu_tgherquest2_15
+        '
+        Me.valu_tgherquest2_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_tgherquest2_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_15.Name = "valu_tgherquest2_15"
+        Me.valu_tgherquest2_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_15.TabIndex = 14
+        Me.valu_tgherquest2_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_15.Visible = false
+        '
+        'valu_tgherquest2_14
+        '
+        Me.valu_tgherquest2_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_tgherquest2_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_14.Name = "valu_tgherquest2_14"
+        Me.valu_tgherquest2_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_14.TabIndex = 13
+        Me.valu_tgherquest2_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_14.Visible = false
+        '
+        'valu_tgherquest2_13
+        '
+        Me.valu_tgherquest2_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_tgherquest2_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_13.Name = "valu_tgherquest2_13"
+        Me.valu_tgherquest2_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_13.TabIndex = 12
+        Me.valu_tgherquest2_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_13.Visible = false
+        '
+        'valu_tgherquest2_12
+        '
+        Me.valu_tgherquest2_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_tgherquest2_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_12.Name = "valu_tgherquest2_12"
+        Me.valu_tgherquest2_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_12.TabIndex = 11
+        Me.valu_tgherquest2_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_12.Visible = false
+        '
+        'valu_tgherquest2_11
+        '
+        Me.valu_tgherquest2_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_tgherquest2_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_11.Name = "valu_tgherquest2_11"
+        Me.valu_tgherquest2_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_11.TabIndex = 10
+        Me.valu_tgherquest2_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_11.Visible = false
+        '
+        'valu_tgherquest2_10
+        '
+        Me.valu_tgherquest2_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_tgherquest2_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_10.Name = "valu_tgherquest2_10"
+        Me.valu_tgherquest2_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_10.TabIndex = 9
+        Me.valu_tgherquest2_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_10.Visible = false
+        '
+        'valu_tgherquest2_9
+        '
+        Me.valu_tgherquest2_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_tgherquest2_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_9.Name = "valu_tgherquest2_9"
+        Me.valu_tgherquest2_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_9.TabIndex = 8
+        Me.valu_tgherquest2_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_9.Visible = false
+        '
+        'valu_tgherquest2_8
+        '
+        Me.valu_tgherquest2_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_tgherquest2_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_8.Name = "valu_tgherquest2_8"
+        Me.valu_tgherquest2_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_8.TabIndex = 7
+        Me.valu_tgherquest2_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_8.Visible = false
+        '
+        'valu_tgherquest2_7
+        '
+        Me.valu_tgherquest2_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_tgherquest2_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_7.Name = "valu_tgherquest2_7"
+        Me.valu_tgherquest2_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_7.TabIndex = 6
+        Me.valu_tgherquest2_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_7.Visible = false
+        '
+        'valu_tgherquest2_6
+        '
+        Me.valu_tgherquest2_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_tgherquest2_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_6.Name = "valu_tgherquest2_6"
+        Me.valu_tgherquest2_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_6.TabIndex = 5
+        Me.valu_tgherquest2_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_6.Visible = false
+        '
+        'valu_tgherquest2_5
+        '
+        Me.valu_tgherquest2_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_tgherquest2_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_5.Name = "valu_tgherquest2_5"
+        Me.valu_tgherquest2_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_5.TabIndex = 4
+        Me.valu_tgherquest2_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_5.Visible = false
+        '
+        'valu_tgherquest2_4
+        '
+        Me.valu_tgherquest2_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_tgherquest2_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_4.Name = "valu_tgherquest2_4"
+        Me.valu_tgherquest2_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_4.TabIndex = 3
+        Me.valu_tgherquest2_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_4.Visible = false
+        '
+        'valu_tgherquest2_3
+        '
+        Me.valu_tgherquest2_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_tgherquest2_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_3.Name = "valu_tgherquest2_3"
+        Me.valu_tgherquest2_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_3.TabIndex = 2
+        Me.valu_tgherquest2_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_3.Visible = false
+        '
+        'valu_tgherquest2_2
+        '
+        Me.valu_tgherquest2_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_tgherquest2_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_2.Name = "valu_tgherquest2_2"
+        Me.valu_tgherquest2_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_2.TabIndex = 1
+        Me.valu_tgherquest2_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_2.Visible = false
+        '
+        'valu_tgherquest2_1
+        '
+        Me.valu_tgherquest2_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest2_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_tgherquest2_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest2_1.Name = "valu_tgherquest2_1"
+        Me.valu_tgherquest2_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest2_1.TabIndex = 0
+        Me.valu_tgherquest2_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest2_1.Visible = false
+        '
+        'Icon_tgherquest2_25
+        '
+        Me.Icon_tgherquest2_25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_25.Location = New System.Drawing.Point(35, 131)
+        Me.Icon_tgherquest2_25.Name = "Icon_tgherquest2_25"
+        Me.Icon_tgherquest2_25.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_25.TabIndex = 59
+        Me.Icon_tgherquest2_25.TabStop = false
+        '
+        'Icon_tgherquest2_24
+        '
+        Me.Icon_tgherquest2_24.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_24.Location = New System.Drawing.Point(275, 89)
+        Me.Icon_tgherquest2_24.Name = "Icon_tgherquest2_24"
+        Me.Icon_tgherquest2_24.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_24.TabIndex = 58
+        Me.Icon_tgherquest2_24.TabStop = false
+        '
+        'Icon_tgherquest2_23
+        '
+        Me.Icon_tgherquest2_23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_23.Location = New System.Drawing.Point(243, 89)
+        Me.Icon_tgherquest2_23.Name = "Icon_tgherquest2_23"
+        Me.Icon_tgherquest2_23.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_23.TabIndex = 57
+        Me.Icon_tgherquest2_23.TabStop = false
+        '
+        'Icon_tgherquest2_22
+        '
+        Me.Icon_tgherquest2_22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_22.Location = New System.Drawing.Point(211, 89)
+        Me.Icon_tgherquest2_22.Name = "Icon_tgherquest2_22"
+        Me.Icon_tgherquest2_22.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_22.TabIndex = 56
+        Me.Icon_tgherquest2_22.TabStop = false
+        '
+        'Icon_tgherquest2_21
+        '
+        Me.Icon_tgherquest2_21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_21.Location = New System.Drawing.Point(179, 89)
+        Me.Icon_tgherquest2_21.Name = "Icon_tgherquest2_21"
+        Me.Icon_tgherquest2_21.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_21.TabIndex = 55
+        Me.Icon_tgherquest2_21.TabStop = false
+        '
+        'Icon_tgherquest2_20
+        '
+        Me.Icon_tgherquest2_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_tgherquest2_20.Name = "Icon_tgherquest2_20"
+        Me.Icon_tgherquest2_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_20.TabIndex = 54
+        Me.Icon_tgherquest2_20.TabStop = false
+        '
+        'Icon_tgherquest2_19
+        '
+        Me.Icon_tgherquest2_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_tgherquest2_19.Name = "Icon_tgherquest2_19"
+        Me.Icon_tgherquest2_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_19.TabIndex = 53
+        Me.Icon_tgherquest2_19.TabStop = false
+        '
+        'Icon_tgherquest2_18
+        '
+        Me.Icon_tgherquest2_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_tgherquest2_18.Name = "Icon_tgherquest2_18"
+        Me.Icon_tgherquest2_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_18.TabIndex = 52
+        Me.Icon_tgherquest2_18.TabStop = false
+        '
+        'Icon_tgherquest2_17
+        '
+        Me.Icon_tgherquest2_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_tgherquest2_17.Name = "Icon_tgherquest2_17"
+        Me.Icon_tgherquest2_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_17.TabIndex = 40
+        Me.Icon_tgherquest2_17.TabStop = false
+        '
+        'Icon_tgherquest2_16
+        '
+        Me.Icon_tgherquest2_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_tgherquest2_16.Name = "Icon_tgherquest2_16"
+        Me.Icon_tgherquest2_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_16.TabIndex = 34
+        Me.Icon_tgherquest2_16.TabStop = false
+        '
+        'Icon_tgherquest2_15
+        '
+        Me.Icon_tgherquest2_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_tgherquest2_15.Name = "Icon_tgherquest2_15"
+        Me.Icon_tgherquest2_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_15.TabIndex = 33
+        Me.Icon_tgherquest2_15.TabStop = false
+        '
+        'Icon_tgherquest2_14
+        '
+        Me.Icon_tgherquest2_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_tgherquest2_14.Name = "Icon_tgherquest2_14"
+        Me.Icon_tgherquest2_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_14.TabIndex = 32
+        Me.Icon_tgherquest2_14.TabStop = false
+        '
+        'Icon_tgherquest2_13
+        '
+        Me.Icon_tgherquest2_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_tgherquest2_13.Name = "Icon_tgherquest2_13"
+        Me.Icon_tgherquest2_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_13.TabIndex = 31
+        Me.Icon_tgherquest2_13.TabStop = false
+        '
+        'Icon_tgherquest2_12
+        '
+        Me.Icon_tgherquest2_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_tgherquest2_12.Name = "Icon_tgherquest2_12"
+        Me.Icon_tgherquest2_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_12.TabIndex = 30
+        Me.Icon_tgherquest2_12.TabStop = false
+        '
+        'Icon_tgherquest2_11
+        '
+        Me.Icon_tgherquest2_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_tgherquest2_11.Name = "Icon_tgherquest2_11"
+        Me.Icon_tgherquest2_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_11.TabIndex = 29
+        Me.Icon_tgherquest2_11.TabStop = false
+        '
+        'Icon_tgherquest2_10
+        '
+        Me.Icon_tgherquest2_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_tgherquest2_10.Name = "Icon_tgherquest2_10"
+        Me.Icon_tgherquest2_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_10.TabIndex = 28
+        Me.Icon_tgherquest2_10.TabStop = false
+        '
+        'Icon_tgherquest2_9
+        '
+        Me.Icon_tgherquest2_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_tgherquest2_9.Name = "Icon_tgherquest2_9"
+        Me.Icon_tgherquest2_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_9.TabIndex = 27
+        Me.Icon_tgherquest2_9.TabStop = false
+        '
+        'Icon_tgherquest2_8
+        '
+        Me.Icon_tgherquest2_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_tgherquest2_8.Name = "Icon_tgherquest2_8"
+        Me.Icon_tgherquest2_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_8.TabIndex = 26
+        Me.Icon_tgherquest2_8.TabStop = false
+        '
+        'Icon_tgherquest2_7
+        '
+        Me.Icon_tgherquest2_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_tgherquest2_7.Name = "Icon_tgherquest2_7"
+        Me.Icon_tgherquest2_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_7.TabIndex = 25
+        Me.Icon_tgherquest2_7.TabStop = false
+        '
+        'Icon_tgherquest2_6
+        '
+        Me.Icon_tgherquest2_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_tgherquest2_6.Name = "Icon_tgherquest2_6"
+        Me.Icon_tgherquest2_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_6.TabIndex = 24
+        Me.Icon_tgherquest2_6.TabStop = false
+        '
+        'Icon_tgherquest2_5
+        '
+        Me.Icon_tgherquest2_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_tgherquest2_5.Name = "Icon_tgherquest2_5"
+        Me.Icon_tgherquest2_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_5.TabIndex = 23
+        Me.Icon_tgherquest2_5.TabStop = false
+        '
+        'Icon_tgherquest2_4
+        '
+        Me.Icon_tgherquest2_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_tgherquest2_4.Name = "Icon_tgherquest2_4"
+        Me.Icon_tgherquest2_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_4.TabIndex = 22
+        Me.Icon_tgherquest2_4.TabStop = false
+        '
+        'Icon_tgherquest2_3
+        '
+        Me.Icon_tgherquest2_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_tgherquest2_3.Name = "Icon_tgherquest2_3"
+        Me.Icon_tgherquest2_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_3.TabIndex = 21
+        Me.Icon_tgherquest2_3.TabStop = false
+        '
+        'Icon_tgherquest2_2
+        '
+        Me.Icon_tgherquest2_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_tgherquest2_2.Name = "Icon_tgherquest2_2"
+        Me.Icon_tgherquest2_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_2.TabIndex = 20
+        Me.Icon_tgherquest2_2.TabStop = false
+        '
+        'Icon_tgherquest2_1
+        '
+        Me.Icon_tgherquest2_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest2_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_tgherquest2_1.Name = "Icon_tgherquest2_1"
+        Me.Icon_tgherquest2_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest2_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest2_1.TabIndex = 4
+        Me.Icon_tgherquest2_1.TabStop = false
         '
         'Label10
         '
@@ -8419,751 +6989,753 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel16.BackColor = System.Drawing.Color.Transparent
         Me.Panel16.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.tougherquest1
-        Me.Panel16.Controls.Add(Me.NumericUpDown193)
-        Me.Panel16.Controls.Add(Me.NumericUpDown194)
-        Me.Panel16.Controls.Add(Me.NumericUpDown195)
-        Me.Panel16.Controls.Add(Me.NumericUpDown196)
-        Me.Panel16.Controls.Add(Me.NumericUpDown197)
-        Me.Panel16.Controls.Add(Me.NumericUpDown198)
-        Me.Panel16.Controls.Add(Me.NumericUpDown199)
-        Me.Panel16.Controls.Add(Me.NumericUpDown200)
-        Me.Panel16.Controls.Add(Me.NumericUpDown201)
-        Me.Panel16.Controls.Add(Me.NumericUpDown202)
-        Me.Panel16.Controls.Add(Me.NumericUpDown203)
-        Me.Panel16.Controls.Add(Me.NumericUpDown204)
-        Me.Panel16.Controls.Add(Me.NumericUpDown205)
-        Me.Panel16.Controls.Add(Me.NumericUpDown206)
-        Me.Panel16.Controls.Add(Me.NumericUpDown207)
-        Me.Panel16.Controls.Add(Me.NumericUpDown208)
-        Me.Panel16.Controls.Add(Me.NumericUpDown209)
-        Me.Panel16.Controls.Add(Me.NumericUpDown210)
-        Me.Panel16.Controls.Add(Me.NumericUpDown211)
-        Me.Panel16.Controls.Add(Me.NumericUpDown212)
-        Me.Panel16.Controls.Add(Me.NumericUpDown213)
-        Me.Panel16.Controls.Add(Me.NumericUpDown214)
-        Me.Panel16.Controls.Add(Me.NumericUpDown215)
-        Me.Panel16.Controls.Add(Me.NumericUpDown216)
-        Me.Panel16.Controls.Add(Me.NumericUpDown217)
-        Me.Panel16.Controls.Add(Me.NumericUpDown218)
-        Me.Panel16.Controls.Add(Me.NumericUpDown219)
-        Me.Panel16.Controls.Add(Me.NumericUpDown220)
-        Me.Panel16.Controls.Add(Me.NumericUpDown221)
-        Me.Panel16.Controls.Add(Me.NumericUpDown222)
-        Me.Panel16.Controls.Add(Me.NumericUpDown223)
-        Me.Panel16.Controls.Add(Me.NumericUpDown224)
-        Me.Panel16.Controls.Add(Me.PictureBox193)
-        Me.Panel16.Controls.Add(Me.PictureBox194)
-        Me.Panel16.Controls.Add(Me.PictureBox195)
-        Me.Panel16.Controls.Add(Me.PictureBox196)
-        Me.Panel16.Controls.Add(Me.PictureBox197)
-        Me.Panel16.Controls.Add(Me.PictureBox198)
-        Me.Panel16.Controls.Add(Me.PictureBox199)
-        Me.Panel16.Controls.Add(Me.PictureBox200)
-        Me.Panel16.Controls.Add(Me.PictureBox201)
-        Me.Panel16.Controls.Add(Me.PictureBox202)
-        Me.Panel16.Controls.Add(Me.PictureBox203)
-        Me.Panel16.Controls.Add(Me.PictureBox204)
-        Me.Panel16.Controls.Add(Me.PictureBox205)
-        Me.Panel16.Controls.Add(Me.PictureBox206)
-        Me.Panel16.Controls.Add(Me.PictureBox207)
-        Me.Panel16.Controls.Add(Me.PictureBox208)
-        Me.Panel16.Controls.Add(Me.PictureBox209)
-        Me.Panel16.Controls.Add(Me.PictureBox210)
-        Me.Panel16.Controls.Add(Me.PictureBox211)
-        Me.Panel16.Controls.Add(Me.PictureBox212)
-        Me.Panel16.Controls.Add(Me.PictureBox213)
-        Me.Panel16.Controls.Add(Me.PictureBox214)
-        Me.Panel16.Controls.Add(Me.PictureBox215)
-        Me.Panel16.Controls.Add(Me.PictureBox216)
-        Me.Panel16.Controls.Add(Me.PictureBox217)
-        Me.Panel16.Controls.Add(Me.PictureBox218)
-        Me.Panel16.Controls.Add(Me.PictureBox219)
-        Me.Panel16.Controls.Add(Me.PictureBox220)
-        Me.Panel16.Controls.Add(Me.PictureBox221)
-        Me.Panel16.Controls.Add(Me.PictureBox222)
-        Me.Panel16.Controls.Add(Me.PictureBox223)
-        Me.Panel16.Controls.Add(Me.PictureBox224)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_32)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_31)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_30)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_29)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_28)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_27)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_26)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_25)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_24)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_23)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_22)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_21)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_20)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_19)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_18)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_17)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_16)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_15)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_14)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_13)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_12)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_11)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_10)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_9)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_8)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_7)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_6)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_5)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_4)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_3)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_2)
+        Me.Panel16.Controls.Add(Me.valu_tgherquest1_1)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_32)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_31)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_30)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_29)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_28)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_27)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_26)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_25)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_24)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_23)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_22)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_21)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_20)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_19)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_18)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_17)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_16)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_15)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_14)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_13)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_12)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_11)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_10)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_9)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_8)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_7)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_6)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_5)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_4)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_3)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_2)
+        Me.Panel16.Controls.Add(Me.Icon_tgherquest1_1)
         Me.Panel16.Location = New System.Drawing.Point(7, 55)
         Me.Panel16.Name = "Panel16"
         Me.Panel16.Size = New System.Drawing.Size(320, 166)
         Me.Panel16.TabIndex = 0
         '
-        'NumericUpDown193
-        '
-        Me.NumericUpDown193.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown193.Location = New System.Drawing.Point(276, 150)
-        Me.NumericUpDown193.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown193.Name = "NumericUpDown193"
-        Me.NumericUpDown193.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown193.TabIndex = 51
-        Me.NumericUpDown193.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown193.Visible = False
-        '
-        'NumericUpDown194
-        '
-        Me.NumericUpDown194.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown194.Location = New System.Drawing.Point(240, 150)
-        Me.NumericUpDown194.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown194.Name = "NumericUpDown194"
-        Me.NumericUpDown194.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown194.TabIndex = 50
-        Me.NumericUpDown194.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown194.Visible = False
-        '
-        'NumericUpDown195
-        '
-        Me.NumericUpDown195.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown195.Location = New System.Drawing.Point(204, 150)
-        Me.NumericUpDown195.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown195.Name = "NumericUpDown195"
-        Me.NumericUpDown195.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown195.TabIndex = 49
-        Me.NumericUpDown195.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown195.Visible = False
-        '
-        'NumericUpDown196
-        '
-        Me.NumericUpDown196.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown196.Location = New System.Drawing.Point(168, 150)
-        Me.NumericUpDown196.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown196.Name = "NumericUpDown196"
-        Me.NumericUpDown196.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown196.TabIndex = 48
-        Me.NumericUpDown196.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown196.Visible = False
-        '
-        'NumericUpDown197
-        '
-        Me.NumericUpDown197.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown197.Location = New System.Drawing.Point(131, 150)
-        Me.NumericUpDown197.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown197.Name = "NumericUpDown197"
-        Me.NumericUpDown197.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown197.TabIndex = 47
-        Me.NumericUpDown197.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown197.Visible = False
-        '
-        'NumericUpDown198
-        '
-        Me.NumericUpDown198.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown198.Location = New System.Drawing.Point(95, 150)
-        Me.NumericUpDown198.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown198.Name = "NumericUpDown198"
-        Me.NumericUpDown198.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown198.TabIndex = 46
-        Me.NumericUpDown198.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown198.Visible = False
-        '
-        'NumericUpDown199
-        '
-        Me.NumericUpDown199.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown199.Location = New System.Drawing.Point(59, 150)
-        Me.NumericUpDown199.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown199.Name = "NumericUpDown199"
-        Me.NumericUpDown199.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown199.TabIndex = 45
-        Me.NumericUpDown199.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown199.Visible = False
-        '
-        'NumericUpDown200
-        '
-        Me.NumericUpDown200.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown200.Location = New System.Drawing.Point(23, 150)
-        Me.NumericUpDown200.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown200.Name = "NumericUpDown200"
-        Me.NumericUpDown200.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown200.TabIndex = 44
-        Me.NumericUpDown200.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown200.Visible = False
-        '
-        'NumericUpDown201
-        '
-        Me.NumericUpDown201.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown201.Location = New System.Drawing.Point(277, 108)
-        Me.NumericUpDown201.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown201.Name = "NumericUpDown201"
-        Me.NumericUpDown201.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown201.TabIndex = 43
-        Me.NumericUpDown201.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown201.Visible = False
-        '
-        'NumericUpDown202
-        '
-        Me.NumericUpDown202.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown202.Location = New System.Drawing.Point(241, 108)
-        Me.NumericUpDown202.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown202.Name = "NumericUpDown202"
-        Me.NumericUpDown202.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown202.TabIndex = 42
-        Me.NumericUpDown202.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown202.Visible = False
-        '
-        'NumericUpDown203
-        '
-        Me.NumericUpDown203.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown203.Location = New System.Drawing.Point(205, 108)
-        Me.NumericUpDown203.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown203.Name = "NumericUpDown203"
-        Me.NumericUpDown203.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown203.TabIndex = 41
-        Me.NumericUpDown203.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown203.Visible = False
-        '
-        'NumericUpDown204
-        '
-        Me.NumericUpDown204.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown204.Location = New System.Drawing.Point(169, 108)
-        Me.NumericUpDown204.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown204.Name = "NumericUpDown204"
-        Me.NumericUpDown204.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown204.TabIndex = 39
-        Me.NumericUpDown204.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown204.Visible = False
-        '
-        'NumericUpDown205
-        '
-        Me.NumericUpDown205.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown205.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown205.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown205.Name = "NumericUpDown205"
-        Me.NumericUpDown205.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown205.TabIndex = 38
-        Me.NumericUpDown205.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown205.Visible = False
-        '
-        'NumericUpDown206
-        '
-        Me.NumericUpDown206.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown206.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown206.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown206.Name = "NumericUpDown206"
-        Me.NumericUpDown206.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown206.TabIndex = 37
-        Me.NumericUpDown206.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown206.Visible = False
-        '
-        'NumericUpDown207
-        '
-        Me.NumericUpDown207.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown207.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown207.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown207.Name = "NumericUpDown207"
-        Me.NumericUpDown207.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown207.TabIndex = 36
-        Me.NumericUpDown207.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown207.Visible = False
-        '
-        'NumericUpDown208
-        '
-        Me.NumericUpDown208.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown208.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown208.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown208.Name = "NumericUpDown208"
-        Me.NumericUpDown208.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown208.TabIndex = 35
-        Me.NumericUpDown208.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown208.Visible = False
-        '
-        'NumericUpDown209
-        '
-        Me.NumericUpDown209.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown209.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown209.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown209.Name = "NumericUpDown209"
-        Me.NumericUpDown209.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown209.TabIndex = 15
-        Me.NumericUpDown209.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown209.Visible = False
-        '
-        'NumericUpDown210
-        '
-        Me.NumericUpDown210.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown210.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown210.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown210.Name = "NumericUpDown210"
-        Me.NumericUpDown210.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown210.TabIndex = 14
-        Me.NumericUpDown210.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown210.Visible = False
-        '
-        'NumericUpDown211
-        '
-        Me.NumericUpDown211.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown211.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown211.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown211.Name = "NumericUpDown211"
-        Me.NumericUpDown211.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown211.TabIndex = 13
-        Me.NumericUpDown211.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown211.Visible = False
-        '
-        'NumericUpDown212
-        '
-        Me.NumericUpDown212.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown212.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown212.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown212.Name = "NumericUpDown212"
-        Me.NumericUpDown212.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown212.TabIndex = 12
-        Me.NumericUpDown212.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown212.Visible = False
-        '
-        'NumericUpDown213
-        '
-        Me.NumericUpDown213.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown213.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown213.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown213.Name = "NumericUpDown213"
-        Me.NumericUpDown213.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown213.TabIndex = 11
-        Me.NumericUpDown213.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown213.Visible = False
-        '
-        'NumericUpDown214
-        '
-        Me.NumericUpDown214.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown214.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown214.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown214.Name = "NumericUpDown214"
-        Me.NumericUpDown214.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown214.TabIndex = 10
-        Me.NumericUpDown214.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown214.Visible = False
-        '
-        'NumericUpDown215
-        '
-        Me.NumericUpDown215.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown215.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown215.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown215.Name = "NumericUpDown215"
-        Me.NumericUpDown215.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown215.TabIndex = 9
-        Me.NumericUpDown215.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown215.Visible = False
-        '
-        'NumericUpDown216
-        '
-        Me.NumericUpDown216.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown216.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown216.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown216.Name = "NumericUpDown216"
-        Me.NumericUpDown216.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown216.TabIndex = 8
-        Me.NumericUpDown216.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown216.Visible = False
-        '
-        'NumericUpDown217
-        '
-        Me.NumericUpDown217.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown217.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown217.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown217.Name = "NumericUpDown217"
-        Me.NumericUpDown217.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown217.TabIndex = 7
-        Me.NumericUpDown217.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown217.Visible = False
-        '
-        'NumericUpDown218
-        '
-        Me.NumericUpDown218.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown218.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown218.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown218.Name = "NumericUpDown218"
-        Me.NumericUpDown218.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown218.TabIndex = 6
-        Me.NumericUpDown218.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown218.Visible = False
-        '
-        'NumericUpDown219
-        '
-        Me.NumericUpDown219.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown219.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown219.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown219.Name = "NumericUpDown219"
-        Me.NumericUpDown219.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown219.TabIndex = 5
-        Me.NumericUpDown219.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown219.Visible = False
-        '
-        'NumericUpDown220
-        '
-        Me.NumericUpDown220.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown220.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown220.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown220.Name = "NumericUpDown220"
-        Me.NumericUpDown220.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown220.TabIndex = 4
-        Me.NumericUpDown220.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown220.Visible = False
-        '
-        'NumericUpDown221
-        '
-        Me.NumericUpDown221.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown221.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown221.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown221.Name = "NumericUpDown221"
-        Me.NumericUpDown221.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown221.TabIndex = 3
-        Me.NumericUpDown221.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown221.Visible = False
-        '
-        'NumericUpDown222
-        '
-        Me.NumericUpDown222.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown222.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown222.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown222.Name = "NumericUpDown222"
-        Me.NumericUpDown222.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown222.TabIndex = 2
-        Me.NumericUpDown222.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown222.Visible = False
-        '
-        'NumericUpDown223
-        '
-        Me.NumericUpDown223.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown223.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown223.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown223.Name = "NumericUpDown223"
-        Me.NumericUpDown223.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown223.TabIndex = 1
-        Me.NumericUpDown223.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown223.Visible = False
-        '
-        'NumericUpDown224
-        '
-        Me.NumericUpDown224.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown224.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown224.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown224.Name = "NumericUpDown224"
-        Me.NumericUpDown224.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown224.TabIndex = 0
-        Me.NumericUpDown224.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown224.Visible = False
-        '
-        'PictureBox193
-        '
-        Me.PictureBox193.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox193.Location = New System.Drawing.Point(275, 131)
-        Me.PictureBox193.Name = "PictureBox193"
-        Me.PictureBox193.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox193.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox193.TabIndex = 66
-        Me.PictureBox193.TabStop = False
-        '
-        'PictureBox194
-        '
-        Me.PictureBox194.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox194.Location = New System.Drawing.Point(243, 131)
-        Me.PictureBox194.Name = "PictureBox194"
-        Me.PictureBox194.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox194.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox194.TabIndex = 65
-        Me.PictureBox194.TabStop = False
-        '
-        'PictureBox195
-        '
-        Me.PictureBox195.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox195.Location = New System.Drawing.Point(211, 131)
-        Me.PictureBox195.Name = "PictureBox195"
-        Me.PictureBox195.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox195.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox195.TabIndex = 64
-        Me.PictureBox195.TabStop = False
-        '
-        'PictureBox196
-        '
-        Me.PictureBox196.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox196.Location = New System.Drawing.Point(179, 131)
-        Me.PictureBox196.Name = "PictureBox196"
-        Me.PictureBox196.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox196.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox196.TabIndex = 63
-        Me.PictureBox196.TabStop = False
-        '
-        'PictureBox197
-        '
-        Me.PictureBox197.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox197.Location = New System.Drawing.Point(131, 131)
-        Me.PictureBox197.Name = "PictureBox197"
-        Me.PictureBox197.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox197.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox197.TabIndex = 62
-        Me.PictureBox197.TabStop = False
-        '
-        'PictureBox198
-        '
-        Me.PictureBox198.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox198.Location = New System.Drawing.Point(99, 131)
-        Me.PictureBox198.Name = "PictureBox198"
-        Me.PictureBox198.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox198.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox198.TabIndex = 61
-        Me.PictureBox198.TabStop = False
-        '
-        'PictureBox199
-        '
-        Me.PictureBox199.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox199.Location = New System.Drawing.Point(67, 131)
-        Me.PictureBox199.Name = "PictureBox199"
-        Me.PictureBox199.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox199.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox199.TabIndex = 60
-        Me.PictureBox199.TabStop = False
-        '
-        'PictureBox200
-        '
-        Me.PictureBox200.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox200.Location = New System.Drawing.Point(35, 131)
-        Me.PictureBox200.Name = "PictureBox200"
-        Me.PictureBox200.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox200.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox200.TabIndex = 59
-        Me.PictureBox200.TabStop = False
-        '
-        'PictureBox201
-        '
-        Me.PictureBox201.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox201.Location = New System.Drawing.Point(275, 89)
-        Me.PictureBox201.Name = "PictureBox201"
-        Me.PictureBox201.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox201.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox201.TabIndex = 58
-        Me.PictureBox201.TabStop = False
-        '
-        'PictureBox202
-        '
-        Me.PictureBox202.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox202.Location = New System.Drawing.Point(243, 89)
-        Me.PictureBox202.Name = "PictureBox202"
-        Me.PictureBox202.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox202.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox202.TabIndex = 57
-        Me.PictureBox202.TabStop = False
-        '
-        'PictureBox203
-        '
-        Me.PictureBox203.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox203.Location = New System.Drawing.Point(211, 89)
-        Me.PictureBox203.Name = "PictureBox203"
-        Me.PictureBox203.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox203.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox203.TabIndex = 56
-        Me.PictureBox203.TabStop = False
-        '
-        'PictureBox204
-        '
-        Me.PictureBox204.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox204.Location = New System.Drawing.Point(179, 89)
-        Me.PictureBox204.Name = "PictureBox204"
-        Me.PictureBox204.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox204.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox204.TabIndex = 55
-        Me.PictureBox204.TabStop = False
-        '
-        'PictureBox205
-        '
-        Me.PictureBox205.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox205.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox205.Name = "PictureBox205"
-        Me.PictureBox205.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox205.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox205.TabIndex = 54
-        Me.PictureBox205.TabStop = False
-        '
-        'PictureBox206
-        '
-        Me.PictureBox206.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox206.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox206.Name = "PictureBox206"
-        Me.PictureBox206.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox206.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox206.TabIndex = 53
-        Me.PictureBox206.TabStop = False
-        '
-        'PictureBox207
-        '
-        Me.PictureBox207.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox207.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox207.Name = "PictureBox207"
-        Me.PictureBox207.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox207.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox207.TabIndex = 52
-        Me.PictureBox207.TabStop = False
-        '
-        'PictureBox208
-        '
-        Me.PictureBox208.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox208.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox208.Name = "PictureBox208"
-        Me.PictureBox208.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox208.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox208.TabIndex = 40
-        Me.PictureBox208.TabStop = False
-        '
-        'PictureBox209
-        '
-        Me.PictureBox209.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox209.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox209.Name = "PictureBox209"
-        Me.PictureBox209.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox209.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox209.TabIndex = 34
-        Me.PictureBox209.TabStop = False
-        '
-        'PictureBox210
-        '
-        Me.PictureBox210.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox210.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox210.Name = "PictureBox210"
-        Me.PictureBox210.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox210.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox210.TabIndex = 33
-        Me.PictureBox210.TabStop = False
-        '
-        'PictureBox211
-        '
-        Me.PictureBox211.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox211.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox211.Name = "PictureBox211"
-        Me.PictureBox211.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox211.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox211.TabIndex = 32
-        Me.PictureBox211.TabStop = False
-        '
-        'PictureBox212
-        '
-        Me.PictureBox212.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox212.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox212.Name = "PictureBox212"
-        Me.PictureBox212.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox212.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox212.TabIndex = 31
-        Me.PictureBox212.TabStop = False
-        '
-        'PictureBox213
-        '
-        Me.PictureBox213.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox213.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox213.Name = "PictureBox213"
-        Me.PictureBox213.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox213.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox213.TabIndex = 30
-        Me.PictureBox213.TabStop = False
-        '
-        'PictureBox214
-        '
-        Me.PictureBox214.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox214.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox214.Name = "PictureBox214"
-        Me.PictureBox214.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox214.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox214.TabIndex = 29
-        Me.PictureBox214.TabStop = False
-        '
-        'PictureBox215
-        '
-        Me.PictureBox215.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox215.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox215.Name = "PictureBox215"
-        Me.PictureBox215.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox215.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox215.TabIndex = 28
-        Me.PictureBox215.TabStop = False
-        '
-        'PictureBox216
-        '
-        Me.PictureBox216.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox216.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox216.Name = "PictureBox216"
-        Me.PictureBox216.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox216.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox216.TabIndex = 27
-        Me.PictureBox216.TabStop = False
-        '
-        'PictureBox217
-        '
-        Me.PictureBox217.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox217.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox217.Name = "PictureBox217"
-        Me.PictureBox217.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox217.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox217.TabIndex = 26
-        Me.PictureBox217.TabStop = False
-        '
-        'PictureBox218
-        '
-        Me.PictureBox218.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox218.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox218.Name = "PictureBox218"
-        Me.PictureBox218.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox218.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox218.TabIndex = 25
-        Me.PictureBox218.TabStop = False
-        '
-        'PictureBox219
-        '
-        Me.PictureBox219.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox219.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox219.Name = "PictureBox219"
-        Me.PictureBox219.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox219.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox219.TabIndex = 24
-        Me.PictureBox219.TabStop = False
-        '
-        'PictureBox220
-        '
-        Me.PictureBox220.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox220.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox220.Name = "PictureBox220"
-        Me.PictureBox220.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox220.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox220.TabIndex = 23
-        Me.PictureBox220.TabStop = False
-        '
-        'PictureBox221
-        '
-        Me.PictureBox221.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox221.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox221.Name = "PictureBox221"
-        Me.PictureBox221.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox221.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox221.TabIndex = 22
-        Me.PictureBox221.TabStop = False
-        '
-        'PictureBox222
-        '
-        Me.PictureBox222.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox222.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox222.Name = "PictureBox222"
-        Me.PictureBox222.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox222.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox222.TabIndex = 21
-        Me.PictureBox222.TabStop = False
-        '
-        'PictureBox223
-        '
-        Me.PictureBox223.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox223.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox223.Name = "PictureBox223"
-        Me.PictureBox223.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox223.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox223.TabIndex = 20
-        Me.PictureBox223.TabStop = False
-        '
-        'PictureBox224
-        '
-        Me.PictureBox224.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox224.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox224.Name = "PictureBox224"
-        Me.PictureBox224.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox224.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox224.TabIndex = 4
-        Me.PictureBox224.TabStop = False
+        'valu_tgherquest1_32
+        '
+        Me.valu_tgherquest1_32.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_32.Location = New System.Drawing.Point(276, 150)
+        Me.valu_tgherquest1_32.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_32.Name = "valu_tgherquest1_32"
+        Me.valu_tgherquest1_32.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_32.TabIndex = 51
+        Me.valu_tgherquest1_32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_32.Visible = false
+        '
+        'valu_tgherquest1_31
+        '
+        Me.valu_tgherquest1_31.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_31.Location = New System.Drawing.Point(240, 150)
+        Me.valu_tgherquest1_31.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_31.Name = "valu_tgherquest1_31"
+        Me.valu_tgherquest1_31.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_31.TabIndex = 50
+        Me.valu_tgherquest1_31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_31.Visible = false
+        '
+        'valu_tgherquest1_30
+        '
+        Me.valu_tgherquest1_30.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_30.Location = New System.Drawing.Point(204, 150)
+        Me.valu_tgherquest1_30.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_30.Name = "valu_tgherquest1_30"
+        Me.valu_tgherquest1_30.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_30.TabIndex = 49
+        Me.valu_tgherquest1_30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_30.Visible = false
+        '
+        'valu_tgherquest1_29
+        '
+        Me.valu_tgherquest1_29.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_29.Location = New System.Drawing.Point(168, 150)
+        Me.valu_tgherquest1_29.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_29.Name = "valu_tgherquest1_29"
+        Me.valu_tgherquest1_29.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_29.TabIndex = 48
+        Me.valu_tgherquest1_29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_29.Visible = false
+        '
+        'valu_tgherquest1_28
+        '
+        Me.valu_tgherquest1_28.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_28.Location = New System.Drawing.Point(131, 150)
+        Me.valu_tgherquest1_28.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_28.Name = "valu_tgherquest1_28"
+        Me.valu_tgherquest1_28.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_28.TabIndex = 47
+        Me.valu_tgherquest1_28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_28.Visible = false
+        '
+        'valu_tgherquest1_27
+        '
+        Me.valu_tgherquest1_27.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_27.Location = New System.Drawing.Point(95, 150)
+        Me.valu_tgherquest1_27.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_27.Name = "valu_tgherquest1_27"
+        Me.valu_tgherquest1_27.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_27.TabIndex = 46
+        Me.valu_tgherquest1_27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_27.Visible = false
+        '
+        'valu_tgherquest1_26
+        '
+        Me.valu_tgherquest1_26.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_26.Location = New System.Drawing.Point(59, 150)
+        Me.valu_tgherquest1_26.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_26.Name = "valu_tgherquest1_26"
+        Me.valu_tgherquest1_26.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_26.TabIndex = 45
+        Me.valu_tgherquest1_26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_26.Visible = false
+        '
+        'valu_tgherquest1_25
+        '
+        Me.valu_tgherquest1_25.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_25.Location = New System.Drawing.Point(23, 150)
+        Me.valu_tgherquest1_25.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_25.Name = "valu_tgherquest1_25"
+        Me.valu_tgherquest1_25.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_25.TabIndex = 44
+        Me.valu_tgherquest1_25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_25.Visible = false
+        '
+        'valu_tgherquest1_24
+        '
+        Me.valu_tgherquest1_24.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_24.Location = New System.Drawing.Point(277, 108)
+        Me.valu_tgherquest1_24.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_24.Name = "valu_tgherquest1_24"
+        Me.valu_tgherquest1_24.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_24.TabIndex = 43
+        Me.valu_tgherquest1_24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_24.Visible = false
+        '
+        'valu_tgherquest1_23
+        '
+        Me.valu_tgherquest1_23.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_23.Location = New System.Drawing.Point(241, 108)
+        Me.valu_tgherquest1_23.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_23.Name = "valu_tgherquest1_23"
+        Me.valu_tgherquest1_23.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_23.TabIndex = 42
+        Me.valu_tgherquest1_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_23.Visible = false
+        '
+        'valu_tgherquest1_22
+        '
+        Me.valu_tgherquest1_22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_22.Location = New System.Drawing.Point(205, 108)
+        Me.valu_tgherquest1_22.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_22.Name = "valu_tgherquest1_22"
+        Me.valu_tgherquest1_22.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_22.TabIndex = 41
+        Me.valu_tgherquest1_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_22.Visible = false
+        '
+        'valu_tgherquest1_21
+        '
+        Me.valu_tgherquest1_21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_21.Location = New System.Drawing.Point(169, 108)
+        Me.valu_tgherquest1_21.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_21.Name = "valu_tgherquest1_21"
+        Me.valu_tgherquest1_21.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_21.TabIndex = 39
+        Me.valu_tgherquest1_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_21.Visible = false
+        '
+        'valu_tgherquest1_20
+        '
+        Me.valu_tgherquest1_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_tgherquest1_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_20.Name = "valu_tgherquest1_20"
+        Me.valu_tgherquest1_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_20.TabIndex = 38
+        Me.valu_tgherquest1_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_20.Visible = false
+        '
+        'valu_tgherquest1_19
+        '
+        Me.valu_tgherquest1_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_tgherquest1_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_19.Name = "valu_tgherquest1_19"
+        Me.valu_tgherquest1_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_19.TabIndex = 37
+        Me.valu_tgherquest1_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_19.Visible = false
+        '
+        'valu_tgherquest1_18
+        '
+        Me.valu_tgherquest1_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_tgherquest1_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_18.Name = "valu_tgherquest1_18"
+        Me.valu_tgherquest1_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_18.TabIndex = 36
+        Me.valu_tgherquest1_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_18.Visible = false
+        '
+        'valu_tgherquest1_17
+        '
+        Me.valu_tgherquest1_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_tgherquest1_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_17.Name = "valu_tgherquest1_17"
+        Me.valu_tgherquest1_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_17.TabIndex = 35
+        Me.valu_tgherquest1_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_17.Visible = false
+        '
+        'valu_tgherquest1_16
+        '
+        Me.valu_tgherquest1_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_tgherquest1_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_16.Name = "valu_tgherquest1_16"
+        Me.valu_tgherquest1_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_16.TabIndex = 15
+        Me.valu_tgherquest1_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_16.Visible = false
+        '
+        'valu_tgherquest1_15
+        '
+        Me.valu_tgherquest1_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_tgherquest1_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_15.Name = "valu_tgherquest1_15"
+        Me.valu_tgherquest1_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_15.TabIndex = 14
+        Me.valu_tgherquest1_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_15.Visible = false
+        '
+        'valu_tgherquest1_14
+        '
+        Me.valu_tgherquest1_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_tgherquest1_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_14.Name = "valu_tgherquest1_14"
+        Me.valu_tgherquest1_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_14.TabIndex = 13
+        Me.valu_tgherquest1_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_14.Visible = false
+        '
+        'valu_tgherquest1_13
+        '
+        Me.valu_tgherquest1_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_tgherquest1_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_13.Name = "valu_tgherquest1_13"
+        Me.valu_tgherquest1_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_13.TabIndex = 12
+        Me.valu_tgherquest1_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_13.Visible = false
+        '
+        'valu_tgherquest1_12
+        '
+        Me.valu_tgherquest1_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_tgherquest1_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_12.Name = "valu_tgherquest1_12"
+        Me.valu_tgherquest1_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_12.TabIndex = 11
+        Me.valu_tgherquest1_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_12.Visible = false
+        '
+        'valu_tgherquest1_11
+        '
+        Me.valu_tgherquest1_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_tgherquest1_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_11.Name = "valu_tgherquest1_11"
+        Me.valu_tgherquest1_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_11.TabIndex = 10
+        Me.valu_tgherquest1_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_11.Visible = false
+        '
+        'valu_tgherquest1_10
+        '
+        Me.valu_tgherquest1_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_tgherquest1_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_10.Name = "valu_tgherquest1_10"
+        Me.valu_tgherquest1_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_10.TabIndex = 9
+        Me.valu_tgherquest1_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_10.Visible = false
+        '
+        'valu_tgherquest1_9
+        '
+        Me.valu_tgherquest1_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_tgherquest1_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_9.Name = "valu_tgherquest1_9"
+        Me.valu_tgherquest1_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_9.TabIndex = 8
+        Me.valu_tgherquest1_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_9.Visible = false
+        '
+        'valu_tgherquest1_8
+        '
+        Me.valu_tgherquest1_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_tgherquest1_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_8.Name = "valu_tgherquest1_8"
+        Me.valu_tgherquest1_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_8.TabIndex = 7
+        Me.valu_tgherquest1_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_8.Visible = false
+        '
+        'valu_tgherquest1_7
+        '
+        Me.valu_tgherquest1_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_tgherquest1_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_7.Name = "valu_tgherquest1_7"
+        Me.valu_tgherquest1_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_7.TabIndex = 6
+        Me.valu_tgherquest1_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_7.Visible = false
+        '
+        'valu_tgherquest1_6
+        '
+        Me.valu_tgherquest1_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_tgherquest1_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_6.Name = "valu_tgherquest1_6"
+        Me.valu_tgherquest1_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_6.TabIndex = 5
+        Me.valu_tgherquest1_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_6.Visible = false
+        '
+        'valu_tgherquest1_5
+        '
+        Me.valu_tgherquest1_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_tgherquest1_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_5.Name = "valu_tgherquest1_5"
+        Me.valu_tgherquest1_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_5.TabIndex = 4
+        Me.valu_tgherquest1_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_5.Visible = false
+        '
+        'valu_tgherquest1_4
+        '
+        Me.valu_tgherquest1_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_tgherquest1_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_4.Name = "valu_tgherquest1_4"
+        Me.valu_tgherquest1_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_4.TabIndex = 3
+        Me.valu_tgherquest1_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_4.Visible = false
+        '
+        'valu_tgherquest1_3
+        '
+        Me.valu_tgherquest1_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_tgherquest1_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_3.Name = "valu_tgherquest1_3"
+        Me.valu_tgherquest1_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_3.TabIndex = 2
+        Me.valu_tgherquest1_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_3.Visible = false
+        '
+        'valu_tgherquest1_2
+        '
+        Me.valu_tgherquest1_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_tgherquest1_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_2.Name = "valu_tgherquest1_2"
+        Me.valu_tgherquest1_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_2.TabIndex = 1
+        Me.valu_tgherquest1_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_2.Visible = false
+        '
+        'valu_tgherquest1_1
+        '
+        Me.valu_tgherquest1_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tgherquest1_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_tgherquest1_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tgherquest1_1.Name = "valu_tgherquest1_1"
+        Me.valu_tgherquest1_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tgherquest1_1.TabIndex = 0
+        Me.valu_tgherquest1_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tgherquest1_1.Visible = false
+        '
+        'Icon_tgherquest1_32
+        '
+        Me.Icon_tgherquest1_32.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_32.Location = New System.Drawing.Point(275, 131)
+        Me.Icon_tgherquest1_32.Name = "Icon_tgherquest1_32"
+        Me.Icon_tgherquest1_32.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_32.TabIndex = 66
+        Me.Icon_tgherquest1_32.TabStop = false
+        '
+        'Icon_tgherquest1_31
+        '
+        Me.Icon_tgherquest1_31.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_31.Location = New System.Drawing.Point(243, 131)
+        Me.Icon_tgherquest1_31.Name = "Icon_tgherquest1_31"
+        Me.Icon_tgherquest1_31.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_31.TabIndex = 65
+        Me.Icon_tgherquest1_31.TabStop = false
+        '
+        'Icon_tgherquest1_30
+        '
+        Me.Icon_tgherquest1_30.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_30.Location = New System.Drawing.Point(211, 131)
+        Me.Icon_tgherquest1_30.Name = "Icon_tgherquest1_30"
+        Me.Icon_tgherquest1_30.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_30.TabIndex = 64
+        Me.Icon_tgherquest1_30.TabStop = false
+        '
+        'Icon_tgherquest1_29
+        '
+        Me.Icon_tgherquest1_29.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_29.Location = New System.Drawing.Point(179, 131)
+        Me.Icon_tgherquest1_29.Name = "Icon_tgherquest1_29"
+        Me.Icon_tgherquest1_29.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_29.TabIndex = 63
+        Me.Icon_tgherquest1_29.TabStop = false
+        '
+        'Icon_tgherquest1_28
+        '
+        Me.Icon_tgherquest1_28.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_28.Location = New System.Drawing.Point(131, 131)
+        Me.Icon_tgherquest1_28.Name = "Icon_tgherquest1_28"
+        Me.Icon_tgherquest1_28.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_28.TabIndex = 62
+        Me.Icon_tgherquest1_28.TabStop = false
+        '
+        'Icon_tgherquest1_27
+        '
+        Me.Icon_tgherquest1_27.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_27.Location = New System.Drawing.Point(99, 131)
+        Me.Icon_tgherquest1_27.Name = "Icon_tgherquest1_27"
+        Me.Icon_tgherquest1_27.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_27.TabIndex = 61
+        Me.Icon_tgherquest1_27.TabStop = false
+        '
+        'Icon_tgherquest1_26
+        '
+        Me.Icon_tgherquest1_26.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_26.Location = New System.Drawing.Point(67, 131)
+        Me.Icon_tgherquest1_26.Name = "Icon_tgherquest1_26"
+        Me.Icon_tgherquest1_26.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_26.TabIndex = 60
+        Me.Icon_tgherquest1_26.TabStop = false
+        '
+        'Icon_tgherquest1_25
+        '
+        Me.Icon_tgherquest1_25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_25.Location = New System.Drawing.Point(35, 131)
+        Me.Icon_tgherquest1_25.Name = "Icon_tgherquest1_25"
+        Me.Icon_tgherquest1_25.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_25.TabIndex = 59
+        Me.Icon_tgherquest1_25.TabStop = false
+        '
+        'Icon_tgherquest1_24
+        '
+        Me.Icon_tgherquest1_24.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_24.Location = New System.Drawing.Point(275, 89)
+        Me.Icon_tgherquest1_24.Name = "Icon_tgherquest1_24"
+        Me.Icon_tgherquest1_24.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_24.TabIndex = 58
+        Me.Icon_tgherquest1_24.TabStop = false
+        '
+        'Icon_tgherquest1_23
+        '
+        Me.Icon_tgherquest1_23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_23.Location = New System.Drawing.Point(243, 89)
+        Me.Icon_tgherquest1_23.Name = "Icon_tgherquest1_23"
+        Me.Icon_tgherquest1_23.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_23.TabIndex = 57
+        Me.Icon_tgherquest1_23.TabStop = false
+        '
+        'Icon_tgherquest1_22
+        '
+        Me.Icon_tgherquest1_22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_22.Location = New System.Drawing.Point(211, 89)
+        Me.Icon_tgherquest1_22.Name = "Icon_tgherquest1_22"
+        Me.Icon_tgherquest1_22.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_22.TabIndex = 56
+        Me.Icon_tgherquest1_22.TabStop = false
+        '
+        'Icon_tgherquest1_21
+        '
+        Me.Icon_tgherquest1_21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_21.Location = New System.Drawing.Point(179, 89)
+        Me.Icon_tgherquest1_21.Name = "Icon_tgherquest1_21"
+        Me.Icon_tgherquest1_21.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_21.TabIndex = 55
+        Me.Icon_tgherquest1_21.TabStop = false
+        '
+        'Icon_tgherquest1_20
+        '
+        Me.Icon_tgherquest1_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_tgherquest1_20.Name = "Icon_tgherquest1_20"
+        Me.Icon_tgherquest1_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_20.TabIndex = 54
+        Me.Icon_tgherquest1_20.TabStop = false
+        '
+        'Icon_tgherquest1_19
+        '
+        Me.Icon_tgherquest1_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_tgherquest1_19.Name = "Icon_tgherquest1_19"
+        Me.Icon_tgherquest1_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_19.TabIndex = 53
+        Me.Icon_tgherquest1_19.TabStop = false
+        '
+        'Icon_tgherquest1_18
+        '
+        Me.Icon_tgherquest1_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_tgherquest1_18.Name = "Icon_tgherquest1_18"
+        Me.Icon_tgherquest1_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_18.TabIndex = 52
+        Me.Icon_tgherquest1_18.TabStop = false
+        '
+        'Icon_tgherquest1_17
+        '
+        Me.Icon_tgherquest1_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_tgherquest1_17.Name = "Icon_tgherquest1_17"
+        Me.Icon_tgherquest1_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_17.TabIndex = 40
+        Me.Icon_tgherquest1_17.TabStop = false
+        '
+        'Icon_tgherquest1_16
+        '
+        Me.Icon_tgherquest1_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_tgherquest1_16.Name = "Icon_tgherquest1_16"
+        Me.Icon_tgherquest1_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_16.TabIndex = 34
+        Me.Icon_tgherquest1_16.TabStop = false
+        '
+        'Icon_tgherquest1_15
+        '
+        Me.Icon_tgherquest1_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_tgherquest1_15.Name = "Icon_tgherquest1_15"
+        Me.Icon_tgherquest1_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_15.TabIndex = 33
+        Me.Icon_tgherquest1_15.TabStop = false
+        '
+        'Icon_tgherquest1_14
+        '
+        Me.Icon_tgherquest1_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_tgherquest1_14.Name = "Icon_tgherquest1_14"
+        Me.Icon_tgherquest1_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_14.TabIndex = 32
+        Me.Icon_tgherquest1_14.TabStop = false
+        '
+        'Icon_tgherquest1_13
+        '
+        Me.Icon_tgherquest1_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_tgherquest1_13.Name = "Icon_tgherquest1_13"
+        Me.Icon_tgherquest1_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_13.TabIndex = 31
+        Me.Icon_tgherquest1_13.TabStop = false
+        '
+        'Icon_tgherquest1_12
+        '
+        Me.Icon_tgherquest1_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_tgherquest1_12.Name = "Icon_tgherquest1_12"
+        Me.Icon_tgherquest1_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_12.TabIndex = 30
+        Me.Icon_tgherquest1_12.TabStop = false
+        '
+        'Icon_tgherquest1_11
+        '
+        Me.Icon_tgherquest1_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_tgherquest1_11.Name = "Icon_tgherquest1_11"
+        Me.Icon_tgherquest1_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_11.TabIndex = 29
+        Me.Icon_tgherquest1_11.TabStop = false
+        '
+        'Icon_tgherquest1_10
+        '
+        Me.Icon_tgherquest1_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_tgherquest1_10.Name = "Icon_tgherquest1_10"
+        Me.Icon_tgherquest1_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_10.TabIndex = 28
+        Me.Icon_tgherquest1_10.TabStop = false
+        '
+        'Icon_tgherquest1_9
+        '
+        Me.Icon_tgherquest1_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_tgherquest1_9.Name = "Icon_tgherquest1_9"
+        Me.Icon_tgherquest1_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_9.TabIndex = 27
+        Me.Icon_tgherquest1_9.TabStop = false
+        '
+        'Icon_tgherquest1_8
+        '
+        Me.Icon_tgherquest1_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_tgherquest1_8.Name = "Icon_tgherquest1_8"
+        Me.Icon_tgherquest1_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_8.TabIndex = 26
+        Me.Icon_tgherquest1_8.TabStop = false
+        '
+        'Icon_tgherquest1_7
+        '
+        Me.Icon_tgherquest1_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_tgherquest1_7.Name = "Icon_tgherquest1_7"
+        Me.Icon_tgherquest1_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_7.TabIndex = 25
+        Me.Icon_tgherquest1_7.TabStop = false
+        '
+        'Icon_tgherquest1_6
+        '
+        Me.Icon_tgherquest1_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_tgherquest1_6.Name = "Icon_tgherquest1_6"
+        Me.Icon_tgherquest1_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_6.TabIndex = 24
+        Me.Icon_tgherquest1_6.TabStop = false
+        '
+        'Icon_tgherquest1_5
+        '
+        Me.Icon_tgherquest1_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_tgherquest1_5.Name = "Icon_tgherquest1_5"
+        Me.Icon_tgherquest1_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_5.TabIndex = 23
+        Me.Icon_tgherquest1_5.TabStop = false
+        '
+        'Icon_tgherquest1_4
+        '
+        Me.Icon_tgherquest1_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_tgherquest1_4.Name = "Icon_tgherquest1_4"
+        Me.Icon_tgherquest1_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_4.TabIndex = 22
+        Me.Icon_tgherquest1_4.TabStop = false
+        '
+        'Icon_tgherquest1_3
+        '
+        Me.Icon_tgherquest1_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_tgherquest1_3.Name = "Icon_tgherquest1_3"
+        Me.Icon_tgherquest1_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_3.TabIndex = 21
+        Me.Icon_tgherquest1_3.TabStop = false
+        '
+        'Icon_tgherquest1_2
+        '
+        Me.Icon_tgherquest1_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_tgherquest1_2.Name = "Icon_tgherquest1_2"
+        Me.Icon_tgherquest1_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_2.TabIndex = 20
+        Me.Icon_tgherquest1_2.TabStop = false
+        '
+        'Icon_tgherquest1_1
+        '
+        Me.Icon_tgherquest1_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tgherquest1_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_tgherquest1_1.Name = "Icon_tgherquest1_1"
+        Me.Icon_tgherquest1_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tgherquest1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tgherquest1_1.TabIndex = 4
+        Me.Icon_tgherquest1_1.TabStop = false
         '
         'Panel_page_3
         '
         Me.Panel_page_3.BackColor = System.Drawing.Color.Transparent
         Me.Panel_page_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel_page_3.Controls.Add(Me.Panel24)
+        Me.Panel_page_3.Controls.Add(Me.Panel23)
         Me.Panel_page_3.Controls.Add(Me.Icon_p3_arrowleft)
         Me.Panel_page_3.Controls.Add(Me.Icon_p3_arrowright)
         Me.Panel_page_3.Controls.Add(Me.Panel12)
@@ -9174,6 +7746,49 @@ Partial Class TeamKirbyClashDeluxe
         Me.Panel_page_3.Name = "Panel_page_3"
         Me.Panel_page_3.Size = New System.Drawing.Size(575, 454)
         Me.Panel_page_3.TabIndex = 6
+        Me.Panel_page_3.Visible = false
+        '
+        'Panel24
+        '
+        Me.Panel24.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel24.Controls.Add(Me.Text_setall_tghquest2)
+        Me.Panel24.Location = New System.Drawing.Point(183, 396)
+        Me.Panel24.Name = "Panel24"
+        Me.Panel24.Size = New System.Drawing.Size(65, 20)
+        Me.Panel24.TabIndex = 12
+        '
+        'Text_setall_tghquest2
+        '
+        Me.Text_setall_tghquest2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_tghquest2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_tghquest2.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_tghquest2.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_tghquest2.Name = "Text_setall_tghquest2"
+        Me.Text_setall_tghquest2.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_tghquest2.TabIndex = 0
+        Me.Text_setall_tghquest2.Text = "Set all to"
+        Me.Text_setall_tghquest2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel23
+        '
+        Me.Panel23.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel23.Controls.Add(Me.Text_setall_tghquest1)
+        Me.Panel23.Location = New System.Drawing.Point(327, 201)
+        Me.Panel23.Name = "Panel23"
+        Me.Panel23.Size = New System.Drawing.Size(65, 20)
+        Me.Panel23.TabIndex = 11
+        '
+        'Text_setall_tghquest1
+        '
+        Me.Text_setall_tghquest1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_tghquest1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_tghquest1.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_tghquest1.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_tghquest1.Name = "Text_setall_tghquest1"
+        Me.Text_setall_tghquest1.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_tghquest1.TabIndex = 0
+        Me.Text_setall_tghquest1.Text = "Set all to"
+        Me.Text_setall_tghquest1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Icon_p3_arrowleft
         '
@@ -9183,7 +7798,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_p3_arrowleft.Name = "Icon_p3_arrowleft"
         Me.Icon_p3_arrowleft.Size = New System.Drawing.Size(37, 31)
         Me.Icon_p3_arrowleft.TabIndex = 7
-        Me.Icon_p3_arrowleft.TabStop = False
+        Me.Icon_p3_arrowleft.TabStop = false
         '
         'Icon_p3_arrowright
         '
@@ -9193,660 +7808,660 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_p3_arrowright.Name = "Icon_p3_arrowright"
         Me.Icon_p3_arrowright.Size = New System.Drawing.Size(37, 31)
         Me.Icon_p3_arrowright.TabIndex = 6
-        Me.Icon_p3_arrowright.TabStop = False
+        Me.Icon_p3_arrowright.TabStop = false
         '
         'Panel12
         '
         Me.Panel12.BackColor = System.Drawing.Color.Transparent
         Me.Panel12.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.toughquest1and2
-        Me.Panel12.Controls.Add(Me.NumericUpDown69)
-        Me.Panel12.Controls.Add(Me.NumericUpDown70)
-        Me.Panel12.Controls.Add(Me.NumericUpDown71)
-        Me.Panel12.Controls.Add(Me.NumericUpDown72)
-        Me.Panel12.Controls.Add(Me.NumericUpDown73)
-        Me.Panel12.Controls.Add(Me.NumericUpDown74)
-        Me.Panel12.Controls.Add(Me.NumericUpDown75)
-        Me.Panel12.Controls.Add(Me.NumericUpDown76)
-        Me.Panel12.Controls.Add(Me.NumericUpDown97)
-        Me.Panel12.Controls.Add(Me.NumericUpDown98)
-        Me.Panel12.Controls.Add(Me.NumericUpDown99)
-        Me.Panel12.Controls.Add(Me.NumericUpDown100)
-        Me.Panel12.Controls.Add(Me.NumericUpDown101)
-        Me.Panel12.Controls.Add(Me.NumericUpDown102)
-        Me.Panel12.Controls.Add(Me.NumericUpDown103)
-        Me.Panel12.Controls.Add(Me.NumericUpDown104)
-        Me.Panel12.Controls.Add(Me.NumericUpDown105)
-        Me.Panel12.Controls.Add(Me.NumericUpDown106)
-        Me.Panel12.Controls.Add(Me.NumericUpDown107)
-        Me.Panel12.Controls.Add(Me.NumericUpDown108)
-        Me.Panel12.Controls.Add(Me.NumericUpDown129)
-        Me.Panel12.Controls.Add(Me.NumericUpDown130)
-        Me.Panel12.Controls.Add(Me.NumericUpDown131)
-        Me.Panel12.Controls.Add(Me.NumericUpDown132)
-        Me.Panel12.Controls.Add(Me.NumericUpDown133)
-        Me.Panel12.Controls.Add(Me.NumericUpDown134)
-        Me.Panel12.Controls.Add(Me.NumericUpDown135)
-        Me.Panel12.Controls.Add(Me.NumericUpDown136)
-        Me.Panel12.Controls.Add(Me.PictureBox69)
-        Me.Panel12.Controls.Add(Me.PictureBox70)
-        Me.Panel12.Controls.Add(Me.PictureBox71)
-        Me.Panel12.Controls.Add(Me.PictureBox72)
-        Me.Panel12.Controls.Add(Me.PictureBox73)
-        Me.Panel12.Controls.Add(Me.PictureBox74)
-        Me.Panel12.Controls.Add(Me.PictureBox75)
-        Me.Panel12.Controls.Add(Me.PictureBox76)
-        Me.Panel12.Controls.Add(Me.PictureBox97)
-        Me.Panel12.Controls.Add(Me.PictureBox98)
-        Me.Panel12.Controls.Add(Me.PictureBox99)
-        Me.Panel12.Controls.Add(Me.PictureBox100)
-        Me.Panel12.Controls.Add(Me.PictureBox101)
-        Me.Panel12.Controls.Add(Me.PictureBox102)
-        Me.Panel12.Controls.Add(Me.PictureBox103)
-        Me.Panel12.Controls.Add(Me.PictureBox104)
-        Me.Panel12.Controls.Add(Me.PictureBox105)
-        Me.Panel12.Controls.Add(Me.PictureBox106)
-        Me.Panel12.Controls.Add(Me.PictureBox107)
-        Me.Panel12.Controls.Add(Me.PictureBox108)
-        Me.Panel12.Controls.Add(Me.PictureBox129)
-        Me.Panel12.Controls.Add(Me.PictureBox130)
-        Me.Panel12.Controls.Add(Me.PictureBox131)
-        Me.Panel12.Controls.Add(Me.PictureBox132)
-        Me.Panel12.Controls.Add(Me.PictureBox133)
-        Me.Panel12.Controls.Add(Me.PictureBox134)
-        Me.Panel12.Controls.Add(Me.PictureBox135)
-        Me.Panel12.Controls.Add(Me.PictureBox136)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_28)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_27)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_26)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_25)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_24)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_23)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_22)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_21)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_20)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_19)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_18)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_17)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_16)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_15)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_14)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_13)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_12)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_11)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_10)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_9)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_8)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_7)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_6)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_5)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_4)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_3)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_2)
+        Me.Panel12.Controls.Add(Me.valu_tghquest2_1)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_28)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_27)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_26)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_25)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_24)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_23)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_22)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_21)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_20)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_19)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_18)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_17)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_16)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_15)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_14)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_13)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_12)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_11)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_10)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_9)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_8)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_7)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_6)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_5)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_4)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_3)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_2)
+        Me.Panel12.Controls.Add(Me.Icon_tghquest2_1)
         Me.Panel12.Location = New System.Drawing.Point(248, 250)
         Me.Panel12.Name = "Panel12"
         Me.Panel12.Size = New System.Drawing.Size(320, 166)
         Me.Panel12.TabIndex = 4
         '
-        'NumericUpDown69
-        '
-        Me.NumericUpDown69.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown69.Location = New System.Drawing.Point(131, 150)
-        Me.NumericUpDown69.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown69.Name = "NumericUpDown69"
-        Me.NumericUpDown69.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown69.TabIndex = 47
-        Me.NumericUpDown69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown69.Visible = False
-        '
-        'NumericUpDown70
-        '
-        Me.NumericUpDown70.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown70.Location = New System.Drawing.Point(95, 150)
-        Me.NumericUpDown70.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown70.Name = "NumericUpDown70"
-        Me.NumericUpDown70.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown70.TabIndex = 46
-        Me.NumericUpDown70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown70.Visible = False
-        '
-        'NumericUpDown71
-        '
-        Me.NumericUpDown71.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown71.Location = New System.Drawing.Point(59, 150)
-        Me.NumericUpDown71.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown71.Name = "NumericUpDown71"
-        Me.NumericUpDown71.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown71.TabIndex = 45
-        Me.NumericUpDown71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown71.Visible = False
-        '
-        'NumericUpDown72
-        '
-        Me.NumericUpDown72.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown72.Location = New System.Drawing.Point(23, 150)
-        Me.NumericUpDown72.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown72.Name = "NumericUpDown72"
-        Me.NumericUpDown72.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown72.TabIndex = 44
-        Me.NumericUpDown72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown72.Visible = False
-        '
-        'NumericUpDown73
-        '
-        Me.NumericUpDown73.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown73.Location = New System.Drawing.Point(277, 108)
-        Me.NumericUpDown73.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown73.Name = "NumericUpDown73"
-        Me.NumericUpDown73.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown73.TabIndex = 43
-        Me.NumericUpDown73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown73.Visible = False
-        '
-        'NumericUpDown74
-        '
-        Me.NumericUpDown74.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown74.Location = New System.Drawing.Point(241, 108)
-        Me.NumericUpDown74.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown74.Name = "NumericUpDown74"
-        Me.NumericUpDown74.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown74.TabIndex = 42
-        Me.NumericUpDown74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown74.Visible = False
-        '
-        'NumericUpDown75
-        '
-        Me.NumericUpDown75.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown75.Location = New System.Drawing.Point(205, 108)
-        Me.NumericUpDown75.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown75.Name = "NumericUpDown75"
-        Me.NumericUpDown75.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown75.TabIndex = 41
-        Me.NumericUpDown75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown75.Visible = False
-        '
-        'NumericUpDown76
-        '
-        Me.NumericUpDown76.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown76.Location = New System.Drawing.Point(169, 108)
-        Me.NumericUpDown76.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown76.Name = "NumericUpDown76"
-        Me.NumericUpDown76.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown76.TabIndex = 39
-        Me.NumericUpDown76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown76.Visible = False
-        '
-        'NumericUpDown97
-        '
-        Me.NumericUpDown97.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown97.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown97.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown97.Name = "NumericUpDown97"
-        Me.NumericUpDown97.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown97.TabIndex = 38
-        Me.NumericUpDown97.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown97.Visible = False
-        '
-        'NumericUpDown98
-        '
-        Me.NumericUpDown98.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown98.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown98.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown98.Name = "NumericUpDown98"
-        Me.NumericUpDown98.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown98.TabIndex = 37
-        Me.NumericUpDown98.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown98.Visible = False
-        '
-        'NumericUpDown99
-        '
-        Me.NumericUpDown99.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown99.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown99.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown99.Name = "NumericUpDown99"
-        Me.NumericUpDown99.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown99.TabIndex = 36
-        Me.NumericUpDown99.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown99.Visible = False
-        '
-        'NumericUpDown100
-        '
-        Me.NumericUpDown100.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown100.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown100.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown100.Name = "NumericUpDown100"
-        Me.NumericUpDown100.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown100.TabIndex = 35
-        Me.NumericUpDown100.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown100.Visible = False
-        '
-        'NumericUpDown101
-        '
-        Me.NumericUpDown101.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown101.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown101.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown101.Name = "NumericUpDown101"
-        Me.NumericUpDown101.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown101.TabIndex = 15
-        Me.NumericUpDown101.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown101.Visible = False
-        '
-        'NumericUpDown102
-        '
-        Me.NumericUpDown102.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown102.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown102.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown102.Name = "NumericUpDown102"
-        Me.NumericUpDown102.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown102.TabIndex = 14
-        Me.NumericUpDown102.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown102.Visible = False
-        '
-        'NumericUpDown103
-        '
-        Me.NumericUpDown103.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown103.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown103.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown103.Name = "NumericUpDown103"
-        Me.NumericUpDown103.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown103.TabIndex = 13
-        Me.NumericUpDown103.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown103.Visible = False
-        '
-        'NumericUpDown104
-        '
-        Me.NumericUpDown104.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown104.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown104.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown104.Name = "NumericUpDown104"
-        Me.NumericUpDown104.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown104.TabIndex = 12
-        Me.NumericUpDown104.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown104.Visible = False
-        '
-        'NumericUpDown105
-        '
-        Me.NumericUpDown105.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown105.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown105.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown105.Name = "NumericUpDown105"
-        Me.NumericUpDown105.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown105.TabIndex = 11
-        Me.NumericUpDown105.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown105.Visible = False
-        '
-        'NumericUpDown106
-        '
-        Me.NumericUpDown106.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown106.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown106.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown106.Name = "NumericUpDown106"
-        Me.NumericUpDown106.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown106.TabIndex = 10
-        Me.NumericUpDown106.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown106.Visible = False
-        '
-        'NumericUpDown107
-        '
-        Me.NumericUpDown107.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown107.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown107.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown107.Name = "NumericUpDown107"
-        Me.NumericUpDown107.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown107.TabIndex = 9
-        Me.NumericUpDown107.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown107.Visible = False
-        '
-        'NumericUpDown108
-        '
-        Me.NumericUpDown108.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown108.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown108.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown108.Name = "NumericUpDown108"
-        Me.NumericUpDown108.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown108.TabIndex = 8
-        Me.NumericUpDown108.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown108.Visible = False
-        '
-        'NumericUpDown129
-        '
-        Me.NumericUpDown129.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown129.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown129.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown129.Name = "NumericUpDown129"
-        Me.NumericUpDown129.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown129.TabIndex = 7
-        Me.NumericUpDown129.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown129.Visible = False
-        '
-        'NumericUpDown130
-        '
-        Me.NumericUpDown130.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown130.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown130.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown130.Name = "NumericUpDown130"
-        Me.NumericUpDown130.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown130.TabIndex = 6
-        Me.NumericUpDown130.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown130.Visible = False
-        '
-        'NumericUpDown131
-        '
-        Me.NumericUpDown131.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown131.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown131.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown131.Name = "NumericUpDown131"
-        Me.NumericUpDown131.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown131.TabIndex = 5
-        Me.NumericUpDown131.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown131.Visible = False
-        '
-        'NumericUpDown132
-        '
-        Me.NumericUpDown132.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown132.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown132.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown132.Name = "NumericUpDown132"
-        Me.NumericUpDown132.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown132.TabIndex = 4
-        Me.NumericUpDown132.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown132.Visible = False
-        '
-        'NumericUpDown133
-        '
-        Me.NumericUpDown133.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown133.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown133.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown133.Name = "NumericUpDown133"
-        Me.NumericUpDown133.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown133.TabIndex = 3
-        Me.NumericUpDown133.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown133.Visible = False
-        '
-        'NumericUpDown134
-        '
-        Me.NumericUpDown134.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown134.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown134.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown134.Name = "NumericUpDown134"
-        Me.NumericUpDown134.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown134.TabIndex = 2
-        Me.NumericUpDown134.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown134.Visible = False
-        '
-        'NumericUpDown135
-        '
-        Me.NumericUpDown135.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown135.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown135.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown135.Name = "NumericUpDown135"
-        Me.NumericUpDown135.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown135.TabIndex = 1
-        Me.NumericUpDown135.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown135.Visible = False
-        '
-        'NumericUpDown136
-        '
-        Me.NumericUpDown136.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown136.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown136.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown136.Name = "NumericUpDown136"
-        Me.NumericUpDown136.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown136.TabIndex = 0
-        Me.NumericUpDown136.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown136.Visible = False
-        '
-        'PictureBox69
-        '
-        Me.PictureBox69.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox69.Location = New System.Drawing.Point(131, 131)
-        Me.PictureBox69.Name = "PictureBox69"
-        Me.PictureBox69.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox69.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox69.TabIndex = 62
-        Me.PictureBox69.TabStop = False
-        '
-        'PictureBox70
-        '
-        Me.PictureBox70.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox70.Location = New System.Drawing.Point(99, 131)
-        Me.PictureBox70.Name = "PictureBox70"
-        Me.PictureBox70.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox70.TabIndex = 61
-        Me.PictureBox70.TabStop = False
-        '
-        'PictureBox71
-        '
-        Me.PictureBox71.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox71.Location = New System.Drawing.Point(67, 131)
-        Me.PictureBox71.Name = "PictureBox71"
-        Me.PictureBox71.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox71.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox71.TabIndex = 60
-        Me.PictureBox71.TabStop = False
-        '
-        'PictureBox72
-        '
-        Me.PictureBox72.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox72.Location = New System.Drawing.Point(35, 131)
-        Me.PictureBox72.Name = "PictureBox72"
-        Me.PictureBox72.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox72.TabIndex = 59
-        Me.PictureBox72.TabStop = False
-        '
-        'PictureBox73
-        '
-        Me.PictureBox73.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox73.Location = New System.Drawing.Point(275, 89)
-        Me.PictureBox73.Name = "PictureBox73"
-        Me.PictureBox73.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox73.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox73.TabIndex = 58
-        Me.PictureBox73.TabStop = False
-        '
-        'PictureBox74
-        '
-        Me.PictureBox74.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox74.Location = New System.Drawing.Point(243, 89)
-        Me.PictureBox74.Name = "PictureBox74"
-        Me.PictureBox74.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox74.TabIndex = 57
-        Me.PictureBox74.TabStop = False
-        '
-        'PictureBox75
-        '
-        Me.PictureBox75.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox75.Location = New System.Drawing.Point(211, 89)
-        Me.PictureBox75.Name = "PictureBox75"
-        Me.PictureBox75.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox75.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox75.TabIndex = 56
-        Me.PictureBox75.TabStop = False
-        '
-        'PictureBox76
-        '
-        Me.PictureBox76.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox76.Location = New System.Drawing.Point(179, 89)
-        Me.PictureBox76.Name = "PictureBox76"
-        Me.PictureBox76.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox76.TabIndex = 55
-        Me.PictureBox76.TabStop = False
-        '
-        'PictureBox97
-        '
-        Me.PictureBox97.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox97.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox97.Name = "PictureBox97"
-        Me.PictureBox97.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox97.TabIndex = 54
-        Me.PictureBox97.TabStop = False
-        '
-        'PictureBox98
-        '
-        Me.PictureBox98.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox98.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox98.Name = "PictureBox98"
-        Me.PictureBox98.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox98.TabIndex = 53
-        Me.PictureBox98.TabStop = False
-        '
-        'PictureBox99
-        '
-        Me.PictureBox99.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox99.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox99.Name = "PictureBox99"
-        Me.PictureBox99.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox99.TabIndex = 52
-        Me.PictureBox99.TabStop = False
-        '
-        'PictureBox100
-        '
-        Me.PictureBox100.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox100.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox100.Name = "PictureBox100"
-        Me.PictureBox100.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox100.TabIndex = 40
-        Me.PictureBox100.TabStop = False
-        '
-        'PictureBox101
-        '
-        Me.PictureBox101.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox101.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox101.Name = "PictureBox101"
-        Me.PictureBox101.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox101.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox101.TabIndex = 34
-        Me.PictureBox101.TabStop = False
-        '
-        'PictureBox102
-        '
-        Me.PictureBox102.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox102.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox102.Name = "PictureBox102"
-        Me.PictureBox102.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox102.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox102.TabIndex = 33
-        Me.PictureBox102.TabStop = False
-        '
-        'PictureBox103
-        '
-        Me.PictureBox103.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox103.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox103.Name = "PictureBox103"
-        Me.PictureBox103.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox103.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox103.TabIndex = 32
-        Me.PictureBox103.TabStop = False
-        '
-        'PictureBox104
-        '
-        Me.PictureBox104.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox104.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox104.Name = "PictureBox104"
-        Me.PictureBox104.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox104.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox104.TabIndex = 31
-        Me.PictureBox104.TabStop = False
-        '
-        'PictureBox105
-        '
-        Me.PictureBox105.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox105.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox105.Name = "PictureBox105"
-        Me.PictureBox105.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox105.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox105.TabIndex = 30
-        Me.PictureBox105.TabStop = False
-        '
-        'PictureBox106
-        '
-        Me.PictureBox106.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox106.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox106.Name = "PictureBox106"
-        Me.PictureBox106.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox106.TabIndex = 29
-        Me.PictureBox106.TabStop = False
-        '
-        'PictureBox107
-        '
-        Me.PictureBox107.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox107.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox107.Name = "PictureBox107"
-        Me.PictureBox107.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox107.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox107.TabIndex = 28
-        Me.PictureBox107.TabStop = False
-        '
-        'PictureBox108
-        '
-        Me.PictureBox108.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox108.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox108.Name = "PictureBox108"
-        Me.PictureBox108.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox108.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox108.TabIndex = 27
-        Me.PictureBox108.TabStop = False
-        '
-        'PictureBox129
-        '
-        Me.PictureBox129.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox129.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox129.Name = "PictureBox129"
-        Me.PictureBox129.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox129.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox129.TabIndex = 26
-        Me.PictureBox129.TabStop = False
-        '
-        'PictureBox130
-        '
-        Me.PictureBox130.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox130.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox130.Name = "PictureBox130"
-        Me.PictureBox130.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox130.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox130.TabIndex = 25
-        Me.PictureBox130.TabStop = False
-        '
-        'PictureBox131
-        '
-        Me.PictureBox131.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox131.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox131.Name = "PictureBox131"
-        Me.PictureBox131.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox131.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox131.TabIndex = 24
-        Me.PictureBox131.TabStop = False
-        '
-        'PictureBox132
-        '
-        Me.PictureBox132.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox132.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox132.Name = "PictureBox132"
-        Me.PictureBox132.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox132.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox132.TabIndex = 23
-        Me.PictureBox132.TabStop = False
-        '
-        'PictureBox133
-        '
-        Me.PictureBox133.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox133.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox133.Name = "PictureBox133"
-        Me.PictureBox133.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox133.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox133.TabIndex = 22
-        Me.PictureBox133.TabStop = False
-        '
-        'PictureBox134
-        '
-        Me.PictureBox134.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox134.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox134.Name = "PictureBox134"
-        Me.PictureBox134.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox134.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox134.TabIndex = 21
-        Me.PictureBox134.TabStop = False
-        '
-        'PictureBox135
-        '
-        Me.PictureBox135.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox135.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox135.Name = "PictureBox135"
-        Me.PictureBox135.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox135.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox135.TabIndex = 20
-        Me.PictureBox135.TabStop = False
-        '
-        'PictureBox136
-        '
-        Me.PictureBox136.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox136.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox136.Name = "PictureBox136"
-        Me.PictureBox136.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox136.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox136.TabIndex = 4
-        Me.PictureBox136.TabStop = False
+        'valu_tghquest2_28
+        '
+        Me.valu_tghquest2_28.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_28.Location = New System.Drawing.Point(131, 150)
+        Me.valu_tghquest2_28.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_28.Name = "valu_tghquest2_28"
+        Me.valu_tghquest2_28.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_28.TabIndex = 47
+        Me.valu_tghquest2_28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_28.Visible = false
+        '
+        'valu_tghquest2_27
+        '
+        Me.valu_tghquest2_27.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_27.Location = New System.Drawing.Point(95, 150)
+        Me.valu_tghquest2_27.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_27.Name = "valu_tghquest2_27"
+        Me.valu_tghquest2_27.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_27.TabIndex = 46
+        Me.valu_tghquest2_27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_27.Visible = false
+        '
+        'valu_tghquest2_26
+        '
+        Me.valu_tghquest2_26.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_26.Location = New System.Drawing.Point(59, 150)
+        Me.valu_tghquest2_26.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_26.Name = "valu_tghquest2_26"
+        Me.valu_tghquest2_26.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_26.TabIndex = 45
+        Me.valu_tghquest2_26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_26.Visible = false
+        '
+        'valu_tghquest2_25
+        '
+        Me.valu_tghquest2_25.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_25.Location = New System.Drawing.Point(23, 150)
+        Me.valu_tghquest2_25.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_25.Name = "valu_tghquest2_25"
+        Me.valu_tghquest2_25.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_25.TabIndex = 44
+        Me.valu_tghquest2_25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_25.Visible = false
+        '
+        'valu_tghquest2_24
+        '
+        Me.valu_tghquest2_24.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_24.Location = New System.Drawing.Point(277, 108)
+        Me.valu_tghquest2_24.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_24.Name = "valu_tghquest2_24"
+        Me.valu_tghquest2_24.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_24.TabIndex = 43
+        Me.valu_tghquest2_24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_24.Visible = false
+        '
+        'valu_tghquest2_23
+        '
+        Me.valu_tghquest2_23.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_23.Location = New System.Drawing.Point(241, 108)
+        Me.valu_tghquest2_23.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_23.Name = "valu_tghquest2_23"
+        Me.valu_tghquest2_23.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_23.TabIndex = 42
+        Me.valu_tghquest2_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_23.Visible = false
+        '
+        'valu_tghquest2_22
+        '
+        Me.valu_tghquest2_22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_22.Location = New System.Drawing.Point(205, 108)
+        Me.valu_tghquest2_22.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_22.Name = "valu_tghquest2_22"
+        Me.valu_tghquest2_22.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_22.TabIndex = 41
+        Me.valu_tghquest2_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_22.Visible = false
+        '
+        'valu_tghquest2_21
+        '
+        Me.valu_tghquest2_21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_21.Location = New System.Drawing.Point(169, 108)
+        Me.valu_tghquest2_21.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_21.Name = "valu_tghquest2_21"
+        Me.valu_tghquest2_21.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_21.TabIndex = 39
+        Me.valu_tghquest2_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_21.Visible = false
+        '
+        'valu_tghquest2_20
+        '
+        Me.valu_tghquest2_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_tghquest2_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_20.Name = "valu_tghquest2_20"
+        Me.valu_tghquest2_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_20.TabIndex = 38
+        Me.valu_tghquest2_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_20.Visible = false
+        '
+        'valu_tghquest2_19
+        '
+        Me.valu_tghquest2_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_tghquest2_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_19.Name = "valu_tghquest2_19"
+        Me.valu_tghquest2_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_19.TabIndex = 37
+        Me.valu_tghquest2_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_19.Visible = false
+        '
+        'valu_tghquest2_18
+        '
+        Me.valu_tghquest2_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_tghquest2_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_18.Name = "valu_tghquest2_18"
+        Me.valu_tghquest2_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_18.TabIndex = 36
+        Me.valu_tghquest2_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_18.Visible = false
+        '
+        'valu_tghquest2_17
+        '
+        Me.valu_tghquest2_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_tghquest2_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_17.Name = "valu_tghquest2_17"
+        Me.valu_tghquest2_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_17.TabIndex = 35
+        Me.valu_tghquest2_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_17.Visible = false
+        '
+        'valu_tghquest2_16
+        '
+        Me.valu_tghquest2_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_tghquest2_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_16.Name = "valu_tghquest2_16"
+        Me.valu_tghquest2_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_16.TabIndex = 15
+        Me.valu_tghquest2_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_16.Visible = false
+        '
+        'valu_tghquest2_15
+        '
+        Me.valu_tghquest2_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_tghquest2_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_15.Name = "valu_tghquest2_15"
+        Me.valu_tghquest2_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_15.TabIndex = 14
+        Me.valu_tghquest2_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_15.Visible = false
+        '
+        'valu_tghquest2_14
+        '
+        Me.valu_tghquest2_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_tghquest2_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_14.Name = "valu_tghquest2_14"
+        Me.valu_tghquest2_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_14.TabIndex = 13
+        Me.valu_tghquest2_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_14.Visible = false
+        '
+        'valu_tghquest2_13
+        '
+        Me.valu_tghquest2_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_tghquest2_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_13.Name = "valu_tghquest2_13"
+        Me.valu_tghquest2_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_13.TabIndex = 12
+        Me.valu_tghquest2_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_13.Visible = false
+        '
+        'valu_tghquest2_12
+        '
+        Me.valu_tghquest2_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_tghquest2_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_12.Name = "valu_tghquest2_12"
+        Me.valu_tghquest2_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_12.TabIndex = 11
+        Me.valu_tghquest2_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_12.Visible = false
+        '
+        'valu_tghquest2_11
+        '
+        Me.valu_tghquest2_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_tghquest2_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_11.Name = "valu_tghquest2_11"
+        Me.valu_tghquest2_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_11.TabIndex = 10
+        Me.valu_tghquest2_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_11.Visible = false
+        '
+        'valu_tghquest2_10
+        '
+        Me.valu_tghquest2_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_tghquest2_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_10.Name = "valu_tghquest2_10"
+        Me.valu_tghquest2_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_10.TabIndex = 9
+        Me.valu_tghquest2_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_10.Visible = false
+        '
+        'valu_tghquest2_9
+        '
+        Me.valu_tghquest2_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_tghquest2_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_9.Name = "valu_tghquest2_9"
+        Me.valu_tghquest2_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_9.TabIndex = 8
+        Me.valu_tghquest2_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_9.Visible = false
+        '
+        'valu_tghquest2_8
+        '
+        Me.valu_tghquest2_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_tghquest2_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_8.Name = "valu_tghquest2_8"
+        Me.valu_tghquest2_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_8.TabIndex = 7
+        Me.valu_tghquest2_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_8.Visible = false
+        '
+        'valu_tghquest2_7
+        '
+        Me.valu_tghquest2_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_tghquest2_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_7.Name = "valu_tghquest2_7"
+        Me.valu_tghquest2_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_7.TabIndex = 6
+        Me.valu_tghquest2_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_7.Visible = false
+        '
+        'valu_tghquest2_6
+        '
+        Me.valu_tghquest2_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_tghquest2_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_6.Name = "valu_tghquest2_6"
+        Me.valu_tghquest2_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_6.TabIndex = 5
+        Me.valu_tghquest2_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_6.Visible = false
+        '
+        'valu_tghquest2_5
+        '
+        Me.valu_tghquest2_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_tghquest2_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_5.Name = "valu_tghquest2_5"
+        Me.valu_tghquest2_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_5.TabIndex = 4
+        Me.valu_tghquest2_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_5.Visible = false
+        '
+        'valu_tghquest2_4
+        '
+        Me.valu_tghquest2_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_tghquest2_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_4.Name = "valu_tghquest2_4"
+        Me.valu_tghquest2_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_4.TabIndex = 3
+        Me.valu_tghquest2_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_4.Visible = false
+        '
+        'valu_tghquest2_3
+        '
+        Me.valu_tghquest2_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_tghquest2_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_3.Name = "valu_tghquest2_3"
+        Me.valu_tghquest2_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_3.TabIndex = 2
+        Me.valu_tghquest2_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_3.Visible = false
+        '
+        'valu_tghquest2_2
+        '
+        Me.valu_tghquest2_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_tghquest2_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_2.Name = "valu_tghquest2_2"
+        Me.valu_tghquest2_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_2.TabIndex = 1
+        Me.valu_tghquest2_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_2.Visible = false
+        '
+        'valu_tghquest2_1
+        '
+        Me.valu_tghquest2_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest2_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_tghquest2_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest2_1.Name = "valu_tghquest2_1"
+        Me.valu_tghquest2_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest2_1.TabIndex = 0
+        Me.valu_tghquest2_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest2_1.Visible = false
+        '
+        'Icon_tghquest2_28
+        '
+        Me.Icon_tghquest2_28.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_28.Location = New System.Drawing.Point(131, 131)
+        Me.Icon_tghquest2_28.Name = "Icon_tghquest2_28"
+        Me.Icon_tghquest2_28.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_28.TabIndex = 62
+        Me.Icon_tghquest2_28.TabStop = false
+        '
+        'Icon_tghquest2_27
+        '
+        Me.Icon_tghquest2_27.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_27.Location = New System.Drawing.Point(99, 131)
+        Me.Icon_tghquest2_27.Name = "Icon_tghquest2_27"
+        Me.Icon_tghquest2_27.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_27.TabIndex = 61
+        Me.Icon_tghquest2_27.TabStop = false
+        '
+        'Icon_tghquest2_26
+        '
+        Me.Icon_tghquest2_26.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_26.Location = New System.Drawing.Point(67, 131)
+        Me.Icon_tghquest2_26.Name = "Icon_tghquest2_26"
+        Me.Icon_tghquest2_26.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_26.TabIndex = 60
+        Me.Icon_tghquest2_26.TabStop = false
+        '
+        'Icon_tghquest2_25
+        '
+        Me.Icon_tghquest2_25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_25.Location = New System.Drawing.Point(35, 131)
+        Me.Icon_tghquest2_25.Name = "Icon_tghquest2_25"
+        Me.Icon_tghquest2_25.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_25.TabIndex = 59
+        Me.Icon_tghquest2_25.TabStop = false
+        '
+        'Icon_tghquest2_24
+        '
+        Me.Icon_tghquest2_24.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_24.Location = New System.Drawing.Point(275, 89)
+        Me.Icon_tghquest2_24.Name = "Icon_tghquest2_24"
+        Me.Icon_tghquest2_24.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_24.TabIndex = 58
+        Me.Icon_tghquest2_24.TabStop = false
+        '
+        'Icon_tghquest2_23
+        '
+        Me.Icon_tghquest2_23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_23.Location = New System.Drawing.Point(243, 89)
+        Me.Icon_tghquest2_23.Name = "Icon_tghquest2_23"
+        Me.Icon_tghquest2_23.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_23.TabIndex = 57
+        Me.Icon_tghquest2_23.TabStop = false
+        '
+        'Icon_tghquest2_22
+        '
+        Me.Icon_tghquest2_22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_22.Location = New System.Drawing.Point(211, 89)
+        Me.Icon_tghquest2_22.Name = "Icon_tghquest2_22"
+        Me.Icon_tghquest2_22.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_22.TabIndex = 56
+        Me.Icon_tghquest2_22.TabStop = false
+        '
+        'Icon_tghquest2_21
+        '
+        Me.Icon_tghquest2_21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_21.Location = New System.Drawing.Point(179, 89)
+        Me.Icon_tghquest2_21.Name = "Icon_tghquest2_21"
+        Me.Icon_tghquest2_21.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_21.TabIndex = 55
+        Me.Icon_tghquest2_21.TabStop = false
+        '
+        'Icon_tghquest2_20
+        '
+        Me.Icon_tghquest2_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_tghquest2_20.Name = "Icon_tghquest2_20"
+        Me.Icon_tghquest2_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_20.TabIndex = 54
+        Me.Icon_tghquest2_20.TabStop = false
+        '
+        'Icon_tghquest2_19
+        '
+        Me.Icon_tghquest2_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_tghquest2_19.Name = "Icon_tghquest2_19"
+        Me.Icon_tghquest2_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_19.TabIndex = 53
+        Me.Icon_tghquest2_19.TabStop = false
+        '
+        'Icon_tghquest2_18
+        '
+        Me.Icon_tghquest2_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_tghquest2_18.Name = "Icon_tghquest2_18"
+        Me.Icon_tghquest2_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_18.TabIndex = 52
+        Me.Icon_tghquest2_18.TabStop = false
+        '
+        'Icon_tghquest2_17
+        '
+        Me.Icon_tghquest2_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_tghquest2_17.Name = "Icon_tghquest2_17"
+        Me.Icon_tghquest2_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_17.TabIndex = 40
+        Me.Icon_tghquest2_17.TabStop = false
+        '
+        'Icon_tghquest2_16
+        '
+        Me.Icon_tghquest2_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_tghquest2_16.Name = "Icon_tghquest2_16"
+        Me.Icon_tghquest2_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_16.TabIndex = 34
+        Me.Icon_tghquest2_16.TabStop = false
+        '
+        'Icon_tghquest2_15
+        '
+        Me.Icon_tghquest2_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_tghquest2_15.Name = "Icon_tghquest2_15"
+        Me.Icon_tghquest2_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_15.TabIndex = 33
+        Me.Icon_tghquest2_15.TabStop = false
+        '
+        'Icon_tghquest2_14
+        '
+        Me.Icon_tghquest2_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_tghquest2_14.Name = "Icon_tghquest2_14"
+        Me.Icon_tghquest2_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_14.TabIndex = 32
+        Me.Icon_tghquest2_14.TabStop = false
+        '
+        'Icon_tghquest2_13
+        '
+        Me.Icon_tghquest2_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_tghquest2_13.Name = "Icon_tghquest2_13"
+        Me.Icon_tghquest2_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_13.TabIndex = 31
+        Me.Icon_tghquest2_13.TabStop = false
+        '
+        'Icon_tghquest2_12
+        '
+        Me.Icon_tghquest2_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_tghquest2_12.Name = "Icon_tghquest2_12"
+        Me.Icon_tghquest2_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_12.TabIndex = 30
+        Me.Icon_tghquest2_12.TabStop = false
+        '
+        'Icon_tghquest2_11
+        '
+        Me.Icon_tghquest2_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_tghquest2_11.Name = "Icon_tghquest2_11"
+        Me.Icon_tghquest2_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_11.TabIndex = 29
+        Me.Icon_tghquest2_11.TabStop = false
+        '
+        'Icon_tghquest2_10
+        '
+        Me.Icon_tghquest2_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_tghquest2_10.Name = "Icon_tghquest2_10"
+        Me.Icon_tghquest2_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_10.TabIndex = 28
+        Me.Icon_tghquest2_10.TabStop = false
+        '
+        'Icon_tghquest2_9
+        '
+        Me.Icon_tghquest2_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_tghquest2_9.Name = "Icon_tghquest2_9"
+        Me.Icon_tghquest2_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_9.TabIndex = 27
+        Me.Icon_tghquest2_9.TabStop = false
+        '
+        'Icon_tghquest2_8
+        '
+        Me.Icon_tghquest2_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_tghquest2_8.Name = "Icon_tghquest2_8"
+        Me.Icon_tghquest2_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_8.TabIndex = 26
+        Me.Icon_tghquest2_8.TabStop = false
+        '
+        'Icon_tghquest2_7
+        '
+        Me.Icon_tghquest2_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_tghquest2_7.Name = "Icon_tghquest2_7"
+        Me.Icon_tghquest2_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_7.TabIndex = 25
+        Me.Icon_tghquest2_7.TabStop = false
+        '
+        'Icon_tghquest2_6
+        '
+        Me.Icon_tghquest2_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_tghquest2_6.Name = "Icon_tghquest2_6"
+        Me.Icon_tghquest2_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_6.TabIndex = 24
+        Me.Icon_tghquest2_6.TabStop = false
+        '
+        'Icon_tghquest2_5
+        '
+        Me.Icon_tghquest2_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_tghquest2_5.Name = "Icon_tghquest2_5"
+        Me.Icon_tghquest2_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_5.TabIndex = 23
+        Me.Icon_tghquest2_5.TabStop = false
+        '
+        'Icon_tghquest2_4
+        '
+        Me.Icon_tghquest2_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_tghquest2_4.Name = "Icon_tghquest2_4"
+        Me.Icon_tghquest2_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_4.TabIndex = 22
+        Me.Icon_tghquest2_4.TabStop = false
+        '
+        'Icon_tghquest2_3
+        '
+        Me.Icon_tghquest2_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_tghquest2_3.Name = "Icon_tghquest2_3"
+        Me.Icon_tghquest2_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_3.TabIndex = 21
+        Me.Icon_tghquest2_3.TabStop = false
+        '
+        'Icon_tghquest2_2
+        '
+        Me.Icon_tghquest2_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_tghquest2_2.Name = "Icon_tghquest2_2"
+        Me.Icon_tghquest2_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_2.TabIndex = 20
+        Me.Icon_tghquest2_2.TabStop = false
+        '
+        'Icon_tghquest2_1
+        '
+        Me.Icon_tghquest2_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest2_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_tghquest2_1.Name = "Icon_tghquest2_1"
+        Me.Icon_tghquest2_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest2_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest2_1.TabIndex = 4
+        Me.Icon_tghquest2_1.TabStop = false
         '
         'Label8
         '
@@ -9872,654 +8487,2319 @@ Partial Class TeamKirbyClashDeluxe
         '
         Me.Panel13.BackColor = System.Drawing.Color.Transparent
         Me.Panel13.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.toughquest1and2
-        Me.Panel13.Controls.Add(Me.NumericUpDown141)
-        Me.Panel13.Controls.Add(Me.NumericUpDown142)
-        Me.Panel13.Controls.Add(Me.NumericUpDown143)
-        Me.Panel13.Controls.Add(Me.NumericUpDown144)
-        Me.Panel13.Controls.Add(Me.NumericUpDown145)
-        Me.Panel13.Controls.Add(Me.NumericUpDown146)
-        Me.Panel13.Controls.Add(Me.NumericUpDown147)
-        Me.Panel13.Controls.Add(Me.NumericUpDown148)
-        Me.Panel13.Controls.Add(Me.NumericUpDown149)
-        Me.Panel13.Controls.Add(Me.NumericUpDown150)
-        Me.Panel13.Controls.Add(Me.NumericUpDown151)
-        Me.Panel13.Controls.Add(Me.NumericUpDown152)
-        Me.Panel13.Controls.Add(Me.NumericUpDown153)
-        Me.Panel13.Controls.Add(Me.NumericUpDown154)
-        Me.Panel13.Controls.Add(Me.NumericUpDown155)
-        Me.Panel13.Controls.Add(Me.NumericUpDown156)
-        Me.Panel13.Controls.Add(Me.NumericUpDown157)
-        Me.Panel13.Controls.Add(Me.NumericUpDown158)
-        Me.Panel13.Controls.Add(Me.NumericUpDown159)
-        Me.Panel13.Controls.Add(Me.NumericUpDown160)
-        Me.Panel13.Controls.Add(Me.NumericUpDown161)
-        Me.Panel13.Controls.Add(Me.NumericUpDown162)
-        Me.Panel13.Controls.Add(Me.NumericUpDown163)
-        Me.Panel13.Controls.Add(Me.NumericUpDown164)
-        Me.Panel13.Controls.Add(Me.NumericUpDown165)
-        Me.Panel13.Controls.Add(Me.NumericUpDown166)
-        Me.Panel13.Controls.Add(Me.NumericUpDown167)
-        Me.Panel13.Controls.Add(Me.NumericUpDown168)
-        Me.Panel13.Controls.Add(Me.PictureBox141)
-        Me.Panel13.Controls.Add(Me.PictureBox142)
-        Me.Panel13.Controls.Add(Me.PictureBox143)
-        Me.Panel13.Controls.Add(Me.PictureBox144)
-        Me.Panel13.Controls.Add(Me.PictureBox145)
-        Me.Panel13.Controls.Add(Me.PictureBox146)
-        Me.Panel13.Controls.Add(Me.PictureBox147)
-        Me.Panel13.Controls.Add(Me.PictureBox148)
-        Me.Panel13.Controls.Add(Me.PictureBox149)
-        Me.Panel13.Controls.Add(Me.PictureBox150)
-        Me.Panel13.Controls.Add(Me.PictureBox151)
-        Me.Panel13.Controls.Add(Me.PictureBox152)
-        Me.Panel13.Controls.Add(Me.PictureBox153)
-        Me.Panel13.Controls.Add(Me.PictureBox154)
-        Me.Panel13.Controls.Add(Me.PictureBox155)
-        Me.Panel13.Controls.Add(Me.PictureBox156)
-        Me.Panel13.Controls.Add(Me.PictureBox157)
-        Me.Panel13.Controls.Add(Me.PictureBox158)
-        Me.Panel13.Controls.Add(Me.PictureBox159)
-        Me.Panel13.Controls.Add(Me.PictureBox160)
-        Me.Panel13.Controls.Add(Me.PictureBox161)
-        Me.Panel13.Controls.Add(Me.PictureBox162)
-        Me.Panel13.Controls.Add(Me.PictureBox163)
-        Me.Panel13.Controls.Add(Me.PictureBox164)
-        Me.Panel13.Controls.Add(Me.PictureBox165)
-        Me.Panel13.Controls.Add(Me.PictureBox166)
-        Me.Panel13.Controls.Add(Me.PictureBox167)
-        Me.Panel13.Controls.Add(Me.PictureBox168)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_28)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_27)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_26)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_25)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_24)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_23)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_22)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_21)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_20)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_19)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_18)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_17)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_16)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_15)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_14)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_13)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_12)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_11)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_10)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_9)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_8)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_7)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_6)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_5)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_4)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_3)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_2)
+        Me.Panel13.Controls.Add(Me.valu_tghquest1_1)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_28)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_27)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_26)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_25)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_24)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_23)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_22)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_21)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_20)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_19)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_18)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_17)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_16)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_15)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_14)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_13)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_12)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_11)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_10)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_9)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_8)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_7)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_6)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_5)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_4)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_3)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_2)
+        Me.Panel13.Controls.Add(Me.Icon_tghquest1_1)
         Me.Panel13.Location = New System.Drawing.Point(7, 55)
         Me.Panel13.Name = "Panel13"
         Me.Panel13.Size = New System.Drawing.Size(320, 166)
         Me.Panel13.TabIndex = 0
         '
-        'NumericUpDown141
-        '
-        Me.NumericUpDown141.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown141.Location = New System.Drawing.Point(131, 150)
-        Me.NumericUpDown141.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown141.Name = "NumericUpDown141"
-        Me.NumericUpDown141.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown141.TabIndex = 47
-        Me.NumericUpDown141.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown141.Visible = False
-        '
-        'NumericUpDown142
-        '
-        Me.NumericUpDown142.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown142.Location = New System.Drawing.Point(95, 150)
-        Me.NumericUpDown142.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown142.Name = "NumericUpDown142"
-        Me.NumericUpDown142.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown142.TabIndex = 46
-        Me.NumericUpDown142.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown142.Visible = False
-        '
-        'NumericUpDown143
-        '
-        Me.NumericUpDown143.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown143.Location = New System.Drawing.Point(59, 150)
-        Me.NumericUpDown143.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown143.Name = "NumericUpDown143"
-        Me.NumericUpDown143.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown143.TabIndex = 45
-        Me.NumericUpDown143.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown143.Visible = False
-        '
-        'NumericUpDown144
-        '
-        Me.NumericUpDown144.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown144.Location = New System.Drawing.Point(23, 150)
-        Me.NumericUpDown144.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown144.Name = "NumericUpDown144"
-        Me.NumericUpDown144.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown144.TabIndex = 44
-        Me.NumericUpDown144.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown144.Visible = False
-        '
-        'NumericUpDown145
-        '
-        Me.NumericUpDown145.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown145.Location = New System.Drawing.Point(277, 108)
-        Me.NumericUpDown145.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown145.Name = "NumericUpDown145"
-        Me.NumericUpDown145.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown145.TabIndex = 43
-        Me.NumericUpDown145.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown145.Visible = False
-        '
-        'NumericUpDown146
-        '
-        Me.NumericUpDown146.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown146.Location = New System.Drawing.Point(241, 108)
-        Me.NumericUpDown146.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown146.Name = "NumericUpDown146"
-        Me.NumericUpDown146.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown146.TabIndex = 42
-        Me.NumericUpDown146.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown146.Visible = False
-        '
-        'NumericUpDown147
-        '
-        Me.NumericUpDown147.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown147.Location = New System.Drawing.Point(205, 108)
-        Me.NumericUpDown147.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown147.Name = "NumericUpDown147"
-        Me.NumericUpDown147.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown147.TabIndex = 41
-        Me.NumericUpDown147.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown147.Visible = False
-        '
-        'NumericUpDown148
-        '
-        Me.NumericUpDown148.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown148.Location = New System.Drawing.Point(169, 108)
-        Me.NumericUpDown148.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown148.Name = "NumericUpDown148"
-        Me.NumericUpDown148.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown148.TabIndex = 39
-        Me.NumericUpDown148.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown148.Visible = False
-        '
-        'NumericUpDown149
-        '
-        Me.NumericUpDown149.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown149.Location = New System.Drawing.Point(132, 108)
-        Me.NumericUpDown149.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown149.Name = "NumericUpDown149"
-        Me.NumericUpDown149.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown149.TabIndex = 38
-        Me.NumericUpDown149.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown149.Visible = False
-        '
-        'NumericUpDown150
-        '
-        Me.NumericUpDown150.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown150.Location = New System.Drawing.Point(96, 108)
-        Me.NumericUpDown150.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown150.Name = "NumericUpDown150"
-        Me.NumericUpDown150.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown150.TabIndex = 37
-        Me.NumericUpDown150.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown150.Visible = False
-        '
-        'NumericUpDown151
-        '
-        Me.NumericUpDown151.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown151.Location = New System.Drawing.Point(60, 108)
-        Me.NumericUpDown151.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown151.Name = "NumericUpDown151"
-        Me.NumericUpDown151.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown151.TabIndex = 36
-        Me.NumericUpDown151.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown151.Visible = False
-        '
-        'NumericUpDown152
-        '
-        Me.NumericUpDown152.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown152.Location = New System.Drawing.Point(24, 108)
-        Me.NumericUpDown152.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown152.Name = "NumericUpDown152"
-        Me.NumericUpDown152.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown152.TabIndex = 35
-        Me.NumericUpDown152.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown152.Visible = False
-        '
-        'NumericUpDown153
-        '
-        Me.NumericUpDown153.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown153.Location = New System.Drawing.Point(276, 66)
-        Me.NumericUpDown153.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown153.Name = "NumericUpDown153"
-        Me.NumericUpDown153.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown153.TabIndex = 15
-        Me.NumericUpDown153.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown153.Visible = False
-        '
-        'NumericUpDown154
-        '
-        Me.NumericUpDown154.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown154.Location = New System.Drawing.Point(240, 66)
-        Me.NumericUpDown154.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown154.Name = "NumericUpDown154"
-        Me.NumericUpDown154.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown154.TabIndex = 14
-        Me.NumericUpDown154.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown154.Visible = False
-        '
-        'NumericUpDown155
-        '
-        Me.NumericUpDown155.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown155.Location = New System.Drawing.Point(204, 66)
-        Me.NumericUpDown155.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown155.Name = "NumericUpDown155"
-        Me.NumericUpDown155.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown155.TabIndex = 13
-        Me.NumericUpDown155.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown155.Visible = False
-        '
-        'NumericUpDown156
-        '
-        Me.NumericUpDown156.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown156.Location = New System.Drawing.Point(168, 66)
-        Me.NumericUpDown156.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown156.Name = "NumericUpDown156"
-        Me.NumericUpDown156.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown156.TabIndex = 12
-        Me.NumericUpDown156.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown156.Visible = False
-        '
-        'NumericUpDown157
-        '
-        Me.NumericUpDown157.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown157.Location = New System.Drawing.Point(131, 66)
-        Me.NumericUpDown157.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown157.Name = "NumericUpDown157"
-        Me.NumericUpDown157.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown157.TabIndex = 11
-        Me.NumericUpDown157.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown157.Visible = False
-        '
-        'NumericUpDown158
-        '
-        Me.NumericUpDown158.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown158.Location = New System.Drawing.Point(95, 66)
-        Me.NumericUpDown158.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown158.Name = "NumericUpDown158"
-        Me.NumericUpDown158.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown158.TabIndex = 10
-        Me.NumericUpDown158.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown158.Visible = False
-        '
-        'NumericUpDown159
-        '
-        Me.NumericUpDown159.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown159.Location = New System.Drawing.Point(59, 66)
-        Me.NumericUpDown159.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown159.Name = "NumericUpDown159"
-        Me.NumericUpDown159.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown159.TabIndex = 9
-        Me.NumericUpDown159.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown159.Visible = False
-        '
-        'NumericUpDown160
-        '
-        Me.NumericUpDown160.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown160.Location = New System.Drawing.Point(23, 66)
-        Me.NumericUpDown160.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown160.Name = "NumericUpDown160"
-        Me.NumericUpDown160.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown160.TabIndex = 8
-        Me.NumericUpDown160.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown160.Visible = False
-        '
-        'NumericUpDown161
-        '
-        Me.NumericUpDown161.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown161.Location = New System.Drawing.Point(277, 24)
-        Me.NumericUpDown161.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown161.Name = "NumericUpDown161"
-        Me.NumericUpDown161.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown161.TabIndex = 7
-        Me.NumericUpDown161.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown161.Visible = False
-        '
-        'NumericUpDown162
-        '
-        Me.NumericUpDown162.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown162.Location = New System.Drawing.Point(241, 24)
-        Me.NumericUpDown162.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown162.Name = "NumericUpDown162"
-        Me.NumericUpDown162.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown162.TabIndex = 6
-        Me.NumericUpDown162.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown162.Visible = False
-        '
-        'NumericUpDown163
-        '
-        Me.NumericUpDown163.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown163.Location = New System.Drawing.Point(205, 24)
-        Me.NumericUpDown163.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown163.Name = "NumericUpDown163"
-        Me.NumericUpDown163.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown163.TabIndex = 5
-        Me.NumericUpDown163.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown163.Visible = False
-        '
-        'NumericUpDown164
-        '
-        Me.NumericUpDown164.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown164.Location = New System.Drawing.Point(169, 24)
-        Me.NumericUpDown164.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown164.Name = "NumericUpDown164"
-        Me.NumericUpDown164.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown164.TabIndex = 4
-        Me.NumericUpDown164.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown164.Visible = False
-        '
-        'NumericUpDown165
-        '
-        Me.NumericUpDown165.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown165.Location = New System.Drawing.Point(132, 24)
-        Me.NumericUpDown165.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown165.Name = "NumericUpDown165"
-        Me.NumericUpDown165.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown165.TabIndex = 3
-        Me.NumericUpDown165.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown165.Visible = False
-        '
-        'NumericUpDown166
-        '
-        Me.NumericUpDown166.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown166.Location = New System.Drawing.Point(96, 24)
-        Me.NumericUpDown166.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown166.Name = "NumericUpDown166"
-        Me.NumericUpDown166.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown166.TabIndex = 2
-        Me.NumericUpDown166.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown166.Visible = False
-        '
-        'NumericUpDown167
-        '
-        Me.NumericUpDown167.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown167.Location = New System.Drawing.Point(60, 24)
-        Me.NumericUpDown167.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown167.Name = "NumericUpDown167"
-        Me.NumericUpDown167.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown167.TabIndex = 1
-        Me.NumericUpDown167.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown167.Visible = False
-        '
-        'NumericUpDown168
-        '
-        Me.NumericUpDown168.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.NumericUpDown168.Location = New System.Drawing.Point(24, 24)
-        Me.NumericUpDown168.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.NumericUpDown168.Name = "NumericUpDown168"
-        Me.NumericUpDown168.Size = New System.Drawing.Size(36, 16)
-        Me.NumericUpDown168.TabIndex = 0
-        Me.NumericUpDown168.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown168.Visible = False
-        '
-        'PictureBox141
-        '
-        Me.PictureBox141.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox141.Location = New System.Drawing.Point(131, 131)
-        Me.PictureBox141.Name = "PictureBox141"
-        Me.PictureBox141.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox141.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox141.TabIndex = 62
-        Me.PictureBox141.TabStop = False
-        '
-        'PictureBox142
-        '
-        Me.PictureBox142.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox142.Location = New System.Drawing.Point(99, 131)
-        Me.PictureBox142.Name = "PictureBox142"
-        Me.PictureBox142.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox142.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox142.TabIndex = 61
-        Me.PictureBox142.TabStop = False
-        '
-        'PictureBox143
-        '
-        Me.PictureBox143.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox143.Location = New System.Drawing.Point(67, 131)
-        Me.PictureBox143.Name = "PictureBox143"
-        Me.PictureBox143.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox143.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox143.TabIndex = 60
-        Me.PictureBox143.TabStop = False
-        '
-        'PictureBox144
-        '
-        Me.PictureBox144.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox144.Location = New System.Drawing.Point(35, 131)
-        Me.PictureBox144.Name = "PictureBox144"
-        Me.PictureBox144.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox144.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox144.TabIndex = 59
-        Me.PictureBox144.TabStop = False
-        '
-        'PictureBox145
-        '
-        Me.PictureBox145.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox145.Location = New System.Drawing.Point(275, 89)
-        Me.PictureBox145.Name = "PictureBox145"
-        Me.PictureBox145.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox145.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox145.TabIndex = 58
-        Me.PictureBox145.TabStop = False
-        '
-        'PictureBox146
-        '
-        Me.PictureBox146.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox146.Location = New System.Drawing.Point(243, 89)
-        Me.PictureBox146.Name = "PictureBox146"
-        Me.PictureBox146.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox146.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox146.TabIndex = 57
-        Me.PictureBox146.TabStop = False
-        '
-        'PictureBox147
-        '
-        Me.PictureBox147.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox147.Location = New System.Drawing.Point(211, 89)
-        Me.PictureBox147.Name = "PictureBox147"
-        Me.PictureBox147.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox147.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox147.TabIndex = 56
-        Me.PictureBox147.TabStop = False
-        '
-        'PictureBox148
-        '
-        Me.PictureBox148.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox148.Location = New System.Drawing.Point(179, 89)
-        Me.PictureBox148.Name = "PictureBox148"
-        Me.PictureBox148.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox148.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox148.TabIndex = 55
-        Me.PictureBox148.TabStop = False
-        '
-        'PictureBox149
-        '
-        Me.PictureBox149.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox149.Location = New System.Drawing.Point(131, 89)
-        Me.PictureBox149.Name = "PictureBox149"
-        Me.PictureBox149.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox149.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox149.TabIndex = 54
-        Me.PictureBox149.TabStop = False
-        '
-        'PictureBox150
-        '
-        Me.PictureBox150.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox150.Location = New System.Drawing.Point(99, 89)
-        Me.PictureBox150.Name = "PictureBox150"
-        Me.PictureBox150.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox150.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox150.TabIndex = 53
-        Me.PictureBox150.TabStop = False
-        '
-        'PictureBox151
-        '
-        Me.PictureBox151.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox151.Location = New System.Drawing.Point(67, 89)
-        Me.PictureBox151.Name = "PictureBox151"
-        Me.PictureBox151.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox151.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox151.TabIndex = 52
-        Me.PictureBox151.TabStop = False
-        '
-        'PictureBox152
-        '
-        Me.PictureBox152.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox152.Location = New System.Drawing.Point(35, 89)
-        Me.PictureBox152.Name = "PictureBox152"
-        Me.PictureBox152.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox152.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox152.TabIndex = 40
-        Me.PictureBox152.TabStop = False
-        '
-        'PictureBox153
-        '
-        Me.PictureBox153.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox153.Location = New System.Drawing.Point(275, 47)
-        Me.PictureBox153.Name = "PictureBox153"
-        Me.PictureBox153.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox153.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox153.TabIndex = 34
-        Me.PictureBox153.TabStop = False
-        '
-        'PictureBox154
-        '
-        Me.PictureBox154.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox154.Location = New System.Drawing.Point(243, 47)
-        Me.PictureBox154.Name = "PictureBox154"
-        Me.PictureBox154.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox154.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox154.TabIndex = 33
-        Me.PictureBox154.TabStop = False
-        '
-        'PictureBox155
-        '
-        Me.PictureBox155.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox155.Location = New System.Drawing.Point(211, 47)
-        Me.PictureBox155.Name = "PictureBox155"
-        Me.PictureBox155.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox155.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox155.TabIndex = 32
-        Me.PictureBox155.TabStop = False
-        '
-        'PictureBox156
-        '
-        Me.PictureBox156.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox156.Location = New System.Drawing.Point(179, 47)
-        Me.PictureBox156.Name = "PictureBox156"
-        Me.PictureBox156.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox156.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox156.TabIndex = 31
-        Me.PictureBox156.TabStop = False
-        '
-        'PictureBox157
-        '
-        Me.PictureBox157.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox157.Location = New System.Drawing.Point(131, 47)
-        Me.PictureBox157.Name = "PictureBox157"
-        Me.PictureBox157.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox157.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox157.TabIndex = 30
-        Me.PictureBox157.TabStop = False
-        '
-        'PictureBox158
-        '
-        Me.PictureBox158.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox158.Location = New System.Drawing.Point(99, 47)
-        Me.PictureBox158.Name = "PictureBox158"
-        Me.PictureBox158.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox158.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox158.TabIndex = 29
-        Me.PictureBox158.TabStop = False
-        '
-        'PictureBox159
-        '
-        Me.PictureBox159.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox159.Location = New System.Drawing.Point(67, 47)
-        Me.PictureBox159.Name = "PictureBox159"
-        Me.PictureBox159.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox159.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox159.TabIndex = 28
-        Me.PictureBox159.TabStop = False
-        '
-        'PictureBox160
-        '
-        Me.PictureBox160.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox160.Location = New System.Drawing.Point(35, 47)
-        Me.PictureBox160.Name = "PictureBox160"
-        Me.PictureBox160.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox160.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox160.TabIndex = 27
-        Me.PictureBox160.TabStop = False
-        '
-        'PictureBox161
-        '
-        Me.PictureBox161.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox161.Location = New System.Drawing.Point(275, 5)
-        Me.PictureBox161.Name = "PictureBox161"
-        Me.PictureBox161.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox161.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox161.TabIndex = 26
-        Me.PictureBox161.TabStop = False
-        '
-        'PictureBox162
-        '
-        Me.PictureBox162.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox162.Location = New System.Drawing.Point(243, 5)
-        Me.PictureBox162.Name = "PictureBox162"
-        Me.PictureBox162.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox162.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox162.TabIndex = 25
-        Me.PictureBox162.TabStop = False
-        '
-        'PictureBox163
-        '
-        Me.PictureBox163.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox163.Location = New System.Drawing.Point(211, 5)
-        Me.PictureBox163.Name = "PictureBox163"
-        Me.PictureBox163.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox163.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox163.TabIndex = 24
-        Me.PictureBox163.TabStop = False
-        '
-        'PictureBox164
-        '
-        Me.PictureBox164.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox164.Location = New System.Drawing.Point(179, 5)
-        Me.PictureBox164.Name = "PictureBox164"
-        Me.PictureBox164.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox164.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox164.TabIndex = 23
-        Me.PictureBox164.TabStop = False
-        '
-        'PictureBox165
-        '
-        Me.PictureBox165.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox165.Location = New System.Drawing.Point(131, 5)
-        Me.PictureBox165.Name = "PictureBox165"
-        Me.PictureBox165.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox165.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox165.TabIndex = 22
-        Me.PictureBox165.TabStop = False
-        '
-        'PictureBox166
-        '
-        Me.PictureBox166.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox166.Location = New System.Drawing.Point(99, 5)
-        Me.PictureBox166.Name = "PictureBox166"
-        Me.PictureBox166.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox166.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox166.TabIndex = 21
-        Me.PictureBox166.TabStop = False
-        '
-        'PictureBox167
-        '
-        Me.PictureBox167.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox167.Location = New System.Drawing.Point(67, 5)
-        Me.PictureBox167.Name = "PictureBox167"
-        Me.PictureBox167.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox167.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox167.TabIndex = 20
-        Me.PictureBox167.TabStop = False
-        '
-        'PictureBox168
-        '
-        Me.PictureBox168.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox168.Location = New System.Drawing.Point(35, 5)
-        Me.PictureBox168.Name = "PictureBox168"
-        Me.PictureBox168.Size = New System.Drawing.Size(28, 28)
-        Me.PictureBox168.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox168.TabIndex = 4
-        Me.PictureBox168.TabStop = False
+        'valu_tghquest1_28
+        '
+        Me.valu_tghquest1_28.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_28.Location = New System.Drawing.Point(131, 150)
+        Me.valu_tghquest1_28.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_28.Name = "valu_tghquest1_28"
+        Me.valu_tghquest1_28.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_28.TabIndex = 47
+        Me.valu_tghquest1_28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_28.Visible = false
+        '
+        'valu_tghquest1_27
+        '
+        Me.valu_tghquest1_27.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_27.Location = New System.Drawing.Point(95, 150)
+        Me.valu_tghquest1_27.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_27.Name = "valu_tghquest1_27"
+        Me.valu_tghquest1_27.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_27.TabIndex = 46
+        Me.valu_tghquest1_27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_27.Visible = false
+        '
+        'valu_tghquest1_26
+        '
+        Me.valu_tghquest1_26.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_26.Location = New System.Drawing.Point(59, 150)
+        Me.valu_tghquest1_26.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_26.Name = "valu_tghquest1_26"
+        Me.valu_tghquest1_26.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_26.TabIndex = 45
+        Me.valu_tghquest1_26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_26.Visible = false
+        '
+        'valu_tghquest1_25
+        '
+        Me.valu_tghquest1_25.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_25.Location = New System.Drawing.Point(23, 150)
+        Me.valu_tghquest1_25.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_25.Name = "valu_tghquest1_25"
+        Me.valu_tghquest1_25.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_25.TabIndex = 44
+        Me.valu_tghquest1_25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_25.Visible = false
+        '
+        'valu_tghquest1_24
+        '
+        Me.valu_tghquest1_24.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_24.Location = New System.Drawing.Point(277, 108)
+        Me.valu_tghquest1_24.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_24.Name = "valu_tghquest1_24"
+        Me.valu_tghquest1_24.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_24.TabIndex = 43
+        Me.valu_tghquest1_24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_24.Visible = false
+        '
+        'valu_tghquest1_23
+        '
+        Me.valu_tghquest1_23.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_23.Location = New System.Drawing.Point(241, 108)
+        Me.valu_tghquest1_23.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_23.Name = "valu_tghquest1_23"
+        Me.valu_tghquest1_23.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_23.TabIndex = 42
+        Me.valu_tghquest1_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_23.Visible = false
+        '
+        'valu_tghquest1_22
+        '
+        Me.valu_tghquest1_22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_22.Location = New System.Drawing.Point(205, 108)
+        Me.valu_tghquest1_22.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_22.Name = "valu_tghquest1_22"
+        Me.valu_tghquest1_22.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_22.TabIndex = 41
+        Me.valu_tghquest1_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_22.Visible = false
+        '
+        'valu_tghquest1_21
+        '
+        Me.valu_tghquest1_21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_21.Location = New System.Drawing.Point(169, 108)
+        Me.valu_tghquest1_21.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_21.Name = "valu_tghquest1_21"
+        Me.valu_tghquest1_21.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_21.TabIndex = 39
+        Me.valu_tghquest1_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_21.Visible = false
+        '
+        'valu_tghquest1_20
+        '
+        Me.valu_tghquest1_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_tghquest1_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_20.Name = "valu_tghquest1_20"
+        Me.valu_tghquest1_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_20.TabIndex = 38
+        Me.valu_tghquest1_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_20.Visible = false
+        '
+        'valu_tghquest1_19
+        '
+        Me.valu_tghquest1_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_tghquest1_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_19.Name = "valu_tghquest1_19"
+        Me.valu_tghquest1_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_19.TabIndex = 37
+        Me.valu_tghquest1_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_19.Visible = false
+        '
+        'valu_tghquest1_18
+        '
+        Me.valu_tghquest1_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_tghquest1_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_18.Name = "valu_tghquest1_18"
+        Me.valu_tghquest1_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_18.TabIndex = 36
+        Me.valu_tghquest1_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_18.Visible = false
+        '
+        'valu_tghquest1_17
+        '
+        Me.valu_tghquest1_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_tghquest1_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_17.Name = "valu_tghquest1_17"
+        Me.valu_tghquest1_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_17.TabIndex = 35
+        Me.valu_tghquest1_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_17.Visible = false
+        '
+        'valu_tghquest1_16
+        '
+        Me.valu_tghquest1_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_tghquest1_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_16.Name = "valu_tghquest1_16"
+        Me.valu_tghquest1_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_16.TabIndex = 15
+        Me.valu_tghquest1_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_16.Visible = false
+        '
+        'valu_tghquest1_15
+        '
+        Me.valu_tghquest1_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_tghquest1_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_15.Name = "valu_tghquest1_15"
+        Me.valu_tghquest1_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_15.TabIndex = 14
+        Me.valu_tghquest1_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_15.Visible = false
+        '
+        'valu_tghquest1_14
+        '
+        Me.valu_tghquest1_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_tghquest1_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_14.Name = "valu_tghquest1_14"
+        Me.valu_tghquest1_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_14.TabIndex = 13
+        Me.valu_tghquest1_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_14.Visible = false
+        '
+        'valu_tghquest1_13
+        '
+        Me.valu_tghquest1_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_tghquest1_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_13.Name = "valu_tghquest1_13"
+        Me.valu_tghquest1_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_13.TabIndex = 12
+        Me.valu_tghquest1_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_13.Visible = false
+        '
+        'valu_tghquest1_12
+        '
+        Me.valu_tghquest1_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_tghquest1_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_12.Name = "valu_tghquest1_12"
+        Me.valu_tghquest1_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_12.TabIndex = 11
+        Me.valu_tghquest1_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_12.Visible = false
+        '
+        'valu_tghquest1_11
+        '
+        Me.valu_tghquest1_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_tghquest1_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_11.Name = "valu_tghquest1_11"
+        Me.valu_tghquest1_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_11.TabIndex = 10
+        Me.valu_tghquest1_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_11.Visible = false
+        '
+        'valu_tghquest1_10
+        '
+        Me.valu_tghquest1_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_tghquest1_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_10.Name = "valu_tghquest1_10"
+        Me.valu_tghquest1_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_10.TabIndex = 9
+        Me.valu_tghquest1_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_10.Visible = false
+        '
+        'valu_tghquest1_9
+        '
+        Me.valu_tghquest1_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_tghquest1_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_9.Name = "valu_tghquest1_9"
+        Me.valu_tghquest1_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_9.TabIndex = 8
+        Me.valu_tghquest1_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_9.Visible = false
+        '
+        'valu_tghquest1_8
+        '
+        Me.valu_tghquest1_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_tghquest1_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_8.Name = "valu_tghquest1_8"
+        Me.valu_tghquest1_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_8.TabIndex = 7
+        Me.valu_tghquest1_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_8.Visible = false
+        '
+        'valu_tghquest1_7
+        '
+        Me.valu_tghquest1_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_tghquest1_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_7.Name = "valu_tghquest1_7"
+        Me.valu_tghquest1_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_7.TabIndex = 6
+        Me.valu_tghquest1_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_7.Visible = false
+        '
+        'valu_tghquest1_6
+        '
+        Me.valu_tghquest1_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_tghquest1_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_6.Name = "valu_tghquest1_6"
+        Me.valu_tghquest1_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_6.TabIndex = 5
+        Me.valu_tghquest1_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_6.Visible = false
+        '
+        'valu_tghquest1_5
+        '
+        Me.valu_tghquest1_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_tghquest1_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_5.Name = "valu_tghquest1_5"
+        Me.valu_tghquest1_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_5.TabIndex = 4
+        Me.valu_tghquest1_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_5.Visible = false
+        '
+        'valu_tghquest1_4
+        '
+        Me.valu_tghquest1_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_tghquest1_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_4.Name = "valu_tghquest1_4"
+        Me.valu_tghquest1_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_4.TabIndex = 3
+        Me.valu_tghquest1_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_4.Visible = false
+        '
+        'valu_tghquest1_3
+        '
+        Me.valu_tghquest1_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_tghquest1_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_3.Name = "valu_tghquest1_3"
+        Me.valu_tghquest1_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_3.TabIndex = 2
+        Me.valu_tghquest1_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_3.Visible = false
+        '
+        'valu_tghquest1_2
+        '
+        Me.valu_tghquest1_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_tghquest1_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_2.Name = "valu_tghquest1_2"
+        Me.valu_tghquest1_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_2.TabIndex = 1
+        Me.valu_tghquest1_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_2.Visible = false
+        '
+        'valu_tghquest1_1
+        '
+        Me.valu_tghquest1_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_tghquest1_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_tghquest1_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_tghquest1_1.Name = "valu_tghquest1_1"
+        Me.valu_tghquest1_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_tghquest1_1.TabIndex = 0
+        Me.valu_tghquest1_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_tghquest1_1.Visible = false
+        '
+        'Icon_tghquest1_28
+        '
+        Me.Icon_tghquest1_28.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_28.Location = New System.Drawing.Point(131, 131)
+        Me.Icon_tghquest1_28.Name = "Icon_tghquest1_28"
+        Me.Icon_tghquest1_28.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_28.TabIndex = 62
+        Me.Icon_tghquest1_28.TabStop = false
+        '
+        'Icon_tghquest1_27
+        '
+        Me.Icon_tghquest1_27.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_27.Location = New System.Drawing.Point(99, 131)
+        Me.Icon_tghquest1_27.Name = "Icon_tghquest1_27"
+        Me.Icon_tghquest1_27.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_27.TabIndex = 61
+        Me.Icon_tghquest1_27.TabStop = false
+        '
+        'Icon_tghquest1_26
+        '
+        Me.Icon_tghquest1_26.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_26.Location = New System.Drawing.Point(67, 131)
+        Me.Icon_tghquest1_26.Name = "Icon_tghquest1_26"
+        Me.Icon_tghquest1_26.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_26.TabIndex = 60
+        Me.Icon_tghquest1_26.TabStop = false
+        '
+        'Icon_tghquest1_25
+        '
+        Me.Icon_tghquest1_25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_25.Location = New System.Drawing.Point(35, 131)
+        Me.Icon_tghquest1_25.Name = "Icon_tghquest1_25"
+        Me.Icon_tghquest1_25.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_25.TabIndex = 59
+        Me.Icon_tghquest1_25.TabStop = false
+        '
+        'Icon_tghquest1_24
+        '
+        Me.Icon_tghquest1_24.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_24.Location = New System.Drawing.Point(275, 89)
+        Me.Icon_tghquest1_24.Name = "Icon_tghquest1_24"
+        Me.Icon_tghquest1_24.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_24.TabIndex = 58
+        Me.Icon_tghquest1_24.TabStop = false
+        '
+        'Icon_tghquest1_23
+        '
+        Me.Icon_tghquest1_23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_23.Location = New System.Drawing.Point(243, 89)
+        Me.Icon_tghquest1_23.Name = "Icon_tghquest1_23"
+        Me.Icon_tghquest1_23.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_23.TabIndex = 57
+        Me.Icon_tghquest1_23.TabStop = false
+        '
+        'Icon_tghquest1_22
+        '
+        Me.Icon_tghquest1_22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_22.Location = New System.Drawing.Point(211, 89)
+        Me.Icon_tghquest1_22.Name = "Icon_tghquest1_22"
+        Me.Icon_tghquest1_22.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_22.TabIndex = 56
+        Me.Icon_tghquest1_22.TabStop = false
+        '
+        'Icon_tghquest1_21
+        '
+        Me.Icon_tghquest1_21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_21.Location = New System.Drawing.Point(179, 89)
+        Me.Icon_tghquest1_21.Name = "Icon_tghquest1_21"
+        Me.Icon_tghquest1_21.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_21.TabIndex = 55
+        Me.Icon_tghquest1_21.TabStop = false
+        '
+        'Icon_tghquest1_20
+        '
+        Me.Icon_tghquest1_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_tghquest1_20.Name = "Icon_tghquest1_20"
+        Me.Icon_tghquest1_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_20.TabIndex = 54
+        Me.Icon_tghquest1_20.TabStop = false
+        '
+        'Icon_tghquest1_19
+        '
+        Me.Icon_tghquest1_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_tghquest1_19.Name = "Icon_tghquest1_19"
+        Me.Icon_tghquest1_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_19.TabIndex = 53
+        Me.Icon_tghquest1_19.TabStop = false
+        '
+        'Icon_tghquest1_18
+        '
+        Me.Icon_tghquest1_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_tghquest1_18.Name = "Icon_tghquest1_18"
+        Me.Icon_tghquest1_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_18.TabIndex = 52
+        Me.Icon_tghquest1_18.TabStop = false
+        '
+        'Icon_tghquest1_17
+        '
+        Me.Icon_tghquest1_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_tghquest1_17.Name = "Icon_tghquest1_17"
+        Me.Icon_tghquest1_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_17.TabIndex = 40
+        Me.Icon_tghquest1_17.TabStop = false
+        '
+        'Icon_tghquest1_16
+        '
+        Me.Icon_tghquest1_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_tghquest1_16.Name = "Icon_tghquest1_16"
+        Me.Icon_tghquest1_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_16.TabIndex = 34
+        Me.Icon_tghquest1_16.TabStop = false
+        '
+        'Icon_tghquest1_15
+        '
+        Me.Icon_tghquest1_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_tghquest1_15.Name = "Icon_tghquest1_15"
+        Me.Icon_tghquest1_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_15.TabIndex = 33
+        Me.Icon_tghquest1_15.TabStop = false
+        '
+        'Icon_tghquest1_14
+        '
+        Me.Icon_tghquest1_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_tghquest1_14.Name = "Icon_tghquest1_14"
+        Me.Icon_tghquest1_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_14.TabIndex = 32
+        Me.Icon_tghquest1_14.TabStop = false
+        '
+        'Icon_tghquest1_13
+        '
+        Me.Icon_tghquest1_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_tghquest1_13.Name = "Icon_tghquest1_13"
+        Me.Icon_tghquest1_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_13.TabIndex = 31
+        Me.Icon_tghquest1_13.TabStop = false
+        '
+        'Icon_tghquest1_12
+        '
+        Me.Icon_tghquest1_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_tghquest1_12.Name = "Icon_tghquest1_12"
+        Me.Icon_tghquest1_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_12.TabIndex = 30
+        Me.Icon_tghquest1_12.TabStop = false
+        '
+        'Icon_tghquest1_11
+        '
+        Me.Icon_tghquest1_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_tghquest1_11.Name = "Icon_tghquest1_11"
+        Me.Icon_tghquest1_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_11.TabIndex = 29
+        Me.Icon_tghquest1_11.TabStop = false
+        '
+        'Icon_tghquest1_10
+        '
+        Me.Icon_tghquest1_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_tghquest1_10.Name = "Icon_tghquest1_10"
+        Me.Icon_tghquest1_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_10.TabIndex = 28
+        Me.Icon_tghquest1_10.TabStop = false
+        '
+        'Icon_tghquest1_9
+        '
+        Me.Icon_tghquest1_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_tghquest1_9.Name = "Icon_tghquest1_9"
+        Me.Icon_tghquest1_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_9.TabIndex = 27
+        Me.Icon_tghquest1_9.TabStop = false
+        '
+        'Icon_tghquest1_8
+        '
+        Me.Icon_tghquest1_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_tghquest1_8.Name = "Icon_tghquest1_8"
+        Me.Icon_tghquest1_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_8.TabIndex = 26
+        Me.Icon_tghquest1_8.TabStop = false
+        '
+        'Icon_tghquest1_7
+        '
+        Me.Icon_tghquest1_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_tghquest1_7.Name = "Icon_tghquest1_7"
+        Me.Icon_tghquest1_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_7.TabIndex = 25
+        Me.Icon_tghquest1_7.TabStop = false
+        '
+        'Icon_tghquest1_6
+        '
+        Me.Icon_tghquest1_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_tghquest1_6.Name = "Icon_tghquest1_6"
+        Me.Icon_tghquest1_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_6.TabIndex = 24
+        Me.Icon_tghquest1_6.TabStop = false
+        '
+        'Icon_tghquest1_5
+        '
+        Me.Icon_tghquest1_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_tghquest1_5.Name = "Icon_tghquest1_5"
+        Me.Icon_tghquest1_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_5.TabIndex = 23
+        Me.Icon_tghquest1_5.TabStop = false
+        '
+        'Icon_tghquest1_4
+        '
+        Me.Icon_tghquest1_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_tghquest1_4.Name = "Icon_tghquest1_4"
+        Me.Icon_tghquest1_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_4.TabIndex = 22
+        Me.Icon_tghquest1_4.TabStop = false
+        '
+        'Icon_tghquest1_3
+        '
+        Me.Icon_tghquest1_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_tghquest1_3.Name = "Icon_tghquest1_3"
+        Me.Icon_tghquest1_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_3.TabIndex = 21
+        Me.Icon_tghquest1_3.TabStop = false
+        '
+        'Icon_tghquest1_2
+        '
+        Me.Icon_tghquest1_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_tghquest1_2.Name = "Icon_tghquest1_2"
+        Me.Icon_tghquest1_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_2.TabIndex = 20
+        Me.Icon_tghquest1_2.TabStop = false
+        '
+        'Icon_tghquest1_1
+        '
+        Me.Icon_tghquest1_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_tghquest1_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_tghquest1_1.Name = "Icon_tghquest1_1"
+        Me.Icon_tghquest1_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_tghquest1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_tghquest1_1.TabIndex = 4
+        Me.Icon_tghquest1_1.TabStop = false
+        '
+        'Panel_page_1
+        '
+        Me.Panel_page_1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_page_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel_page_1.Controls.Add(Me.Panel26)
+        Me.Panel_page_1.Controls.Add(Me.Panel25)
+        Me.Panel_page_1.Controls.Add(Me.Icon_p1_arrowright)
+        Me.Panel_page_1.Controls.Add(Me.Panel9)
+        Me.Panel_page_1.Controls.Add(Me.Label6)
+        Me.Panel_page_1.Controls.Add(Me.Label7)
+        Me.Panel_page_1.Controls.Add(Me.Panel10)
+        Me.Panel_page_1.Location = New System.Drawing.Point(13, 18)
+        Me.Panel_page_1.Name = "Panel_page_1"
+        Me.Panel_page_1.Size = New System.Drawing.Size(575, 454)
+        Me.Panel_page_1.TabIndex = 5
+        '
+        'Panel26
+        '
+        Me.Panel26.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel26.Controls.Add(Me.Text_setall_quests2)
+        Me.Panel26.Location = New System.Drawing.Point(183, 396)
+        Me.Panel26.Name = "Panel26"
+        Me.Panel26.Size = New System.Drawing.Size(65, 20)
+        Me.Panel26.TabIndex = 12
+        '
+        'Text_setall_quests2
+        '
+        Me.Text_setall_quests2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_quests2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_quests2.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_quests2.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_quests2.Name = "Text_setall_quests2"
+        Me.Text_setall_quests2.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_quests2.TabIndex = 0
+        Me.Text_setall_quests2.Text = "Set all to"
+        Me.Text_setall_quests2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel25
+        '
+        Me.Panel25.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel25.Controls.Add(Me.Text_setall_quests1)
+        Me.Panel25.Location = New System.Drawing.Point(327, 201)
+        Me.Panel25.Name = "Panel25"
+        Me.Panel25.Size = New System.Drawing.Size(65, 20)
+        Me.Panel25.TabIndex = 11
+        '
+        'Text_setall_quests1
+        '
+        Me.Text_setall_quests1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_quests1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_quests1.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_quests1.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_quests1.Name = "Text_setall_quests1"
+        Me.Text_setall_quests1.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_quests1.TabIndex = 0
+        Me.Text_setall_quests1.Text = "Set all to"
+        Me.Text_setall_quests1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Icon_p1_arrowright
+        '
+        Me.Icon_p1_arrowright.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_p1_arrowright.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TCKD_rightarrow
+        Me.Icon_p1_arrowright.Location = New System.Drawing.Point(536, 0)
+        Me.Icon_p1_arrowright.Name = "Icon_p1_arrowright"
+        Me.Icon_p1_arrowright.Size = New System.Drawing.Size(37, 31)
+        Me.Icon_p1_arrowright.TabIndex = 5
+        Me.Icon_p1_arrowright.TabStop = false
+        '
+        'Panel9
+        '
+        Me.Panel9.BackColor = System.Drawing.Color.Transparent
+        Me.Panel9.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.quest1and2shoppe
+        Me.Panel9.Controls.Add(Me.valu_quests2_20)
+        Me.Panel9.Controls.Add(Me.valu_quests2_19)
+        Me.Panel9.Controls.Add(Me.valu_quests2_18)
+        Me.Panel9.Controls.Add(Me.valu_quests2_17)
+        Me.Panel9.Controls.Add(Me.valu_quests2_16)
+        Me.Panel9.Controls.Add(Me.valu_quests2_15)
+        Me.Panel9.Controls.Add(Me.valu_quests2_14)
+        Me.Panel9.Controls.Add(Me.valu_quests2_13)
+        Me.Panel9.Controls.Add(Me.valu_quests2_12)
+        Me.Panel9.Controls.Add(Me.valu_quests2_11)
+        Me.Panel9.Controls.Add(Me.valu_quests2_10)
+        Me.Panel9.Controls.Add(Me.valu_quests2_9)
+        Me.Panel9.Controls.Add(Me.valu_quests2_8)
+        Me.Panel9.Controls.Add(Me.valu_quests2_7)
+        Me.Panel9.Controls.Add(Me.valu_quests2_6)
+        Me.Panel9.Controls.Add(Me.valu_quests2_5)
+        Me.Panel9.Controls.Add(Me.valu_quests2_4)
+        Me.Panel9.Controls.Add(Me.valu_quests2_3)
+        Me.Panel9.Controls.Add(Me.valu_quests2_2)
+        Me.Panel9.Controls.Add(Me.valu_quests2_1)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_20)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_19)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_18)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_17)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_16)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_15)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_14)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_13)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_12)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_11)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_10)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_9)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_8)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_7)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_6)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_5)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_4)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_3)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_2)
+        Me.Panel9.Controls.Add(Me.Icon_quests2_1)
+        Me.Panel9.Location = New System.Drawing.Point(248, 250)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(320, 166)
+        Me.Panel9.TabIndex = 4
+        '
+        'valu_quests2_20
+        '
+        Me.valu_quests2_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_quests2_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_20.Name = "valu_quests2_20"
+        Me.valu_quests2_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_20.TabIndex = 38
+        Me.valu_quests2_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_20.Visible = false
+        '
+        'valu_quests2_19
+        '
+        Me.valu_quests2_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_quests2_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_19.Name = "valu_quests2_19"
+        Me.valu_quests2_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_19.TabIndex = 37
+        Me.valu_quests2_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_19.Visible = false
+        '
+        'valu_quests2_18
+        '
+        Me.valu_quests2_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_quests2_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_18.Name = "valu_quests2_18"
+        Me.valu_quests2_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_18.TabIndex = 36
+        Me.valu_quests2_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_18.Visible = false
+        '
+        'valu_quests2_17
+        '
+        Me.valu_quests2_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_quests2_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_17.Name = "valu_quests2_17"
+        Me.valu_quests2_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_17.TabIndex = 35
+        Me.valu_quests2_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_17.Visible = false
+        '
+        'valu_quests2_16
+        '
+        Me.valu_quests2_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_quests2_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_16.Name = "valu_quests2_16"
+        Me.valu_quests2_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_16.TabIndex = 15
+        Me.valu_quests2_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_16.Visible = false
+        '
+        'valu_quests2_15
+        '
+        Me.valu_quests2_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_quests2_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_15.Name = "valu_quests2_15"
+        Me.valu_quests2_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_15.TabIndex = 14
+        Me.valu_quests2_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_15.Visible = false
+        '
+        'valu_quests2_14
+        '
+        Me.valu_quests2_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_quests2_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_14.Name = "valu_quests2_14"
+        Me.valu_quests2_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_14.TabIndex = 13
+        Me.valu_quests2_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_14.Visible = false
+        '
+        'valu_quests2_13
+        '
+        Me.valu_quests2_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_quests2_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_13.Name = "valu_quests2_13"
+        Me.valu_quests2_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_13.TabIndex = 12
+        Me.valu_quests2_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_13.Visible = false
+        '
+        'valu_quests2_12
+        '
+        Me.valu_quests2_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_quests2_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_12.Name = "valu_quests2_12"
+        Me.valu_quests2_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_12.TabIndex = 11
+        Me.valu_quests2_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_12.Visible = false
+        '
+        'valu_quests2_11
+        '
+        Me.valu_quests2_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_quests2_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_11.Name = "valu_quests2_11"
+        Me.valu_quests2_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_11.TabIndex = 10
+        Me.valu_quests2_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_11.Visible = false
+        '
+        'valu_quests2_10
+        '
+        Me.valu_quests2_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_quests2_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_10.Name = "valu_quests2_10"
+        Me.valu_quests2_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_10.TabIndex = 9
+        Me.valu_quests2_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_10.Visible = false
+        '
+        'valu_quests2_9
+        '
+        Me.valu_quests2_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_quests2_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_9.Name = "valu_quests2_9"
+        Me.valu_quests2_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_9.TabIndex = 8
+        Me.valu_quests2_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_9.Visible = false
+        '
+        'valu_quests2_8
+        '
+        Me.valu_quests2_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_quests2_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_8.Name = "valu_quests2_8"
+        Me.valu_quests2_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_8.TabIndex = 7
+        Me.valu_quests2_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_8.Visible = false
+        '
+        'valu_quests2_7
+        '
+        Me.valu_quests2_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_quests2_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_7.Name = "valu_quests2_7"
+        Me.valu_quests2_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_7.TabIndex = 6
+        Me.valu_quests2_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_7.Visible = false
+        '
+        'valu_quests2_6
+        '
+        Me.valu_quests2_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_quests2_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_6.Name = "valu_quests2_6"
+        Me.valu_quests2_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_6.TabIndex = 5
+        Me.valu_quests2_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_6.Visible = false
+        '
+        'valu_quests2_5
+        '
+        Me.valu_quests2_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_quests2_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_5.Name = "valu_quests2_5"
+        Me.valu_quests2_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_5.TabIndex = 4
+        Me.valu_quests2_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_5.Visible = false
+        '
+        'valu_quests2_4
+        '
+        Me.valu_quests2_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_quests2_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_4.Name = "valu_quests2_4"
+        Me.valu_quests2_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_4.TabIndex = 3
+        Me.valu_quests2_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_4.Visible = false
+        '
+        'valu_quests2_3
+        '
+        Me.valu_quests2_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_quests2_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_3.Name = "valu_quests2_3"
+        Me.valu_quests2_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_3.TabIndex = 2
+        Me.valu_quests2_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_3.Visible = false
+        '
+        'valu_quests2_2
+        '
+        Me.valu_quests2_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_quests2_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_2.Name = "valu_quests2_2"
+        Me.valu_quests2_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_2.TabIndex = 1
+        Me.valu_quests2_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_2.Visible = false
+        '
+        'valu_quests2_1
+        '
+        Me.valu_quests2_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests2_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_quests2_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests2_1.Name = "valu_quests2_1"
+        Me.valu_quests2_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests2_1.TabIndex = 0
+        Me.valu_quests2_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests2_1.Visible = false
+        '
+        'Icon_quests2_20
+        '
+        Me.Icon_quests2_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_quests2_20.Name = "Icon_quests2_20"
+        Me.Icon_quests2_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_20.TabIndex = 54
+        Me.Icon_quests2_20.TabStop = false
+        '
+        'Icon_quests2_19
+        '
+        Me.Icon_quests2_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_quests2_19.Name = "Icon_quests2_19"
+        Me.Icon_quests2_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_19.TabIndex = 53
+        Me.Icon_quests2_19.TabStop = false
+        '
+        'Icon_quests2_18
+        '
+        Me.Icon_quests2_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_quests2_18.Name = "Icon_quests2_18"
+        Me.Icon_quests2_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_18.TabIndex = 52
+        Me.Icon_quests2_18.TabStop = false
+        '
+        'Icon_quests2_17
+        '
+        Me.Icon_quests2_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_quests2_17.Name = "Icon_quests2_17"
+        Me.Icon_quests2_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_17.TabIndex = 40
+        Me.Icon_quests2_17.TabStop = false
+        '
+        'Icon_quests2_16
+        '
+        Me.Icon_quests2_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_quests2_16.Name = "Icon_quests2_16"
+        Me.Icon_quests2_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_16.TabIndex = 34
+        Me.Icon_quests2_16.TabStop = false
+        '
+        'Icon_quests2_15
+        '
+        Me.Icon_quests2_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_quests2_15.Name = "Icon_quests2_15"
+        Me.Icon_quests2_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_15.TabIndex = 33
+        Me.Icon_quests2_15.TabStop = false
+        '
+        'Icon_quests2_14
+        '
+        Me.Icon_quests2_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_quests2_14.Name = "Icon_quests2_14"
+        Me.Icon_quests2_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_14.TabIndex = 32
+        Me.Icon_quests2_14.TabStop = false
+        '
+        'Icon_quests2_13
+        '
+        Me.Icon_quests2_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_quests2_13.Name = "Icon_quests2_13"
+        Me.Icon_quests2_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_13.TabIndex = 31
+        Me.Icon_quests2_13.TabStop = false
+        '
+        'Icon_quests2_12
+        '
+        Me.Icon_quests2_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_quests2_12.Name = "Icon_quests2_12"
+        Me.Icon_quests2_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_12.TabIndex = 30
+        Me.Icon_quests2_12.TabStop = false
+        '
+        'Icon_quests2_11
+        '
+        Me.Icon_quests2_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_quests2_11.Name = "Icon_quests2_11"
+        Me.Icon_quests2_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_11.TabIndex = 29
+        Me.Icon_quests2_11.TabStop = false
+        '
+        'Icon_quests2_10
+        '
+        Me.Icon_quests2_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_quests2_10.Name = "Icon_quests2_10"
+        Me.Icon_quests2_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_10.TabIndex = 28
+        Me.Icon_quests2_10.TabStop = false
+        '
+        'Icon_quests2_9
+        '
+        Me.Icon_quests2_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_quests2_9.Name = "Icon_quests2_9"
+        Me.Icon_quests2_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_9.TabIndex = 27
+        Me.Icon_quests2_9.TabStop = false
+        '
+        'Icon_quests2_8
+        '
+        Me.Icon_quests2_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_quests2_8.Name = "Icon_quests2_8"
+        Me.Icon_quests2_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_8.TabIndex = 26
+        Me.Icon_quests2_8.TabStop = false
+        '
+        'Icon_quests2_7
+        '
+        Me.Icon_quests2_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_quests2_7.Name = "Icon_quests2_7"
+        Me.Icon_quests2_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_7.TabIndex = 25
+        Me.Icon_quests2_7.TabStop = false
+        '
+        'Icon_quests2_6
+        '
+        Me.Icon_quests2_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_quests2_6.Name = "Icon_quests2_6"
+        Me.Icon_quests2_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_6.TabIndex = 24
+        Me.Icon_quests2_6.TabStop = false
+        '
+        'Icon_quests2_5
+        '
+        Me.Icon_quests2_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_quests2_5.Name = "Icon_quests2_5"
+        Me.Icon_quests2_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_5.TabIndex = 23
+        Me.Icon_quests2_5.TabStop = false
+        '
+        'Icon_quests2_4
+        '
+        Me.Icon_quests2_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_quests2_4.Name = "Icon_quests2_4"
+        Me.Icon_quests2_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_4.TabIndex = 22
+        Me.Icon_quests2_4.TabStop = false
+        '
+        'Icon_quests2_3
+        '
+        Me.Icon_quests2_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_quests2_3.Name = "Icon_quests2_3"
+        Me.Icon_quests2_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_3.TabIndex = 21
+        Me.Icon_quests2_3.TabStop = false
+        '
+        'Icon_quests2_2
+        '
+        Me.Icon_quests2_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_quests2_2.Name = "Icon_quests2_2"
+        Me.Icon_quests2_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_2.TabIndex = 20
+        Me.Icon_quests2_2.TabStop = false
+        '
+        'Icon_quests2_1
+        '
+        Me.Icon_quests2_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests2_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_quests2_1.Name = "Icon_quests2_1"
+        Me.Icon_quests2_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests2_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests2_1.TabIndex = 4
+        Me.Icon_quests2_1.TabStop = false
+        '
+        'Label6
+        '
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Location = New System.Drawing.Point(248, 234)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(320, 13)
+        Me.Label6.TabIndex = 3
+        Me.Label6.Text = "Quests 2"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label7
+        '
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Location = New System.Drawing.Point(7, 40)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(320, 13)
+        Me.Label7.TabIndex = 2
+        Me.Label7.Text = "Quests 1"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel10
+        '
+        Me.Panel10.BackColor = System.Drawing.Color.Transparent
+        Me.Panel10.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.quest1and2shoppe
+        Me.Panel10.Controls.Add(Me.valu_quests1_20)
+        Me.Panel10.Controls.Add(Me.valu_quests1_19)
+        Me.Panel10.Controls.Add(Me.valu_quests1_18)
+        Me.Panel10.Controls.Add(Me.valu_quests1_17)
+        Me.Panel10.Controls.Add(Me.valu_quests1_16)
+        Me.Panel10.Controls.Add(Me.valu_quests1_15)
+        Me.Panel10.Controls.Add(Me.valu_quests1_14)
+        Me.Panel10.Controls.Add(Me.valu_quests1_13)
+        Me.Panel10.Controls.Add(Me.valu_quests1_12)
+        Me.Panel10.Controls.Add(Me.valu_quests1_11)
+        Me.Panel10.Controls.Add(Me.valu_quests1_10)
+        Me.Panel10.Controls.Add(Me.valu_quests1_9)
+        Me.Panel10.Controls.Add(Me.valu_quests1_8)
+        Me.Panel10.Controls.Add(Me.valu_quests1_7)
+        Me.Panel10.Controls.Add(Me.valu_quests1_6)
+        Me.Panel10.Controls.Add(Me.valu_quests1_5)
+        Me.Panel10.Controls.Add(Me.valu_quests1_4)
+        Me.Panel10.Controls.Add(Me.valu_quests1_3)
+        Me.Panel10.Controls.Add(Me.valu_quests1_2)
+        Me.Panel10.Controls.Add(Me.valu_quests1_1)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_20)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_19)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_18)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_17)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_16)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_15)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_14)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_13)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_12)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_11)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_10)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_9)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_8)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_7)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_6)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_5)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_4)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_3)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_2)
+        Me.Panel10.Controls.Add(Me.Icon_quests1_1)
+        Me.Panel10.Location = New System.Drawing.Point(7, 55)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(320, 166)
+        Me.Panel10.TabIndex = 0
+        '
+        'valu_quests1_20
+        '
+        Me.valu_quests1_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_quests1_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_20.Name = "valu_quests1_20"
+        Me.valu_quests1_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_20.TabIndex = 38
+        Me.valu_quests1_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_20.Visible = false
+        '
+        'valu_quests1_19
+        '
+        Me.valu_quests1_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_quests1_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_19.Name = "valu_quests1_19"
+        Me.valu_quests1_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_19.TabIndex = 37
+        Me.valu_quests1_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_19.Visible = false
+        '
+        'valu_quests1_18
+        '
+        Me.valu_quests1_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_quests1_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_18.Name = "valu_quests1_18"
+        Me.valu_quests1_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_18.TabIndex = 36
+        Me.valu_quests1_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_18.Visible = false
+        '
+        'valu_quests1_17
+        '
+        Me.valu_quests1_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_quests1_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_17.Name = "valu_quests1_17"
+        Me.valu_quests1_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_17.TabIndex = 35
+        Me.valu_quests1_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_17.Visible = false
+        '
+        'valu_quests1_16
+        '
+        Me.valu_quests1_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_quests1_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_16.Name = "valu_quests1_16"
+        Me.valu_quests1_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_16.TabIndex = 15
+        Me.valu_quests1_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_16.Visible = false
+        '
+        'valu_quests1_15
+        '
+        Me.valu_quests1_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_quests1_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_15.Name = "valu_quests1_15"
+        Me.valu_quests1_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_15.TabIndex = 14
+        Me.valu_quests1_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_15.Visible = false
+        '
+        'valu_quests1_14
+        '
+        Me.valu_quests1_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_quests1_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_14.Name = "valu_quests1_14"
+        Me.valu_quests1_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_14.TabIndex = 13
+        Me.valu_quests1_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_14.Visible = false
+        '
+        'valu_quests1_13
+        '
+        Me.valu_quests1_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_quests1_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_13.Name = "valu_quests1_13"
+        Me.valu_quests1_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_13.TabIndex = 12
+        Me.valu_quests1_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_13.Visible = false
+        '
+        'valu_quests1_12
+        '
+        Me.valu_quests1_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_quests1_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_12.Name = "valu_quests1_12"
+        Me.valu_quests1_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_12.TabIndex = 11
+        Me.valu_quests1_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_12.Visible = false
+        '
+        'valu_quests1_11
+        '
+        Me.valu_quests1_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_quests1_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_11.Name = "valu_quests1_11"
+        Me.valu_quests1_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_11.TabIndex = 10
+        Me.valu_quests1_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_11.Visible = false
+        '
+        'valu_quests1_10
+        '
+        Me.valu_quests1_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_quests1_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_10.Name = "valu_quests1_10"
+        Me.valu_quests1_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_10.TabIndex = 9
+        Me.valu_quests1_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_10.Visible = false
+        '
+        'valu_quests1_9
+        '
+        Me.valu_quests1_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_quests1_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_9.Name = "valu_quests1_9"
+        Me.valu_quests1_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_9.TabIndex = 8
+        Me.valu_quests1_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_9.Visible = false
+        '
+        'valu_quests1_8
+        '
+        Me.valu_quests1_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_quests1_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_8.Name = "valu_quests1_8"
+        Me.valu_quests1_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_8.TabIndex = 7
+        Me.valu_quests1_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_8.Visible = false
+        '
+        'valu_quests1_7
+        '
+        Me.valu_quests1_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_quests1_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_7.Name = "valu_quests1_7"
+        Me.valu_quests1_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_7.TabIndex = 6
+        Me.valu_quests1_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_7.Visible = false
+        '
+        'valu_quests1_6
+        '
+        Me.valu_quests1_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_quests1_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_6.Name = "valu_quests1_6"
+        Me.valu_quests1_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_6.TabIndex = 5
+        Me.valu_quests1_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_6.Visible = false
+        '
+        'valu_quests1_5
+        '
+        Me.valu_quests1_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_quests1_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_5.Name = "valu_quests1_5"
+        Me.valu_quests1_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_5.TabIndex = 4
+        Me.valu_quests1_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_5.Visible = false
+        '
+        'valu_quests1_4
+        '
+        Me.valu_quests1_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_quests1_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_4.Name = "valu_quests1_4"
+        Me.valu_quests1_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_4.TabIndex = 3
+        Me.valu_quests1_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_4.Visible = false
+        '
+        'valu_quests1_3
+        '
+        Me.valu_quests1_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_quests1_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_3.Name = "valu_quests1_3"
+        Me.valu_quests1_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_3.TabIndex = 2
+        Me.valu_quests1_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_3.Visible = false
+        '
+        'valu_quests1_2
+        '
+        Me.valu_quests1_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_quests1_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_2.Name = "valu_quests1_2"
+        Me.valu_quests1_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_2.TabIndex = 1
+        Me.valu_quests1_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_2.Visible = false
+        '
+        'valu_quests1_1
+        '
+        Me.valu_quests1_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_quests1_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_quests1_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_quests1_1.Name = "valu_quests1_1"
+        Me.valu_quests1_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_quests1_1.TabIndex = 0
+        Me.valu_quests1_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_quests1_1.Visible = false
+        '
+        'Icon_quests1_20
+        '
+        Me.Icon_quests1_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_quests1_20.Name = "Icon_quests1_20"
+        Me.Icon_quests1_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_20.TabIndex = 54
+        Me.Icon_quests1_20.TabStop = false
+        '
+        'Icon_quests1_19
+        '
+        Me.Icon_quests1_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_quests1_19.Name = "Icon_quests1_19"
+        Me.Icon_quests1_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_19.TabIndex = 53
+        Me.Icon_quests1_19.TabStop = false
+        '
+        'Icon_quests1_18
+        '
+        Me.Icon_quests1_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_quests1_18.Name = "Icon_quests1_18"
+        Me.Icon_quests1_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_18.TabIndex = 52
+        Me.Icon_quests1_18.TabStop = false
+        '
+        'Icon_quests1_17
+        '
+        Me.Icon_quests1_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_quests1_17.Name = "Icon_quests1_17"
+        Me.Icon_quests1_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_17.TabIndex = 40
+        Me.Icon_quests1_17.TabStop = false
+        '
+        'Icon_quests1_16
+        '
+        Me.Icon_quests1_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_quests1_16.Name = "Icon_quests1_16"
+        Me.Icon_quests1_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_16.TabIndex = 34
+        Me.Icon_quests1_16.TabStop = false
+        '
+        'Icon_quests1_15
+        '
+        Me.Icon_quests1_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_quests1_15.Name = "Icon_quests1_15"
+        Me.Icon_quests1_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_15.TabIndex = 33
+        Me.Icon_quests1_15.TabStop = false
+        '
+        'Icon_quests1_14
+        '
+        Me.Icon_quests1_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_quests1_14.Name = "Icon_quests1_14"
+        Me.Icon_quests1_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_14.TabIndex = 32
+        Me.Icon_quests1_14.TabStop = false
+        '
+        'Icon_quests1_13
+        '
+        Me.Icon_quests1_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_quests1_13.Name = "Icon_quests1_13"
+        Me.Icon_quests1_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_13.TabIndex = 31
+        Me.Icon_quests1_13.TabStop = false
+        '
+        'Icon_quests1_12
+        '
+        Me.Icon_quests1_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_quests1_12.Name = "Icon_quests1_12"
+        Me.Icon_quests1_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_12.TabIndex = 30
+        Me.Icon_quests1_12.TabStop = false
+        '
+        'Icon_quests1_11
+        '
+        Me.Icon_quests1_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_quests1_11.Name = "Icon_quests1_11"
+        Me.Icon_quests1_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_11.TabIndex = 29
+        Me.Icon_quests1_11.TabStop = false
+        '
+        'Icon_quests1_10
+        '
+        Me.Icon_quests1_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_quests1_10.Name = "Icon_quests1_10"
+        Me.Icon_quests1_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_10.TabIndex = 28
+        Me.Icon_quests1_10.TabStop = false
+        '
+        'Icon_quests1_9
+        '
+        Me.Icon_quests1_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_quests1_9.Name = "Icon_quests1_9"
+        Me.Icon_quests1_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_9.TabIndex = 27
+        Me.Icon_quests1_9.TabStop = false
+        '
+        'Icon_quests1_8
+        '
+        Me.Icon_quests1_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_quests1_8.Name = "Icon_quests1_8"
+        Me.Icon_quests1_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_8.TabIndex = 26
+        Me.Icon_quests1_8.TabStop = false
+        '
+        'Icon_quests1_7
+        '
+        Me.Icon_quests1_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_quests1_7.Name = "Icon_quests1_7"
+        Me.Icon_quests1_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_7.TabIndex = 25
+        Me.Icon_quests1_7.TabStop = false
+        '
+        'Icon_quests1_6
+        '
+        Me.Icon_quests1_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_quests1_6.Name = "Icon_quests1_6"
+        Me.Icon_quests1_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_6.TabIndex = 24
+        Me.Icon_quests1_6.TabStop = false
+        '
+        'Icon_quests1_5
+        '
+        Me.Icon_quests1_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_quests1_5.Name = "Icon_quests1_5"
+        Me.Icon_quests1_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_5.TabIndex = 23
+        Me.Icon_quests1_5.TabStop = false
+        '
+        'Icon_quests1_4
+        '
+        Me.Icon_quests1_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_quests1_4.Name = "Icon_quests1_4"
+        Me.Icon_quests1_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_4.TabIndex = 22
+        Me.Icon_quests1_4.TabStop = false
+        '
+        'Icon_quests1_3
+        '
+        Me.Icon_quests1_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_quests1_3.Name = "Icon_quests1_3"
+        Me.Icon_quests1_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_3.TabIndex = 21
+        Me.Icon_quests1_3.TabStop = false
+        '
+        'Icon_quests1_2
+        '
+        Me.Icon_quests1_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_quests1_2.Name = "Icon_quests1_2"
+        Me.Icon_quests1_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_2.TabIndex = 20
+        Me.Icon_quests1_2.TabStop = false
+        '
+        'Icon_quests1_1
+        '
+        Me.Icon_quests1_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_quests1_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_quests1_1.Name = "Icon_quests1_1"
+        Me.Icon_quests1_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_quests1_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_quests1_1.TabIndex = 4
+        Me.Icon_quests1_1.TabStop = false
+        '
+        'Panel_page_11
+        '
+        Me.Panel_page_11.BackColor = System.Drawing.Color.Transparent
+        Me.Panel_page_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel_page_11.Controls.Add(Me.Panel6)
+        Me.Panel_page_11.Controls.Add(Me.Icon_p11_arrowleft)
+        Me.Panel_page_11.Controls.Add(Me.Label4)
+        Me.Panel_page_11.Controls.Add(Me.Panel5)
+        Me.Panel_page_11.Location = New System.Drawing.Point(13, 18)
+        Me.Panel_page_11.Name = "Panel_page_11"
+        Me.Panel_page_11.Size = New System.Drawing.Size(575, 454)
+        Me.Panel_page_11.TabIndex = 4
+        Me.Panel_page_11.Visible = false
+        '
+        'Panel6
+        '
+        Me.Panel6.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.TKCD_bg_menu
+        Me.Panel6.Controls.Add(Me.Text_setall_moremissions2)
+        Me.Panel6.Location = New System.Drawing.Point(327, 201)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(65, 20)
+        Me.Panel6.TabIndex = 10
+        '
+        'Text_setall_moremissions2
+        '
+        Me.Text_setall_moremissions2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Text_setall_moremissions2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Text_setall_moremissions2.ForeColor = System.Drawing.Color.White
+        Me.Text_setall_moremissions2.Location = New System.Drawing.Point(0, 0)
+        Me.Text_setall_moremissions2.Name = "Text_setall_moremissions2"
+        Me.Text_setall_moremissions2.Size = New System.Drawing.Size(65, 20)
+        Me.Text_setall_moremissions2.TabIndex = 0
+        Me.Text_setall_moremissions2.Text = "Set all to"
+        Me.Text_setall_moremissions2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Icon_p11_arrowleft
+        '
+        Me.Icon_p11_arrowleft.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_p11_arrowleft.Image = Global._3ds_Save_Editors_Library.My.Resources.Resources.TCKD_leftarrow
+        Me.Icon_p11_arrowleft.Location = New System.Drawing.Point(0, 0)
+        Me.Icon_p11_arrowleft.Name = "Icon_p11_arrowleft"
+        Me.Icon_p11_arrowleft.Size = New System.Drawing.Size(37, 31)
+        Me.Icon_p11_arrowleft.TabIndex = 9
+        Me.Icon_p11_arrowleft.TabStop = false
+        '
+        'Label4
+        '
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Location = New System.Drawing.Point(7, 40)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(320, 13)
+        Me.Label4.TabIndex = 2
+        Me.Label4.Text = "More Missions 2"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel5
+        '
+        Me.Panel5.BackColor = System.Drawing.Color.Transparent
+        Me.Panel5.BackgroundImage = Global._3ds_Save_Editors_Library.My.Resources.Resources.moremissions2
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_25)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_24)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_23)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_22)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_21)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_20)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_19)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_18)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_17)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_16)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_15)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_14)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_13)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_12)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_11)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_10)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_9)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_8)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_7)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_6)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_5)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_4)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_3)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_2)
+        Me.Panel5.Controls.Add(Me.valu_moremissions2_1)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_25)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_24)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_23)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_22)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_21)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_20)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_19)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_18)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_17)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_16)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_15)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_14)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_13)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_12)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_11)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_10)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_9)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_8)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_7)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_6)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_5)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_4)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_3)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_2)
+        Me.Panel5.Controls.Add(Me.Icon_moremissions2_1)
+        Me.Panel5.Location = New System.Drawing.Point(7, 55)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(320, 166)
+        Me.Panel5.TabIndex = 0
+        '
+        'valu_moremissions2_25
+        '
+        Me.valu_moremissions2_25.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_25.Location = New System.Drawing.Point(23, 150)
+        Me.valu_moremissions2_25.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_25.Name = "valu_moremissions2_25"
+        Me.valu_moremissions2_25.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_25.TabIndex = 44
+        Me.valu_moremissions2_25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_25.Visible = false
+        '
+        'valu_moremissions2_24
+        '
+        Me.valu_moremissions2_24.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_24.Location = New System.Drawing.Point(277, 108)
+        Me.valu_moremissions2_24.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_24.Name = "valu_moremissions2_24"
+        Me.valu_moremissions2_24.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_24.TabIndex = 43
+        Me.valu_moremissions2_24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_24.Visible = false
+        '
+        'valu_moremissions2_23
+        '
+        Me.valu_moremissions2_23.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_23.Location = New System.Drawing.Point(241, 108)
+        Me.valu_moremissions2_23.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_23.Name = "valu_moremissions2_23"
+        Me.valu_moremissions2_23.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_23.TabIndex = 42
+        Me.valu_moremissions2_23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_23.Visible = false
+        '
+        'valu_moremissions2_22
+        '
+        Me.valu_moremissions2_22.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_22.Location = New System.Drawing.Point(205, 108)
+        Me.valu_moremissions2_22.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_22.Name = "valu_moremissions2_22"
+        Me.valu_moremissions2_22.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_22.TabIndex = 41
+        Me.valu_moremissions2_22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_22.Visible = false
+        '
+        'valu_moremissions2_21
+        '
+        Me.valu_moremissions2_21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_21.Location = New System.Drawing.Point(169, 108)
+        Me.valu_moremissions2_21.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_21.Name = "valu_moremissions2_21"
+        Me.valu_moremissions2_21.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_21.TabIndex = 39
+        Me.valu_moremissions2_21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_21.Visible = false
+        '
+        'valu_moremissions2_20
+        '
+        Me.valu_moremissions2_20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_20.Location = New System.Drawing.Point(132, 108)
+        Me.valu_moremissions2_20.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_20.Name = "valu_moremissions2_20"
+        Me.valu_moremissions2_20.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_20.TabIndex = 38
+        Me.valu_moremissions2_20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_20.Visible = false
+        '
+        'valu_moremissions2_19
+        '
+        Me.valu_moremissions2_19.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_19.Location = New System.Drawing.Point(96, 108)
+        Me.valu_moremissions2_19.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_19.Name = "valu_moremissions2_19"
+        Me.valu_moremissions2_19.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_19.TabIndex = 37
+        Me.valu_moremissions2_19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_19.Visible = false
+        '
+        'valu_moremissions2_18
+        '
+        Me.valu_moremissions2_18.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_18.Location = New System.Drawing.Point(60, 108)
+        Me.valu_moremissions2_18.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_18.Name = "valu_moremissions2_18"
+        Me.valu_moremissions2_18.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_18.TabIndex = 36
+        Me.valu_moremissions2_18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_18.Visible = false
+        '
+        'valu_moremissions2_17
+        '
+        Me.valu_moremissions2_17.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_17.Location = New System.Drawing.Point(24, 108)
+        Me.valu_moremissions2_17.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_17.Name = "valu_moremissions2_17"
+        Me.valu_moremissions2_17.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_17.TabIndex = 35
+        Me.valu_moremissions2_17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_17.Visible = false
+        '
+        'valu_moremissions2_16
+        '
+        Me.valu_moremissions2_16.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_16.Location = New System.Drawing.Point(276, 66)
+        Me.valu_moremissions2_16.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_16.Name = "valu_moremissions2_16"
+        Me.valu_moremissions2_16.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_16.TabIndex = 15
+        Me.valu_moremissions2_16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_16.Visible = false
+        '
+        'valu_moremissions2_15
+        '
+        Me.valu_moremissions2_15.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_15.Location = New System.Drawing.Point(240, 66)
+        Me.valu_moremissions2_15.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_15.Name = "valu_moremissions2_15"
+        Me.valu_moremissions2_15.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_15.TabIndex = 14
+        Me.valu_moremissions2_15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_15.Visible = false
+        '
+        'valu_moremissions2_14
+        '
+        Me.valu_moremissions2_14.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_14.Location = New System.Drawing.Point(204, 66)
+        Me.valu_moremissions2_14.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_14.Name = "valu_moremissions2_14"
+        Me.valu_moremissions2_14.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_14.TabIndex = 13
+        Me.valu_moremissions2_14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_14.Visible = false
+        '
+        'valu_moremissions2_13
+        '
+        Me.valu_moremissions2_13.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_13.Location = New System.Drawing.Point(168, 66)
+        Me.valu_moremissions2_13.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_13.Name = "valu_moremissions2_13"
+        Me.valu_moremissions2_13.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_13.TabIndex = 12
+        Me.valu_moremissions2_13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_13.Visible = false
+        '
+        'valu_moremissions2_12
+        '
+        Me.valu_moremissions2_12.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_12.Location = New System.Drawing.Point(131, 66)
+        Me.valu_moremissions2_12.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_12.Name = "valu_moremissions2_12"
+        Me.valu_moremissions2_12.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_12.TabIndex = 11
+        Me.valu_moremissions2_12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_12.Visible = false
+        '
+        'valu_moremissions2_11
+        '
+        Me.valu_moremissions2_11.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_11.Location = New System.Drawing.Point(95, 66)
+        Me.valu_moremissions2_11.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_11.Name = "valu_moremissions2_11"
+        Me.valu_moremissions2_11.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_11.TabIndex = 10
+        Me.valu_moremissions2_11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_11.Visible = false
+        '
+        'valu_moremissions2_10
+        '
+        Me.valu_moremissions2_10.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_10.Location = New System.Drawing.Point(59, 66)
+        Me.valu_moremissions2_10.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_10.Name = "valu_moremissions2_10"
+        Me.valu_moremissions2_10.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_10.TabIndex = 9
+        Me.valu_moremissions2_10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_10.Visible = false
+        '
+        'valu_moremissions2_9
+        '
+        Me.valu_moremissions2_9.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_9.Location = New System.Drawing.Point(23, 66)
+        Me.valu_moremissions2_9.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_9.Name = "valu_moremissions2_9"
+        Me.valu_moremissions2_9.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_9.TabIndex = 8
+        Me.valu_moremissions2_9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_9.Visible = false
+        '
+        'valu_moremissions2_8
+        '
+        Me.valu_moremissions2_8.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_8.Location = New System.Drawing.Point(277, 24)
+        Me.valu_moremissions2_8.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_8.Name = "valu_moremissions2_8"
+        Me.valu_moremissions2_8.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_8.TabIndex = 7
+        Me.valu_moremissions2_8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_8.Visible = false
+        '
+        'valu_moremissions2_7
+        '
+        Me.valu_moremissions2_7.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_7.Location = New System.Drawing.Point(241, 24)
+        Me.valu_moremissions2_7.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_7.Name = "valu_moremissions2_7"
+        Me.valu_moremissions2_7.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_7.TabIndex = 6
+        Me.valu_moremissions2_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_7.Visible = false
+        '
+        'valu_moremissions2_6
+        '
+        Me.valu_moremissions2_6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_6.Location = New System.Drawing.Point(205, 24)
+        Me.valu_moremissions2_6.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_6.Name = "valu_moremissions2_6"
+        Me.valu_moremissions2_6.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_6.TabIndex = 5
+        Me.valu_moremissions2_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_6.Visible = false
+        '
+        'valu_moremissions2_5
+        '
+        Me.valu_moremissions2_5.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_5.Location = New System.Drawing.Point(169, 24)
+        Me.valu_moremissions2_5.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_5.Name = "valu_moremissions2_5"
+        Me.valu_moremissions2_5.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_5.TabIndex = 4
+        Me.valu_moremissions2_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_5.Visible = false
+        '
+        'valu_moremissions2_4
+        '
+        Me.valu_moremissions2_4.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_4.Location = New System.Drawing.Point(132, 24)
+        Me.valu_moremissions2_4.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_4.Name = "valu_moremissions2_4"
+        Me.valu_moremissions2_4.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_4.TabIndex = 3
+        Me.valu_moremissions2_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_4.Visible = false
+        '
+        'valu_moremissions2_3
+        '
+        Me.valu_moremissions2_3.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_3.Location = New System.Drawing.Point(96, 24)
+        Me.valu_moremissions2_3.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_3.Name = "valu_moremissions2_3"
+        Me.valu_moremissions2_3.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_3.TabIndex = 2
+        Me.valu_moremissions2_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_3.Visible = false
+        '
+        'valu_moremissions2_2
+        '
+        Me.valu_moremissions2_2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_2.Location = New System.Drawing.Point(60, 24)
+        Me.valu_moremissions2_2.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_2.Name = "valu_moremissions2_2"
+        Me.valu_moremissions2_2.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_2.TabIndex = 1
+        Me.valu_moremissions2_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_2.Visible = false
+        '
+        'valu_moremissions2_1
+        '
+        Me.valu_moremissions2_1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_moremissions2_1.Location = New System.Drawing.Point(24, 24)
+        Me.valu_moremissions2_1.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_moremissions2_1.Name = "valu_moremissions2_1"
+        Me.valu_moremissions2_1.Size = New System.Drawing.Size(36, 16)
+        Me.valu_moremissions2_1.TabIndex = 0
+        Me.valu_moremissions2_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_moremissions2_1.Visible = false
+        '
+        'Icon_moremissions2_25
+        '
+        Me.Icon_moremissions2_25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_25.Location = New System.Drawing.Point(35, 131)
+        Me.Icon_moremissions2_25.Name = "Icon_moremissions2_25"
+        Me.Icon_moremissions2_25.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_25.TabIndex = 59
+        Me.Icon_moremissions2_25.TabStop = false
+        '
+        'Icon_moremissions2_24
+        '
+        Me.Icon_moremissions2_24.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_24.Location = New System.Drawing.Point(275, 89)
+        Me.Icon_moremissions2_24.Name = "Icon_moremissions2_24"
+        Me.Icon_moremissions2_24.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_24.TabIndex = 58
+        Me.Icon_moremissions2_24.TabStop = false
+        '
+        'Icon_moremissions2_23
+        '
+        Me.Icon_moremissions2_23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_23.Location = New System.Drawing.Point(243, 89)
+        Me.Icon_moremissions2_23.Name = "Icon_moremissions2_23"
+        Me.Icon_moremissions2_23.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_23.TabIndex = 57
+        Me.Icon_moremissions2_23.TabStop = false
+        '
+        'Icon_moremissions2_22
+        '
+        Me.Icon_moremissions2_22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_22.Location = New System.Drawing.Point(211, 89)
+        Me.Icon_moremissions2_22.Name = "Icon_moremissions2_22"
+        Me.Icon_moremissions2_22.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_22.TabIndex = 56
+        Me.Icon_moremissions2_22.TabStop = false
+        '
+        'Icon_moremissions2_21
+        '
+        Me.Icon_moremissions2_21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_21.Location = New System.Drawing.Point(179, 89)
+        Me.Icon_moremissions2_21.Name = "Icon_moremissions2_21"
+        Me.Icon_moremissions2_21.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_21.TabIndex = 55
+        Me.Icon_moremissions2_21.TabStop = false
+        '
+        'Icon_moremissions2_20
+        '
+        Me.Icon_moremissions2_20.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_20.Location = New System.Drawing.Point(131, 89)
+        Me.Icon_moremissions2_20.Name = "Icon_moremissions2_20"
+        Me.Icon_moremissions2_20.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_20.TabIndex = 54
+        Me.Icon_moremissions2_20.TabStop = false
+        '
+        'Icon_moremissions2_19
+        '
+        Me.Icon_moremissions2_19.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_19.Location = New System.Drawing.Point(99, 89)
+        Me.Icon_moremissions2_19.Name = "Icon_moremissions2_19"
+        Me.Icon_moremissions2_19.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_19.TabIndex = 53
+        Me.Icon_moremissions2_19.TabStop = false
+        '
+        'Icon_moremissions2_18
+        '
+        Me.Icon_moremissions2_18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_18.Location = New System.Drawing.Point(67, 89)
+        Me.Icon_moremissions2_18.Name = "Icon_moremissions2_18"
+        Me.Icon_moremissions2_18.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_18.TabIndex = 52
+        Me.Icon_moremissions2_18.TabStop = false
+        '
+        'Icon_moremissions2_17
+        '
+        Me.Icon_moremissions2_17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_17.Location = New System.Drawing.Point(35, 89)
+        Me.Icon_moremissions2_17.Name = "Icon_moremissions2_17"
+        Me.Icon_moremissions2_17.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_17.TabIndex = 40
+        Me.Icon_moremissions2_17.TabStop = false
+        '
+        'Icon_moremissions2_16
+        '
+        Me.Icon_moremissions2_16.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_16.Location = New System.Drawing.Point(275, 47)
+        Me.Icon_moremissions2_16.Name = "Icon_moremissions2_16"
+        Me.Icon_moremissions2_16.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_16.TabIndex = 34
+        Me.Icon_moremissions2_16.TabStop = false
+        '
+        'Icon_moremissions2_15
+        '
+        Me.Icon_moremissions2_15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_15.Location = New System.Drawing.Point(243, 47)
+        Me.Icon_moremissions2_15.Name = "Icon_moremissions2_15"
+        Me.Icon_moremissions2_15.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_15.TabIndex = 33
+        Me.Icon_moremissions2_15.TabStop = false
+        '
+        'Icon_moremissions2_14
+        '
+        Me.Icon_moremissions2_14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_14.Location = New System.Drawing.Point(211, 47)
+        Me.Icon_moremissions2_14.Name = "Icon_moremissions2_14"
+        Me.Icon_moremissions2_14.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_14.TabIndex = 32
+        Me.Icon_moremissions2_14.TabStop = false
+        '
+        'Icon_moremissions2_13
+        '
+        Me.Icon_moremissions2_13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_13.Location = New System.Drawing.Point(179, 47)
+        Me.Icon_moremissions2_13.Name = "Icon_moremissions2_13"
+        Me.Icon_moremissions2_13.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_13.TabIndex = 31
+        Me.Icon_moremissions2_13.TabStop = false
+        '
+        'Icon_moremissions2_12
+        '
+        Me.Icon_moremissions2_12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_12.Location = New System.Drawing.Point(131, 47)
+        Me.Icon_moremissions2_12.Name = "Icon_moremissions2_12"
+        Me.Icon_moremissions2_12.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_12.TabIndex = 30
+        Me.Icon_moremissions2_12.TabStop = false
+        '
+        'Icon_moremissions2_11
+        '
+        Me.Icon_moremissions2_11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_11.Location = New System.Drawing.Point(99, 47)
+        Me.Icon_moremissions2_11.Name = "Icon_moremissions2_11"
+        Me.Icon_moremissions2_11.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_11.TabIndex = 29
+        Me.Icon_moremissions2_11.TabStop = false
+        '
+        'Icon_moremissions2_10
+        '
+        Me.Icon_moremissions2_10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_10.Location = New System.Drawing.Point(67, 47)
+        Me.Icon_moremissions2_10.Name = "Icon_moremissions2_10"
+        Me.Icon_moremissions2_10.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_10.TabIndex = 28
+        Me.Icon_moremissions2_10.TabStop = false
+        '
+        'Icon_moremissions2_9
+        '
+        Me.Icon_moremissions2_9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_9.Location = New System.Drawing.Point(35, 47)
+        Me.Icon_moremissions2_9.Name = "Icon_moremissions2_9"
+        Me.Icon_moremissions2_9.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_9.TabIndex = 27
+        Me.Icon_moremissions2_9.TabStop = false
+        '
+        'Icon_moremissions2_8
+        '
+        Me.Icon_moremissions2_8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_8.Location = New System.Drawing.Point(275, 5)
+        Me.Icon_moremissions2_8.Name = "Icon_moremissions2_8"
+        Me.Icon_moremissions2_8.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_8.TabIndex = 26
+        Me.Icon_moremissions2_8.TabStop = false
+        '
+        'Icon_moremissions2_7
+        '
+        Me.Icon_moremissions2_7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_7.Location = New System.Drawing.Point(243, 5)
+        Me.Icon_moremissions2_7.Name = "Icon_moremissions2_7"
+        Me.Icon_moremissions2_7.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_7.TabIndex = 25
+        Me.Icon_moremissions2_7.TabStop = false
+        '
+        'Icon_moremissions2_6
+        '
+        Me.Icon_moremissions2_6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_6.Location = New System.Drawing.Point(211, 5)
+        Me.Icon_moremissions2_6.Name = "Icon_moremissions2_6"
+        Me.Icon_moremissions2_6.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_6.TabIndex = 24
+        Me.Icon_moremissions2_6.TabStop = false
+        '
+        'Icon_moremissions2_5
+        '
+        Me.Icon_moremissions2_5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_5.Location = New System.Drawing.Point(179, 5)
+        Me.Icon_moremissions2_5.Name = "Icon_moremissions2_5"
+        Me.Icon_moremissions2_5.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_5.TabIndex = 23
+        Me.Icon_moremissions2_5.TabStop = false
+        '
+        'Icon_moremissions2_4
+        '
+        Me.Icon_moremissions2_4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_4.Location = New System.Drawing.Point(131, 5)
+        Me.Icon_moremissions2_4.Name = "Icon_moremissions2_4"
+        Me.Icon_moremissions2_4.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_4.TabIndex = 22
+        Me.Icon_moremissions2_4.TabStop = false
+        '
+        'Icon_moremissions2_3
+        '
+        Me.Icon_moremissions2_3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_3.Location = New System.Drawing.Point(99, 5)
+        Me.Icon_moremissions2_3.Name = "Icon_moremissions2_3"
+        Me.Icon_moremissions2_3.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_3.TabIndex = 21
+        Me.Icon_moremissions2_3.TabStop = false
+        '
+        'Icon_moremissions2_2
+        '
+        Me.Icon_moremissions2_2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_2.Location = New System.Drawing.Point(67, 5)
+        Me.Icon_moremissions2_2.Name = "Icon_moremissions2_2"
+        Me.Icon_moremissions2_2.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_2.TabIndex = 20
+        Me.Icon_moremissions2_2.TabStop = false
+        '
+        'Icon_moremissions2_1
+        '
+        Me.Icon_moremissions2_1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_moremissions2_1.Location = New System.Drawing.Point(35, 5)
+        Me.Icon_moremissions2_1.Name = "Icon_moremissions2_1"
+        Me.Icon_moremissions2_1.Size = New System.Drawing.Size(28, 28)
+        Me.Icon_moremissions2_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.Icon_moremissions2_1.TabIndex = 4
+        Me.Icon_moremissions2_1.TabStop = false
         '
         'Panel_jksm
         '
@@ -10541,7 +10821,7 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_jksm.Size = New System.Drawing.Size(31, 25)
         Me.Icon_jksm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_jksm.TabIndex = 0
-        Me.Icon_jksm.TabStop = False
+        Me.Icon_jksm.TabStop = false
         '
         'Panel_chkpt
         '
@@ -10563,13 +10843,13 @@ Partial Class TeamKirbyClashDeluxe
         Me.Icon_chkpt.Size = New System.Drawing.Size(31, 25)
         Me.Icon_chkpt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Icon_chkpt.TabIndex = 1
-        Me.Icon_chkpt.TabStop = False
+        Me.Icon_chkpt.TabStop = false
         '
         'TeamKirbyClashDeluxe
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6!, 13!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"),System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(600, 550)
         Me.Controls.Add(Me.Panel_jksm)
         Me.Controls.Add(Me.Panel_chkpt)
@@ -10752,545 +11032,556 @@ Partial Class TeamKirbyClashDeluxe
         CType(Me.Icon_area_1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel_description.ResumeLayout(false)
         Me.Panel_missionsediting.ResumeLayout(false)
-        Me.Panel_page_1.ResumeLayout(false)
-        CType(Me.Icon_p1_arrowright,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel9.ResumeLayout(false)
-        CType(Me.NumericUpDown77,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown78,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown79,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown80,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown81,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown82,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown83,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown84,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown85,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown86,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown87,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown88,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown89,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown90,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown91,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown92,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown93,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown94,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown95,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown96,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox77,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox78,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox79,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox80,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox81,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox82,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox83,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox84,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox85,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox86,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox87,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox88,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox89,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox90,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox91,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox92,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox93,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox94,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox95,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox96,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel10.ResumeLayout(false)
-        CType(Me.NumericUpDown109,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown110,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown111,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown112,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown113,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown114,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown115,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown116,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown117,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown118,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown119,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown120,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown121,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown122,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown123,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown124,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown125,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown126,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown127,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown128,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox109,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox110,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox111,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox112,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox113,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox114,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox115,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox116,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox117,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox118,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox119,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox120,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox121,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox122,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox123,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox124,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox125,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox126,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox127,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox128,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel_page_11.ResumeLayout(false)
-        CType(Me.Icon_p11_arrowleft,System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel5.ResumeLayout(false)
-        CType(Me.NumericUpDown44,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown45,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown46,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown47,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown48,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown49,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown50,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown51,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown52,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown9,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown10,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown11,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown12,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown13,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown14,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown15,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown16,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown5,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown6,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown7,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown8,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown3,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown4,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown1,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox24,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox25,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox26,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox27,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox28,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox29,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox30,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox31,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox32,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox9,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox10,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox11,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox12,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox13,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox14,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox15,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox16,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox5,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox6,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox7,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox8,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox4,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox2,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel_page_9.ResumeLayout(false)
+        Me.Panel8.ResumeLayout(false)
+        Me.Panel7.ResumeLayout(false)
         CType(Me.Icon_p9_arrowleft,System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.Icon_p9_arrowright,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel21.ResumeLayout(false)
-        CType(Me.NumericUpDown228,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown229,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown250,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown251,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown252,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown253,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown254,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown255,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown256,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown257,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown258,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown259,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown260,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown261,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown262,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown263,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown264,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown265,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown282,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown283,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown284,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown285,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox228,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox229,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox250,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox251,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox252,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox253,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox254,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox255,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox256,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox257,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox258,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox259,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox260,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox261,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox262,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox263,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox264,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox265,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox282,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox283,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox284,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox285,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions1_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions1_1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel22.ResumeLayout(false)
-        CType(Me.NumericUpDown298,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown299,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown300,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown301,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown302,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown303,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown304,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown305,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown306,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown307,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown308,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown309,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown310,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown311,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown312,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown313,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown314,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown315,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown316,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown317,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox298,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox299,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox300,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox301,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox302,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox303,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox304,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox305,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox306,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox307,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox308,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox309,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox310,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox311,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox312,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox313,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox314,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox315,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox316,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox317,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_shoppe_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_shoppe_1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel_page_7.ResumeLayout(false)
+        Me.Panel14.ResumeLayout(false)
+        Me.Panel11.ResumeLayout(false)
         CType(Me.Icon_p7_arrowleft,System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.Icon_p7_arrowright,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel18.ResumeLayout(false)
-        CType(Me.NumericUpDown230,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown231,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown232,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown233,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown234,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown235,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown236,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown237,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown238,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown239,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown240,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown241,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown242,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown243,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown244,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown245,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown246,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown247,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown248,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown249,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox230,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox231,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox232,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox233,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox234,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox235,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox236,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox237,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox238,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox239,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox240,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox241,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox242,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox243,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox244,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox245,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox246,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox247,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox248,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox249,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_playlevel_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_playlevel_1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel19.ResumeLayout(false)
-        CType(Me.NumericUpDown266,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown267,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown268,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown269,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown270,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown271,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown272,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown273,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown274,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown275,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown276,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown277,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown278,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown279,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown280,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown281,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox266,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox267,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox268,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox269,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox270,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox271,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox272,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox273,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox274,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox275,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox276,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox277,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox278,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox279,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox280,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox281,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest3_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest3_1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel_page_5.ResumeLayout(false)
+        Me.Panel20.ResumeLayout(false)
+        Me.Panel17.ResumeLayout(false)
         CType(Me.Icon_p5_arrowleft,System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.Icon_p5_arrowright,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel15.ResumeLayout(false)
-        CType(Me.NumericUpDown140,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown169,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown170,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown171,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown172,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown173,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown174,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown175,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown176,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown177,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown178,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown179,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown180,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown181,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown182,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown183,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown184,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown185,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown186,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown187,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown188,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown189,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown190,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown191,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown192,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox140,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox169,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox170,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox171,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox172,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox173,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox174,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox175,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox176,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox177,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox178,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox179,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox180,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox181,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox182,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox183,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox184,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox185,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox186,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox187,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox188,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox189,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox190,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox191,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox192,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest2_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest2_1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel16.ResumeLayout(false)
-        CType(Me.NumericUpDown193,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown194,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown195,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown196,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown197,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown198,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown199,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown200,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown201,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown202,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown203,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown204,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown205,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown206,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown207,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown208,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown209,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown210,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown211,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown212,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown213,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown214,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown215,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown216,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown217,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown218,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown219,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown220,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown221,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown222,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown223,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown224,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox193,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox194,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox195,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox196,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox197,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox198,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox199,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox200,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox201,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox202,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox203,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox204,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox205,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox206,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox207,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox208,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox209,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox210,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox211,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox212,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox213,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox214,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox215,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox216,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox217,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox218,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox219,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox220,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox221,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox222,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox223,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox224,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_32,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_31,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_30,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_29,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_28,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_27,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_26,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tgherquest1_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_32,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_31,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_30,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_29,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_28,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_27,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_26,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tgherquest1_1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel_page_3.ResumeLayout(false)
+        Me.Panel24.ResumeLayout(false)
+        Me.Panel23.ResumeLayout(false)
         CType(Me.Icon_p3_arrowleft,System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.Icon_p3_arrowright,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel12.ResumeLayout(false)
-        CType(Me.NumericUpDown69,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown70,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown71,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown72,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown73,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown74,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown75,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown76,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown97,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown98,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown99,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown100,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown101,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown102,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown103,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown104,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown105,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown106,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown107,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown108,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown129,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown130,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown131,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown132,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown133,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown134,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown135,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown136,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox69,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox70,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox71,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox72,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox73,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox74,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox75,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox76,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox97,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox98,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox99,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox100,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox101,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox102,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox103,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox104,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox105,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox106,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox107,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox108,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox129,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox130,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox131,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox132,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox133,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox134,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox135,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox136,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_28,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_27,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_26,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest2_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_28,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_27,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_26,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest2_1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel13.ResumeLayout(false)
-        CType(Me.NumericUpDown141,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown142,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown143,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown144,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown145,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown146,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown147,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown148,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown149,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown150,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown151,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown152,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown153,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown154,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown155,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown156,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown157,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown158,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown159,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown160,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown161,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown162,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown163,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown164,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown165,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown166,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown167,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.NumericUpDown168,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox141,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox142,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox143,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox144,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox145,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox146,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox147,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox148,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox149,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox150,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox151,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox152,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox153,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox154,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox155,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox156,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox157,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox158,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox159,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox160,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox161,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox162,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox163,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox164,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox165,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox166,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox167,System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox168,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_28,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_27,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_26,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_tghquest1_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_28,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_27,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_26,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_tghquest1_1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_page_1.ResumeLayout(false)
+        Me.Panel26.ResumeLayout(false)
+        Me.Panel25.ResumeLayout(false)
+        CType(Me.Icon_p1_arrowright,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel9.ResumeLayout(false)
+        CType(Me.valu_quests2_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests2_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests2_1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel10.ResumeLayout(false)
+        CType(Me.valu_quests1_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_quests1_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_quests1_1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel_page_11.ResumeLayout(false)
+        Me.Panel6.ResumeLayout(false)
+        CType(Me.Icon_p11_arrowleft,System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel5.ResumeLayout(false)
+        CType(Me.valu_moremissions2_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.valu_moremissions2_1,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_25,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_24,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_23,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_22,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_21,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_20,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_19,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_18,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_17,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_16,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_15,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_14,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_13,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_12,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_11,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_10,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_9,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_8,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_7,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_6,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_5,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_4,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_3,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_2,System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.Icon_moremissions2_1,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel_jksm.ResumeLayout(false)
         CType(Me.Icon_jksm,System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel_chkpt.ResumeLayout(false)
@@ -11549,543 +11840,543 @@ End Sub
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Panel5 As System.Windows.Forms.Panel
     Friend WithEvents Panel_page_11 As System.Windows.Forms.Panel
-    Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox8 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown9 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown10 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown11 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown12 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown13 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown14 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown15 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown16 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown5 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown6 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown7 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown8 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown3 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown4 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown2 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown1 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox24 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox25 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox26 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox27 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox28 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox29 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox30 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox31 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox32 As System.Windows.Forms.PictureBox
-    Friend WithEvents NumericUpDown44 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown45 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown46 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown47 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown48 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown49 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown50 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown51 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown52 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox9 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox10 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox11 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox12 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox13 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox14 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_1 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_moremissions2_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_moremissions2_25 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_24 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_23 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_22 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_21 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_moremissions2_25 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_24 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_23 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_22 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_21 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions2_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_moremissions2_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions2_9 As System.Windows.Forms.PictureBox
     Friend WithEvents Panel_page_9 As System.Windows.Forms.Panel
     Friend WithEvents Panel21 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown228 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown229 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown250 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown251 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown252 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown253 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown254 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown255 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown256 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown257 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown258 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown259 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown260 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown261 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown262 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown263 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown264 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown265 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown282 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown283 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown284 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown285 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox228 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox229 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox250 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox251 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox252 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox253 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox254 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox255 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox256 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox257 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox258 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox259 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox260 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox261 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox262 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox263 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox264 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox265 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox282 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox283 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox284 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox285 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_moremissions1_22 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_21 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_moremissions1_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_moremissions1_22 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_21 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_moremissions1_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents Panel22 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown298 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown299 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown300 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown301 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown302 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown303 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown304 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown305 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown306 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown307 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown308 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown309 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown310 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown311 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown312 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown313 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown314 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown315 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown316 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown317 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox298 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox299 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox300 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox301 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox302 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox303 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox304 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox305 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox306 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox307 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox308 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox309 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox310 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox311 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox312 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox313 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox314 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox315 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox316 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox317 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_shoppe_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_shoppe_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_shoppe_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_shoppe_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Panel_page_7 As System.Windows.Forms.Panel
     Friend WithEvents Panel18 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown230 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown231 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown232 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown233 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown234 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown235 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown236 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown237 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown238 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown239 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown240 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown241 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown242 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown243 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown244 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown245 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown246 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown247 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown248 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown249 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox230 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox231 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox232 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox233 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox234 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox235 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox236 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox237 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox238 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox239 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox240 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox241 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox242 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox243 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox244 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox245 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox246 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox247 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox248 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox249 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_playlevel_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_playlevel_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_playlevel_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_playlevel_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Panel19 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown266 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown267 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown268 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown269 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown270 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown271 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown272 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown273 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown274 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown275 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown276 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown277 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown278 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown279 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown280 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown281 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox266 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox267 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox268 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox269 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox270 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox271 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox272 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox273 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox274 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox275 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox276 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox277 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox278 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox279 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox280 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox281 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_tgherquest3_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest3_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_tgherquest3_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest3_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Panel_page_5 As System.Windows.Forms.Panel
     Friend WithEvents Panel15 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown140 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown169 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown170 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown171 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown172 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown173 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown174 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown175 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown176 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown177 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown178 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown179 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown180 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown181 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown182 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown183 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown184 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown185 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown186 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown187 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown188 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown189 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown190 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown191 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown192 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox140 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox169 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox170 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox171 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox172 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox173 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox174 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox175 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox176 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox177 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox178 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox179 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox180 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox181 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox182 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox183 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox184 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox185 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox186 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox187 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox188 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox189 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox190 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox191 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox192 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_tgherquest2_25 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_24 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_23 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_22 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_21 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest2_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_tgherquest2_25 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_24 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_23 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_22 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_21 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest2_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Panel16 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown193 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown194 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown195 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown196 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown197 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown198 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown199 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown200 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown201 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown202 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown203 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown204 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown205 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown206 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown207 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown208 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown209 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown210 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown211 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown212 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown213 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown214 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown215 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown216 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown217 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown218 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown219 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown220 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown221 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown222 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown223 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown224 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox193 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox194 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox195 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox196 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox197 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox198 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox199 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox200 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox201 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox202 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox203 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox204 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox205 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox206 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox207 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox208 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox209 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox210 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox211 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox212 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox213 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox214 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox215 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox216 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox217 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox218 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox219 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox220 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox221 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox222 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox223 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox224 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_tgherquest1_32 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_31 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_30 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_29 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_28 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_27 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_26 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_25 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_24 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_23 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_22 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_21 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tgherquest1_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_tgherquest1_32 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_31 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_30 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_29 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_28 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_27 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_26 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_25 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_24 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_23 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_22 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_21 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tgherquest1_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Panel_page_3 As System.Windows.Forms.Panel
     Friend WithEvents Panel12 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown69 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown70 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown71 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown72 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown73 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown74 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown75 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown76 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown97 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown98 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown99 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown100 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown101 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown102 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown103 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown104 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown105 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown106 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown107 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown108 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown129 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown130 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown131 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown132 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown133 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown134 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown135 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown136 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox69 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox70 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox71 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox72 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox73 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox74 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox75 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox76 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox97 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox98 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox99 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox100 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox101 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox102 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox103 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox104 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox105 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox106 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox107 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox108 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox129 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox130 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox131 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox132 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox133 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox134 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox135 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox136 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_tghquest2_28 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_27 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_26 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_25 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_24 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_23 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_22 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_21 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest2_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_tghquest2_28 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_27 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_26 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_25 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_24 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_23 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_22 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_21 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest2_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Panel13 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown141 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown142 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown143 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown144 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown145 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown146 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown147 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown148 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown149 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown150 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown151 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown152 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown153 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown154 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown155 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown156 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown157 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown158 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown159 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown160 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown161 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown162 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown163 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown164 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown165 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown166 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown167 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown168 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox141 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox142 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox143 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox144 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox145 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox146 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox147 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox148 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox149 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox150 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox151 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox152 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox153 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox154 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox155 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox156 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox157 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox158 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox159 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox160 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox161 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox162 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox163 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox164 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox165 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox166 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox167 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox168 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_tghquest1_28 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_27 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_26 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_25 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_24 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_23 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_22 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_21 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_tghquest1_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_tghquest1_28 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_27 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_26 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_25 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_24 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_23 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_22 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_21 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_tghquest1_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Panel_page_1 As System.Windows.Forms.Panel
     Friend WithEvents Panel9 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown77 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown78 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown79 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown80 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown81 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown82 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown83 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown84 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown85 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown86 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown87 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown88 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown89 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown90 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown91 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown92 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown93 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown94 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown95 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown96 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox77 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox78 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox79 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox80 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox81 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox82 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox83 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox84 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox85 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox86 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox87 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox88 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox89 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox90 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox91 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox92 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox93 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox94 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox95 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox96 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_quests2_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests2_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_quests2_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests2_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Panel10 As System.Windows.Forms.Panel
-    Friend WithEvents NumericUpDown109 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown110 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown111 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown112 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown113 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown114 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown115 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown116 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown117 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown118 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown119 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown120 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown121 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown122 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown123 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown124 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown125 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown126 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown127 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents NumericUpDown128 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents PictureBox109 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox110 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox111 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox112 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox113 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox114 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox115 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox116 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox117 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox118 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox119 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox120 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox121 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox122 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox123 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox124 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox125 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox126 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox127 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox128 As System.Windows.Forms.PictureBox
+    Friend WithEvents valu_quests1_20 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_19 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_18 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_17 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_16 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_15 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_14 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_13 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_12 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_11 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_10 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_9 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_8 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_7 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_6 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_5 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_4 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_3 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_2 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents valu_quests1_1 As System.Windows.Forms.NumericUpDown
+    Friend WithEvents Icon_quests1_20 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_19 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_18 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_17 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_9 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Icon_quests1_1 As System.Windows.Forms.PictureBox
     Friend WithEvents Icon_p1_arrowright As System.Windows.Forms.PictureBox
     Friend WithEvents Icon_p11_arrowleft As System.Windows.Forms.PictureBox
     Friend WithEvents Icon_p9_arrowleft As System.Windows.Forms.PictureBox
@@ -12096,4 +12387,26 @@ End Sub
     Friend WithEvents Icon_p5_arrowright As System.Windows.Forms.PictureBox
     Friend WithEvents Icon_p3_arrowleft As System.Windows.Forms.PictureBox
     Friend WithEvents Icon_p3_arrowright As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel6 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_moremissions2 As System.Windows.Forms.Label
+    Friend WithEvents Panel26 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_quests2 As System.Windows.Forms.Label
+    Friend WithEvents Panel25 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_quests1 As System.Windows.Forms.Label
+    Friend WithEvents Panel8 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_moremissions1 As System.Windows.Forms.Label
+    Friend WithEvents Panel7 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_shoppe As System.Windows.Forms.Label
+    Friend WithEvents Panel14 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_playlevel As System.Windows.Forms.Label
+    Friend WithEvents Panel11 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_tgherquest3 As System.Windows.Forms.Label
+    Friend WithEvents Panel20 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_tgherquest2 As System.Windows.Forms.Label
+    Friend WithEvents Panel17 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_tgherquest1 As System.Windows.Forms.Label
+    Friend WithEvents Panel24 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_tghquest2 As System.Windows.Forms.Label
+    Friend WithEvents Panel23 As System.Windows.Forms.Panel
+    Friend WithEvents Text_setall_tghquest1 As System.Windows.Forms.Label
 End Class

@@ -265,6 +265,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\icon_medal_done2.png" />
+    <None Include="Resources\icon_medal_done1.png" />
+    <None Include="Resources\icon_medal_act2.png" />
+    <None Include="Resources\icon_medal_act1.png" />
     <None Include="Resources\icon_unknow_act.png" />
     <None Include="Resources\icon_unknow.png" />
     <None Include="Resources\TCKD_rightarrow.png" />

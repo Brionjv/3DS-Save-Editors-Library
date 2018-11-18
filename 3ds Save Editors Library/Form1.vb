@@ -440,7 +440,4 @@ Public Class N3DSSE_library
         Panel_description.Visible = True
     End Sub
 
-    Private Sub Icon_3DSSEL_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_3DSSEL.MouseMove
-
-    End Sub
 End Class

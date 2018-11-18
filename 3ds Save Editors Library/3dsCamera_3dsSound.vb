@@ -46,7 +46,7 @@
 
     Private Sub Text_sound_fea_tipsun_Click(sender As Object, e As EventArgs) Handles Text_sound_fea_tipsun.Click
         Dim open As New OpenFileDialog
-        fdialog.Description.Text = "Open SNOTE.BIN" & vbNewLine & "3DS Sound and 3DS Camera Save Editor will make a backup of your save file, check ''backup'' folder"
+        fdialog.Description.Text = "Open SNOTE.BIN" & vbNewLine & "3DS Sound and 3DS Camera Save Editor will make a backup of your save file before any changes, check ''backup'' folder"
         fdialog.ShowDialog()
         open.Filter = "BIN files|*SNOTE.BIN"
         open.Title = "Open save SNOTE.BIN"
@@ -70,10 +70,10 @@
             Dim Writer As New PackageIO.Writer(SNOTE, PackageIO.Endian.Little)
             Writer.Position = &H68
             Writer.WriteHexString("5555555555555555555555555555555555555555555555")
-            fdialog.Description.Text = "All tips has been unlocked"
+            fdialog.Description.Text = "All tips has been successfully unlocked"
             fdialog.ShowDialog()
         Catch ex As Exception
-            fdialog.Description.Text = "An error has occurred"
+            fdialog.Description.Text = "An error has occurred, make sure you have opened a correct file or report this issue"
             fdialog.ShowDialog()
         End Try
     End Sub
@@ -108,10 +108,10 @@
             Dim Writerc As New PackageIO.Writer(_BACKUP, PackageIO.Endian.Little)
             Writerc.Position = &H3740
             Writerc.WriteHexString("55555555555555515555555555555555555555555555555555555555")
-            fdialog.Description.Text = "All tips has been unlocked"
+            fdialog.Description.Text = "All tips has been successfully unlocked"
             fdialog.ShowDialog()
         Catch ex As Exception
-            fdialog.Description.Text = "An error has occurred"
+            fdialog.Description.Text = "An error has occurred, make sure you have opened a correct file or report this issue"
             fdialog.ShowDialog()
         End Try
     End Sub

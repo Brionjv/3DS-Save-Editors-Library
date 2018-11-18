@@ -49,7 +49,7 @@ Public Class AR_Games
     End Sub
 
     Private Sub Fea_unlockgames_Click(sender As Object, e As EventArgs) Handles Fea_unlockgames.Click
-        fdialog.Description.Text = "All AR games will be unlocked" & vbNewLine & "Open menu save file" & vbNewLine & "3DS AR Games Save Editor will make a backup of your save file in case, check ''backup'' folder"
+        fdialog.Description.Text = "All AR games will be unlocked" & vbNewLine & "Open menu save file" & vbNewLine & "3DS AR Games Save Editor will make a backup of your save file before any changes, check ''backup'' folder"
         fdialog.ShowDialog()
         Dim open As New OpenFileDialog
         open.Title = "Open menu file"
@@ -67,10 +67,10 @@ Public Class AR_Games
             Writer.WriteUInt32(33488899)
             Writer.Position = &H4
             Writer.WriteUInt32(392232963)
-            fdialog.Description.Text = "All AR games unlocked" & vbNewLine & "(3ds AR games Save Editor can be closed)"
+            fdialog.Description.Text = "All AR games has been successfully unlocked"
             fdialog.ShowDialog()
         Catch ex As Exception
-            fdialog.Description.Text = "Failed to unlock all AR games, retry or report this issue"
+            fdialog.Description.Text = "Failed to unlock all AR games, make sure you have opened a correct file or report this issue"
             fdialog.ShowDialog()
         End Try
     End Sub
